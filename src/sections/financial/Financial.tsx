@@ -7,6 +7,7 @@ import { Field, TextInput } from '../../components/ui/primitives'
 import { fmtEUR, sum } from '../../lib/stats'
 import { monthsAgoKey } from '../../lib/dates'
 import { ACCENT } from '../../lib/sections'
+import { BriefingBanner } from '../../components/BriefingBanner'
 import { IncomeTab } from './IncomeTab'
 import { ProjectsTab } from './ProjectsTab'
 import { PortfolioTab } from './PortfolioTab'
@@ -62,6 +63,10 @@ export function Financial() {
           </div>
         </div>
       </Card>
+
+      <div style={{ marginTop: 14 }}>
+        <BriefingBanner variant="full" />
+      </div>
 
       <div style={{ margin: '14px 0' }}>
         <Segmented

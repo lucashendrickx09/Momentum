@@ -33,6 +33,19 @@ Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds and publ
 
 One-time setup: in the repo, go to **Settings → Pages → Source: GitHub Actions**.
 
+## Market briefing (scheduled)
+
+A GitHub Action (`.github/workflows/briefing.yml`) runs on weekdays at 20:00 UTC (~04:00 Taiwan, after the US close), looks up a watchlist of tickers, and writes `public/briefing.json` with each ticker's latest move and a few real headlines from free, no-key Yahoo Finance endpoints. The app fetches that file on open and shows a dismissible **Market briefing** card on the Dashboard and Financial pages.
+
+Information only — everything is reported as published ("reported by …"), with no buy/sell recommendations or predictions. The briefing never touches your local tracker data; it only knows the watchlist.
+
+**Watchlist** — the job picks tickers from, in order:
+
+1. A repo secret **`SHEET_CSV_URL`** (Settings → Secrets and variables → Actions), set to your published Google Sheet CSV — the same sheet you import holdings from. If set and it yields tickers, it wins.
+2. Otherwise **`public/watchlist.json`** — edit the `tickers` array (Yahoo symbols, e.g. `AAPL`, `BTC-USD`, `ASML.AS`).
+
+Run it locally with `npm run briefing` (writes `public/briefing.json`), or trigger it on GitHub via **Actions → Market briefing → Run workflow**. Note: some IPs hit a Yahoo regional consent gate; GitHub's US-based runners normally don't.
+
 ## Roadmap
 
-**Phase 2 (planned):** a scheduled GitHub Action runs after the US market close, reads your holdings, fetches overnight moves and real headlines from free, no-key sources, and writes a briefing the app shows on open. Information only — reported as-is, no buy/sell recommendations.
+Possible next steps: per-holding briefing detail, configurable schedule, and an in-app watchlist editor that writes to the sheet.

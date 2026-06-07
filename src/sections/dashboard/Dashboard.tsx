@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useStore } from '../../store/store'
 import { Card, Bar, Pill } from '../../components/ui/primitives'
 import { MiniSpark } from '../../components/charts/MiniSpark'
+import { BriefingBanner } from '../../components/BriefingBanner'
 import { ACCENT } from '../../lib/sections'
 import { fmtEUR, fmtNum, sum, avg, round, within, dailySeries } from '../../lib/stats'
 import { monthsAgoKey, inThisWeek, daysUntil } from '../../lib/dates'
@@ -74,6 +75,8 @@ export function Dashboard() {
             </div>
           </Card>
         </Link>
+
+        <BriefingBanner variant="compact" />
 
         <div className="grid2">
           {/* Education */}
