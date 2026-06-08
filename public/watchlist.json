@@ -1,4 +1,21 @@
 {
   "_comment": "Tickers the scheduled briefing job looks up. Used only when the SHEET_CSV_URL repo secret is not set (otherwise tickers come from your published Google Sheet). Edit this list, or paste the symbols you hold. Yahoo Finance symbols, e.g. AAPL, MSFT, BTC-USD, ASML.AS",
-  "tickers": ["AAPL", "MSFT", "NVDA"]
+  "tickers": [
+    "TSM",
+    "TMC",
+    "MSTR",
+    "MSFT",
+    "AMZN",
+    "IBM",
+    "PLTR",
+    "NVDA",
+    "WY",
+    "SAP",
+    "PCG",
+    "LNG",
+    "DVN",
+    "SABS",
+    "ABOS",
+    "APLD"
+  ]
 }

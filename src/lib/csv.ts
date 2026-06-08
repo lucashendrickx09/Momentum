@@ -66,6 +66,82 @@ export function parseHoldingsCSV(text: string): NewHolding[] {
   return rowsToHoldings(res.data)
 }
 
+// ---- Smart paste --------------------------------------------------------
+// Parse a block pasted straight from a spreadsheet or broker export. Tolerates
+// no header row, extra columns (sector, market cap, current price…), $ signs
+// and thousands separators. Each non-empty line becomes one holding.
+
+function splitCells(line: string): string[] {
+  let parts: string[]
+  if (line.includes('\t')) parts = line.split('\t')
+  else if (line.includes(',')) parts = line.split(',')
+  else parts = line.split(/\s+/)
+  return parts.map((c) => c.trim())
+}
+
+function toNum(s: string | undefined): number | null {
+  if (s == null) return null
+  const cleaned = s.replace(/[^0-9.\-]/g, '')
+  if (!cleaned || cleaned === '-' || cleaned === '.') return null
+  const n = parseFloat(cleaned)
+  return Number.isFinite(n) ? n : null
+}
+
+function isNumericCell(s: string): boolean {
+  return /[0-9]/.test(s) && toNum(s) != null
+}
+
+function isTickerCell(s: string): boolean {
+  return /^[A-Za-z][A-Za-z.\-]{0,9}$/.test(s)
+}
+
+function isCapWord(s: string): boolean {
+  return /^(mega|large|mid|small|micro|nano)(\s*cap)?$/i.test(s.trim())
+}
+
+const HEADER_FIRST = /^(ticker|symbol|stock|asset|code)$/i
+
+export function parsePastedHoldings(text: string): NewHolding[] {
+  const lines = text.split(/\r?\n/).map((l) => l.trim()).filter(Boolean)
+  const out: NewHolding[] = []
+  for (const line of lines) {
+    const cells = splitCells(line)
+    const first = cells[0]
+    if (!first || HEADER_FIRST.test(first) || !isTickerCell(first)) continue
+
+    const ticker = first.toUpperCase()
+    const second = cells[1]
+    const name = second && !isNumericCell(second) && !isCapWord(second) ? second : undefined
+
+    const nums: number[] = []
+    for (const c of cells) {
+      const n = toNum(c)
+      if (n != null && /[0-9]/.test(c)) nums.push(n)
+    }
+
+    // Identify (quantity, pricePerShare, totalCost) as a consecutive triple
+    // where quantity * pricePerShare ≈ totalCost — robust to leading noise
+    // columns such as market cap.
+    let quantity = 0
+    let costBasis: number | undefined
+    for (let k = 0; k + 2 < nums.length; k++) {
+      const [a, b, c] = [nums[k], nums[k + 1], nums[k + 2]]
+      if (a > 0 && b > 0 && c > 0 && Math.abs(a * b - c) <= Math.max(0.02 * c, 0.5)) {
+        quantity = a
+        costBasis = c
+        break
+      }
+    }
+    if (!quantity) {
+      const q = nums.find((v) => v > 0 && v < 1e6)
+      if (q != null) quantity = q
+    }
+
+    out.push({ ticker, name, quantity, costBasis })
+  }
+  return out
+}
+
 // Turn an interactive Google Sheets URL into a CSV export URL when possible;
 // pass through anything that already looks like a CSV endpoint.
 export function normalizeSheetUrl(url: string): string {

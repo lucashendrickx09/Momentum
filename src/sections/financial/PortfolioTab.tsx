@@ -6,7 +6,7 @@ import { TrendLine } from '../../components/charts/Charts'
 import { fmtEUR, sum } from '../../lib/stats'
 import { prettyDate, todayKey } from '../../lib/dates'
 import { ACCENT } from '../../lib/sections'
-import { fetchHoldingsFromUrl, parseHoldingsCSV } from '../../lib/csv'
+import { fetchHoldingsFromUrl, parseHoldingsCSV, parsePastedHoldings } from '../../lib/csv'
 import { readFileText } from '../../lib/backup'
 import type { Holding } from '../../store/types'
 
@@ -147,8 +147,8 @@ export function PortfolioTab() {
           </div>
         )}
         <p className="dim" style={{ fontSize: 11, marginTop: 10 }}>
-          Live prices &amp; overnight moves arrive in Phase 2 (auto-briefing). For now this tracks
-          your positions and your own buy reasons.
+          Daily prices &amp; headlines for these tickers show in the Market briefing card above.
+          This list tracks your positions, cost and your own buy reasons.
         </p>
       </Card>
 
@@ -164,9 +164,22 @@ function ImportModal({ open, onClose }: { open: boolean; onClose: () => void }) 
   const replaceHoldings = useStore((s) => s.replaceHoldings)
   const setUrl = useStore((s) => s.setHoldingsCsvUrl)
   const [url, setUrlLocal] = useState(savedUrl ?? '')
+  const [paste, setPaste] = useState('')
   const [busy, setBusy] = useState(false)
   const [msg, setMsg] = useState<{ ok: boolean; text: string } | null>(null)
   const fileRef = useRef<HTMLInputElement>(null)
+
+  const pastePreview = paste.trim() ? parsePastedHoldings(paste) : []
+
+  const fromPaste = () => {
+    if (pastePreview.length === 0) {
+      setMsg({ ok: false, text: 'No tickers found — paste rows that start with a stock symbol.' })
+      return
+    }
+    replaceHoldings(pastePreview)
+    setMsg({ ok: true, text: `Loaded ${pastePreview.length} holdings.` })
+    setPaste('')
+  }
 
   const fromUrl = async () => {
     if (!url.trim()) return
@@ -208,6 +221,45 @@ function ImportModal({ open, onClose }: { open: boolean; onClose: () => void }) 
   return (
     <Modal open={open} onClose={onClose} title="Import holdings">
       <div className="stack">
+        <Field
+          label="Paste your stocks"
+          hint="Paste rows from a spreadsheet or broker (one stock per line). It auto-detects the symbol, name, shares and cost — extra columns are fine."
+        >
+          <TextArea
+            rows={5}
+            placeholder={'TSM\tTSMC\t…\t12\t$187.00\t$2,244.00\nMSFT\tMicrosoft\t…\t1\t$512.40\t$512.40'}
+            value={paste}
+            onChange={(e) => setPaste(e.target.value)}
+            style={{ fontFamily: 'ui-monospace, monospace', fontSize: 12, whiteSpace: 'pre' }}
+          />
+        </Field>
+        {pastePreview.length > 0 && (
+          <div className="list" style={{ maxHeight: 150, overflowY: 'auto' }}>
+            {pastePreview.slice(0, 30).map((h, i) => (
+              <div className="item" key={i}>
+                <div className="grow">
+                  <span style={{ fontWeight: 800 }}>{h.ticker}</span>
+                  {h.name && <span className="dim" style={{ fontSize: 12 }}> {h.name}</span>}
+                </div>
+                <span className="dim" style={{ fontSize: 12 }}>
+                  {h.quantity || 0} units{h.costBasis ? ` · cost ${h.costBasis}` : ''}
+                </span>
+              </div>
+            ))}
+          </div>
+        )}
+        <button className="btn block" onClick={fromPaste} disabled={busy || pastePreview.length === 0}>
+          {pastePreview.length > 0 ? `Load ${pastePreview.length} holdings` : 'Load pasted stocks'}
+        </button>
+
+        <div className="row" style={{ gap: 10 }}>
+          <div className="divider" style={{ flex: 1 }} />
+          <span className="dim" style={{ fontSize: 11 }}>
+            OR
+          </span>
+          <div className="divider" style={{ flex: 1 }} />
+        </div>
+
         <Field
           label="Published Google Sheet CSV URL"
           hint="Sheet ▸ File ▸ Share ▸ Publish to web ▸ CSV. A normal sheet share link works too."
