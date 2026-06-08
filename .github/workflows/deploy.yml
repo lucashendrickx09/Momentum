@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # 20:20 UTC, Mon–Fri — ~20 min after the market briefing commits, so the
+    # published site picks up the fresh briefing.json (a bot commit can't
+    # trigger this deploy itself, so we republish on a short delay instead).
+    - cron: '20 20 * * 1-5'
 
 permissions:
   contents: read
@@ -25,9 +30,9 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Build
-        run: npm run build
-        env:
-          GH_PAGES_BASE: /${{ github.event.repository.name }}/
+        # Derive the base path from the repo name so it works on every trigger
+        # (scheduled runs don't carry github.event.repository).
+        run: GH_PAGES_BASE="/${GITHUB_REPOSITORY#*/}/" npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
