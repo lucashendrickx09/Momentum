@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { useStore } from '../../store/store'
 import { Card, SectionHeader, Field, TextInput, TextArea, Empty, Pill } from '../../components/ui/primitives'
 import { Modal } from '../../components/ui/Modal'
@@ -8,6 +8,7 @@ import { prettyDate, todayKey } from '../../lib/dates'
 import { ACCENT } from '../../lib/sections'
 import { fetchHoldingsFromUrl, parseHoldingsCSV, parsePastedHoldings } from '../../lib/csv'
 import { readFileText } from '../../lib/backup'
+import { useBriefing, timeAgo } from '../../lib/briefing'
 import type { Holding } from '../../store/types'
 
 export function PortfolioTab() {
@@ -21,12 +22,33 @@ export function PortfolioTab() {
   const [editing, setEditing] = useState<Holding | null>(null)
   const [netOpen, setNetOpen] = useState(false)
 
+  const { briefing } = useBriefing()
+
   const costBasis = sum(holdings.map((h) => h.costBasis ?? 0))
   const latestNet = netPositions[0]?.amount
 
   const netSeries = [...netPositions]
     .sort((a, b) => (a.date < b.date ? -1 : 1))
     .map((n) => ({ date: n.date, value: Math.round(n.amount) }))
+
+  // Live valuation: briefing price × your quantity, per held ticker.
+  const priceMap = useMemo(() => {
+    const m = new Map<string, { price: number; currency?: string; changePct?: number }>()
+    briefing?.items.forEach((it) => {
+      if (typeof it.price === 'number') {
+        m.set(it.ticker.toUpperCase(), { price: it.price, currency: it.currency, changePct: it.changePct })
+      }
+    })
+    return m
+  }, [briefing])
+
+  const priced = holdings.filter((h) => h.quantity > 0 && priceMap.has(h.ticker.toUpperCase()))
+  const marketValue = sum(priced.map((h) => priceMap.get(h.ticker.toUpperCase())!.price * h.quantity))
+  const pricedCost = sum(priced.map((h) => h.costBasis ?? 0))
+  const gain = marketValue - pricedCost
+  const gainPct = pricedCost > 0 ? (gain / pricedCost) * 100 : 0
+  const quoteCcys = new Set(priced.map((h) => priceMap.get(h.ticker.toUpperCase())!.currency || currency))
+  const valueCcy = quoteCcys.size === 1 ? [...quoteCcys][0]! : currency
 
   return (
     <>
@@ -102,6 +124,34 @@ export function PortfolioTab() {
             </div>
           }
         />
+        {priced.length > 0 && (
+          <>
+            <div className="grid2" style={{ marginBottom: 6 }}>
+              <div className="stat accent">
+                <div className="label">Market value</div>
+                <div className="value">{fmtEUR(marketValue, valueCcy)}</div>
+              </div>
+              <div className="stat">
+                <div className="label">Gain / loss vs cost</div>
+                <div className="value" style={{ color: gain >= 0 ? 'var(--good)' : 'var(--danger)' }}>
+                  {gain >= 0 ? '+' : '−'}
+                  {fmtEUR(Math.abs(gain), valueCcy)}
+                  {pricedCost > 0 && (
+                    <span className="dim" style={{ fontSize: 12, fontWeight: 600 }}>
+                      {' '}
+                      {gain >= 0 ? '+' : '−'}
+                      {Math.abs(gainPct).toFixed(1)}%
+                    </span>
+                  )}
+                </div>
+              </div>
+            </div>
+            <p className="dim" style={{ fontSize: 11, marginBottom: 6 }}>
+              Live for {priced.length} of {holdings.length}
+              {briefing ? ` · prices ${timeAgo(briefing.generatedAt)}` : ''}
+            </p>
+          </>
+        )}
         {holdings.length === 0 ? (
           <Empty
             icon="📈"
@@ -110,7 +160,9 @@ export function PortfolioTab() {
           />
         ) : (
           <div className="list">
-            {holdings.map((h) => (
+            {holdings.map((h) => {
+              const q = priceMap.get(h.ticker.toUpperCase())
+              return (
               <div className="item" key={h.id} style={{ alignItems: 'flex-start' }}>
                 <div className="grow">
                   <div className="row" style={{ gap: 8 }}>
@@ -122,6 +174,23 @@ export function PortfolioTab() {
                   <div className="s">
                     {h.quantity} units{h.costBasis ? ` · cost ${fmtEUR(h.costBasis, currency)}` : ''}
                   </div>
+                  {q && h.quantity > 0 && (
+                    <div className="s" style={{ marginTop: 2 }}>
+                      <span style={{ fontWeight: 700, color: 'var(--text)' }}>
+                        {fmtEUR(q.price * h.quantity, q.currency || currency)}
+                      </span>
+                      {typeof q.changePct === 'number' && (
+                        <span
+                          style={{
+                            marginLeft: 6,
+                            color: q.changePct >= 0 ? 'var(--good)' : 'var(--danger)',
+                          }}
+                        >
+                          {q.changePct >= 0 ? '▲' : '▼'} {Math.abs(q.changePct).toFixed(2)}%
+                        </span>
+                      )}
+                    </div>
+                  )}
                   {h.buyReason && (
                     <div
                       style={{
@@ -143,7 +212,8 @@ export function PortfolioTab() {
                   ✕
                 </button>
               </div>
-            ))}
+              )
+            })}
           </div>
         )}
         <p className="dim" style={{ fontSize: 11, marginTop: 10 }}>
