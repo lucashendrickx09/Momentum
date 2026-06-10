@@ -863,7 +863,122 @@ textarea.input {
   background: linear-gradient(90deg, color-mix(in srgb, var(--danger) 60%, transparent), var(--danger));
 }
 
-/* ---- Backup nudge ---- */
+/* ============================================================
+   Scroll progress line
+   ============================================================ */
+.scroll-track {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  z-index: 100;
+  pointer-events: none;
+  background: transparent;
+}
+.scroll-fill {
+  width: 100%;
+  min-height: 0;
+  background: linear-gradient(180deg, var(--c-financial) 0%, var(--c-dashboard) 100%);
+  border-radius: 0 0 2px 2px;
+  transition: height 0.12s linear;
+  will-change: height;
+}
+
+/* ============================================================
+   Scroll reveal — fade + rise
+   ============================================================ */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal-wrap {
+    opacity: 0;
+    transform: translateY(18px);
+    transition:
+      opacity 480ms cubic-bezier(0.22, 1, 0.36, 1),
+      transform 480ms cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  .reveal-wrap.revealed {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal-wrap { opacity: 1; transform: none; }
+}
+
+/* ============================================================
+   Holdings — stagger slide-in + hover shimmer
+   ============================================================ */
+@media (prefers-reduced-motion: no-preference) {
+  .holding-animate {
+    animation: holdingIn 380ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  @keyframes holdingIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: none; }
+  }
+}
+
+.holding-row {
+  position: relative;
+  overflow: hidden;
+}
+.holding-row::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 0%,
+    color-mix(in srgb, var(--text) 4%, transparent) 48%,
+    transparent 100%
+  );
+  transform: translateX(-110%);
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  pointer-events: none;
+}
+.holding-row:hover::before {
+  transform: translateX(110%);
+}
+
+/* ============================================================
+   Live badge pulse
+   ============================================================ */
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.45; }
+}
+.live-badge {
+  animation: live-pulse 2.6s ease-in-out infinite;
+}
+
+/* ============================================================
+   Financial page stack — cards spaced via flex gap
+   ============================================================ */
+.fin-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+/* ============================================================
+   Radial hero glow — deeper for financial page
+   ============================================================ */
+.hero.glow::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  left: -60px;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 12%, transparent), transparent 70%);
+  pointer-events: none;
+}
+
+/* ============================================================
+   Backup nudge ---- (already exists below, these go before it)
+   ============================================================ */
 .nudge {
   display: flex;
   align-items: center;

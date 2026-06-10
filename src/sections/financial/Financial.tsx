@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { Reveal, useCountUp } from '../../lib/animations'
 import { useStore } from '../../store/store'
 import { PageHeader } from '../../components/layout/PageHeader'
 import { Card, SectionHeader, Segmented, Empty, Pill } from '../../components/ui/primitives'
@@ -96,6 +97,12 @@ export function Financial() {
   const totalGainPct = totalCost > 0 ? (totalGain / totalCost) * 100 : 0
   const netWorth = totalValue + (cash ?? 0)
   const anyLive = valued.some((p) => p.live)
+
+  // ---- Count-up for hero numbers ----
+  const displayValue    = useCountUp(totalValue,  1200)
+  const displayNetWorth = useCountUp(netWorth,    1300)
+  const displayDayChg   = useCountUp(Math.abs(dayChange), 900)
+  const displayDayPct   = useCountUp(Math.abs(dayPct),    900)
 
   const quoteCcys = new Set(valued.map((p) => p.currency || currency))
   const ccy = quoteCcys.size === 1 ? [...quoteCcys][0]! : currency
@@ -289,7 +296,10 @@ export function Financial() {
     <>
       <PageHeader eyebrow="Portfolio" title="Invest" accent={C} />
 
+      <div className="fin-stack">
+
       {/* ---- Hero: portfolio value ---- */}
+      <Reveal>
       <Card className="hero glow" accent={C}>
         <div className="row" style={{ alignItems: 'center' }}>
           <span className="dim" style={{ fontSize: 12, fontWeight: 600 }}>
@@ -297,7 +307,7 @@ export function Financial() {
           </span>
           <span className="spacer" />
           {anyLive ? (
-            <Pill tone="good">● LIVE</Pill>
+            <span className="live-badge"><Pill tone="good">● LIVE</Pill></span>
           ) : briefing ? (
             <span className="dim" style={{ fontSize: 11 }}>
               {timeAgo(briefing.generatedAt)}
@@ -309,14 +319,14 @@ export function Financial() {
         </div>
 
         <div className="big-number" style={{ marginTop: 6 }}>
-          {valued.length > 0 ? fmtEUR(totalValue, ccy) : '—'}
+          {valued.length > 0 ? fmtEUR(Math.round(displayValue), ccy) : '—'}
         </div>
 
         {valued.length > 0 && (
           <div className="row" style={{ gap: 8, marginTop: 8, flexWrap: 'wrap' }}>
             <span className="delta" style={{ color: up ? 'var(--good)' : 'var(--danger)' }}>
-              {up ? '▲' : '▼'} {fmtEUR(Math.abs(dayChange), ccy)} ({up ? '+' : ''}
-              {dayPct.toFixed(2)}%) today
+              {up ? '▲' : '▼'} {fmtEUR(Math.round(displayDayChg), ccy)} ({up ? '+' : ''}
+              {displayDayPct.toFixed(2)}%) today
             </span>
             {totalCost > 0 && (
               <span className="delta dim">
@@ -341,7 +351,7 @@ export function Financial() {
           <div className="stat grow" style={{ background: 'transparent' }}>
             <div className="label">Net worth</div>
             <div className="value" style={{ fontSize: 17, color: C }}>
-              {valued.length > 0 || cash != null ? fmtEUR(netWorth, ccy) : '—'}
+              {valued.length > 0 || cash != null ? fmtEUR(Math.round(displayNetWorth), ccy) : '—'}
             </div>
           </div>
           <div className="stat grow" style={{ background: 'transparent' }}>
@@ -350,9 +360,11 @@ export function Financial() {
           </div>
         </div>
       </Card>
+      </Reveal>
 
       {/* ---- Value chart ---- */}
       {series.length >= 2 && (
+        <Reveal delay={60}>
         <Card accent={C}>
           <SectionHeader
             title="Performance"
@@ -389,10 +401,12 @@ export function Financial() {
             <TrendArea data={series} color={up ? '#2fd699' : '#ff6369'} unit="" height={190} />
           )}
         </Card>
+        </Reveal>
       )}
 
       {/* ---- Allocation donut ---- */}
       {allocation.length >= 2 && (
+        <Reveal delay={60}>
         <Card accent={C}>
           <SectionHeader title="Allocation" sub="Share of portfolio by position" />
           <div className="alloc-wrap">
@@ -430,10 +444,12 @@ export function Financial() {
             </div>
           )}
         </Card>
+        </Reveal>
       )}
 
       {/* ---- Risk & return stats (3-month window) ---- */}
       {stats && (
+        <Reveal delay={60}>
         <Card>
           <SectionHeader title="Risk & return" sub={`Computed from the last ${stats.days} trading days`} />
           <div className="grid3" style={{ gap: 12 }}>
@@ -494,10 +510,12 @@ export function Financial() {
             </div>
           )}
         </Card>
+        </Reveal>
       )}
 
       {/* ---- Position returns comparison ---- */}
       {valued.filter((p) => p.gainPct != null).length >= 2 && (
+        <Reveal delay={60}>
         <Card>
           <SectionHeader title="Position returns" sub="All-time return per holding vs cost basis" />
           <div className="stack" style={{ gap: 12 }}>
@@ -534,10 +552,12 @@ export function Financial() {
               })}
           </div>
         </Card>
+        </Reveal>
       )}
 
       {/* ---- What moved the portfolio today ---- */}
       {contributions.length >= 2 && (
+        <Reveal delay={60}>
         <Card>
           <SectionHeader
             title="What moved your portfolio"
@@ -570,9 +590,11 @@ export function Financial() {
             })}
           </div>
         </Card>
+        </Reveal>
       )}
 
       {/* ---- Holdings ---- */}
+      <Reveal delay={60}>
       <Card>
         <SectionHeader
           title="Holdings"
@@ -595,11 +617,11 @@ export function Financial() {
           <Empty icon="📈" title="No holdings yet" sub="Import from a Google Sheet / CSV, or add positions manually." />
         ) : (
           <div className="list">
-            {sortedByValue.map((p) => {
+            {sortedByValue.map((p, i) => {
               const weight = totalValue > 0 ? (p.value / totalValue) * 100 : 0
               const isOpen = expanded === p.h.id
               return (
-                <div key={p.h.id}>
+                <div key={p.h.id} className="holding-animate" style={{ animationDelay: `${i * 45}ms` }}>
                   <button
                     className="holding-row"
                     onClick={() => setExpanded(isOpen ? null : p.h.id)}
@@ -710,9 +732,11 @@ export function Financial() {
           </div>
         )}
       </Card>
+      </Reveal>
 
       {/* ---- News for your holdings ---- */}
       {news.length > 0 && (
+        <Reveal delay={60}>
         <Card>
           <SectionHeader title="News on your stocks" sub="Reported as published — information only" />
           <div className="stack" style={{ gap: 10 }}>
@@ -727,7 +751,10 @@ export function Financial() {
             ))}
           </div>
         </Card>
+        </Reveal>
       )}
+
+      </div>{/* end fin-stack */}
 
       <ImportModal open={importOpen} onClose={() => setImportOpen(false)} />
       <HoldingForm holding={editing} onClose={() => setEditing(null)} />
