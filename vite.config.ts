@@ -19,8 +19,8 @@ export default defineConfig({
         short_name: 'Momentum',
         description:
           'Personal self-improvement tracker: finance, IB studies, training and wellbeing. All data stays on your device.',
-        theme_color: '#0b0f17',
-        background_color: '#0b0f17',
+        theme_color: '#0a0b0d',
+        background_color: '#0a0b0d',
         display: 'standalone',
         orientation: 'portrait',
         start_url: '.',

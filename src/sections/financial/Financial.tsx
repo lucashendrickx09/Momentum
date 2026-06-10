@@ -98,11 +98,9 @@ export function Financial() {
   const netWorth = totalValue + (cash ?? 0)
   const anyLive = valued.some((p) => p.live)
 
-  // ---- Count-up for hero numbers ----
-  const displayValue    = useCountUp(totalValue,  1200)
-  const displayNetWorth = useCountUp(netWorth,    1300)
-  const displayDayChg   = useCountUp(Math.abs(dayChange), 900)
-  const displayDayPct   = useCountUp(Math.abs(dayPct),    900)
+  // Count-up on the headline figure only — one number animating reads
+  // as intentional; several at once reads as noise.
+  const displayValue = useCountUp(totalValue, 700)
 
   const quoteCcys = new Set(valued.map((p) => p.currency || currency))
   const ccy = quoteCcys.size === 1 ? [...quoteCcys][0]! : currency
@@ -325,8 +323,8 @@ export function Financial() {
         {valued.length > 0 && (
           <div className="row" style={{ gap: 8, marginTop: 8, flexWrap: 'wrap' }}>
             <span className="delta" style={{ color: up ? 'var(--good)' : 'var(--danger)' }}>
-              {up ? '▲' : '▼'} {fmtEUR(Math.round(displayDayChg), ccy)} ({up ? '+' : ''}
-              {displayDayPct.toFixed(2)}%) today
+              {up ? '▲' : '▼'} {fmtEUR(Math.abs(dayChange), ccy)} ({up ? '+' : ''}
+              {dayPct.toFixed(2)}%) today
             </span>
             {totalCost > 0 && (
               <span className="delta dim">
@@ -351,7 +349,7 @@ export function Financial() {
           <div className="stat grow" style={{ background: 'transparent' }}>
             <div className="label">Net worth</div>
             <div className="value" style={{ fontSize: 17, color: C }}>
-              {valued.length > 0 || cash != null ? fmtEUR(Math.round(displayNetWorth), ccy) : '—'}
+              {valued.length > 0 || cash != null ? fmtEUR(netWorth, ccy) : '—'}
             </div>
           </div>
           <div className="stat grow" style={{ background: 'transparent' }}>

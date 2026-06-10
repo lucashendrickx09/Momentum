@@ -1,8 +1,9 @@
 import { useState, useEffect, useRef, type ReactNode, createElement } from 'react'
 
-// Smooth count-up from current displayed value to `target`.
-// On first render: 0 → target. On subsequent changes: old → new.
-export function useCountUp(target: number, duration = 1300): number {
+// Smooth count-up to `target`. First render settles in from 90% of the
+// target (a quiet "arrival", not a slot machine from zero); later changes
+// tween from the currently displayed value.
+export function useCountUp(target: number, duration = 700): number {
   const displayedRef = useRef(0)
   const [displayed, setDisplayed] = useState(0)
   const rafRef = useRef(0)
@@ -10,7 +11,7 @@ export function useCountUp(target: number, duration = 1300): number {
   const fromRef = useRef(0)
 
   useEffect(() => {
-    fromRef.current = displayedRef.current
+    fromRef.current = displayedRef.current === 0 && target !== 0 ? target * 0.9 : displayedRef.current
     startRef.current = null
     cancelAnimationFrame(rafRef.current)
 

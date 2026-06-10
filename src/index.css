@@ -51,42 +51,42 @@
    Premium fintech: near-black blue base, luminous accents, soft glow. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --bg: #06090f;
-    --bg-2: #0a0e16;
-    --surface: #0e1420;
-    --surface-2: #131a28;
-    --elevated: #151d2c;
-    --border: #1d2636;
-    --border-strong: #2a3548;
-    --text: #f2f5fa;
-    --text-2: #a4afc2;
-    --text-3: #677185;
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 32px rgba(0, 0, 0, 0.45);
-    --shadow-lg: 0 18px 50px rgba(0, 0, 0, 0.6);
+    --bg: #0a0b0d;
+    --bg-2: #0d0e11;
+    --surface: #101114;
+    --surface-2: #15161a;
+    --elevated: #17181d;
+    --border: rgba(255, 255, 255, 0.07);
+    --border-strong: rgba(255, 255, 255, 0.13);
+    --text: #f4f5f7;
+    --text-2: #9da3ad;
+    --text-3: #5f6570;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.55);
     --danger: #ff5d64;
     --warn: #ffb224;
     --good: #2fd699;
-    --track: #1d2636;
+    --track: rgba(255, 255, 255, 0.07);
   }
 }
 
 :root[data-theme='dark'] {
-  --bg: #06090f;
-  --bg-2: #0a0e16;
-  --surface: #0e1420;
-  --surface-2: #131a28;
-  --elevated: #151d2c;
-  --border: #1d2636;
-  --border-strong: #2a3548;
-  --text: #f2f5fa;
-  --text-2: #a4afc2;
-  --text-3: #677185;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 32px rgba(0, 0, 0, 0.45);
-  --shadow-lg: 0 18px 50px rgba(0, 0, 0, 0.6);
+  --bg: #0a0b0d;
+  --bg-2: #0d0e11;
+  --surface: #101114;
+  --surface-2: #15161a;
+  --elevated: #17181d;
+  --border: rgba(255, 255, 255, 0.07);
+  --border-strong: rgba(255, 255, 255, 0.13);
+  --text: #f4f5f7;
+  --text-2: #9da3ad;
+  --text-3: #5f6570;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.55);
   --danger: #ff5d64;
   --warn: #ffb224;
   --good: #2fd699;
-  --track: #1d2636;
+  --track: rgba(255, 255, 255, 0.07);
 }
 
 * {
@@ -149,7 +149,7 @@ h4 {
   min-height: 100%;
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0 16px calc(96px + env(safe-area-inset-bottom));
+  padding: 0 16px calc(86px + env(safe-area-inset-bottom));
   padding-top: calc(12px + env(safe-area-inset-top));
 }
 
@@ -206,56 +206,63 @@ h4 {
 /* ============================================================
    Bottom navigation
    ============================================================ */
+/* Docked, full-bleed bar pinned to the bottom screen edge.
+   Never moves: no transforms, no margins, no dependence on
+   content height or scrollbar width. */
 .bottomnav {
   position: fixed;
   left: 0;
   right: 0;
-  margin: 0 auto;
-  bottom: calc(10px + env(safe-area-inset-bottom));
+  bottom: 0;
   z-index: 30;
-  width: min(calc(100% - 24px), var(--maxw));
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 2px;
-  padding: 6px;
-  background: color-mix(in srgb, var(--elevated) 86%, transparent);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  box-shadow: var(--shadow-lg);
-  backdrop-filter: blur(16px) saturate(1.2);
+  grid-template-columns: repeat(5, minmax(0, calc(var(--maxw) / 5)));
+  justify-content: center;
+  padding: 8px 12px calc(8px + env(safe-area-inset-bottom));
+  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  border-top: 1px solid var(--border);
+  backdrop-filter: blur(20px) saturate(1.4);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
 }
 .navitem {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 3px;
-  padding: 8px 0 6px;
-  border-radius: 14px;
+  padding: 7px 0 5px;
+  border-radius: 12px;
   border: 0;
   background: transparent;
   color: var(--text-3);
   font-size: 10px;
   font-weight: 600;
+  letter-spacing: 0.01em;
   text-decoration: none;
-  transition: color 0.15s ease, background 0.15s ease;
+  transition: color 0.18s ease;
 }
 .navitem .ic {
   font-size: 20px;
   line-height: 1;
+  transition: transform 0.18s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .navitem.active {
   color: var(--nav-accent, var(--accent));
-  background: color-mix(in srgb, var(--nav-accent, var(--accent)) 14%, transparent);
+}
+.navitem.active .ic {
+  transform: translateY(-1px);
+}
+.navitem:active .ic {
+  transform: scale(0.9);
 }
 
 /* ============================================================
    Cards & primitives
    ============================================================ */
 .card {
-  background: linear-gradient(180deg, color-mix(in srgb, var(--surface) 92%, #fff 0%), var(--surface));
+  background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  box-shadow: var(--shadow), inset 0 1px 0 color-mix(in srgb, #fff 4%, transparent);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
   padding: 20px;
 }
 .card + .card,
@@ -712,25 +719,25 @@ textarea.input {
   position: relative;
   overflow: hidden;
   background: linear-gradient(
-    135deg,
-    color-mix(in srgb, var(--accent) 20%, var(--surface)),
-    var(--surface) 70%
+    160deg,
+    color-mix(in srgb, var(--accent) 9%, var(--surface)),
+    var(--surface) 60%
   );
-  border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--border));
+  border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--border));
 }
 .hero::before {
   content: '';
   position: absolute;
-  top: -60px;
-  right: -40px;
-  width: 220px;
-  height: 220px;
+  top: -80px;
+  right: -50px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
-  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 22%, transparent), transparent 70%);
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 13%, transparent), transparent 70%);
   pointer-events: none;
 }
 .hero.glow {
-  box-shadow: var(--shadow), 0 0 44px color-mix(in srgb, var(--accent) 14%, transparent);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
 
 /* Big money number + day delta (Invest hero) */
@@ -864,28 +871,6 @@ textarea.input {
 }
 
 /* ============================================================
-   Scroll progress line
-   ============================================================ */
-.scroll-track {
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  z-index: 100;
-  pointer-events: none;
-  background: transparent;
-}
-.scroll-fill {
-  width: 100%;
-  min-height: 0;
-  background: linear-gradient(180deg, var(--c-financial) 0%, var(--c-dashboard) 100%);
-  border-radius: 0 0 2px 2px;
-  transition: height 0.12s linear;
-  will-change: height;
-}
-
-/* ============================================================
    Scroll reveal — fade + rise
    ============================================================ */
 @media (prefers-reduced-motion: no-preference) {
@@ -959,21 +944,6 @@ textarea.input {
   display: flex;
   flex-direction: column;
   gap: var(--gap);
-}
-
-/* ============================================================
-   Radial hero glow — deeper for financial page
-   ============================================================ */
-.hero.glow::after {
-  content: '';
-  position: absolute;
-  bottom: -80px;
-  left: -60px;
-  width: 260px;
-  height: 260px;
-  border-radius: 50%;
-  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 12%, transparent), transparent 70%);
-  pointer-events: none;
 }
 
 /* ============================================================
