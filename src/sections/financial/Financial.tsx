@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { useStore } from '../../store/store'
 import { PageHeader } from '../../components/layout/PageHeader'
 import { Card, SectionHeader, Segmented, Empty, Pill } from '../../components/ui/primitives'
-import { TrendArea, AllocationDonut } from '../../components/charts/Charts'
+import { TrendArea, AllocationDonut, CompareLines } from '../../components/charts/Charts'
 import { fmtEUR, sum, round } from '../../lib/stats'
 import { ACCENT } from '../../lib/sections'
 import {
@@ -101,8 +101,8 @@ export function Financial() {
   const ccy = quoteCcys.size === 1 ? [...quoteCcys][0]! : currency
 
   // ---- Portfolio value over time (history.json closes × quantities) ----
-  const series = useMemo(() => {
-    if (!history || valued.length === 0) return []
+  const fullSeries = useMemo(() => {
+    if (!history) return [] as { date: string; value: number }[]
     const held = holdings.filter((h) => h.quantity > 0)
     const dateSet = new Set<string>()
     const maps = held.map((h) => {
@@ -124,14 +124,35 @@ export function Financial() {
           have = true
         }
       })
-      if (have) out.push({ date: d, value: round(total, 0) })
+      if (have) out.push({ date: d, value: total })
     }
-    return out.slice(-Number(range))
-  }, [history, holdings, valued.length, range])
+    return out
+  }, [history, holdings])
 
-  const movers = [...valued].filter((p) => p.changePct != null).sort((a, b) => b.changePct! - a.changePct!)
-  const best = movers[0]
-  const worst = movers[movers.length - 1]
+  const series = useMemo(
+    () => fullSeries.slice(-Number(range)).map((p) => ({ date: p.date, value: round(p.value, 0) })),
+    [fullSeries, range],
+  )
+
+  // ---- Benchmark (SPY): both indexed to 100 at the start of the range ----
+  const [showBench, setShowBench] = useState(false)
+  const benchData = useMemo(() => {
+    const spy = history?.series['SPY']
+    if (!spy || fullSeries.length < 2) return []
+    const spyMap = new Map(spy.map((p) => [p.date, p.close]))
+    const win = fullSeries.slice(-Number(range))
+    const firstPort = win[0]?.value
+    const firstSpy = win.map((p) => spyMap.get(p.date)).find((v) => v != null)
+    if (!firstPort || !firstSpy) return []
+    return win.map((p) => {
+      const sc = spyMap.get(p.date)
+      return {
+        date: p.date,
+        a: round((p.value / firstPort) * 100, 1),
+        b: sc != null ? round((sc / firstSpy) * 100, 1) : null,
+      }
+    })
+  }, [history, fullSeries, range])
 
   const sortedByValue = [...priced].sort((a, b) => b.value - a.value)
 
@@ -148,35 +169,7 @@ export function Financial() {
 
   // ---- Risk & return statistics from the 3-month daily series ----
   const stats = useMemo(() => {
-    const full = (() => {
-      // Same construction as `series` but always the full 3 months.
-      if (!history) return [] as { date: string; value: number }[]
-      const held = holdings.filter((h) => h.quantity > 0)
-      const dateSet = new Set<string>()
-      const maps = held.map((h) => {
-        const pts = history.series[h.ticker.toUpperCase()] ?? []
-        pts.forEach((p) => dateSet.add(p.date))
-        return { qty: h.quantity, map: new Map(pts.map((p) => [p.date, p.close])) }
-      })
-      const dates = [...dateSet].sort()
-      const lastClose = new Map<number, number>()
-      const out: { date: string; value: number }[] = []
-      for (const d of dates) {
-        let total = 0
-        let have = false
-        maps.forEach((m, i) => {
-          const c = m.map.get(d) ?? lastClose.get(i)
-          if (c != null) {
-            lastClose.set(i, c)
-            total += c * m.qty
-            have = true
-          }
-        })
-        if (have) out.push({ date: d, value: total })
-      }
-      return out
-    })()
-
+    const full = fullSeries
     if (full.length < 10) return null
     const rets: number[] = []
     for (let i = 1; i < full.length; i++) {
@@ -212,6 +205,37 @@ export function Financial() {
     const last = full[full.length - 1]!.value
     const periodRet = first > 0 ? ((last - first) / first) * 100 : 0
 
+    // Sharpe ratio: annualised excess return over ~4% risk-free, per unit of vol.
+    const annRet = mean * 252
+    const sharpe = dailyVol > 0 ? (annRet - 0.04) / (dailyVol * Math.sqrt(252)) : null
+
+    // Beta vs SPY: covariance of aligned daily returns / SPY variance.
+    let beta: number | null = null
+    const spy = history?.series['SPY']
+    if (spy && spy.length > 10) {
+      const spyMap = new Map(spy.map((p) => [p.date, p.close]))
+      const pairs: [number, number][] = []
+      for (let i = 1; i < full.length; i++) {
+        const s0 = spyMap.get(full[i - 1]!.date)
+        const s1 = spyMap.get(full[i]!.date)
+        const p0 = full[i - 1]!.value
+        if (s0 != null && s1 != null && s0 > 0 && p0 > 0) {
+          pairs.push([(full[i]!.value - p0) / p0, (s1 - s0) / s0])
+        }
+      }
+      if (pairs.length >= 10) {
+        const mp = pairs.reduce((a, [p]) => a + p, 0) / pairs.length
+        const ms = pairs.reduce((a, [, sp]) => a + sp, 0) / pairs.length
+        let cov = 0
+        let varS = 0
+        for (const [p, sp] of pairs) {
+          cov += (p - mp) * (sp - ms)
+          varS += (sp - ms) ** 2
+        }
+        if (varS > 0) beta = cov / varS
+      }
+    }
+
     return {
       annVol,
       bestDay,
@@ -220,11 +244,32 @@ export function Financial() {
       winRate: (upDays / rets.length) * 100,
       periodRet,
       days: rets.length,
+      sharpe,
+      beta,
     }
-  }, [history, holdings])
+  }, [fullSeries, history])
 
   // Concentration: weight of the single largest position.
   const topWeight = allocation.length > 0 ? allocation[0]!.value : 0
+
+  // Diversification: HHI → effective number of holdings.
+  // 16 equally weighted positions → 16; one dominant position → close to 1.
+  const effectiveN = useMemo(() => {
+    if (allocation.length < 2) return null
+    const hhi = allocation.reduce((a, p) => a + (p.value / 100) ** 2, 0)
+    return hhi > 0 ? 1 / hhi : null
+  }, [allocation])
+
+  // Per-position contribution to today's portfolio move (in % of yesterday's value).
+  const contributions = useMemo(() => {
+    const yesterday = totalValue - dayChange
+    if (yesterday <= 0) return []
+    return [...valued]
+      .filter((p) => p.dayDelta !== 0)
+      .map((p) => ({ ticker: p.h.ticker, delta: p.dayDelta, pct: (p.dayDelta / yesterday) * 100 }))
+      .sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta))
+      .slice(0, 6)
+  }, [valued, totalValue, dayChange])
 
   // News for held tickers, newest first.
   const news = useMemo(() => {
@@ -309,7 +354,17 @@ export function Financial() {
       {/* ---- Value chart ---- */}
       {series.length >= 2 && (
         <Card accent={C}>
-          <SectionHeader title="Performance" sub={`Portfolio value · ${ccy}`} />
+          <SectionHeader
+            title="Performance"
+            sub={showBench ? 'Indexed to 100 · dashed = S&P 500' : `Portfolio value · ${ccy}`}
+            right={
+              benchData.length >= 2 ? (
+                <button className={`chip ${showBench ? 'on' : ''}`} onClick={() => setShowBench(!showBench)}>
+                  vs S&P 500
+                </button>
+              ) : undefined
+            }
+          />
           <div style={{ maxWidth: 220, marginBottom: 6 }}>
             <Segmented<Range>
               value={range}
@@ -321,7 +376,18 @@ export function Financial() {
               ]}
             />
           </div>
-          <TrendArea data={series} color={up ? '#2fd699' : '#ff6369'} unit="" height={190} />
+          {showBench && benchData.length >= 2 ? (
+            <CompareLines
+              data={benchData}
+              colorA={C}
+              colorB="var(--text-3)"
+              labelA="Portfolio"
+              labelB="S&P 500"
+              height={190}
+            />
+          ) : (
+            <TrendArea data={series} color={up ? '#2fd699' : '#ff6369'} unit="" height={190} />
+          )}
         </Card>
       )}
 
@@ -352,8 +418,14 @@ export function Financial() {
               ))}
             </div>
           </div>
-          {topWeight > 40 && (
+          {effectiveN != null && (
             <div className="dim" style={{ fontSize: 12, marginTop: 12 }}>
+              Diversification: {allocation.length} positions behave like <b style={{ color: 'var(--text)' }}>{effectiveN.toFixed(1)}</b> equally
+              weighted holdings{effectiveN < allocation.length / 2 ? ' — heavily concentrated.' : '.'}
+            </div>
+          )}
+          {topWeight > 40 && (
+            <div className="dim" style={{ fontSize: 12, marginTop: 6 }}>
               ⚠ {allocation[0]!.name} is {topWeight.toFixed(0)}% of your portfolio — concentrated positions amplify both gains and losses.
             </div>
           )}
@@ -395,7 +467,32 @@ export function Financial() {
               <div className="value" style={{ fontSize: 18, color: 'var(--danger)' }}>{(stats.worstDay.ret * 100).toFixed(1)}%</div>
               <div className="foot">{stats.worstDay.date.slice(5)}</div>
             </div>
+            {stats.beta != null && (
+              <div className="stat">
+                <div className="label">Beta</div>
+                <div className="value" style={{ fontSize: 18 }}>{stats.beta.toFixed(2)}</div>
+                <div className="foot">vs S&P 500</div>
+              </div>
+            )}
+            {stats.sharpe != null && (
+              <div className="stat">
+                <div className="label">Sharpe</div>
+                <div className="value" style={{ fontSize: 18, color: stats.sharpe >= 1 ? 'var(--good)' : 'var(--text)' }}>
+                  {stats.sharpe.toFixed(2)}
+                </div>
+                <div className="foot">risk-adj. return</div>
+              </div>
+            )}
           </div>
+          {stats.beta != null && (
+            <div className="dim" style={{ fontSize: 12, marginTop: 12 }}>
+              {stats.beta > 1.2
+                ? `Beta ${stats.beta.toFixed(2)}: your portfolio swings ~${Math.round((stats.beta - 1) * 100)}% harder than the market.`
+                : stats.beta < 0.8
+                  ? `Beta ${stats.beta.toFixed(2)}: your portfolio moves less than the market — defensive tilt.`
+                  : `Beta ${stats.beta.toFixed(2)}: your portfolio roughly tracks the market's moves.`}
+            </div>
+          )}
         </Card>
       )}
 
@@ -439,29 +536,40 @@ export function Financial() {
         </Card>
       )}
 
-      {/* ---- Today's movers ---- */}
-      {movers.length >= 2 && best && worst && best !== worst && (
-        <div className="grid2">
-          <Card>
-            <div className="dim" style={{ fontSize: 11, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-              Top mover
-            </div>
-            <div style={{ fontSize: 18, fontWeight: 800, marginTop: 4 }}>{best.h.ticker}</div>
-            <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--good)' }}>
-              ▲ +{best.changePct!.toFixed(2)}%
-            </div>
-          </Card>
-          <Card>
-            <div className="dim" style={{ fontSize: 11, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-              Biggest drag
-            </div>
-            <div style={{ fontSize: 18, fontWeight: 800, marginTop: 4 }}>{worst.h.ticker}</div>
-            <div style={{ fontSize: 14, fontWeight: 700, color: worst.changePct! >= 0 ? 'var(--good)' : 'var(--danger)' }}>
-              {worst.changePct! >= 0 ? '▲ +' : '▼ '}
-              {worst.changePct!.toFixed(2)}%
-            </div>
-          </Card>
-        </div>
+      {/* ---- What moved the portfolio today ---- */}
+      {contributions.length >= 2 && (
+        <Card>
+          <SectionHeader
+            title="What moved your portfolio"
+            sub="Each position's contribution to today's change"
+          />
+          <div className="stack" style={{ gap: 10 }}>
+            {contributions.map((c) => {
+              const maxAbs = Math.max(...contributions.map((x) => Math.abs(x.delta)), 0.01)
+              const width = (Math.abs(c.delta) / maxAbs) * 100
+              return (
+                <div key={c.ticker} className="retbar-row">
+                  <span style={{ fontWeight: 700, fontSize: 13, width: 56, flexShrink: 0 }}>{c.ticker}</span>
+                  <div className="retbar-track">
+                    <span className={c.delta >= 0 ? 'pos' : 'neg'} style={{ width: `${Math.max(2, width)}%` }} />
+                  </div>
+                  <span
+                    className="mono"
+                    style={{
+                      fontSize: 12.5,
+                      fontWeight: 700,
+                      minWidth: 86,
+                      textAlign: 'right',
+                      color: c.delta >= 0 ? 'var(--good)' : 'var(--danger)',
+                    }}
+                  >
+                    {c.delta >= 0 ? '+' : '−'}{fmtEUR(Math.abs(c.delta), ccy)}
+                  </span>
+                </div>
+              )
+            })}
+          </div>
+        </Card>
       )}
 
       {/* ---- Holdings ---- */}
@@ -560,6 +668,16 @@ export function Financial() {
                           </div>
                         </div>
                       </div>
+                      {p.h.costBasis != null && p.h.quantity > 0 && p.price != null && (
+                        <div className="dim" style={{ fontSize: 12, marginBottom: 8 }}>
+                          Break-even: <b className="mono" style={{ color: 'var(--text)' }}>{fmtEUR(p.h.costBasis / p.h.quantity, p.currency || ccy)}</b>
+                          {' '}per share — currently{' '}
+                          <b className="mono" style={{ color: p.price >= p.h.costBasis / p.h.quantity ? 'var(--good)' : 'var(--danger)' }}>
+                            {((p.price / (p.h.costBasis / p.h.quantity) - 1) * 100).toFixed(1)}%
+                          </b>{' '}
+                          {p.price >= p.h.costBasis / p.h.quantity ? 'above' : 'below'} it.
+                        </div>
+                      )}
                       {p.h.buyReason && (
                         <div
                           style={{

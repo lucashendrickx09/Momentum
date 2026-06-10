@@ -238,6 +238,18 @@ async function main() {
     }
   }
 
+  // Always include the S&P 500 (SPY) series as a benchmark for the app's
+  // beta / relative-performance stats, even when it isn't in the watchlist.
+  if (!series.SPY) {
+    try {
+      const { history } = await buildItem('SPY')
+      if (history.length) series.SPY = history
+      console.log('  ✓ SPY (benchmark)')
+    } catch (e) {
+      console.warn(`  ✗ SPY benchmark: ${e.message}`)
+    }
+  }
+
   // Most-moved first, by absolute overnight change.
   items.sort((a, b) => Math.abs(b.changePct) - Math.abs(a.changePct))
 

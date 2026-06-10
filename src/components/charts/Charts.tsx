@@ -156,6 +156,43 @@ export function Bars({
   )
 }
 
+// Two normalized lines (e.g. portfolio vs benchmark), both indexed to 100.
+export function CompareLines({
+  data,
+  colorA,
+  colorB,
+  labelA,
+  labelB,
+  height = 190,
+}: {
+  data: { date: string; a: number; b: number | null }[]
+  colorA: string
+  colorB: string
+  labelA: string
+  labelB: string
+  height?: number
+}) {
+  return (
+    <div className="chart-wrap" style={{ height }}>
+      <ResponsiveContainer width="100%" height="100%">
+        <LineChart data={data} margin={{ top: 6, right: 6, left: -18, bottom: 0 }}>
+          <CartesianGrid stroke="var(--border)" vertical={false} />
+          <XAxis dataKey="date" tickFormatter={tickFmt} minTickGap={28} {...axisProps} />
+          <YAxis width={40} domain={['auto', 'auto']} {...axisProps} />
+          <Tooltip
+            labelFormatter={(l) => prettyShort(String(l))}
+            formatter={(v, name) => [`${Number(v).toFixed(1)}`, name === 'a' ? labelA : labelB]}
+            cursor={{ stroke: 'var(--border-strong)' }}
+          />
+          <ReferenceLine y={100} stroke="var(--border-strong)" strokeDasharray="4 4" />
+          <Line type="monotone" dataKey="a" stroke={colorA} strokeWidth={2.4} dot={false} isAnimationActive />
+          <Line type="monotone" dataKey="b" stroke={colorB} strokeWidth={1.8} strokeDasharray="5 3" dot={false} isAnimationActive connectNulls />
+        </LineChart>
+      </ResponsiveContainer>
+    </div>
+  )
+}
+
 export function AllocationDonut({
   data,
   height = 200,
