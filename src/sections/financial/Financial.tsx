@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { useStore } from '../../store/store'
 import { PageHeader } from '../../components/layout/PageHeader'
 import { Card, SectionHeader, Segmented, Empty, Pill } from '../../components/ui/primitives'
-import { TrendArea } from '../../components/charts/Charts'
+import { TrendArea, AllocationDonut } from '../../components/charts/Charts'
 import { fmtEUR, sum, round } from '../../lib/stats'
 import { ACCENT } from '../../lib/sections'
 import {
@@ -18,6 +18,9 @@ import type { Holding } from '../../store/types'
 
 const C = ACCENT.financial
 type Range = '7' | '30' | '90'
+
+// Distinct palette for the allocation donut (cycles if > 8 positions).
+const ALLOC_COLORS = ['#18b97a', '#4f8cff', '#a07bff', '#ff8a3d', '#19c3c3', '#ffb224', '#ff5d64', '#8c95a8']
 
 interface PricedHolding {
   h: Holding
@@ -132,6 +135,97 @@ export function Financial() {
 
   const sortedByValue = [...priced].sort((a, b) => b.value - a.value)
 
+  // ---- Allocation breakdown (donut data) ----
+  const allocation = useMemo(() => {
+    const top = [...valued].sort((a, b) => b.value - a.value)
+    return top.map((p, i) => ({
+      name: p.h.ticker,
+      value: totalValue > 0 ? (p.value / totalValue) * 100 : 0,
+      amount: p.value,
+      color: ALLOC_COLORS[i % ALLOC_COLORS.length],
+    }))
+  }, [valued, totalValue])
+
+  // ---- Risk & return statistics from the 3-month daily series ----
+  const stats = useMemo(() => {
+    const full = (() => {
+      // Same construction as `series` but always the full 3 months.
+      if (!history) return [] as { date: string; value: number }[]
+      const held = holdings.filter((h) => h.quantity > 0)
+      const dateSet = new Set<string>()
+      const maps = held.map((h) => {
+        const pts = history.series[h.ticker.toUpperCase()] ?? []
+        pts.forEach((p) => dateSet.add(p.date))
+        return { qty: h.quantity, map: new Map(pts.map((p) => [p.date, p.close])) }
+      })
+      const dates = [...dateSet].sort()
+      const lastClose = new Map<number, number>()
+      const out: { date: string; value: number }[] = []
+      for (const d of dates) {
+        let total = 0
+        let have = false
+        maps.forEach((m, i) => {
+          const c = m.map.get(d) ?? lastClose.get(i)
+          if (c != null) {
+            lastClose.set(i, c)
+            total += c * m.qty
+            have = true
+          }
+        })
+        if (have) out.push({ date: d, value: total })
+      }
+      return out
+    })()
+
+    if (full.length < 10) return null
+    const rets: number[] = []
+    for (let i = 1; i < full.length; i++) {
+      const prev = full[i - 1]!.value
+      if (prev > 0) rets.push((full[i]!.value - prev) / prev)
+    }
+    if (rets.length < 5) return null
+
+    const mean = rets.reduce((a, b) => a + b, 0) / rets.length
+    const variance = rets.reduce((a, b) => a + (b - mean) ** 2, 0) / rets.length
+    const dailyVol = Math.sqrt(variance)
+    const annVol = dailyVol * Math.sqrt(252) * 100
+
+    let bestDay = { date: '', ret: -Infinity }
+    let worstDay = { date: '', ret: Infinity }
+    rets.forEach((r, i) => {
+      const date = full[i + 1]!.date
+      if (r > bestDay.ret) bestDay = { date, ret: r }
+      if (r < worstDay.ret) worstDay = { date, ret: r }
+    })
+
+    // Max drawdown over the window.
+    let peak = full[0]!.value
+    let maxDD = 0
+    for (const p of full) {
+      if (p.value > peak) peak = p.value
+      const dd = peak > 0 ? (peak - p.value) / peak : 0
+      if (dd > maxDD) maxDD = dd
+    }
+
+    const upDays = rets.filter((r) => r > 0).length
+    const first = full[0]!.value
+    const last = full[full.length - 1]!.value
+    const periodRet = first > 0 ? ((last - first) / first) * 100 : 0
+
+    return {
+      annVol,
+      bestDay,
+      worstDay,
+      maxDD: maxDD * 100,
+      winRate: (upDays / rets.length) * 100,
+      periodRet,
+      days: rets.length,
+    }
+  }, [history, holdings])
+
+  // Concentration: weight of the single largest position.
+  const topWeight = allocation.length > 0 ? allocation[0]!.value : 0
+
   // News for held tickers, newest first.
   const news = useMemo(() => {
     const held = new Set(holdings.map((h) => h.ticker.toUpperCase()))
@@ -228,6 +322,120 @@ export function Financial() {
             />
           </div>
           <TrendArea data={series} color={up ? '#2fd699' : '#ff6369'} unit="" height={190} />
+        </Card>
+      )}
+
+      {/* ---- Allocation donut ---- */}
+      {allocation.length >= 2 && (
+        <Card accent={C}>
+          <SectionHeader title="Allocation" sub="Share of portfolio by position" />
+          <div className="alloc-wrap">
+            <div style={{ position: 'relative' }}>
+              <AllocationDonut data={allocation} height={190} />
+              <div className="alloc-center">
+                <div style={{ fontSize: 11, color: 'var(--text-3)', fontWeight: 700 }}>TOP</div>
+                <div style={{ fontSize: 16, fontWeight: 800 }}>{allocation[0]!.name}</div>
+                <div style={{ fontSize: 12, color: 'var(--text-3)' }}>{topWeight.toFixed(0)}%</div>
+              </div>
+            </div>
+            <div className="alloc-legend">
+              {allocation.map((a) => (
+                <div key={a.name} className="alloc-row">
+                  <span className="swatch" style={{ background: a.color }} />
+                  <span style={{ fontWeight: 700, fontSize: 13 }}>{a.name}</span>
+                  <span className="spacer" />
+                  <span className="mono dim" style={{ fontSize: 12 }}>{fmtEUR(a.amount, ccy)}</span>
+                  <span className="mono" style={{ fontSize: 13, fontWeight: 700, minWidth: 44, textAlign: 'right' }}>
+                    {a.value.toFixed(1)}%
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+          {topWeight > 40 && (
+            <div className="dim" style={{ fontSize: 12, marginTop: 12 }}>
+              ⚠ {allocation[0]!.name} is {topWeight.toFixed(0)}% of your portfolio — concentrated positions amplify both gains and losses.
+            </div>
+          )}
+        </Card>
+      )}
+
+      {/* ---- Risk & return stats (3-month window) ---- */}
+      {stats && (
+        <Card>
+          <SectionHeader title="Risk & return" sub={`Computed from the last ${stats.days} trading days`} />
+          <div className="grid3" style={{ gap: 12 }}>
+            <div className="stat">
+              <div className="label">3M return</div>
+              <div className="value" style={{ fontSize: 18, color: stats.periodRet >= 0 ? 'var(--good)' : 'var(--danger)' }}>
+                {stats.periodRet >= 0 ? '+' : ''}{stats.periodRet.toFixed(1)}%
+              </div>
+            </div>
+            <div className="stat">
+              <div className="label">Volatility</div>
+              <div className="value" style={{ fontSize: 18 }}>{stats.annVol.toFixed(0)}%</div>
+              <div className="foot">annualised</div>
+            </div>
+            <div className="stat">
+              <div className="label">Max drawdown</div>
+              <div className="value" style={{ fontSize: 18, color: 'var(--danger)' }}>−{stats.maxDD.toFixed(1)}%</div>
+            </div>
+            <div className="stat">
+              <div className="label">Win rate</div>
+              <div className="value" style={{ fontSize: 18 }}>{stats.winRate.toFixed(0)}%</div>
+              <div className="foot">up days</div>
+            </div>
+            <div className="stat">
+              <div className="label">Best day</div>
+              <div className="value" style={{ fontSize: 18, color: 'var(--good)' }}>+{(stats.bestDay.ret * 100).toFixed(1)}%</div>
+              <div className="foot">{stats.bestDay.date.slice(5)}</div>
+            </div>
+            <div className="stat">
+              <div className="label">Worst day</div>
+              <div className="value" style={{ fontSize: 18, color: 'var(--danger)' }}>{(stats.worstDay.ret * 100).toFixed(1)}%</div>
+              <div className="foot">{stats.worstDay.date.slice(5)}</div>
+            </div>
+          </div>
+        </Card>
+      )}
+
+      {/* ---- Position returns comparison ---- */}
+      {valued.filter((p) => p.gainPct != null).length >= 2 && (
+        <Card>
+          <SectionHeader title="Position returns" sub="All-time return per holding vs cost basis" />
+          <div className="stack" style={{ gap: 12 }}>
+            {[...valued]
+              .filter((p) => p.gainPct != null)
+              .sort((a, b) => b.gainPct! - a.gainPct!)
+              .map((p) => {
+                const pct = p.gainPct!
+                const maxAbs = Math.max(...valued.filter((v) => v.gainPct != null).map((v) => Math.abs(v.gainPct!)), 1)
+                const width = (Math.abs(pct) / maxAbs) * 100
+                return (
+                  <div key={p.h.id} className="retbar-row">
+                    <span style={{ fontWeight: 700, fontSize: 13, width: 56, flexShrink: 0 }}>{p.h.ticker}</span>
+                    <div className="retbar-track">
+                      <span
+                        className={pct >= 0 ? 'pos' : 'neg'}
+                        style={{ width: `${Math.max(2, width)}%` }}
+                      />
+                    </div>
+                    <span
+                      className="mono"
+                      style={{
+                        fontSize: 13,
+                        fontWeight: 700,
+                        minWidth: 58,
+                        textAlign: 'right',
+                        color: pct >= 0 ? 'var(--good)' : 'var(--danger)',
+                      }}
+                    >
+                      {pct >= 0 ? '+' : ''}{pct.toFixed(1)}%
+                    </span>
+                  </div>
+                )
+              })}
+          </div>
         </Card>
       )}
 

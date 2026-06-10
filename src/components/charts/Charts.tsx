@@ -4,8 +4,11 @@ import {
   Bar,
   BarChart,
   CartesianGrid,
+  Cell,
   Line,
   LineChart,
+  Pie,
+  PieChart,
   ReferenceLine,
   ResponsiveContainer,
   Tooltip,
@@ -148,6 +151,46 @@ export function Bars({
           )}
           <Bar dataKey="value" fill={color} radius={[5, 5, 0, 0]} maxBarSize={26} />
         </BarChart>
+      </ResponsiveContainer>
+    </div>
+  )
+}
+
+export function AllocationDonut({
+  data,
+  height = 200,
+}: {
+  data: { name: string; value: number; color: string }[]
+  height?: number
+}) {
+  return (
+    <div style={{ height, width: '100%' }}>
+      <ResponsiveContainer width="100%" height="100%">
+        <PieChart>
+          <Pie
+            data={data}
+            cx="50%"
+            cy="50%"
+            innerRadius="52%"
+            outerRadius="72%"
+            paddingAngle={2}
+            dataKey="value"
+            strokeWidth={0}
+          >
+            {data.map((entry, i) => (
+              <Cell key={i} fill={entry.color} />
+            ))}
+          </Pie>
+          <Tooltip
+            formatter={(v) => [`${Number(v).toFixed(1)}%`, '']}
+            contentStyle={{
+              background: 'var(--elevated)',
+              border: '1px solid var(--border)',
+              borderRadius: 10,
+              fontSize: 12,
+            }}
+          />
+        </PieChart>
       </ResponsiveContainer>
     </div>
   )
