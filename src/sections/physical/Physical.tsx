@@ -352,47 +352,105 @@ function MeasureTab() {
   const removeMeasurement = useStore((s) => s.removeMeasurement)
   const [open, setOpen] = useState(false)
 
-  const weights = measurements
-    .filter((m) => m.weight != null)
-    .map((m) => ({ date: m.date, value: m.weight as number }))
-    .sort((a, b) => (a.date < b.date ? -1 : 1))
+  const sorted = useMemo(
+    () => [...measurements].sort((a, b) => (a.date < b.date ? -1 : 1)),
+    [measurements],
+  )
+
+  const weights = sorted.filter((m) => m.weight != null).map((m) => ({ date: m.date, value: m.weight as number }))
+  const fatSeries = sorted.filter((m) => m.bodyFat != null).map((m) => ({ date: m.date, value: m.bodyFat as number }))
+
+  const latest = [...measurements].sort((a, b) => (a.date < b.date ? 1 : -1))[0]
 
   return (
     <>
+      {/* Stats row */}
+      {latest && (
+        <Card accent={C}>
+          <div className="grid2">
+            <div className="stat accent">
+              <div className="label">Latest weight</div>
+              <div className="value">
+                {latest.weight != null ? `${fmtNum(latest.weight)}` : '—'}
+                <small>kg</small>
+              </div>
+            </div>
+            <div className="stat">
+              <div className="label">Body fat</div>
+              <div className="value">
+                {latest.bodyFat != null ? `${fmtNum(latest.bodyFat)}` : '—'}
+                <small>%</small>
+              </div>
+            </div>
+          </div>
+        </Card>
+      )}
+
+      {/* Weight chart */}
       <Card accent={C}>
         <SectionHeader
-          title="Weekly check-in"
-          sub="A note (and optional weight) each week"
+          title="Body weight"
+          sub="kg over time"
           right={
             <button className="btn sm" onClick={() => setOpen(true)}>
-              + Note
+              + Log
             </button>
           }
         />
-        {weights.length >= 2 && <TrendLine data={weights} color={C} unit="kg" height={150} />}
-        {measurements.length === 0 ? (
-          <Empty icon="📝" title="No check-ins yet" sub="Jot how training and the body feel each week." />
+        {weights.length === 0 ? (
+          <Empty icon="⚖️" title="No weight logged yet" sub="Track body weight to watch the trend." />
+        ) : weights.length >= 2 ? (
+          <TrendLine data={weights} color={C} unit="kg" height={160} />
         ) : (
-          <div className="list" style={{ marginTop: weights.length >= 2 ? 8 : 0 }}>
-            {measurements.map((m) => (
-              <div className="item" key={m.id} style={{ alignItems: 'flex-start' }}>
-                <div className="grow">
-                  <div className="t">
-                    {prettyDate(m.date)}
-                    {m.weight != null && <span className="tag" style={{ marginLeft: 6 }}>{fmtNum(m.weight)} kg</span>}
-                  </div>
-                  <div className="s" style={{ whiteSpace: 'normal' }}>
-                    {m.note}
-                  </div>
-                </div>
-                <button className="linkbtn danger" onClick={() => confirm('Delete note?') && removeMeasurement(m.id)}>
-                  ✕
-                </button>
-              </div>
-            ))}
-          </div>
+          <p className="dim" style={{ fontSize: 12 }}>Log at least 2 entries to see the trend. Current: <b>{weights[0].value} kg</b></p>
         )}
       </Card>
+
+      {/* Body fat chart */}
+      <Card>
+        <SectionHeader title="Body fat %" sub="percentage over time" />
+        {fatSeries.length === 0 ? (
+          <Empty icon="📊" title="No body fat logged" sub="Add body fat % when logging to track composition." />
+        ) : fatSeries.length >= 2 ? (
+          <TrendLine data={fatSeries} color="#e07b54" unit="%" height={160} />
+        ) : (
+          <p className="dim" style={{ fontSize: 12 }}>Log at least 2 entries to see the trend. Current: <b>{fatSeries[0].value}%</b></p>
+        )}
+      </Card>
+
+      {/* History */}
+      {measurements.length > 0 && (
+        <Card>
+          <SectionHeader title="Log history" />
+          <div className="list">
+            {[...measurements]
+              .sort((a, b) => (a.date < b.date ? 1 : -1))
+              .map((m) => (
+                <div className="item" key={m.id} style={{ alignItems: 'flex-start' }}>
+                  <div className="grow">
+                    <div className="t">
+                      {prettyDate(m.date)}
+                      {m.weight != null && (
+                        <span className="tag" style={{ marginLeft: 6 }}>{fmtNum(m.weight)} kg</span>
+                      )}
+                      {m.bodyFat != null && (
+                        <span className="tag" style={{ marginLeft: 4, color: '#e07b54' }}>{fmtNum(m.bodyFat)}% fat</span>
+                      )}
+                    </div>
+                    {m.note && (
+                      <div className="s" style={{ whiteSpace: 'normal' }}>
+                        {m.note}
+                      </div>
+                    )}
+                  </div>
+                  <button className="linkbtn danger" onClick={() => confirm('Delete entry?') && removeMeasurement(m.id)}>
+                    ✕
+                  </button>
+                </div>
+              ))}
+          </div>
+        </Card>
+      )}
 
       <MeasureForm open={open} onClose={() => setOpen(false)} onSave={addMeasurement} />
     </>
@@ -406,37 +464,49 @@ function MeasureForm({
 }: {
   open: boolean
   onClose: () => void
-  onSave: (e: { date: string; weight?: number; note: string }) => void
+  onSave: (e: { date: string; weight?: number; bodyFat?: number; note: string }) => void
 }) {
   const [note, setNote] = useState('')
   const [weight, setWeight] = useState('')
+  const [bodyFat, setBodyFat] = useState('')
   const [date, setDate] = useState(todayKey())
   return (
-    <Modal open={open} onClose={onClose} title="Weekly check-in">
+    <Modal open={open} onClose={onClose} title="Log body composition">
       <div className="stack">
-        <Field label="Note">
-          <TextInput value={note} onChange={(e) => setNote(e.target.value)} placeholder="Strength up, sleep helped, etc." autoFocus />
-        </Field>
         <div className="grid2">
-          <Field label="Weight kg (optional)">
-            <TextInput type="number" inputMode="decimal" value={weight} onChange={(e) => setWeight(e.target.value)} />
+          <Field label="Weight (kg)">
+            <TextInput type="number" inputMode="decimal" value={weight} onChange={(e) => setWeight(e.target.value)} placeholder="e.g. 75.5" autoFocus />
           </Field>
-          <Field label="Date">
-            <TextInput type="date" value={date} onChange={(e) => setDate(e.target.value)} />
+          <Field label="Body fat %">
+            <TextInput type="number" inputMode="decimal" value={bodyFat} onChange={(e) => setBodyFat(e.target.value)} placeholder="e.g. 18.0" />
           </Field>
         </div>
+        <Field label="Date">
+          <TextInput type="date" value={date} onChange={(e) => setDate(e.target.value)} />
+        </Field>
+        <Field label="Note (optional)">
+          <TextInput value={note} onChange={(e) => setNote(e.target.value)} placeholder="How training feels, changes noticed…" />
+        </Field>
         <button
           className="btn block"
           onClick={() => {
-            if (!note.trim()) return
-            onSave({ date, note: note.trim(), weight: weight ? parseFloat(weight) : undefined })
+            const w = weight ? parseFloat(weight) : undefined
+            const bf = bodyFat ? parseFloat(bodyFat) : undefined
+            if (w == null && bf == null && !note.trim()) return
+            onSave({
+              date,
+              note: note.trim(),
+              weight: w,
+              bodyFat: bf,
+            })
             setNote('')
             setWeight('')
+            setBodyFat('')
             setDate(todayKey())
             onClose()
           }}
         >
-          Save check-in
+          Save
         </button>
       </div>
     </Modal>

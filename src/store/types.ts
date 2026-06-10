@@ -115,6 +115,7 @@ export interface LiftEntry extends Identified {
 export interface MeasurementNote extends Identified {
   date: string
   weight?: number // kg, optional
+  bodyFat?: number // % body fat, optional
   note: string
 }
 
@@ -123,6 +124,16 @@ export interface PhysicalState {
   sessions: WorkoutSession[]
   lifts: LiftEntry[]
   measurements: MeasurementNote[]
+}
+
+// ---------- Dreams ----------
+export interface DreamEntry extends Identified {
+  date: string
+  title: string
+  content: string
+  lucid?: boolean
+  mood?: number // 1–5 how dream felt
+  tags?: string // comma-separated
 }
 
 // ---------- Mental ----------
@@ -151,6 +162,7 @@ export interface MentalState {
   sleep: SleepEntry[]
   moods: MoodEntry[]
   focus: FocusEntry[]
+  dreams: DreamEntry[]
 }
 
 // ---------- Root ----------

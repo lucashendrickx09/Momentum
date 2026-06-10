@@ -17,6 +17,7 @@ import type {
   SleepEntry,
   MoodEntry,
   FocusEntry,
+  DreamEntry,
   ThemePref,
 } from './types'
 import { emptyData, DATA_VERSION, IB_SUBJECTS } from './defaults'
@@ -69,6 +70,9 @@ interface Actions {
   removeMood(id: string): void
   addFocus(e: New<FocusEntry>): void
   removeFocus(id: string): void
+  addDream(e: New<DreamEntry>): void
+  updateDream(id: string, patch: Partial<DreamEntry>): void
+  removeDream(id: string): void
 
   // settings + data
   setTheme(t: ThemePref): void
@@ -253,6 +257,17 @@ export const useStore = create<Store>()(
         set((s) => ({ mental: { ...s.mental, focus: [stamp(e), ...s.mental.focus] } })),
       removeFocus: (id) =>
         set((s) => ({ mental: { ...s.mental, focus: s.mental.focus.filter((x) => x.id !== id) } })),
+      addDream: (e) =>
+        set((s) => ({ mental: { ...s.mental, dreams: [stamp(e), ...s.mental.dreams] } })),
+      updateDream: (id, patch) =>
+        set((s) => ({
+          mental: {
+            ...s.mental,
+            dreams: s.mental.dreams.map((x) => (x.id === id ? { ...x, ...patch } : x)),
+          },
+        })),
+      removeDream: (id) =>
+        set((s) => ({ mental: { ...s.mental, dreams: s.mental.dreams.filter((x) => x.id !== id) } })),
 
       // ---------- settings + data ----------
       setTheme: (t) => set((s) => ({ settings: { ...s.settings, theme: t } })),

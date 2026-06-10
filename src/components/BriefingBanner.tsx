@@ -25,10 +25,43 @@ function fmtChange(pct?: number): string {
 }
 
 export function BriefingBanner({ variant = 'full' }: { variant?: 'full' | 'compact' }) {
-  const { briefing } = useBriefing()
-  const { dismissed, dismiss } = useBriefingDismiss(briefing?.generatedAt)
+  const { briefing, loading, refresh } = useBriefing()
+  const { dismissed, dismiss, undismiss } = useBriefingDismiss(briefing?.generatedAt)
 
-  if (!briefing || dismissed) return null
+  if (loading) return null
+
+  if (!briefing) {
+    return (
+      <Card accent={ACCENT.financial} className="briefing">
+        <div className="row" style={{ alignItems: 'center' }}>
+          <span className="pill" style={{ ['--accent' as string]: ACCENT.financial }}>
+            ◴ Market briefing
+          </span>
+          <span className="spacer" />
+          <button className="btn sm ghost" onClick={refresh} style={{ fontSize: 11 }}>
+            ↻ Refresh
+          </button>
+        </div>
+        <p className="dim" style={{ fontSize: 12, marginTop: 8 }}>
+          No briefing available — runs weekdays after US market close.
+        </p>
+      </Card>
+    )
+  }
+
+  if (dismissed) {
+    return (
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '6px 0' }}>
+        <span className="dim" style={{ fontSize: 12 }}>Market briefing hidden</span>
+        <button className="btn sm ghost" onClick={undismiss} style={{ fontSize: 11 }}>
+          Show
+        </button>
+        <button className="btn sm ghost" onClick={refresh} style={{ fontSize: 11 }}>
+          ↻
+        </button>
+      </div>
+    )
+  }
 
   const maxItems = variant === 'compact' ? 4 : 6
   const items = briefing.items.slice(0, maxItems)
@@ -43,11 +76,14 @@ export function BriefingBanner({ variant = 'full' }: { variant?: 'full' | 'compa
         <span className="dim" style={{ fontSize: 11 }}>
           {timeAgo(briefing.generatedAt)}
         </span>
+        <button className="btn sm ghost" onClick={refresh} style={{ fontSize: 11, marginLeft: 8 }}>
+          ↻
+        </button>
         <button
           className="iconbtn"
           onClick={dismiss}
           aria-label="Dismiss briefing"
-          style={{ marginLeft: 8, width: 28, height: 28 }}
+          style={{ marginLeft: 4, width: 28, height: 28 }}
         >
           ✕
         </button>

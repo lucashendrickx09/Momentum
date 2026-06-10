@@ -39,9 +39,11 @@ function hasContent(b: Briefing | null): b is Briefing {
 export function useBriefing() {
   const [briefing, setBriefing] = useState<Briefing | null>(null)
   const [loading, setLoading] = useState(true)
+  const [tick, setTick] = useState(0)
 
   useEffect(() => {
     let alive = true
+    setLoading(true)
     const url = `${import.meta.env.BASE_URL}briefing.json?_=${Date.now()}`
     fetch(url, { cache: 'no-store' })
       .then((r) => (r.ok ? r.json() : null))
@@ -57,9 +59,11 @@ export function useBriefing() {
     return () => {
       alive = false
     }
-  }, [])
+  }, [tick])
 
-  return { briefing, loading }
+  const refresh = () => setTick((t) => t + 1)
+
+  return { briefing, loading, refresh }
 }
 
 const DISMISS_KEY = 'momentum-briefing-dismissed'
@@ -85,7 +89,16 @@ export function useBriefingDismiss(generatedAt: string | undefined) {
     setDismissedAt(generatedAt)
   }
 
-  return { dismissed, dismiss }
+  function undismiss() {
+    try {
+      localStorage.removeItem(DISMISS_KEY)
+    } catch {
+      /* ignore */
+    }
+    setDismissedAt(null)
+  }
+
+  return { dismissed, dismiss, undismiss }
 }
 
 export function timeAgo(iso: string): string {

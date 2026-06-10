@@ -39,6 +39,7 @@ export function emptyData(): AppData {
       sleep: [],
       moods: [],
       focus: [],
+      dreams: [],
     },
     settings: {
       theme: 'system',
