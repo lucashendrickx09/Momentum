@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useStore } from '../../store/store'
 import { PageHeader } from '../../components/layout/PageHeader'
 import {
@@ -90,6 +90,128 @@ export function Education() {
   )
 }
 
+// ---------------- Study timer ----------------
+// Start/stop timer that logs straight into study history — more accurate
+// and lower friction than estimating hours after the fact. The active
+// timer survives reloads via localStorage.
+
+const TIMER_KEY = 'momentum-study-timer'
+
+interface ActiveTimer {
+  subject: SubjectId
+  startedAt: number // epoch ms
+}
+
+function loadTimer(): ActiveTimer | null {
+  try {
+    const raw = localStorage.getItem(TIMER_KEY)
+    if (!raw) return null
+    const t = JSON.parse(raw) as ActiveTimer
+    // Discard absurd leftovers (> 16h means a forgotten timer).
+    if (Date.now() - t.startedAt > 16 * 3600000) {
+      localStorage.removeItem(TIMER_KEY)
+      return null
+    }
+    return t
+  } catch {
+    return null
+  }
+}
+
+function fmtElapsed(ms: number): string {
+  const total = Math.floor(ms / 1000)
+  const h = Math.floor(total / 3600)
+  const m = Math.floor((total % 3600) / 60)
+  const s = total % 60
+  return h > 0
+    ? `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
+    : `${m}:${String(s).padStart(2, '0')}`
+}
+
+function StudyTimer() {
+  const subjects = useStore((s) => s.education.subjects)
+  const addStudy = useStore((s) => s.addStudy)
+  const [active, setActive] = useState<ActiveTimer | null>(loadTimer)
+  const [subject, setSubject] = useState<SubjectId>(subjects[0]?.id ?? 'math-ai-hl')
+  const [, forceTick] = useState(0)
+
+  // Tick every second while running so the elapsed display updates.
+  useEffect(() => {
+    if (!active) return
+    const id = window.setInterval(() => forceTick((t) => t + 1), 1000)
+    return () => window.clearInterval(id)
+  }, [active])
+
+  const start = () => {
+    const t: ActiveTimer = { subject, startedAt: Date.now() }
+    try { localStorage.setItem(TIMER_KEY, JSON.stringify(t)) } catch { /* ignore */ }
+    setActive(t)
+  }
+
+  const stop = () => {
+    if (!active) return
+    const elapsed = Date.now() - active.startedAt
+    const hours = Math.round((elapsed / 3600000) * 100) / 100
+    if (hours >= 0.02) {
+      addStudy({ subject: active.subject, date: todayKey(), hours, note: 'Timed session' })
+    }
+    try { localStorage.removeItem(TIMER_KEY) } catch { /* ignore */ }
+    setActive(null)
+  }
+
+  const discard = () => {
+    if (!confirm('Discard this timed session without logging?')) return
+    try { localStorage.removeItem(TIMER_KEY) } catch { /* ignore */ }
+    setActive(null)
+  }
+
+  if (active) {
+    const subj = subjects.find((s) => s.id === active.subject)
+    return (
+      <Card className="hero" accent={C}>
+        <div className="row" style={{ alignItems: 'center' }}>
+          <div className="grow">
+            <div className="dim" style={{ fontSize: 12, fontWeight: 600 }}>
+              Studying {subj?.name ?? active.subject}
+            </div>
+            <div className="mono" style={{ fontSize: 34, fontWeight: 800, letterSpacing: '-0.01em', marginTop: 2 }}>
+              {fmtElapsed(Date.now() - active.startedAt)}
+            </div>
+          </div>
+          <div className="row" style={{ gap: 8 }}>
+            <button className="btn" onClick={stop}>
+              ■ Stop & log
+            </button>
+            <button className="linkbtn danger" onClick={discard}>
+              ✕
+            </button>
+          </div>
+        </div>
+      </Card>
+    )
+  }
+
+  return (
+    <Card accent={C}>
+      <SectionHeader title="Study timer" sub="Start when you sit down — it logs itself" />
+      <div className="chips" style={{ marginBottom: 10 }}>
+        {subjects.map((s) => (
+          <button
+            key={s.id}
+            className={`chip ${subject === s.id ? 'on' : ''}`}
+            onClick={() => setSubject(s.id)}
+          >
+            {s.short}
+          </button>
+        ))}
+      </div>
+      <button className="btn block" onClick={start}>
+        ▶ Start studying
+      </button>
+    </Card>
+  )
+}
+
 // ---------------- Study ----------------
 function StudyTab() {
   const subjects = useStore((s) => s.education.subjects)
@@ -112,6 +234,8 @@ function StudyTab() {
 
   return (
     <>
+      <StudyTimer />
+
       <Card accent={C}>
         <SectionHeader
           title="Study hours"

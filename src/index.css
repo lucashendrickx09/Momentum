@@ -47,45 +47,46 @@
   --track: #e7ecf4;
 }
 
-/* ---- Dark palette (auto when system is dark, or forced) ---- */
+/* ---- Dark palette (auto when system is dark, or forced) ----
+   Premium fintech: near-black blue base, luminous accents, soft glow. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --bg: #0b0f17;
-    --bg-2: #0f1521;
-    --surface: #141a26;
-    --surface-2: #19202e;
-    --elevated: #1a2230;
-    --border: #232c3c;
-    --border-strong: #2f3a4d;
-    --text: #eef2f8;
+    --bg: #06090f;
+    --bg-2: #0a0e16;
+    --surface: #0e1420;
+    --surface-2: #131a28;
+    --elevated: #151d2c;
+    --border: #1d2636;
+    --border-strong: #2a3548;
+    --text: #f2f5fa;
     --text-2: #a4afc2;
-    --text-3: #6b7689;
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.35);
-    --shadow-lg: 0 18px 50px rgba(0, 0, 0, 0.55);
-    --danger: #ff6369;
+    --text-3: #677185;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 32px rgba(0, 0, 0, 0.45);
+    --shadow-lg: 0 18px 50px rgba(0, 0, 0, 0.6);
+    --danger: #ff5d64;
     --warn: #ffb224;
     --good: #2fd699;
-    --track: #232c3c;
+    --track: #1d2636;
   }
 }
 
 :root[data-theme='dark'] {
-  --bg: #0b0f17;
-  --bg-2: #0f1521;
-  --surface: #141a26;
-  --surface-2: #19202e;
-  --elevated: #1a2230;
-  --border: #232c3c;
-  --border-strong: #2f3a4d;
-  --text: #eef2f8;
+  --bg: #06090f;
+  --bg-2: #0a0e16;
+  --surface: #0e1420;
+  --surface-2: #131a28;
+  --elevated: #151d2c;
+  --border: #1d2636;
+  --border-strong: #2a3548;
+  --text: #f2f5fa;
   --text-2: #a4afc2;
-  --text-3: #6b7689;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.35);
-  --shadow-lg: 0 18px 50px rgba(0, 0, 0, 0.55);
-  --danger: #ff6369;
+  --text-3: #677185;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 32px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 18px 50px rgba(0, 0, 0, 0.6);
+  --danger: #ff5d64;
   --warn: #ffb224;
   --good: #2fd699;
-  --track: #232c3c;
+  --track: #1d2636;
 }
 
 * {
@@ -250,10 +251,10 @@ h4 {
    Cards & primitives
    ============================================================ */
 .card {
-  background: var(--surface);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--surface) 92%, #fff 0%), var(--surface));
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow), inset 0 1px 0 color-mix(in srgb, #fff 4%, transparent);
   padding: 16px;
 }
 .card + .card {
@@ -704,12 +705,162 @@ textarea.input {
 }
 
 .hero {
+  position: relative;
+  overflow: hidden;
   background: linear-gradient(
     135deg,
-    color-mix(in srgb, var(--accent) 22%, var(--surface)),
+    color-mix(in srgb, var(--accent) 20%, var(--surface)),
     var(--surface) 70%
   );
-  border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--border));
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--border));
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -40px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 22%, transparent), transparent 70%);
+  pointer-events: none;
+}
+.hero.glow {
+  box-shadow: var(--shadow), 0 0 44px color-mix(in srgb, var(--accent) 14%, transparent);
+}
+
+/* Big money number + day delta (Invest hero) */
+.big-number {
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  font-variant-numeric: tabular-nums;
+}
+.delta {
+  font-size: 13px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Generic flex helpers (rows everywhere rely on these) */
+.grow {
+  flex: 1;
+  min-width: 0;
+}
+.spacer {
+  flex: 1;
+}
+
+/* ---- Invest: holdings list ---- */
+.holding-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 2px 8px;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+}
+.holding-row:active {
+  opacity: 0.7;
+}
+.weight-track {
+  height: 3px;
+  border-radius: 999px;
+  background: var(--track);
+  overflow: hidden;
+  margin: 0 2px;
+}
+.weight-track > span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--c-financial) 60%, transparent), var(--c-financial));
+}
+.holding-detail {
+  padding: 10px 2px 12px;
+  border-bottom: 1px solid var(--border);
+}
+.news-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  color: inherit;
+  text-decoration: none;
+}
+.news-row:active {
+  opacity: 0.7;
+}
+
+/* ---- Backup nudge ---- */
+.nudge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid color-mix(in srgb, var(--warn) 35%, var(--border));
+  background: color-mix(in srgb, var(--warn) 8%, var(--surface));
+}
+
+/* ---- Daily check-in ---- */
+.checkin.done {
+  border-color: color-mix(in srgb, var(--good) 35%, var(--border));
+}
+.checkin-dots {
+  display: flex;
+  gap: 5px;
+}
+.checkin-dots .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--track);
+}
+.checkin-dots .dot.on {
+  background: var(--good);
+  box-shadow: 0 0 8px color-mix(in srgb, var(--good) 60%, transparent);
+}
+.checkin-rows {
+  margin-top: 10px;
+}
+.checkrow-wrap {
+  border-bottom: 1px solid var(--border);
+}
+.checkrow-wrap:last-child {
+  border-bottom: 0;
+}
+.checkrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 11px 2px;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+}
+.checkrow .ci {
+  font-size: 17px;
+}
+.checkrow .ck {
+  font-size: 16px;
+  font-weight: 800;
+}
+.checkrow.done {
+  opacity: 0.65;
+}
+.checkrow-body {
+  padding: 2px 2px 12px;
+}
+.chip.emoji {
+  font-size: 18px;
+  padding: 7px 11px;
 }
 
 .divider {

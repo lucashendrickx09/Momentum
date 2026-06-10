@@ -3,6 +3,8 @@ import { exportData } from '../store/store'
 import { DATA_VERSION } from '../store/defaults'
 import { todayKey } from './dates'
 
+const LAST_BACKUP_KEY = 'momentum-last-backup'
+
 export function downloadBackup() {
   const data = exportData()
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
@@ -14,6 +16,23 @@ export function downloadBackup() {
   a.click()
   a.remove()
   URL.revokeObjectURL(url)
+  try {
+    localStorage.setItem(LAST_BACKUP_KEY, new Date().toISOString())
+  } catch {
+    /* ignore */
+  }
+}
+
+export function daysSinceBackup(): number | null {
+  try {
+    const v = localStorage.getItem(LAST_BACKUP_KEY)
+    if (!v) return null
+    const t = new Date(v).getTime()
+    if (!Number.isFinite(t)) return null
+    return Math.floor((Date.now() - t) / 86400000)
+  } catch {
+    return null
+  }
 }
 
 export function parseBackup(text: string): AppData {

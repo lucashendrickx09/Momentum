@@ -17,6 +17,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
 const WATCHLIST_FILE = join(ROOT, 'public', 'watchlist.json')
 const OUT_FILE = join(ROOT, 'public', 'briefing.json')
+const HISTORY_FILE = join(ROOT, 'public', 'history.json')
 
 const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
@@ -145,9 +146,11 @@ function cleanTickers(list) {
 // --- Per-ticker data (free Yahoo Finance public endpoints, no key) ---
 
 async function fetchQuote(ticker) {
+  // 3 months of daily closes in one call: powers both the quote and the
+  // portfolio history chart (public/history.json).
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
     ticker,
-  )}?range=5d&interval=1d`
+  )}?range=3mo&interval=1d`
   const data = await getYahooJSON(url)
   const result = data?.chart?.result?.[0]
   if (!result) throw new Error('no chart data')
@@ -159,6 +162,18 @@ async function fetchQuote(ticker) {
   }
   const changePct = ((price - prevClose) / prevClose) * 100
   const asOf = meta.regularMarketTime ? new Date(meta.regularMarketTime * 1000).toISOString() : undefined
+
+  // Daily close history (date -> close), skipping null gaps.
+  const stamps = result.timestamp ?? []
+  const closes = result.indicators?.quote?.[0]?.close ?? []
+  const history = []
+  for (let i = 0; i < stamps.length; i++) {
+    const c = closes[i]
+    if (typeof c !== 'number') continue
+    const d = new Date(stamps[i] * 1000)
+    history.push({ date: d.toISOString().slice(0, 10), close: round2(c) })
+  }
+
   return {
     name: meta.longName || meta.shortName || undefined,
     price: round2(price),
@@ -167,6 +182,7 @@ async function fetchQuote(ticker) {
     currency: meta.currency || undefined,
     exchange: meta.fullExchangeName || meta.exchangeName || undefined,
     asOf,
+    history,
   }
 }
 
@@ -199,7 +215,8 @@ async function buildItem(ticker) {
     throw new Error(quoteRes.reason?.message || 'quote failed')
   }
   const headlines = newsRes.status === 'fulfilled' ? newsRes.value : []
-  return { ticker, ...quoteRes.value, headlines }
+  const { history, ...quote } = quoteRes.value
+  return { item: { ticker, ...quote, headlines }, history }
 }
 
 async function main() {
@@ -207,10 +224,13 @@ async function main() {
   await initYahoo()
   const items = []
   const errors = []
+  const series = {}
 
   for (const ticker of tickers) {
     try {
-      items.push(await buildItem(ticker))
+      const { item, history } = await buildItem(ticker)
+      items.push(item)
+      if (history.length) series[ticker] = history
       console.log(`  ✓ ${ticker}`)
     } catch (e) {
       errors.push(`${ticker}: ${e.message}`)
@@ -233,6 +253,14 @@ async function main() {
 
   await writeFile(OUT_FILE, JSON.stringify(briefing, null, 2) + '\n', 'utf8')
   console.log(`\nWrote ${OUT_FILE} — ${items.length} item(s), ${errors.length} error(s).`)
+
+  const history = {
+    generatedAt: briefing.generatedAt,
+    source: 'Yahoo Finance',
+    series,
+  }
+  await writeFile(HISTORY_FILE, JSON.stringify(history) + '\n', 'utf8')
+  console.log(`Wrote ${HISTORY_FILE} — ${Object.keys(series).length} ticker series.`)
 }
 
 main().catch((e) => {

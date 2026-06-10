@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useStore } from '../../store/store'
-import { Card, SectionHeader, Segmented, Field, Select, Pill } from '../../components/ui/primitives'
+import { Card, SectionHeader, Segmented, Field, Select, TextInput, Pill } from '../../components/ui/primitives'
 import { ACCENT } from '../../lib/sections'
 import { downloadBackup, parseBackup, readFileText } from '../../lib/backup'
 import type { ThemePref } from '../../store/types'
@@ -17,6 +17,10 @@ export function Settings() {
   const resetAll = useStore((s) => s.resetAll)
   const setCurrency = (c: string) =>
     useStore.setState((s) => ({ settings: { ...s.settings, currency: c } }))
+
+  const finnhubKey = useStore((s) => s.settings.finnhubKey)
+  const setFinnhubKey = useStore((s) => s.setFinnhubKey)
+  const [keyDraft, setKeyDraft] = useState(finnhubKey ?? '')
 
   const fileRef = useRef<HTMLInputElement>(null)
   const [msg, setMsg] = useState<{ ok: boolean; text: string } | null>(null)
@@ -72,6 +76,38 @@ export function Settings() {
         </Card>
 
         <Card>
+          <SectionHeader
+            title="Live prices"
+            sub="Optional — without a key, prices refresh hourly during US market hours."
+          />
+          <Field
+            label="Finnhub API key"
+            hint="Free at finnhub.io/register (2 min). With a key set, the Invest page shows real-time quotes that refresh every minute while the app is open."
+          >
+            <TextInput
+              value={keyDraft}
+              onChange={(e) => setKeyDraft(e.target.value)}
+              placeholder="e.g. c0abcd123…"
+              autoCapitalize="off"
+              autoCorrect="off"
+              spellCheck={false}
+            />
+          </Field>
+          <div className="row" style={{ gap: 8, marginTop: 10 }}>
+            <button
+              className="btn sm"
+              onClick={() => {
+                setFinnhubKey(keyDraft.trim() || undefined)
+                setMsg({ ok: true, text: keyDraft.trim() ? 'Live prices enabled.' : 'Live prices disabled.' })
+              }}
+            >
+              Save key
+            </button>
+            {finnhubKey && <Pill tone="good">● Live quotes on</Pill>}
+          </div>
+        </Card>
+
+        <Card>
           <SectionHeader title="Backup & restore" sub="Your data never leaves the device unless you export it." />
           <div className="stack">
             <button className="btn block" onClick={downloadBackup} style={{ ['--accent' as string]: ACCENT.financial }}>
@@ -118,9 +154,9 @@ export function Settings() {
         <Card>
           <SectionHeader title="About" />
           <p className="muted" style={{ fontSize: 13, lineHeight: 1.6 }}>
-            <b>Momentum</b> — a private, offline-first tracker for money, IB studies, training and
-            wellbeing. Install it to your home screen for an app-like experience. Phase 2 will add an
-            automatic pre-market briefing for your holdings.
+            <b>Momentum</b> — a private, offline-first tracker for investing, IB studies, training and
+            wellbeing. Install it to your home screen for an app-like experience. All personal data
+            stays on this device; only market prices are fetched from the network.
           </p>
         </Card>
       </div>

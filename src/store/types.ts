@@ -50,12 +50,15 @@ export interface NetPositionSnapshot extends Identified {
 }
 
 export interface FinancialState {
+  // income/goalTarget/projects are legacy — kept so old data survives
+  // updates and backups round-trip, but no longer shown in the UI.
   income: IncomeEntry[]
-  goalTarget: number // 6-month income goal (EUR), within the 100–500 band
+  goalTarget: number
   projects: GameProject[]
   holdings: Holding[]
   holdingsCsvUrl?: string // published Google Sheet CSV URL
   netPositions: NetPositionSnapshot[]
+  cash?: number // uninvested cash, added to holdings value for net worth
 }
 
 // ---------- Educational (IB) ----------
@@ -177,5 +180,6 @@ export interface AppData {
   settings: {
     theme: ThemePref
     currency: string
+    finnhubKey?: string // optional API key for live quotes
   }
 }

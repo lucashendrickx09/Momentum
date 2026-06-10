@@ -5,9 +5,11 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    # 20:20 UTC, Mon–Fri — ~20 min after the market briefing commits, so the
-    # published site picks up the fresh briefing.json (a bot commit can't
-    # trigger this deploy itself, so we republish on a short delay instead).
+    # ~15 min after each market-briefing run (hourly during US market hours
+    # plus the post-close run), so the published site picks up the fresh
+    # briefing.json (a bot commit can't trigger this deploy itself, so we
+    # republish on a short delay instead).
+    - cron: '50 13-19 * * 1-5'
     - cron: '20 20 * * 1-5'
 
 permissions:

@@ -8,7 +8,7 @@ export interface SectionMeta {
 
 export const SECTIONS: SectionMeta[] = [
   { key: 'dashboard', path: '/', label: 'Home', icon: '◎', accent: '#19c3c3' },
-  { key: 'financial', path: '/financial', label: 'Money', icon: '€', accent: '#18b97a' },
+  { key: 'financial', path: '/financial', label: 'Invest', icon: '▲', accent: '#18b97a' },
   { key: 'education', path: '/education', label: 'Study', icon: '✎', accent: '#4f8cff' },
   { key: 'physical', path: '/physical', label: 'Body', icon: '⚡', accent: '#ff8a3d' },
   { key: 'mental', path: '/mental', label: 'Mind', icon: '☾', accent: '#a07bff' },

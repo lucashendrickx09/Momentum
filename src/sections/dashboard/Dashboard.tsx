@@ -1,11 +1,15 @@
+import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useStore } from '../../store/store'
-import { Card, Bar, Pill } from '../../components/ui/primitives'
+import { Card, Pill } from '../../components/ui/primitives'
 import { MiniSpark } from '../../components/charts/MiniSpark'
 import { BriefingBanner } from '../../components/BriefingBanner'
+import { DailyCheckIn } from '../../components/DailyCheckIn'
 import { ACCENT } from '../../lib/sections'
 import { fmtEUR, fmtNum, sum, avg, round, within, dailySeries } from '../../lib/stats'
-import { monthsAgoKey, inThisWeek, daysUntil } from '../../lib/dates'
+import { inThisWeek, daysUntil } from '../../lib/dates'
+import { useBriefing, useLiveQuotes } from '../../lib/briefing'
+import { downloadBackup, daysSinceBackup } from '../../lib/backup'
 
 function greeting() {
   const h = new Date().getHours()
@@ -15,12 +19,38 @@ function greeting() {
   return 'Good evening'
 }
 
+const BACKUP_NUDGE_DAYS = 14
+
 export function Dashboard() {
   const s = useStore()
   const currency = s.settings.currency
 
-  const earned6mo = sum(s.financial.income.filter((e) => e.date >= monthsAgoKey(6)).map((e) => e.amount))
-  const goalPct = s.financial.goalTarget > 0 ? (earned6mo / s.financial.goalTarget) * 100 : 0
+  const { briefing } = useBriefing()
+  const tickers = useMemo(() => s.financial.holdings.map((h) => h.ticker), [s.financial.holdings])
+  const live = useLiveQuotes(tickers)
+
+  // Portfolio glance: live value + day change.
+  const glance = useMemo(() => {
+    const base = new Map(briefing?.items.map((it) => [it.ticker.toUpperCase(), it]) ?? [])
+    let value = 0
+    let delta = 0
+    let priced = 0
+    let ccy: string | undefined
+    for (const h of s.financial.holdings) {
+      if (h.quantity <= 0) continue
+      const key = h.ticker.toUpperCase()
+      const l = live.get(key)
+      const b = base.get(key)
+      const price = l?.price ?? b?.price
+      const prev = l?.prevClose ?? b?.previousClose
+      if (price == null) continue
+      priced++
+      value += price * h.quantity
+      if (prev != null) delta += (price - prev) * h.quantity
+      ccy = ccy ?? b?.currency
+    }
+    return { value, delta, priced, ccy: ccy ?? currency }
+  }, [s.financial.holdings, briefing, live, currency])
 
   const weekStudy = sum(s.education.study.filter((e) => inThisWeek(e.date)).map((e) => e.hours))
   const nextDeadline = [...s.education.deadlines]
@@ -33,6 +63,15 @@ export function Dashboard() {
   const avgSleep = sleep7.length ? round(avg(sleep7.map((e) => e.hours)), 1) : 0
   const sleepSpark = dailySeries(s.mental.sleep, (e) => e.date, (e) => e.hours, 14)
   const lastNight = [...s.mental.sleep].sort((a, b) => (a.date < b.date ? 1 : -1))[0]
+
+  // Backup nudge: only when there is data worth protecting.
+  const [backupDismissed, setBackupDismissed] = useState(false)
+  const hasData =
+    s.financial.holdings.length + s.education.study.length + s.physical.sessions.length + s.mental.sleep.length > 5
+  const sinceBackup = daysSinceBackup()
+  const needBackup = hasData && !backupDismissed && (sinceBackup == null || sinceBackup >= BACKUP_NUDGE_DAYS)
+
+  const up = glance.delta >= 0
 
   return (
     <>
@@ -48,30 +87,53 @@ export function Dashboard() {
       </header>
 
       <div className="stack">
-        {/* Financial — priority, full width */}
+        {/* Backup safety net */}
+        {needBackup && (
+          <div className="nudge">
+            <span style={{ fontSize: 16 }}>🛟</span>
+            <span className="grow" style={{ fontSize: 12.5 }}>
+              {sinceBackup == null ? 'Your data has never been backed up.' : `Last backup ${sinceBackup} days ago.`}
+            </span>
+            <button className="btn sm" onClick={downloadBackup}>
+              Export
+            </button>
+            <button className="linkbtn" onClick={() => setBackupDismissed(true)}>
+              ✕
+            </button>
+          </div>
+        )}
+
+        {/* Daily check-in — one habit instead of four */}
+        <DailyCheckIn />
+
+        {/* Portfolio glance */}
         <Link to="/financial" style={{ textDecoration: 'none', color: 'inherit' }}>
           <Card className="hero" accent={ACCENT.financial}>
             <div className="row">
               <span className="pill" style={{ ['--accent' as string]: ACCENT.financial }}>
-                € Money
+                ▲ Invest
               </span>
-              <span className="right dim" style={{ fontSize: 18 }}>
-                ›
-              </span>
+              <span className="spacer" />
+              {live.size > 0 && <Pill tone="good">● LIVE</Pill>}
+              <span className="dim" style={{ fontSize: 18 }}>›</span>
             </div>
             <div style={{ marginTop: 10 }}>
               <div className="dim" style={{ fontSize: 12, fontWeight: 600 }}>
-                6-month income goal
+                Portfolio value
               </div>
-              <div style={{ fontSize: 26, fontWeight: 800, letterSpacing: '-0.02em' }}>
-                {fmtEUR(earned6mo, currency)}
-                <span className="dim" style={{ fontSize: 15, fontWeight: 600 }}>
-                  {' '}/ {fmtEUR(s.financial.goalTarget, currency)}
-                </span>
+              <div style={{ fontSize: 28, fontWeight: 800, letterSpacing: '-0.02em' }}>
+                {glance.priced > 0 ? fmtEUR(glance.value, glance.ccy) : '—'}
               </div>
-              <div style={{ marginTop: 10 }}>
-                <Bar pct={goalPct} tall />
-              </div>
+              {glance.priced > 0 && (
+                <div style={{ fontSize: 13, fontWeight: 700, marginTop: 2, color: up ? 'var(--good)' : 'var(--danger)' }}>
+                  {up ? '▲' : '▼'} {fmtEUR(Math.abs(glance.delta), glance.ccy)} today
+                </div>
+              )}
+              {glance.priced === 0 && (
+                <div className="dim" style={{ fontSize: 12, marginTop: 2 }}>
+                  Add holdings to track your portfolio
+                </div>
+              )}
             </div>
           </Card>
         </Link>

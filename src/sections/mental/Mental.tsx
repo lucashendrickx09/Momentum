@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useStore } from '../../store/store'
 import { PageHeader } from '../../components/layout/PageHeader'
 import {
@@ -12,168 +12,21 @@ import {
   Pill,
 } from '../../components/ui/primitives'
 import { Modal } from '../../components/ui/Modal'
-import { TrendArea, Bars } from '../../components/charts/Charts'
-import { avg, sum, round, dailySeries, within, activeDays, currentStreak } from '../../lib/stats'
+import { TrendArea } from '../../components/charts/Charts'
+import { avg, round, dailySeries, within, activeDays, currentStreak } from '../../lib/stats'
 import { todayKey, relativeDay, prettyDate } from '../../lib/dates'
 import { ACCENT } from '../../lib/sections'
 import type { DreamEntry } from '../../store/types'
 
-type Tab = 'sleep' | 'mood' | 'focus' | 'dreams'
+type Tab = 'sleep' | 'mood' | 'dreams'
 const C = ACCENT.mental
 const MOOD_LABELS = ['😞', '😕', '😐', '🙂', '😄']
 const ENERGY_LABELS = ['🪫', '🔅', '🔆', '⚡', '🚀']
-
-// ── Screen-time auto-tracker ─────────────────────────────────────────────────
-// Tracks how long this PWA was visible today using the Page Visibility API.
-// Stored in localStorage so it persists across reloads.
-
-const SCREEN_TIME_KEY = 'momentum-screen-time'
-const SLEEP_SUGGEST_KEY = 'momentum-sleep-suggest'
-
-interface ScreenTimeDay {
-  date: string
-  minutes: number
-}
-
-function getScreenDays(): ScreenTimeDay[] {
-  try {
-    return JSON.parse(localStorage.getItem(SCREEN_TIME_KEY) ?? '[]')
-  } catch {
-    return []
-  }
-}
-
-function saveScreenDays(days: ScreenTimeDay[]) {
-  try {
-    // Keep last 30 days
-    const trimmed = days.slice(-30)
-    localStorage.setItem(SCREEN_TIME_KEY, JSON.stringify(trimmed))
-  } catch { /* ignore */ }
-}
-
-function addScreenMinutes(mins: number) {
-  const today = todayKey()
-  const days = getScreenDays()
-  const idx = days.findIndex((d) => d.date === today)
-  if (idx >= 0) {
-    days[idx].minutes = (days[idx].minutes ?? 0) + mins
-  } else {
-    days.push({ date: today, minutes: mins })
-  }
-  saveScreenDays(days)
-}
-
-function getTodayScreenMinutes(): number {
-  const today = todayKey()
-  return getScreenDays().find((d) => d.date === today)?.minutes ?? 0
-}
-
-function useScreenTimeTracker() {
-  const startRef = useRef<number | null>(null)
-  const [todayMins, setTodayMins] = useState(getTodayScreenMinutes)
-
-  useEffect(() => {
-    if (document.visibilityState === 'visible') {
-      startRef.current = Date.now()
-    }
-
-    function onVisibility() {
-      if (document.visibilityState === 'hidden') {
-        if (startRef.current != null) {
-          const mins = (Date.now() - startRef.current) / 60000
-          addScreenMinutes(mins)
-          startRef.current = null
-          setTodayMins(getTodayScreenMinutes())
-        }
-      } else {
-        startRef.current = Date.now()
-      }
-    }
-
-    document.addEventListener('visibilitychange', onVisibility)
-    return () => {
-      // Flush remaining time when component unmounts
-      if (startRef.current != null) {
-        const mins = (Date.now() - startRef.current) / 60000
-        addScreenMinutes(mins)
-        startRef.current = null
-      }
-      document.removeEventListener('visibilitychange', onVisibility)
-    }
-  }, [])
-
-  return { todayMins: round(todayMins, 1) }
-}
-
-// ── Sleep auto-detect ─────────────────────────────────────────────────────────
-// When the app is hidden between 9pm–3am, records a "potential sleep start".
-// When the app is shown between 4am–11am, computes elapsed time as suggested sleep.
-
-interface SleepSuggest {
-  hiddenAt: string  // ISO
-  shownAt?: string  // ISO
-  hours?: number
-  date: string      // YYYY-MM-DD of the morning (the "night of" key)
-}
-
-function useSleepAutoDetect() {
-  const [suggest, setSuggest] = useState<SleepSuggest | null>(() => {
-    try {
-      return JSON.parse(localStorage.getItem(SLEEP_SUGGEST_KEY) ?? 'null')
-    } catch {
-      return null
-    }
-  })
-
-  useEffect(() => {
-    function onVisibility() {
-      const now = new Date()
-      const hour = now.getHours()
-
-      if (document.visibilityState === 'hidden') {
-        // User leaves app — if evening/night, record as potential sleep start
-        if (hour >= 21 || hour < 3) {
-          const pending: SleepSuggest = { hiddenAt: now.toISOString(), date: todayKey() }
-          try { localStorage.setItem(SLEEP_SUGGEST_KEY, JSON.stringify(pending)) } catch { /* ignore */ }
-        }
-      } else {
-        // User returns — check if there's a pending sleep start from the night
-        if (hour >= 4 && hour < 12) {
-          try {
-            const stored = JSON.parse(localStorage.getItem(SLEEP_SUGGEST_KEY) ?? 'null') as SleepSuggest | null
-            if (stored && !stored.shownAt) {
-              const hiddenTime = new Date(stored.hiddenAt).getTime()
-              const elapsed = (now.getTime() - hiddenTime) / 3600000
-              if (elapsed >= 3 && elapsed <= 14) {
-                const shownAt = now.toISOString()
-                const hours = round(elapsed, 1)
-                const updated: SleepSuggest = { ...stored, shownAt, hours }
-                localStorage.setItem(SLEEP_SUGGEST_KEY, JSON.stringify(updated))
-                setSuggest(updated)
-              }
-            }
-          } catch { /* ignore */ }
-        }
-      }
-    }
-
-    document.addEventListener('visibilitychange', onVisibility)
-    return () => document.removeEventListener('visibilitychange', onVisibility)
-  }, [])
-
-  function dismissSuggest() {
-    try { localStorage.removeItem(SLEEP_SUGGEST_KEY) } catch { /* ignore */ }
-    setSuggest(null)
-  }
-
-  return { suggest, dismissSuggest }
-}
 
 export function Mental() {
   const sleep = useStore((s) => s.mental.sleep)
   const sleepTarget = useStore((s) => s.mental.sleepTarget)
   const setSleepTarget = useStore((s) => s.setSleepTarget)
-  const addSleep = useStore((s) => s.addSleep)
   const [tab, setTab] = useState<Tab>('sleep')
 
   const last7 = within(sleep, (e) => e.date, 7)
@@ -181,37 +34,9 @@ export function Mental() {
   const lastNight = [...sleep].sort((a, b) => (a.date < b.date ? 1 : -1))[0]
   const streak = currentStreak(activeDays(sleep, (e) => e.date))
 
-  const { suggest, dismissSuggest } = useSleepAutoDetect()
-
-  // Check if today's sleep is already logged
-  const todayAlreadyLogged = sleep.some((e) => e.date === todayKey())
-
   return (
     <>
       <PageHeader eyebrow="Recovery first" title="Mind" accent={C} />
-
-      {/* Auto-sleep suggestion banner */}
-      {suggest?.hours != null && !todayAlreadyLogged && (
-        <Card accent={C}>
-          <div className="row" style={{ alignItems: 'center', gap: 8 }}>
-            <span style={{ fontSize: 20 }}>🌙</span>
-            <div className="grow">
-              <div style={{ fontSize: 13, fontWeight: 700 }}>Sleep detected — ~{suggest.hours}h</div>
-              <div className="dim" style={{ fontSize: 11 }}>Based on when you last closed the app. Log it?</div>
-            </div>
-            <button
-              className="btn sm"
-              onClick={() => {
-                addSleep({ date: suggest.date, hours: suggest.hours! })
-                dismissSuggest()
-              }}
-            >
-              Log {suggest.hours}h
-            </button>
-            <button className="linkbtn" onClick={dismissSuggest} style={{ fontSize: 18 }}>✕</button>
-          </div>
-        </Card>
-      )}
 
       {/* Sleep — front and centre */}
       <Card className="hero" accent={C}>
@@ -253,7 +78,6 @@ export function Mental() {
           options={[
             { value: 'sleep', label: 'Sleep' },
             { value: 'mood', label: 'Mood' },
-            { value: 'focus', label: 'Focus' },
             { value: 'dreams', label: 'Dreams' },
           ]}
         />
@@ -262,7 +86,6 @@ export function Mental() {
       <div className="stack fadein" key={tab}>
         {tab === 'sleep' && <SleepTab target={sleepTarget} />}
         {tab === 'mood' && <MoodTab />}
-        {tab === 'focus' && <FocusTab />}
         {tab === 'dreams' && <DreamsTab />}
       </div>
     </>
@@ -297,18 +120,10 @@ function SleepTab({ target }: { target: number }) {
           }
         />
         {sleep.length === 0 ? (
-          <Empty icon="😴" title="No sleep logged" sub="Track hours each morning — this is the keystone metric." />
+          <Empty icon="😴" title="No sleep logged" sub="Log each morning from the daily check-in on Home — this is the keystone metric." />
         ) : (
           <TrendArea data={series} color={C} unit="h" yDomain={[0, 12]} />
         )}
-      </Card>
-
-      <Card>
-        <p className="dim" style={{ fontSize: 11, lineHeight: 1.5 }}>
-          <b>Auto-detect:</b> The app tracks when you stop using it at night and when you return in the morning.
-          If the gap looks like sleep (3–14h), you'll see a suggestion above. For full phone screen time,
-          check <b>iOS Screen Time</b> or <b>Android Digital Wellbeing</b>.
-        </p>
       </Card>
 
       {sleep.length > 0 && (
@@ -394,9 +209,7 @@ function SleepForm({
 // ---------------- Mood ----------------
 function MoodTab() {
   const moods = useStore((s) => s.mental.moods)
-  const addMood = useStore((s) => s.addMood)
   const removeMood = useStore((s) => s.removeMood)
-  const [open, setOpen] = useState(false)
 
   const moodSeries = useMemo(() => seriesFromAvg(moods, (e) => e.mood), [moods])
   const energySeries = useMemo(() => seriesFromAvg(moods, (e) => e.energy), [moods])
@@ -405,15 +218,7 @@ function MoodTab() {
   return (
     <>
       <Card accent={C}>
-        <SectionHeader
-          title="Mood & energy"
-          sub="Daily 1–5"
-          right={
-            <button className="btn sm" onClick={() => setOpen(true)}>
-              + Log
-            </button>
-          }
-        />
+        <SectionHeader title="Mood & energy" sub="Logged from the daily check-in on Home" />
         <div className="grid2" style={{ marginBottom: 12 }}>
           <div className="stat accent">
             <div className="label">Avg mood (7d)</div>
@@ -431,7 +236,7 @@ function MoodTab() {
           </div>
         </div>
         {moods.length === 0 ? (
-          <Empty icon="🌤️" title="No mood logged" sub="A quick daily check keeps the trend honest." />
+          <Empty icon="🌤️" title="No mood logged" sub="Use the daily check-in on the Home screen — two taps a day." />
         ) : (
           <>
             <div className="dim" style={{ fontSize: 11, fontWeight: 600 }}>
@@ -469,218 +274,7 @@ function MoodTab() {
           </div>
         </Card>
       )}
-
-      <MoodForm open={open} onClose={() => setOpen(false)} onSave={addMood} />
     </>
-  )
-}
-
-function MoodForm({
-  open,
-  onClose,
-  onSave,
-}: {
-  open: boolean
-  onClose: () => void
-  onSave: (e: { date: string; mood: number; energy: number; note?: string }) => void
-}) {
-  const [mood, setMood] = useState(3)
-  const [energy, setEnergy] = useState(3)
-  const [date, setDate] = useState(todayKey())
-  const [note, setNote] = useState('')
-  return (
-    <Modal open={open} onClose={onClose} title="How are you today?">
-      <div className="stack">
-        <Field label="Mood">
-          <Rating value={mood} onChange={setMood} labels={MOOD_LABELS} />
-        </Field>
-        <Field label="Energy">
-          <Rating value={energy} onChange={setEnergy} labels={ENERGY_LABELS} />
-        </Field>
-        <Field label="Date">
-          <TextInput type="date" value={date} onChange={(e) => setDate(e.target.value)} />
-        </Field>
-        <Field label="Note (optional)">
-          <TextInput value={note} onChange={(e) => setNote(e.target.value)} />
-        </Field>
-        <button
-          className="btn block"
-          onClick={() => {
-            onSave({ date, mood, energy, note: note.trim() || undefined })
-            setNote('')
-            setMood(3)
-            setEnergy(3)
-            setDate(todayKey())
-            onClose()
-          }}
-        >
-          Save check-in
-        </button>
-      </div>
-    </Modal>
-  )
-}
-
-// ---------------- Focus ----------------
-function FocusTab() {
-  const focus = useStore((s) => s.mental.focus)
-  const addFocus = useStore((s) => s.addFocus)
-  const removeFocus = useStore((s) => s.removeFocus)
-  const [open, setOpen] = useState(false)
-
-  const { todayMins } = useScreenTimeTracker()
-
-  const screenSeries = useMemo(
-    () =>
-      dailySeries(
-        focus.filter((f) => f.screenMinutes != null),
-        (e) => e.date,
-        (e) => round((e.screenMinutes ?? 0) / 60, 1),
-        14,
-      ),
-    [focus],
-  )
-  const last7 = within(focus, (e) => e.date, 7)
-  const avgScreen = last7.length
-    ? round(avg(last7.filter((f) => f.screenMinutes != null).map((f) => (f.screenMinutes ?? 0) / 60)), 1)
-    : 0
-  const focusBlocks7 = sum(last7.map((f) => f.focusBlocks ?? 0))
-
-  return (
-    <>
-      {/* Auto-tracked app time */}
-      <Card accent={C}>
-        <div className="row" style={{ alignItems: 'center' }}>
-          <div>
-            <div className="dim" style={{ fontSize: 11, fontWeight: 600 }}>Momentum app open today</div>
-            <div style={{ fontSize: 22, fontWeight: 800 }}>
-              {todayMins < 1 ? '<1' : round(todayMins, 0)}
-              <span className="dim" style={{ fontSize: 14 }}> min</span>
-            </div>
-          </div>
-          <span className="spacer" />
-          <div className="dim" style={{ fontSize: 11, textAlign: 'right', maxWidth: 140, lineHeight: 1.4 }}>
-            For full phone screen time, check iOS Screen Time or Android Digital Wellbeing
-          </div>
-        </div>
-      </Card>
-
-      <Card accent={C}>
-        <SectionHeader
-          title="Screen time & focus"
-          sub="Phone hours vs deep-focus blocks"
-          right={
-            <button className="btn sm" onClick={() => setOpen(true)}>
-              + Log
-            </button>
-          }
-        />
-        <div className="grid2" style={{ marginBottom: 12 }}>
-          <div className="stat">
-            <div className="label">Avg screen (7d)</div>
-            <div className="value">
-              {avgScreen}
-              <small>h/day</small>
-            </div>
-          </div>
-          <div className="stat accent">
-            <div className="label">Focus blocks (7d)</div>
-            <div className="value">{focusBlocks7}</div>
-          </div>
-        </div>
-        {focus.length === 0 ? (
-          <Empty icon="🎯" title="No focus logs" sub="Track screen time and deep-work blocks to spot the trade-off." />
-        ) : (
-          <Bars data={screenSeries} color={C} unit="h" />
-        )}
-      </Card>
-
-      {focus.length > 0 && (
-        <Card>
-          <SectionHeader title="Recent" />
-          <div className="list">
-            {focus.slice(0, 12).map((f) => (
-              <div className="item" key={f.id}>
-                <div className="grow">
-                  <div className="t">
-                    {f.screenMinutes != null ? `${round(f.screenMinutes / 60, 1)}h screen` : ''}
-                    {f.screenMinutes != null && f.focusBlocks != null ? ' · ' : ''}
-                    {f.focusBlocks != null ? `${f.focusBlocks} focus blocks` : ''}
-                  </div>
-                  <div className="s">
-                    {relativeDay(f.date)}
-                    {f.note ? ` · ${f.note}` : ''}
-                  </div>
-                </div>
-                <button className="linkbtn danger" onClick={() => confirm('Delete entry?') && removeFocus(f.id)}>
-                  ✕
-                </button>
-              </div>
-            ))}
-          </div>
-        </Card>
-      )}
-
-      <FocusForm open={open} onClose={() => setOpen(false)} onSave={addFocus} defaultScreenMins={Math.round(todayMins)} />
-    </>
-  )
-}
-
-function FocusForm({
-  open,
-  onClose,
-  onSave,
-  defaultScreenMins,
-}: {
-  open: boolean
-  onClose: () => void
-  onSave: (e: { date: string; screenMinutes?: number; focusBlocks?: number; note?: string }) => void
-  defaultScreenMins: number
-}) {
-  const [screenH, setScreenH] = useState('')
-  const [blocks, setBlocks] = useState('')
-  const [date, setDate] = useState(todayKey())
-  const [note, setNote] = useState('')
-  return (
-    <Modal open={open} onClose={onClose} title="Log focus">
-      <div className="stack">
-        <div className="grid2">
-          <Field label="Screen time (hrs)" hint={defaultScreenMins > 0 ? `App tracked ${defaultScreenMins}m today` : undefined}>
-            <TextInput type="number" inputMode="decimal" value={screenH} onChange={(e) => setScreenH(e.target.value)} placeholder="e.g. 4.5" autoFocus />
-          </Field>
-          <Field label="Focus blocks">
-            <TextInput type="number" inputMode="numeric" value={blocks} onChange={(e) => setBlocks(e.target.value)} placeholder="e.g. 3" />
-          </Field>
-        </div>
-        <Field label="Date">
-          <TextInput type="date" value={date} onChange={(e) => setDate(e.target.value)} />
-        </Field>
-        <Field label="Note (optional)">
-          <TextInput value={note} onChange={(e) => setNote(e.target.value)} />
-        </Field>
-        <button
-          className="btn block"
-          onClick={() => {
-            const sH = screenH ? parseFloat(screenH) : undefined
-            const b = blocks ? parseInt(blocks, 10) : undefined
-            if (sH == null && b == null) return
-            onSave({
-              date,
-              screenMinutes: sH != null ? Math.round(sH * 60) : undefined,
-              focusBlocks: b,
-              note: note.trim() || undefined,
-            })
-            setScreenH('')
-            setBlocks('')
-            setNote('')
-            setDate(todayKey())
-            onClose()
-          }}
-        >
-          Save
-        </button>
-      </div>
-    </Modal>
   )
 }
 
@@ -753,7 +347,7 @@ function DreamsTab() {
                   </div>
                   <div className="s">
                     {prettyDate(d.date)}
-                    {d.mood != null ? ` · ${['😞','😕','😐','🙂','😄'][d.mood - 1]}` : ''}
+                    {d.mood != null ? ` · ${MOOD_LABELS[d.mood - 1]}` : ''}
                     {d.tags ? ` · ${d.tags}` : ''}
                   </div>
                   <div className="s" style={{ marginTop: 2, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: '90%' }}>
@@ -789,7 +383,7 @@ function DreamsTab() {
             <div className="dim" style={{ fontSize: 12 }}>
               {prettyDate(viewing.date)}
               {viewing.lucid ? '  ✦ Lucid' : ''}
-              {viewing.mood != null ? `  ·  ${['😞','😕','😐','🙂','😄'][viewing.mood - 1]}` : ''}
+              {viewing.mood != null ? `  ·  ${MOOD_LABELS[viewing.mood - 1]}` : ''}
             </div>
             {viewing.tags && (
               <div className="dim" style={{ fontSize: 11 }}>Tags: {viewing.tags}</div>
@@ -870,6 +464,7 @@ function DreamForm({
       setMood(initial?.mood)
       setTags(initial?.tags ?? '')
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open, initial?.id])
 
   return (
@@ -885,23 +480,12 @@ function DreamForm({
         </Field>
         <Field label="Dream (write it all down)">
           <textarea
+            className="input"
             value={content}
             onChange={(e) => setContent(e.target.value)}
             placeholder="Describe what happened — people, places, feelings, strange details…"
             rows={6}
-            style={{
-              width: '100%',
-              padding: '8px 10px',
-              borderRadius: 8,
-              border: '1.5px solid var(--border)',
-              background: 'var(--surface)',
-              color: 'var(--text)',
-              fontSize: 14,
-              lineHeight: 1.6,
-              resize: 'vertical',
-              fontFamily: 'inherit',
-              boxSizing: 'border-box',
-            }}
+            style={{ lineHeight: 1.6 }}
           />
         </Field>
         <div className="grid2">
