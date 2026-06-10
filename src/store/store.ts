@@ -78,6 +78,8 @@ interface Actions {
   setTheme(t: ThemePref): void
   setFinnhubKey(k?: string): void
   setCash(v?: number): void
+  setNotifications(prefs: NonNullable<AppData['settings']['notifications']>): void
+  setAutoBackup(v: boolean): void
   replaceAll(data: AppData): void
   resetAll(): void
 }
@@ -275,6 +277,8 @@ export const useStore = create<Store>()(
       setTheme: (t) => set((s) => ({ settings: { ...s.settings, theme: t } })),
       setFinnhubKey: (k) => set((s) => ({ settings: { ...s.settings, finnhubKey: k } })),
       setCash: (v) => set((s) => ({ financial: { ...s.financial, cash: v } })),
+      setNotifications: (prefs) => set((s) => ({ settings: { ...s.settings, notifications: prefs } })),
+      setAutoBackup: (v) => set((s) => ({ settings: { ...s.settings, autoBackup: v } })),
       replaceAll: (data) => set(() => ({ ...data })),
       resetAll: () => set(() => ({ ...emptyData() })),
     }),

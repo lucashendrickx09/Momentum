@@ -180,6 +180,12 @@ export interface AppData {
   settings: {
     theme: ThemePref
     currency: string
-    finnhubKey?: string // optional API key for live quotes
+    finnhubKey?: string
+    notifications?: {
+      enabled: boolean
+      reminderTime: string  // 'HH:MM' 24h
+      deadlineAlerts: boolean
+    }
+    autoBackup?: boolean
   }
 }

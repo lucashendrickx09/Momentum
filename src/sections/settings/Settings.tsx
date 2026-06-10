@@ -4,6 +4,8 @@ import { useStore } from '../../store/store'
 import { Card, SectionHeader, Segmented, Field, Select, TextInput, Pill } from '../../components/ui/primitives'
 import { ACCENT } from '../../lib/sections'
 import { downloadBackup, parseBackup, readFileText } from '../../lib/backup'
+import { notifSupported, requestPermission, hasPermission } from '../../lib/notifications'
+import { loadLatestSnapshot } from '../../lib/autobackup'
 import type { ThemePref } from '../../store/types'
 
 const CURRENCIES = ['EUR', 'USD', 'GBP', 'TWD', 'JPY']
@@ -21,6 +23,14 @@ export function Settings() {
   const finnhubKey = useStore((s) => s.settings.finnhubKey)
   const setFinnhubKey = useStore((s) => s.setFinnhubKey)
   const [keyDraft, setKeyDraft] = useState(finnhubKey ?? '')
+
+  const notifPrefs = useStore((s) => s.settings.notifications)
+  const setNotifications = useStore((s) => s.setNotifications)
+  const autoBackup = useStore((s) => s.settings.autoBackup)
+  const setAutoBackup = useStore((s) => s.setAutoBackup)
+  const [notifPerm, setNotifPerm] = useState<boolean>(hasPermission)
+  const [reminderDraft, setReminderDraft] = useState(notifPrefs?.reminderTime ?? '21:00')
+  const [lastAutoBackup, setLastAutoBackup] = useState<string | null>(null)
 
   const fileRef = useRef<HTMLInputElement>(null)
   const [msg, setMsg] = useState<{ ok: boolean; text: string } | null>(null)
@@ -104,6 +114,111 @@ export function Settings() {
               Save key
             </button>
             {finnhubKey && <Pill tone="good">● Live quotes on</Pill>}
+          </div>
+        </Card>
+
+        {/* ---- Notifications ---- */}
+        {notifSupported() && (
+          <Card>
+            <SectionHeader
+              title="Notifications"
+              sub="Daily check-in reminder and deadline alerts."
+            />
+            <div className="stack" style={{ gap: 14 }}>
+              <div className="row" style={{ gap: 12 }}>
+                <div className="grow">
+                  <div style={{ fontWeight: 600, fontSize: 14 }}>Daily reminder</div>
+                  <div className="dim" style={{ fontSize: 12 }}>Reminds you to complete your daily check-in</div>
+                </div>
+                <button
+                  className={`btn sm ${notifPrefs?.enabled ? '' : 'ghost'}`}
+                  onClick={async () => {
+                    if (!notifPerm) {
+                      const granted = await requestPermission()
+                      setNotifPerm(granted)
+                      if (!granted) { setMsg({ ok: false, text: 'Permission denied. Enable notifications in browser settings.' }); return }
+                    }
+                    const current = notifPrefs ?? { enabled: false, reminderTime: reminderDraft, deadlineAlerts: true }
+                    setNotifications({ ...current, enabled: !current.enabled, reminderTime: reminderDraft })
+                    setMsg({ ok: true, text: !current.enabled ? 'Reminder enabled.' : 'Reminder disabled.' })
+                  }}
+                >
+                  {notifPrefs?.enabled ? '● On' : 'Off'}
+                </button>
+              </div>
+              {notifPrefs?.enabled && (
+                <Field label="Reminder time">
+                  <input
+                    type="time"
+                    className="input"
+                    value={reminderDraft}
+                    onChange={(e) => {
+                      setReminderDraft(e.target.value)
+                      if (notifPrefs) setNotifications({ ...notifPrefs, reminderTime: e.target.value })
+                    }}
+                  />
+                </Field>
+              )}
+              <div className="row" style={{ gap: 12 }}>
+                <div className="grow">
+                  <div style={{ fontWeight: 600, fontSize: 14 }}>Deadline alerts</div>
+                  <div className="dim" style={{ fontSize: 12 }}>Alert when a deadline is within 3 days</div>
+                </div>
+                <button
+                  className={`btn sm ${notifPrefs?.deadlineAlerts ? '' : 'ghost'}`}
+                  onClick={async () => {
+                    if (!notifPerm) {
+                      const granted = await requestPermission()
+                      setNotifPerm(granted)
+                      if (!granted) return
+                    }
+                    const current = notifPrefs ?? { enabled: true, reminderTime: reminderDraft, deadlineAlerts: false }
+                    setNotifications({ ...current, deadlineAlerts: !current.deadlineAlerts })
+                  }}
+                >
+                  {notifPrefs?.deadlineAlerts ? '● On' : 'Off'}
+                </button>
+              </div>
+              {!notifPerm && (
+                <div className="dim" style={{ fontSize: 12 }}>
+                  ℹ Browser permission required — tap a toggle above to prompt for access.
+                </div>
+              )}
+            </div>
+          </Card>
+        )}
+
+        {/* ---- Auto-backup ---- */}
+        <Card>
+          <SectionHeader title="Auto-backup" sub="Silently saves a snapshot to your browser every 7 days." />
+          <div className="stack" style={{ gap: 14 }}>
+            <div className="row" style={{ gap: 12 }}>
+              <div className="grow">
+                <div style={{ fontWeight: 600, fontSize: 14 }}>Enable auto-backup</div>
+                <div className="dim" style={{ fontSize: 12 }}>Stores a local copy in your browser — survives app updates</div>
+              </div>
+              <button
+                className={`btn sm ${autoBackup ? '' : 'ghost'}`}
+                onClick={() => setAutoBackup(!autoBackup)}
+              >
+                {autoBackup ? '● On' : 'Off'}
+              </button>
+            </div>
+            <button
+              className="btn sm ghost"
+              onClick={async () => {
+                const snap = await loadLatestSnapshot()
+                setLastAutoBackup(snap ? snap.savedAt : null)
+                setMsg(snap
+                  ? { ok: true, text: `Latest auto-save: ${new Date(snap.savedAt).toLocaleDateString()} — your data is safe.` }
+                  : { ok: false, text: 'No auto-save found yet. Enable auto-backup and it will save on next app open.' })
+              }}
+            >
+              Check last auto-save
+            </button>
+            {lastAutoBackup && (
+              <div className="dim" style={{ fontSize: 12 }}>Last save: {new Date(lastAutoBackup).toLocaleString()}</div>
+            )}
           </div>
         </Card>
 
