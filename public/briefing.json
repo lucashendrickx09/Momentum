@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T19:58:55.678Z",
+  "generatedAt": "2026-06-11T21:54:08.528Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 41.61,
+      "price": 41.47,
       "previousClose": 28.52,
-      "changePct": 45.88,
+      "changePct": 45.41,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-11T19:58:54.000Z",
+      "asOf": "2026-06-11T20:00:00.000Z",
       "headlines": [
         {
           "title": "CoreWeave AI Funding Goes Global With Euro Junk-Bond Deal",
@@ -43,12 +43,12 @@
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.38,
+      "price": 2.37,
       "previousClose": 3.37,
-      "changePct": -29.53,
+      "changePct": -29.67,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-11T19:58:53.000Z",
+      "asOf": "2026-06-11T20:00:01.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) Q1 2026 Earnings Call Highlights: Strategic Advances Amid ...",
@@ -84,7 +84,7 @@
       "changePct": -26.2,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-06-11T19:58:43.000Z",
+      "asOf": "2026-06-11T20:00:00.000Z",
       "headlines": [
         {
           "title": "SAB BIO to Present Data on SAB-142 at The American Diabetes Association’s 2026 Scientific Sessions and FOCIS 2026 Annual Meeting",
@@ -115,12 +115,12 @@
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 5.14,
+      "price": 5.13,
       "previousClose": 6.42,
-      "changePct": -19.94,
+      "changePct": -20.09,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-11T19:58:49.000Z",
+      "asOf": "2026-06-11T20:00:00.000Z",
       "headlines": [
         {
           "title": "This Ocean Mining Stock Just Got a Green Light From NOAA. Is it a Buy?",
@@ -151,13 +151,25 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 418.93,
+      "price": 421.07,
       "previousClose": 354.56,
-      "changePct": 18.15,
+      "changePct": 18.76,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-11T19:57:02.000Z",
+      "asOf": "2026-06-11T20:00:03.000Z",
       "headlines": [
+        {
+          "title": "Why Is Intel (INTC) Stock Rocketing Higher Today",
+          "publisher": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-intel-intc-stock-rocketing-213737950.html",
+          "publishedAt": "2026-06-11T21:37:37.000Z"
+        },
+        {
+          "title": "Two AI Titans Flash Entries As Rocket Lab Readies For Launch",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/c013ae0a-098f-3586-98a8-17d9760899a7/two-ai-titans-flash-entries.html",
+          "publishedAt": "2026-06-11T21:06:01.000Z"
+        },
         {
           "title": "Got $1,500? 3 No-Brainer Artificial Intelligence (AI) Semiconductor Stocks to Buy Before They Soar Once Again",
           "publisher": "Motley Fool",
@@ -169,30 +181,18 @@
           "publisher": "Insider Monkey",
           "url": "https://finance.yahoo.com/markets/stocks/articles/photronics-inc-plab-good-stock-182104678.html",
           "publishedAt": "2026-06-11T18:21:04.000Z"
-        },
-        {
-          "title": "Elon Musk addresses ASML employees on Terafab chip plant",
-          "publisher": "Quartz",
-          "url": "https://finance.yahoo.com/m/d48b9676-3428-343d-9fe7-af8bec93f3a2/elon-musk-addresses-asml.html",
-          "publishedAt": "2026-06-11T18:10:01.000Z"
-        },
-        {
-          "title": "Should You Buy Taiwan Semiconductor Manufacturing Company (TSM)?",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-taiwan-semiconductor-manufacturing-company-173033455.html",
-          "publishedAt": "2026-06-11T17:30:33.000Z"
         }
       ]
     },
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 163.57,
+      "price": 163.64,
       "previousClose": 191.22,
-      "changePct": -14.46,
+      "changePct": -14.42,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-11T19:57:03.000Z",
+      "asOf": "2026-06-11T20:00:02.000Z",
       "headlines": [
         {
           "title": "European Equities Traded in US as ADRs Rise in Thursday Trading",
@@ -223,48 +223,48 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 241.52,
+      "price": 241.51,
       "previousClose": 212.65,
-      "changePct": 13.58,
+      "changePct": 13.57,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-11T19:58:53.000Z",
+      "asOf": "2026-06-11T20:00:00.000Z",
       "headlines": [
         {
-          "title": "Sector Update: Tech Stocks Gain Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/sector-tech-stocks-gain-afternoon-192411313.html",
-          "publishedAt": "2026-06-11T19:24:11.000Z"
+          "title": "REMEDY Raises Series A Led by L Catterton to Modernize Dermatologist-Developed Skincare",
+          "publisher": "Business Wire",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/remedy-raises-series-led-l-205900815.html",
+          "publishedAt": "2026-06-11T20:59:00.000Z"
         },
         {
-          "title": "Sector Update: Tech",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/sector-tech-190245605.html",
-          "publishedAt": "2026-06-11T19:02:45.000Z"
+          "title": "Cathie Wood, Bill Ackman Share 3 Stock Investments In Common: Can You Guess What They Are?",
+          "publisher": "Benzinga",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-bill-ackman-share-204139511.html",
+          "publishedAt": "2026-06-11T20:41:39.000Z"
         },
         {
-          "title": "Bezos-Led Prometheus Raises $12 Billion At $41 Billion Valuation",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/bezos-led-prometheus-raises-12-184406947.html",
-          "publishedAt": "2026-06-11T18:44:06.000Z"
+          "title": "FreightWaves Today: U.S. approves $5B offshore LNG export platform",
+          "publisher": "FreightWaves",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/freightwaves-today-u-approves-5b-203527863.html",
+          "publishedAt": "2026-06-11T20:35:27.000Z"
         },
         {
-          "title": "PLTR Stock: What Does Its Valuation Imply?",
+          "title": "What Could Go Wrong For Costco Wholesale Stock",
           "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/d88a780b-e5a5-31f5-861e-c667ace93616/pltr-stock%3A-what-does-its.html",
-          "publishedAt": "2026-06-11T18:41:16.000Z"
+          "url": "https://finance.yahoo.com/m/67fef04e-f53b-30b1-9087-e62870a68354/what-could-go-wrong-for.html",
+          "publishedAt": "2026-06-11T20:09:42.000Z"
         }
       ]
     },
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 131.23,
+      "price": 131.08,
       "previousClose": 151.6,
-      "changePct": -13.44,
+      "changePct": -13.54,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-11T19:58:53.000Z",
+      "asOf": "2026-06-11T20:00:00.000Z",
       "headlines": [
         {
           "title": "PLTR Stock: What Does Its Valuation Imply?",
@@ -295,13 +295,19 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 120.31,
+      "price": 120.15,
       "previousClose": 138.33,
-      "changePct": -13.03,
+      "changePct": -13.14,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-11T19:58:52.000Z",
+      "asOf": "2026-06-11T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Strategy Just Made a Major Bitcoin Buy After Selling For the First Time Since 2022. What Does It Mean for Bitcoin Investors?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/40486001-2bfd-394d-be12-5c121f9a9fce/strategy-just-made-a-major.html",
+          "publishedAt": "2026-06-11T20:35:01.000Z"
+        },
         {
           "title": "Here's What History Says Could Come Next for Bitcoin in July",
           "publisher": "Motley Fool",
@@ -319,24 +325,18 @@
           "publisher": "TheStreet",
           "url": "https://finance.yahoo.com/m/3f4a9cea-d57a-3766-ad3f-b6eeac0c0f89/microstrategy-ceo-discloses-3.html",
           "publishedAt": "2026-06-11T17:51:40.000Z"
-        },
-        {
-          "title": "Saylor and Mallers clash over Strategy's dilution",
-          "publisher": "CoinDesk",
-          "url": "https://finance.yahoo.com/m/7bac2d44-00c1-3fb1-a57b-0a22f79b555f/saylor-and-mallers-clash-over.html",
-          "publishedAt": "2026-06-11T16:20:59.000Z"
         }
       ]
     },
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 275.37,
+      "price": 274.85,
       "previousClose": 248.87,
-      "changePct": 10.65,
+      "changePct": 10.44,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-11T19:57:02.000Z",
+      "asOf": "2026-06-11T20:00:02.000Z",
       "headlines": [
         {
           "title": "Sector Update: Tech Stocks Gain Late Afternoon",
@@ -367,48 +367,48 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 204.99,
+      "price": 204.87,
       "previousClose": 186.03,
-      "changePct": 10.19,
+      "changePct": 10.13,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-11T19:58:53.000Z",
+      "asOf": "2026-06-11T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Down 33% From Its 52-Week High, Is It Time to Buy the Dip on AST SpaceMobile?",
+          "title": "Is Crocs Stock a Buy After a Recent Analyst Upgrade?",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/521cb915-a572-346b-b61e-13ae6c34388e/down-33%25-from-its-52-week.html",
-          "publishedAt": "2026-06-11T19:50:00.000Z"
+          "url": "https://finance.yahoo.com/m/8cce74b8-a3da-3147-bcd8-14a736f522ad/is-crocs-stock-a-buy-after-a.html",
+          "publishedAt": "2026-06-11T21:45:00.000Z"
         },
         {
-          "title": "Got $1,500? This Invisible Megatrend Makes 1 Serial Compounder a Clear Buy Right Now",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/2238a349-e717-35ed-829c-d8eebaea340e/got-%241%2C500%3F-this-invisible.html",
-          "publishedAt": "2026-06-11T19:46:18.000Z"
-        },
-        {
-          "title": "Debt Collectors Shadow Spain’s National Team at the World Cup",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/m/1e8adf34-7aa6-3861-83ef-37527f1d10a7/debt-collectors-shadow.html",
-          "publishedAt": "2026-06-11T19:43:25.000Z"
-        },
-        {
-          "title": "Here's What History Says Could Come Next for Bitcoin in July",
+          "title": "Why Stitch Fix Stock Surged Today",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/23f2a45b-337d-3fdf-8843-049d10581456/here%27s-what-history-says.html",
-          "publishedAt": "2026-06-11T19:35:00.000Z"
+          "url": "https://finance.yahoo.com/m/654ea395-5b69-33f0-a646-fcbe875aa15b/why-stitch-fix-stock-surged.html",
+          "publishedAt": "2026-06-11T21:43:02.000Z"
+        },
+        {
+          "title": "NVIDIA Stockholder Meeting Set for June 24; Individuals Can Participate Online",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stockholder-meeting-set-june-213200629.html",
+          "publishedAt": "2026-06-11T21:32:00.000Z"
+        },
+        {
+          "title": "Here's How Much a $1,000 Investment Could Get You When SpaceX Goes Public June 12",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/b19c437f-cd5a-38c8-b824-4e071f9f14d9/here%27s-how-much-a-%241%2C000.html",
+          "publishedAt": "2026-06-11T21:20:00.000Z"
         }
       ]
     },
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 16.8,
+      "price": 16.79,
       "previousClose": 18.14,
-      "changePct": -7.41,
+      "changePct": -7.44,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-11T19:57:03.000Z",
+      "asOf": "2026-06-11T20:00:02.000Z",
       "headlines": [
         {
           "title": "Here's Why Investors Should Add AWR to Their Portfolio Right Now",
@@ -444,7 +444,7 @@
       "changePct": 4.74,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-11T19:57:03.000Z",
+      "asOf": "2026-06-11T20:00:03.000Z",
       "headlines": [
         {
           "title": "A Look At Weyerhaeuser (WY) Valuation As Shares Trade Near Recent Levels",
@@ -475,12 +475,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 239.46,
+      "price": 240.14,
       "previousClose": 250.32,
-      "changePct": -4.34,
+      "changePct": -4.07,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-11T19:57:04.000Z",
+      "asOf": "2026-06-11T20:00:02.000Z",
       "headlines": [
         {
           "title": "Venture Global vs. Cheniere Energy: Picking the Better LNG Play",
@@ -511,48 +511,48 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 390.48,
+      "price": 390.34,
       "previousClose": 404.88,
-      "changePct": -3.56,
+      "changePct": -3.59,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-11T19:58:51.000Z",
+      "asOf": "2026-06-11T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Stock Market Today, June 11: Oracle Falls After AI Spending Guidance Sparks Cash Flow Concerns",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/fe6e26be-7a02-320a-bf86-3ef05ba3509b/stock-market-today%2C-june-11%3A.html",
+          "publishedAt": "2026-06-11T21:29:23.000Z"
+        },
+        {
+          "title": "OpenAI Mulls AI Price War With Anthropic. It’s a Big Risk for Tech Stocks.",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/22fffad7-a385-303f-8372-2683e8f80025/openai-mulls-ai-price-war.html",
+          "publishedAt": "2026-06-11T20:04:00.000Z"
+        },
+        {
+          "title": "The Best Mid-Cap ETFs to Buy",
+          "publisher": "Kiplinger",
+          "url": "https://finance.yahoo.com/m/b6ecb4ae-8f23-3e2e-9472-ee5a0849fdbc/the-best-mid-cap-etfs-to-buy.html",
+          "publishedAt": "2026-06-11T19:42:44.000Z"
+        },
         {
           "title": "PLTR Stock: What Does Its Valuation Imply?",
           "publisher": "Trefis",
           "url": "https://finance.yahoo.com/m/d88a780b-e5a5-31f5-861e-c667ace93616/pltr-stock%3A-what-does-its.html",
           "publishedAt": "2026-06-11T18:41:16.000Z"
-        },
-        {
-          "title": "Microsoft Stock Gets Bullish Boost From BNP Paribas Note",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-gets-bullish-boost-183808002.html",
-          "publishedAt": "2026-06-11T18:38:08.000Z"
-        },
-        {
-          "title": "Stock Market Today: Nasdaq, Dow Surge After Trump Nixes Attack Plans; Space Stocks Rally (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/e9c5167f-16a6-32fd-b276-bbc46132689a/stock-market-today%3A-nasdaq%2C.html",
-          "publishedAt": "2026-06-11T18:31:46.000Z"
-        },
-        {
-          "title": "Is the Market Totally Wrong About PANW Stock?",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/70422609-78c4-3b31-96c8-4705730a124f/is-the-market-totally-wrong.html",
-          "publishedAt": "2026-06-11T18:24:52.000Z"
         }
       ]
     },
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 44.67,
+      "price": 44.61,
       "previousClose": 45.36,
-      "changePct": -1.53,
+      "changePct": -1.65,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-11T19:57:03.000Z",
+      "asOf": "2026-06-11T20:00:02.000Z",
       "headlines": [
         {
           "title": "Why Devon Energy Stock Rallied Today",
