@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T18:25:48.184Z",
+  "generatedAt": "2026-06-12T20:36:55.232Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 43.9,
+      "price": 42.7,
       "previousClose": 27.48,
-      "changePct": 59.75,
+      "changePct": 55.39,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-12T18:25:45.000Z",
+      "asOf": "2026-06-12T20:00:01.000Z",
       "headlines": [
         {
           "title": "CoreWeave AI Funding Goes Global With Euro Junk-Bond Deal",
@@ -43,12 +43,12 @@
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.38,
+      "price": 2.37,
       "previousClose": 3.3,
-      "changePct": -27.73,
+      "changePct": -28.18,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-12T18:23:58.000Z",
+      "asOf": "2026-06-12T20:00:01.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) Q1 2026 Earnings Call Highlights: Strategic Advances Amid ...",
@@ -79,12 +79,12 @@
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.37,
+      "price": 3.33,
       "previousClose": 4.59,
-      "changePct": -26.58,
+      "changePct": -27.45,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-06-12T18:22:10.000Z",
+      "asOf": "2026-06-12T20:00:00.000Z",
       "headlines": [
         {
           "title": "SAB BIO to Present Data on SAB-142 at The American Diabetes Association’s 2026 Scientific Sessions and FOCIS 2026 Annual Meeting",
@@ -115,13 +115,25 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 423.44,
+      "price": 423.93,
       "previousClose": 336.71,
-      "changePct": 25.76,
+      "changePct": 25.9,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-12T18:25:44.000Z",
+      "asOf": "2026-06-12T20:00:02.000Z",
       "headlines": [
+        {
+          "title": "2 Unsung Heroes of Big Tech's $725 Billion AI Capex Spend",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/46736494-3f72-3851-9da4-3512f3f1eac7/2-unsung-heroes-of-big-tech%27s.html",
+          "publishedAt": "2026-06-12T19:20:00.000Z"
+        },
+        {
+          "title": "Momentum and Small-Caps Lead Market Amid Big IPO",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/9b1ceea5-3a9f-3b5a-8a38-11a6c8d7e8da/momentum-and-small-caps-lead.html",
+          "publishedAt": "2026-06-12T18:18:08.000Z"
+        },
         {
           "title": "The Biggest Warning Signal Flashing for Oracle Right Now Has Nothing to Do With Sales or Profitability",
           "publisher": "24/7 Wall St.",
@@ -133,31 +145,25 @@
           "publisher": "Insider Monkey",
           "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-tsm-sees-ai-153712637.html",
           "publishedAt": "2026-06-12T15:37:12.000Z"
-        },
-        {
-          "title": "If You Missed The Korean AI ETF Boom There Are The 2 Taiwanese Options With Direct Exposure To The Supply Chain",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/9694e0b8-dcd6-3b84-ba60-7dcfa52667e3/if-you-missed-the-korean-ai.html",
-          "publishedAt": "2026-06-12T15:11:51.000Z"
-        },
-        {
-          "title": "Harvard University’s Favorite AI Stock Pick: Taiwan Semiconductor (TSM)",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/harvard-university-favorite-ai-stock-135554831.html",
-          "publishedAt": "2026-06-12T13:55:54.000Z"
         }
       ]
     },
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 128,
+      "price": 127.99,
       "previousClose": 153.5,
       "changePct": -16.62,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-12T18:25:42.000Z",
+      "asOf": "2026-06-12T20:00:00.000Z",
       "headlines": [
+        {
+          "title": "Most Palantir Shareholders Vote for Human Rights Probe. Why It Won’t Happen.",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/77982d2a-743a-3e8a-a7bc-fdc4943027c4/most-palantir-shareholders.html",
+          "publishedAt": "2026-06-12T18:22:00.000Z"
+        },
         {
           "title": "Palantir Tests Key Support After Breakout Fails",
           "publisher": "GuruFocus.com",
@@ -165,34 +171,64 @@
           "publishedAt": "2026-06-12T18:19:09.000Z"
         },
         {
-          "title": "The Biggest Warning Signal Flashing for Oracle Right Now Has Nothing to Do With Sales or Profitability",
+          "title": "Palantir CEO Warns AI Could Supercharge Wealth Inequality",
+          "publisher": "Benzinga",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/palantir-ceo-warns-ai-could-173122682.html",
+          "publishedAt": "2026-06-12T17:31:22.000Z"
+        },
+        {
+          "title": "Revisiting SpaceX Fundamentals",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/4ac96ae6-c293-32c8-80a3-43a85516124a/revisiting-spacex-fundamentals.html",
+          "publishedAt": "2026-06-12T17:16:43.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 238.55,
+      "previousClose": 209.53,
+      "changePct": 13.85,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-06-12T20:00:01.000Z",
+      "headlines": [
+        {
+          "title": "Jeff Bezos’ New Venture Just Raised $12 Billion. He’s Betting AI Will Create a Physical Labor Shortage.",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/f9c4c806-8115-3aa0-bdbb-d17d4d32d904/the-biggest-warning-signal.html",
-          "publishedAt": "2026-06-12T16:34:40.000Z"
+          "url": "https://finance.yahoo.com/m/27083d2d-01ac-3100-a8cc-0d8592024990/jeff-bezos%E2%80%99-new-venture-just.html",
+          "publishedAt": "2026-06-12T20:08:28.000Z"
         },
         {
-          "title": "SaaSpocalypse 2.0: 3 SaaS Stocks to Buy on the Latest Sell-Off",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/eb33be96-b23d-321c-9e2e-2405194c8051/saaspocalypse-2.0%3A-3-saas.html",
-          "publishedAt": "2026-06-12T15:50:00.000Z"
+          "title": "Why Asking Customers for Reviews on the Weekend Might Backfire",
+          "publisher": "The Wall Street Journal",
+          "url": "https://finance.yahoo.com/m/121f07c6-215d-3626-b791-af39d6bbf914/why-asking-customers-for.html",
+          "publishedAt": "2026-06-12T20:00:00.000Z"
         },
         {
-          "title": "PLTR's Operating Leverage Pushes Profitability to New Levels",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/pltrs-operating-leverage-pushes-profitability-151800788.html",
-          "publishedAt": "2026-06-12T15:18:00.000Z"
+          "title": "Market Chatter: SpaceX Rents Out Data Center Capacity to Anthropic After Encountering Technical Issues",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/market-chatter-spacex-rents-data-194018897.html",
+          "publishedAt": "2026-06-12T19:40:18.000Z"
+        },
+        {
+          "title": "Arm Rockets 11%, Qualcomm Rises 5%: Who’s Winning the Chip-Architecture Race?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/e91e6a49-7a01-30c9-8d9f-197299c1fcbb/arm-rockets-11%25%2C-qualcomm.html",
+          "publishedAt": "2026-06-12T18:31:00.000Z"
         }
       ]
     },
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 162.76,
+      "price": 164.18,
       "previousClose": 190.5,
-      "changePct": -14.56,
+      "changePct": -13.82,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-12T18:25:35.000Z",
+      "asOf": "2026-06-12T20:00:02.000Z",
       "headlines": [
         {
           "title": "European Equities Traded in the US as American Depositary Receipts Increase in Friday Trading; Rise for Week",
@@ -223,12 +259,12 @@
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 5.41,
+      "price": 5.43,
       "previousClose": 6.24,
-      "changePct": -13.38,
+      "changePct": -12.98,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-12T18:25:41.000Z",
+      "asOf": "2026-06-12T20:00:00.000Z",
       "headlines": [
         {
           "title": "This Ocean Mining Stock Just Got a Green Light From NOAA. Is it a Buy?",
@@ -257,128 +293,56 @@
       ]
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "price": 236.32,
-      "previousClose": 209.53,
-      "changePct": 12.79,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-06-12T18:25:45.000Z",
-      "headlines": [
-        {
-          "title": "Bath & Body Works’ Strategy to Win More Younger Consumers",
-          "publisher": "The Wall Street Journal",
-          "url": "https://finance.yahoo.com/m/c872636e-d03b-308e-9079-07e9aabeef03/bath-%26-body-works%E2%80%99-strategy.html",
-          "publishedAt": "2026-06-12T18:00:00.000Z"
-        },
-        {
-          "title": "Corning Is Riding High on the AI Boom—and Planning Ahead in Case It Goes Bust",
-          "publisher": "The Wall Street Journal",
-          "url": "https://finance.yahoo.com/m/7c79e991-7f5d-36c8-b200-39326a46cc70/corning-is-riding-high-on-the.html",
-          "publishedAt": "2026-06-12T16:00:00.000Z"
-        },
-        {
-          "title": "SpaceX Opens at $150. That's Disappointing.",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/aa7ec171-f922-3d93-8b87-a3f1279a6e2b/spacex-opens-at-%24150.-that%27s.html",
-          "publishedAt": "2026-06-12T15:55:23.000Z"
-        },
-        {
-          "title": "Amazon Stock Trading In A Range Sets Direction Toward A Quick Return",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/8326304f-4b4c-3239-a770-c33a235eeaea/amazon-stock-trading-in-a.html",
-          "publishedAt": "2026-06-12T15:51:11.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 204.43,
+      "price": 205.19,
       "previousClose": 183.14,
-      "changePct": 11.62,
+      "changePct": 12.04,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-12T18:25:45.000Z",
+      "asOf": "2026-06-12T20:00:00.000Z",
       "headlines": [
         {
-          "title": "AMD Rises as Citi Sees Bigger GPU Opportunity",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amd-rises-citi-sees-bigger-182026144.html",
-          "publishedAt": "2026-06-12T18:20:26.000Z"
-        },
-        {
-          "title": "SpaceX Stock Just Opened At $150, Up 11% From its IPO Price of $135",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/38c9306f-8164-335b-a0e3-d129b4cb3c2d/spacex-stock-just-opened-at.html",
-          "publishedAt": "2026-06-12T18:08:00.000Z"
-        },
-        {
-          "title": "Bank of America makes major reset to Intel stock price target",
-          "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/m/a2ef8e27-838c-3677-9795-27b965060be7/bank-of-america-makes-major.html",
-          "publishedAt": "2026-06-12T18:03:00.000Z"
-        },
-        {
-          "title": "How to Hedge IBIT and Earn Income With Options Through a Bitcoin Bear Market",
+          "title": "Wall Street Analyst: SpaceX IPO Could Unleash Billions in New Public Offerings",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/11e9ecb4-60ae-3725-99b0-912d0ad3b400/how-to-hedge-ibit-and-earn.html",
-          "publishedAt": "2026-06-12T18:00:03.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "MSTR",
-      "name": "Strategy Inc",
-      "price": 122.88,
-      "previousClose": 137.34,
-      "changePct": -10.53,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-06-12T18:25:44.000Z",
-      "headlines": [
-        {
-          "title": "Strategy now holds 845k bitcoin or 4% of total supply",
-          "publisher": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/strategy-now-holds-845k-bitcoin-or-4-of-total-supply-174254410.html",
-          "publishedAt": "2026-06-12T17:42:54.000Z"
+          "url": "https://finance.yahoo.com/m/bd0e008b-5f4a-3187-9c94-767d0ba63cea/wall-street-analyst%3A-spacex.html",
+          "publishedAt": "2026-06-12T20:21:06.000Z"
         },
         {
-          "title": "The SpaceX IPO Is Here. Time to Lift Off?",
-          "publisher": "Real Vision",
-          "url": "https://finance.yahoo.com/video/spacex-ipo-time-lift-off-145913550.html",
-          "publishedAt": "2026-06-12T14:59:13.000Z"
+          "title": "AMD Stock Upgraded To Buy On GPU Upside",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/a87d4360-51e7-3171-8bda-e2208866a15b/amd-stock-upgraded-to-buy-on.html",
+          "publishedAt": "2026-06-12T20:20:35.000Z"
         },
         {
-          "title": "Standard Chartered Says Crypto Market Has Bottomed",
-          "publisher": "CryptoProwl",
-          "url": "https://finance.yahoo.com/m/1dcde0b2-9581-3190-9a35-75985673ce0c/standard-chartered-says.html",
-          "publishedAt": "2026-06-12T13:45:00.000Z"
+          "title": "Brent Oil Drops Below $90 as the U.S. Closes in on a Peace Deal With Iran. What it Means for Oil Stocks.",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/19bcd8a1-336f-3c51-9d00-ae11e8515001/brent-oil-drops-below-%2490-as.html",
+          "publishedAt": "2026-06-12T20:16:38.000Z"
         },
         {
-          "title": "Leverage Shares by Themes Closing Capped Accelerated Single-Stock ETF Series Due to Lack of Assets",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/markets/options/articles/leverage-shares-themes-closing-capped-130000132.html",
-          "publishedAt": "2026-06-12T13:00:00.000Z"
+          "title": "Jeff Bezos’ New Venture Just Raised $12 Billion. He’s Betting AI Will Create a Physical Labor Shortage.",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/27083d2d-01ac-3100-a8cc-0d8592024990/jeff-bezos%E2%80%99-new-venture-just.html",
+          "publishedAt": "2026-06-12T20:08:28.000Z"
         }
       ]
     },
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 272.09,
+      "price": 272.24,
       "previousClose": 247.68,
-      "changePct": 9.86,
+      "changePct": 9.92,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-12T18:25:40.000Z",
+      "asOf": "2026-06-12T20:00:02.000Z",
       "headlines": [
         {
           "title": "The Quantum Race Is Heating Up, and Governments Worldwide Are Buying In",
           "publisher": "Barrons.com",
           "url": "https://finance.yahoo.com/m/256073a2-3d6c-3105-8b63-e73042e071c7/the-quantum-race-is-heating.html",
-          "publishedAt": "2026-06-12T16:06:00.000Z"
+          "publishedAt": "2026-06-12T17:35:00.000Z"
         },
         {
           "title": "Microsoft Corporation (MSFT) Announces a New Quantum Chip, Here’s What You Need to Know",
@@ -401,14 +365,50 @@
       ]
     },
     {
+      "ticker": "MSTR",
+      "name": "Strategy Inc",
+      "price": 123.97,
+      "previousClose": 137.34,
+      "changePct": -9.73,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-06-12T20:00:01.000Z",
+      "headlines": [
+        {
+          "title": "A Look Back at Data Analytics Stocks’ Q1 Earnings: Strategy (NASDAQ:MSTR) Vs The Rest Of The Pack",
+          "publisher": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/look-back-data-analytics-stocks-201320354.html",
+          "publishedAt": "2026-06-12T20:13:20.000Z"
+        },
+        {
+          "title": "Strategy now holds 845k bitcoin or 4% of total supply",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/strategy-now-holds-845k-bitcoin-or-4-of-total-supply-174254410.html",
+          "publishedAt": "2026-06-12T17:42:54.000Z"
+        },
+        {
+          "title": "The SpaceX IPO Is Here. Time to Lift Off?",
+          "publisher": "Real Vision",
+          "url": "https://finance.yahoo.com/video/spacex-ipo-time-lift-off-145913550.html",
+          "publishedAt": "2026-06-12T14:59:13.000Z"
+        },
+        {
+          "title": "Standard Chartered Says Crypto Market Has Bottomed",
+          "publisher": "CryptoProwl",
+          "url": "https://finance.yahoo.com/m/1dcde0b2-9581-3190-9a35-75985673ce0c/standard-chartered-says.html",
+          "publishedAt": "2026-06-12T13:45:00.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 25.08,
+      "price": 24.85,
       "previousClose": 23.03,
-      "changePct": 8.88,
+      "changePct": 7.9,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-12T18:25:41.000Z",
+      "asOf": "2026-06-12T20:00:03.000Z",
       "headlines": [
         {
           "title": "A Look At Weyerhaeuser (WY) Valuation As Shares Trade Near Recent Levels",
@@ -439,13 +439,19 @@
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 16.93,
+      "price": 16.95,
       "previousClose": 18.07,
-      "changePct": -6.28,
+      "changePct": -6.2,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-12T18:25:35.000Z",
+      "asOf": "2026-06-12T20:00:02.000Z",
       "headlines": [
+        {
+          "title": "Here's Why You Should Add PAM Stock to Your Portfolio Right Now",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-add-pam-stock-171800512.html",
+          "publishedAt": "2026-06-12T17:18:00.000Z"
+        },
         {
           "title": "Cool Wins: PG&E Offers Customers Simple Steps for Summer Energy Savings",
           "publisher": "PR Newswire",
@@ -463,25 +469,25 @@
           "publisher": "Simply Wall St.",
           "url": "https://finance.yahoo.com/markets/stocks/articles/insider-sales-undercut-sunrun-run-121351592.html",
           "publishedAt": "2026-06-12T12:13:51.000Z"
-        },
-        {
-          "title": "3 Low-Beta Utility Stocks to Buy as Inflation Jumps to Three-Year High",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/3-low-beta-utility-stocks-115800785.html",
-          "publishedAt": "2026-06-12T11:58:00.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 241.77,
+      "price": 241.28,
       "previousClose": 253.84,
-      "changePct": -4.75,
+      "changePct": -4.95,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-12T18:25:43.000Z",
+      "asOf": "2026-06-12T20:00:02.000Z",
       "headlines": [
+        {
+          "title": "How Is Targa Resources' Stock Performance Compared to Other Energy Infrastructure Stocks?",
+          "publisher": "Barchart",
+          "url": "https://finance.yahoo.com/m/edf8b3e6-c36d-3c5f-bc21-00fc87502b9e/how-is-targa-resources%27-stock.html",
+          "publishedAt": "2026-06-12T11:55:40.000Z"
+        },
         {
           "title": "Venture Global vs. Cheniere Energy: Picking the Better LNG Play",
           "publisher": "Zacks",
@@ -499,61 +505,61 @@
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/sectors/energy/articles/middle-east-lng-shock-strengthens-123000614.html",
           "publishedAt": "2026-06-08T12:30:00.000Z"
-        },
-        {
-          "title": "How The Cheniere Energy (LNG) Story Is Shifting As Analyst Views Diverge",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cheniere-energy-lng-story-shifting-211705642.html",
-          "publishedAt": "2026-06-05T21:17:05.000Z"
         }
       ]
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 387.5,
+      "price": 390.74,
       "previousClose": 401.86,
-      "changePct": -3.57,
+      "changePct": -2.77,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-12T18:25:44.000Z",
+      "asOf": "2026-06-12T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Stock Market Today, June 12: SpaceX Mega IPO Soars, Testing Tech Stocks at Midday",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/2ca15796-379b-3a5f-847f-ca15fa47d208/stock-market-today%2C-june-12%3A.html",
-          "publishedAt": "2026-06-12T17:20:46.000Z"
+          "title": "Sector Update: Tech Stocks Rise Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-193719338.html",
+          "publishedAt": "2026-06-12T19:37:19.000Z"
         },
         {
-          "title": "SpaceX Raises Record $75 Billion in Historic IPO, Reaches $1.8 Trillion Valuation",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/c824dfac-f8b2-3ab7-8db1-d0ad263561f2/spacex-raises-record-%2475.html",
-          "publishedAt": "2026-06-12T17:10:21.000Z"
+          "title": "Market Chatter: Microsoft Explores Xbox Overhaul With Spinoff Option on Table, New Games in Pipeline",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-microsoft-explores-xbox-191752483.html",
+          "publishedAt": "2026-06-12T19:17:52.000Z"
         },
         {
-          "title": "Relativity Acquires Gavel to Extend its AI Platform for Legal Data Intelligence into Microsoft Word",
-          "publisher": "CNW Group",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/relativity-acquires-gavel-extend-ai-170500211.html",
-          "publishedAt": "2026-06-12T17:05:00.000Z"
+          "title": "Microsoft (MSFT) Stock Valuation Gap After Recent Pullback Raises Fresh Questions",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-stock-valuation-gap-191254510.html",
+          "publishedAt": "2026-06-12T19:12:54.000Z"
         },
         {
-          "title": "Microsoft CEO Satya Nadella Warns Against AI Overuse: 'Don't Use Frontier Models For Non-Frontier Problems'",
-          "publisher": "Benzinga",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/microsoft-ceo-satya-nadella-warns-163117618.html",
-          "publishedAt": "2026-06-12T16:31:17.000Z"
+          "title": "Microsoft has considered spinning off Xbox, the Information reports",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-considered-spinning-xbox-information-182128707.html",
+          "publishedAt": "2026-06-12T18:21:28.000Z"
         }
       ]
     },
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 45.43,
+      "price": 45.31,
       "previousClose": 46.19,
-      "changePct": -1.65,
+      "changePct": -1.91,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-12T18:25:41.000Z",
+      "asOf": "2026-06-12T20:00:02.000Z",
       "headlines": [
+        {
+          "title": "IPO Stock Of The Week: WaterBridge Surges Past Buy Point And Into New Highs",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/1783c358-fe83-3b19-829a-fbc7a11be316/ipo-stock-of-the-week%3A.html",
+          "publishedAt": "2026-06-12T18:13:25.000Z"
+        },
         {
           "title": "Devon Energy (DVN) Stock Drops Despite Market Gains: Important Facts to Note",
           "publisher": "Zacks",
@@ -571,12 +577,6 @@
           "publisher": "Barchart",
           "url": "https://finance.yahoo.com/m/8f7e96f5-e65a-3b3e-8c17-cb4fa5967f1d/this-analyst-just-upgraded.html",
           "publishedAt": "2026-06-11T18:26:17.000Z"
-        },
-        {
-          "title": "Why Devon Energy Stock Rallied Today",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/30dbdf91-93ff-3d25-b2d1-61d122ff3e0e/why-devon-energy-stock.html",
-          "publishedAt": "2026-06-11T03:15:57.000Z"
         }
       ]
     }
