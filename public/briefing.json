@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T19:40:22.628Z",
+  "generatedAt": "2026-06-18T21:57:21.626Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 46.05,
+      "price": 46.59,
       "previousClose": 26.65,
-      "changePct": 72.8,
+      "changePct": 74.82,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-18T19:40:19.000Z",
+      "asOf": "2026-06-18T20:00:00.000Z",
       "headlines": [
         {
           "title": "Applied Digital closes $1.59B debt raise for 150 MW Polaris Forge 1 buildout",
@@ -43,48 +43,48 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 462.07,
+      "price": 462.12,
       "previousClose": 339.57,
-      "changePct": 36.08,
+      "changePct": 36.09,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-18T19:40:18.000Z",
+      "asOf": "2026-06-18T20:00:03.000Z",
       "headlines": [
         {
-          "title": "Why Marvell Technology (MRVL) Stock Is Up Today",
+          "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM) In Spotlight Amid Taiwan Chip Curbs on China",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-manufacturing-company-limited-211938783.html",
+          "publishedAt": "2026-06-18T21:19:38.000Z"
+        },
+        {
+          "title": "Intel Rallies to Record After Trump Touts Apple Chip Deal",
+          "publisher": "Bloomberg",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/intel-shares-soar-trump-says-093534172.html",
+          "publishedAt": "2026-06-18T20:45:14.000Z"
+        },
+        {
+          "title": "Why Is Intel (INTC) Stock Rocketing Higher Today",
           "publisher": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-mrvl-stock-181328181.html",
-          "publishedAt": "2026-06-18T18:13:28.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-intel-intc-stock-rocketing-202928558.html",
+          "publishedAt": "2026-06-18T20:29:28.000Z"
         },
         {
-          "title": "Intel shares rise after Trump announces Apple partnership",
-          "publisher": "Reuters Videos",
-          "url": "https://finance.yahoo.com/video/intel-shares-rise-trump-announces-180835092.html",
-          "publishedAt": "2026-06-18T18:08:35.000Z"
-        },
-        {
-          "title": "Intel Stock Heads for Record as Trump Says It Has Won a Huge Customer",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/559caaf0-9fc9-3d5e-a5d6-8b56b8d39195/intel-stock-heads-for-record.html",
-          "publishedAt": "2026-06-18T17:56:00.000Z"
-        },
-        {
-          "title": "Apple Chip Production Deal Represents Big Opportunity For Intel, Wedbush Says",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/articles/apple-chip-production-deal-represents-160749555.html",
-          "publishedAt": "2026-06-18T16:07:49.000Z"
+          "title": "Analyst Report: Apple Inc.",
+          "publisher": "Morningstar Research",
+          "url": "https://finance.yahoo.com/m/eb8dcd15-b9de-3c85-b335-d78a41066632/analyst-report%3A-apple-inc..html",
+          "publishedAt": "2026-06-18T20:23:14.000Z"
         }
       ]
     },
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.3,
+      "price": 2.26,
       "previousClose": 2.92,
-      "changePct": -21.23,
+      "changePct": -22.6,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-18T19:31:36.000Z",
+      "asOf": "2026-06-18T20:00:01.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Exercises Option on Alzheimer's Program Using JCR's Technology",
@@ -115,13 +115,25 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 111.63,
+      "price": 112.53,
       "previousClose": 140.56,
-      "changePct": -20.58,
+      "changePct": -19.94,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-18T19:40:18.000Z",
+      "asOf": "2026-06-18T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Bitcoin Falls Back Toward $60,000 on Strategy Shares, Rate Fears",
+          "publisher": "Bloomberg",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-back-toward-60-174630587.html",
+          "publishedAt": "2026-06-18T20:26:05.000Z"
+        },
+        {
+          "title": "Bitcoin Whale Faces Gut Punch: Borrowing Rate May Hit 12%",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/2fde98f9-5841-3f54-b634-08a50a28c46f/bitcoin-whale-faces-gut.html",
+          "publishedAt": "2026-06-18T20:11:34.000Z"
+        },
         {
           "title": "Why Bitcoin Titan Strategy's STRC Is Falling to New Lows",
           "publisher": "decrypt",
@@ -129,70 +141,94 @@
           "publishedAt": "2026-06-18T18:01:42.000Z"
         },
         {
-          "title": "Bitcoin Falls Back Toward $60,000 on Strategy Shares, Rate Fears",
-          "publisher": "Bloomberg",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-back-toward-60-174630587.html",
-          "publishedAt": "2026-06-18T17:46:30.000Z"
-        },
-        {
-          "title": "Strategy’s Preferred Stock Hits All-Time Low",
-          "publisher": "CryptoProwl",
-          "url": "https://finance.yahoo.com/m/11823b1c-cfad-34ce-bee5-56efd8dc2b32/strategy%E2%80%99s-preferred-stock.html",
-          "publishedAt": "2026-06-18T13:40:00.000Z"
-        },
-        {
-          "title": "Why Strategy, Coinbase Stocks Are Rising When Bitcoin Is Falling",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/4102a6c9-2bba-3c9a-8397-90f48b5d6758/why-strategy%2C-coinbase-stocks.html",
-          "publishedAt": "2026-06-18T11:38:00.000Z"
+          "title": "The Best ETFs to Buy for 2026 and Beyond",
+          "publisher": "Kiplinger",
+          "url": "https://finance.yahoo.com/m/776990d3-715e-32ca-8a1f-caa5d73336a9/the-best-etfs-to-buy-for-2026.html",
+          "publishedAt": "2026-06-18T17:47:35.000Z"
         }
       ]
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 210.19,
+      "price": 210.69,
       "previousClose": 180.4,
-      "changePct": 16.51,
+      "changePct": 16.79,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-18T19:40:20.000Z",
+      "asOf": "2026-06-18T20:00:00.000Z",
       "headlines": [
         {
-          "title": "An Ex-OpenAI Researcher With $20 Billion Just Built a Neocloud Trifecta: Here Are the 3 Stocks He's Buying.",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/9c7efa0a-f9d8-308a-86e2-08ddb237462d/an-ex-openai-researcher-with.html",
-          "publishedAt": "2026-06-18T19:32:00.000Z"
+          "title": "Dow Jones Futures: Nvidia Leads 5 Chips Near Buy Points; SpaceX Stock Needs This",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/aa0411a1-2ba1-3057-bff9-1381bd5225f7/dow-jones-futures%3A-nvidia.html",
+          "publishedAt": "2026-06-18T21:42:03.000Z"
         },
         {
-          "title": "EVs Are Out of the Headlines. That's Exactly Why These 2 Stocks Are Buys.",
+          "title": "Prediction: These Will Be Micron's and Sandisk's Stock Prices by the End of 2027",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/d959bd62-26bc-3d62-861f-19bb860297a8/evs-are-out-of-the-headlines..html",
-          "publishedAt": "2026-06-18T19:30:00.000Z"
+          "url": "https://finance.yahoo.com/m/1225d9f1-4836-3d44-9c10-f85cd4485c88/prediction%3A-these-will-be.html",
+          "publishedAt": "2026-06-18T21:42:00.000Z"
         },
         {
-          "title": "Joby Aviation Scores a Win in Its Legal Battle Against Rival Archer Aviation. Will It Help the Slumping Stock?",
+          "title": "Nebius Is Up 210% This Year. Here's Why There's Still Room for More Upside in 2026.",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/af685d28-b378-3b15-b9d8-3a399d35751a/joby-aviation-scores-a-win-in.html",
-          "publishedAt": "2026-06-18T19:25:00.000Z"
+          "url": "https://finance.yahoo.com/m/4c513f96-3788-36ac-9cf7-582a1c1666ea/nebius-is-up-210%25-this-year..html",
+          "publishedAt": "2026-06-18T21:27:00.000Z"
         },
         {
-          "title": "Super Micro Is Up 10% Today: Is It Outperforming Other AI Server Stocks Like Dell?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/de39bd54-38d7-3ecb-b486-85f5bb7d6004/super-micro-is-up-10%25-today%3A.html",
-          "publishedAt": "2026-06-18T19:21:21.000Z"
+          "title": "JPMorgan's Latest Forecasts Are Bullish for Gold: Buy the Dip",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/6a97c488-dc1f-3b04-ad6e-c098ad3ab6f6/jpmorgan%27s-latest-forecasts.html",
+          "publishedAt": "2026-06-18T21:26:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 244.39,
+      "previousClose": 209.87,
+      "changePct": 16.45,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-06-18T20:00:01.000Z",
+      "headlines": [
+        {
+          "title": "Here’s Why Amazon.com, Inc. (AMZN) is a Top Growth Stock to Buy According to Ray Dalio’s Bridgewater",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/why-amazon-com-inc-amzn-211826478.html",
+          "publishedAt": "2026-06-18T21:18:26.000Z"
+        },
+        {
+          "title": "Stock Market Forecast For Next Six Months: Why More Gains May Lie Ahead",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/5a2d3ac7-c29d-3e25-bb02-65fa234a18af/stock-market-forecast-for.html",
+          "publishedAt": "2026-06-18T21:02:51.000Z"
+        },
+        {
+          "title": "Marvell surged 7% Thursday as Amazon plans to sell Trainium chips externally",
+          "publisher": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/marvell-surged-7-thursday-amazon-205123197.html",
+          "publishedAt": "2026-06-18T20:51:23.000Z"
+        },
+        {
+          "title": "Should Amazon’s US$10 Billion Missouri AI Bet and Trainium Chip Sales Shift AMZN’s Cloud Narrative?",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-us-10-billion-missouri-201725953.html",
+          "publishedAt": "2026-06-18T20:17:25.000Z"
         }
       ]
     },
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 128.3,
+      "price": 128.47,
       "previousClose": 152.77,
-      "changePct": -16.02,
+      "changePct": -15.91,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-18T19:40:20.000Z",
+      "asOf": "2026-06-18T20:00:00.000Z",
       "headlines": [
         {
           "title": "Some Call SpaceX A Meme Stock. PitchBook Sees An AI Infrastructure Boom.",
@@ -221,50 +257,14 @@
       ]
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "price": 243.34,
-      "previousClose": 209.87,
-      "changePct": 15.95,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-06-18T19:40:18.000Z",
-      "headlines": [
-        {
-          "title": "Amazon Prime Day expected to generate nearly $22B in sales",
-          "publisher": "Proactive",
-          "url": "https://finance.yahoo.com/m/c37cef89-4aab-35c0-ac74-d881f041cbf6/amazon-prime-day-expected-to.html",
-          "publishedAt": "2026-06-18T19:31:00.000Z"
-        },
-        {
-          "title": "Some Call SpaceX A Meme Stock. PitchBook Sees An AI Infrastructure Boom.",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/d2837fce-5697-3b11-a471-0344964a5dfa/some-call-spacex-a-meme.html",
-          "publishedAt": "2026-06-18T19:11:30.000Z"
-        },
-        {
-          "title": "Sector Update: Tech",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/articles/sector-tech-190824622.html",
-          "publishedAt": "2026-06-18T19:08:24.000Z"
-        },
-        {
-          "title": "Update: Market Chatter: Amazon Workers Face Investigations After Data Center Testimony",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-amazon-workers-face-190528868.html",
-          "publishedAt": "2026-06-18T19:05:28.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 155.29,
+      "price": 155.22,
       "previousClose": 183.74,
-      "changePct": -15.48,
+      "changePct": -15.52,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-18T19:40:16.000Z",
+      "asOf": "2026-06-18T20:00:02.000Z",
       "headlines": [
         {
           "title": "SAP (XTRA:SAP) Expands Enterprise AI Push With New Partnerships And German Security Approval",
@@ -295,12 +295,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 227.78,
+      "price": 227.03,
       "previousClose": 266.22,
-      "changePct": -14.44,
+      "changePct": -14.72,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-18T19:40:15.000Z",
+      "asOf": "2026-06-18T20:00:02.000Z",
       "headlines": [
         {
           "title": "Cheniere Energy (LNG) Closed A Private Offering Of $1.75 Billion In Senior Unsecured Notes",
@@ -331,12 +331,12 @@
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 42.02,
+      "price": 42.12,
       "previousClose": 48.16,
-      "changePct": -12.76,
+      "changePct": -12.54,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-18T19:40:21.000Z",
+      "asOf": "2026-06-18T20:00:03.000Z",
       "headlines": [
         {
           "title": "Can Devon's Multi-Basin Assets Sustain Growth for Years to Come?",
@@ -367,12 +367,12 @@
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 5.06,
+      "price": 5.13,
       "previousClose": 5.77,
-      "changePct": -12.39,
+      "changePct": -11.09,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-18T19:40:06.000Z",
+      "asOf": "2026-06-18T20:00:00.000Z",
       "headlines": [
         {
           "title": "Prediction: TMC The Metals Company Will Soar Over the Next Year -- 2 Key Catalysts to Watch",
@@ -403,12 +403,12 @@
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 16.47,
+      "price": 16.48,
       "previousClose": 18.17,
-      "changePct": -9.38,
+      "changePct": -9.3,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-18T19:40:16.000Z",
+      "asOf": "2026-06-18T20:00:03.000Z",
       "headlines": [
         {
           "title": "PG&E (PCG) Surpasses 1 Million Grid-Connected Solar Customers",
@@ -439,12 +439,12 @@
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.98,
+      "price": 4,
       "previousClose": 3.7,
-      "changePct": 7.57,
+      "changePct": 8.11,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-06-18T19:39:50.000Z",
+      "asOf": "2026-06-18T20:00:01.000Z",
       "headlines": [
         {
           "title": "Chardan Adjusts Price Target on SAB Biotherapeutics to $16 From $14, Maintains Buy Rating",
@@ -475,12 +475,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 24.45,
+      "price": 24.32,
       "previousClose": 23.43,
-      "changePct": 4.33,
+      "changePct": 3.8,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-18T19:40:02.000Z",
+      "asOf": "2026-06-18T20:00:03.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Launches Fighting Fires Together Campaign to Support Oregon Wildland Firefighting",
@@ -511,49 +511,55 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 377.78,
+      "price": 379.4,
       "previousClose": 391.79,
-      "changePct": -3.58,
+      "changePct": -3.16,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-18T19:40:18.000Z",
+      "asOf": "2026-06-18T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Some Call SpaceX A Meme Stock. PitchBook Sees An AI Infrastructure Boom.",
+          "title": "Microsoft Corp (MSFT): Teams Getting Another Feature Boost",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/articles/microsoft-corp-msft-teams-getting-211317912.html",
+          "publishedAt": "2026-06-18T21:13:17.000Z"
+        },
+        {
+          "title": "Stock Market Forecast For Next Six Months: Why More Gains May Lie Ahead",
           "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/d2837fce-5697-3b11-a471-0344964a5dfa/some-call-spacex-a-meme.html",
-          "publishedAt": "2026-06-18T19:11:30.000Z"
+          "url": "https://finance.yahoo.com/m/5a2d3ac7-c29d-3e25-bb02-65fa234a18af/stock-market-forecast-for.html",
+          "publishedAt": "2026-06-18T21:02:51.000Z"
         },
         {
-          "title": "Microsoft Builds $1 Billion-Plus AI Business With ByteDance",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-builds-1-billion-plus-180229532.html",
-          "publishedAt": "2026-06-18T18:02:29.000Z"
+          "title": "Microsoft warns new malware turns copy-paste against you",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/9363b4e2-1ed0-3a36-8359-8205127f6606/microsoft-warns-new-malware.html",
+          "publishedAt": "2026-06-18T20:28:49.000Z"
         },
         {
-          "title": "Microsoft Faces AI Expectations Test",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-faces-ai-expectations-test-180038534.html",
-          "publishedAt": "2026-06-18T18:00:38.000Z"
-        },
-        {
-          "title": "EU Cloud Probe Puts Microsoft, Amazon on Watch",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/articles/eu-cloud-probe-puts-microsoft-175953201.html",
-          "publishedAt": "2026-06-18T17:59:53.000Z"
+          "title": "Meta Strikes New AI Computing Deals With Data Center Firm Crusoe",
+          "publisher": "Bloomberg",
+          "url": "https://finance.yahoo.com/technology/ai/articles/meta-strikes-ai-computing-deals-201346076.html",
+          "publishedAt": "2026-06-18T20:13:46.000Z"
         }
       ]
     },
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 252.31,
+      "price": 249.1,
       "previousClose": 251.6,
-      "changePct": 0.28,
+      "changePct": -0.99,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-18T19:40:20.000Z",
+      "asOf": "2026-06-18T20:00:03.000Z",
       "headlines": [
+        {
+          "title": "Tim Cook Says Chip Wars Will Take a Big Bite of Apple",
+          "publisher": "Moby",
+          "url": "https://finance.yahoo.com/m/7ee5a96f-42bc-3d24-96a8-97cd0b5d79d7/tim-cook-says-chip-wars-will.html",
+          "publishedAt": "2026-06-18T19:39:39.000Z"
+        },
         {
           "title": "The Number That Puts Oracle Stock To The Test",
           "publisher": "Trefis",
@@ -571,12 +577,6 @@
           "publisher": "Stocktwits",
           "url": "https://finance.yahoo.com/m/99cc038c-cb31-3b53-94e5-8b8112b5dee1/dow-jumps-200-points-after.html",
           "publishedAt": "2026-06-18T14:52:04.000Z"
-        },
-        {
-          "title": "Oracle Is Burning Billions: Is IBM Stock The Smarter Cloud Play?",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/d109a276-b525-3705-af06-6069c4593729/oracle-is-burning-billions%3A.html",
-          "publishedAt": "2026-06-18T13:02:49.000Z"
         }
       ]
     }
