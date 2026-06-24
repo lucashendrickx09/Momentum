@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:19:04.809Z",
+  "generatedAt": "2026-06-24T20:19:21.001Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 41.32,
+      "price": 41.98,
       "previousClose": 26.79,
-      "changePct": 54.24,
+      "changePct": 56.7,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-24T18:19:01.000Z",
+      "asOf": "2026-06-24T20:00:02.000Z",
       "headlines": [
         {
           "title": "Bear of the Day: Applied Digital (APLD)",
@@ -43,49 +43,55 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 95.59,
+      "price": 94.13,
       "previousClose": 136.25,
-      "changePct": -29.85,
+      "changePct": -30.91,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-24T18:19:01.000Z",
+      "asOf": "2026-06-24T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Bitcoin Is In Freefall, and It’s Taking Strategy, Other Crypto Stocks With It",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/c11fddd7-1ae6-3f40-87c8-9e9ef7ebb4c2/bitcoin-is-in-freefall%2C-and.html",
+          "publishedAt": "2026-06-24T19:13:00.000Z"
+        },
+        {
+          "title": "Is Strategy's Bitcoin Machine Breaking Down?",
+          "publisher": "Bankless",
+          "url": "https://finance.yahoo.com/m/51a950c8-0d4a-39b1-9e7c-cc0c096c06d2/is-strategy%27s-bitcoin-machine.html",
+          "publishedAt": "2026-06-24T19:07:00.000Z"
+        },
+        {
+          "title": "'Stop Buying Bitcoin': Strategy Needs More Cash Fast, Analyst Says as STRC Hits New Low",
+          "publisher": "decrypt",
+          "url": "https://finance.yahoo.com/m/99bb8e2d-5937-39ce-a52a-f5d90d6d814a/%27stop-buying-bitcoin%27%3A.html",
+          "publishedAt": "2026-06-24T18:40:29.000Z"
+        },
         {
           "title": "Bitcoin Falls Below $60,000",
           "publisher": "The Wall Street Journal",
           "url": "https://finance.yahoo.com/m/1567909e-2f90-3a0e-b799-801ca154670a/bitcoin-falls-below-%2460%2C000.html",
           "publishedAt": "2026-06-24T17:38:15.000Z"
-        },
-        {
-          "title": "Bitcoin Slides 50% From Peak as $6 Billion Exits ETFs",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-slides-50-peak-6-173702901.html",
-          "publishedAt": "2026-06-24T17:37:02.000Z"
-        },
-        {
-          "title": "Short sellers are coming after SpaceX as it sheds post-IPO gains",
-          "publisher": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/short-sellers-coming-spacex-sheds-162500174.html",
-          "publishedAt": "2026-06-24T16:25:00.000Z"
-        },
-        {
-          "title": "Stop Paying a 10% Premium for Bitcoin: Why IBIT Beats MSTR",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/c6a31a18-2a77-3b5f-9173-c03697940add/stop-paying-a-10%25-premium-for.html",
-          "publishedAt": "2026-06-24T16:09:07.000Z"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 438.2,
+      "price": 440.8,
       "previousClose": 343.25,
-      "changePct": 27.66,
+      "changePct": 28.42,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-24T18:18:58.000Z",
+      "asOf": "2026-06-24T20:00:03.000Z",
       "headlines": [
+        {
+          "title": "A Top Strategist Says the AI Trade Is Cooling, but Chipmakers Are Quietly Winning",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/f5c0cc21-a50a-3f62-a795-0f50f630128c/a-top-strategist-says-the-ai.html",
+          "publishedAt": "2026-06-24T19:15:50.000Z"
+        },
         {
           "title": "Bet on These 3 Dividend Growth Stocks Amid AI Spending Fears",
           "publisher": "Zacks",
@@ -103,25 +109,31 @@
           "publisher": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/m/8a74151c-ea6c-33a1-a4d1-24ccd7e5a962/can-taiwan-semiconductor.html",
           "publishedAt": "2026-06-24T14:18:58.000Z"
-        },
-        {
-          "title": "Analysis-Apple-Intel chip deal makes strategic sense but production is years away",
-          "publisher": "Reuters",
-          "url": "https://finance.yahoo.com/technology/articles/analysis-apple-intel-chip-deal-141646096.html",
-          "publishedAt": "2026-06-24T14:16:46.000Z"
         }
       ]
     },
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 113.8,
+      "price": 113.5,
       "previousClose": 154.78,
-      "changePct": -26.48,
+      "changePct": -26.67,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-24T18:19:02.000Z",
+      "asOf": "2026-06-24T20:00:02.000Z",
       "headlines": [
+        {
+          "title": "Palantir Stock Could Double in Next 12 Months",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-could-double-next-193356202.html",
+          "publishedAt": "2026-06-24T19:33:56.000Z"
+        },
+        {
+          "title": "Palantir Stock on Pace for Worst Month in 5 Years",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/f2673b14-2913-3b3c-bb04-35a0981e90fa/palantir-stock-on-pace-for.html",
+          "publishedAt": "2026-06-24T18:06:00.000Z"
+        },
         {
           "title": "Dell Benefits From Expanding AI Portfolio: Is the Stock a Must-Have?",
           "publisher": "Zacks",
@@ -133,30 +145,18 @@
           "publisher": "Simply Wall St.",
           "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-zeta-global-holdings-141332614.html",
           "publishedAt": "2026-06-24T14:13:32.000Z"
-        },
-        {
-          "title": "Cathie Wood Loads Up On Palantir, Cerebras, These Mag 7 Players",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/b9be288c-cd98-389b-8532-351a5063f572/cathie-wood-loads-up-on.html",
-          "publishedAt": "2026-06-24T13:47:51.000Z"
-        },
-        {
-          "title": "Palantir Took a Swiss Courtroom Loss and a European Credibility Hit",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/m/1b842e2c-eab2-3c64-a00d-5409e2191778/palantir-took-a-swiss.html",
-          "publishedAt": "2026-06-24T11:14:00.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 229.82,
+      "price": 230.86,
       "previousClose": 294.58,
-      "changePct": -21.99,
+      "changePct": -21.63,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-24T18:19:00.000Z",
+      "asOf": "2026-06-24T20:00:02.000Z",
       "headlines": [
         {
           "title": "Market Chatter: US, Qatar Warn EU Methane Rules Could Trigger Gas Supply Shortages",
@@ -185,50 +185,14 @@
       ]
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "price": 238.46,
-      "previousClose": 207.24,
-      "changePct": 15.06,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-06-24T18:19:02.000Z",
-      "headlines": [
-        {
-          "title": "Billionaire Philippe Laffont Says a $10 Trillion Company Is Coming and Agentic AI Is the ‘Big Bang Moment’",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/103c2a20-e417-35c0-9170-80c24ad4906d/billionaire-philippe-laffont.html",
-          "publishedAt": "2026-06-24T18:10:42.000Z"
-        },
-        {
-          "title": "Baird Strategist Warns Memory Chip Boom Won’t Last. Margins Will Compress as Hyperscalers Seek Alternatives",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/b6259b7c-503f-351a-a8e0-6ad88e437e76/baird-strategist-warns-memory.html",
-          "publishedAt": "2026-06-24T17:53:15.000Z"
-        },
-        {
-          "title": "Amazon Prime Day Puts ETFs in Focus",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-prime-day-puts-etfs-174411774.html",
-          "publishedAt": "2026-06-24T17:44:11.000Z"
-        },
-        {
-          "title": "Amazon Boosted By Prime Day Data, Unveils Robotaxi Updates. Stock Climbs.",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/ee912662-fd08-3077-a966-0ec8d5758fb2/amazon-boosted-by-prime-day.html",
-          "publishedAt": "2026-06-24T17:43:03.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 42.71,
+      "price": 42.74,
       "previousClose": 50.27,
-      "changePct": -15.04,
+      "changePct": -14.98,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-24T18:19:03.000Z",
+      "asOf": "2026-06-24T20:00:03.000Z",
       "headlines": [
         {
           "title": "Here Are Wednesday’s Best Wall Street Analyst Research Calls: Devon Energy, Flowserve, Klaviyo, Macerich, Merck, Nucor, Take-Two Interactive Software, Twilio, and More",
@@ -259,48 +223,120 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 198.23,
+      "price": 199,
       "previousClose": 175.2,
-      "changePct": 13.14,
+      "changePct": 13.58,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-24T18:19:02.000Z",
+      "asOf": "2026-06-24T20:00:03.000Z",
       "headlines": [
         {
-          "title": "Micron Price Prediction: The Forecast Flags a Big Pullback",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/c5fb3a8e-24f2-30eb-924b-f6a1db83971a/micron-price-prediction%3A-the.html",
-          "publishedAt": "2026-06-24T18:14:08.000Z"
+          "title": "CrowdStrike Is Splitting Its Stock 4-for-1 on July 2. What Investors Should Know Before the Date Arrives.",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/566259d6-76bd-3d4d-a161-1ee1c2f33e2f/crowdstrike-is-splitting-its.html",
+          "publishedAt": "2026-06-24T20:05:33.000Z"
         },
         {
-          "title": "Qualcomm bets on AI chips to break smartphone reliance, but faces crowded race",
-          "publisher": "Reuters",
-          "url": "https://finance.yahoo.com/technology/ai/articles/qualcomm-bets-ai-chips-break-181112616.html",
-          "publishedAt": "2026-06-24T18:11:12.000Z"
+          "title": "Broadcom Stock Investors Just Got Fantastic News From OpenAI",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/fd2a7b1c-cb98-3aa4-8ea7-327fbdf23cb9/broadcom-stock-investors-just.html",
+          "publishedAt": "2026-06-24T20:02:02.000Z"
         },
         {
-          "title": "Billionaire Philippe Laffont Says a $10 Trillion Company Is Coming and Agentic AI Is the ‘Big Bang Moment’",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/103c2a20-e417-35c0-9170-80c24ad4906d/billionaire-philippe-laffont.html",
-          "publishedAt": "2026-06-24T18:10:42.000Z"
+          "title": "A More Hawkish Fed Changes the Math for Big Bank Stocks. Here's How.",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/85c3c8b0-27b7-33a3-a77e-c74b88f02dcf/a-more-hawkish-fed-changes.html",
+          "publishedAt": "2026-06-24T19:57:00.000Z"
         },
         {
-          "title": "Famous Tech Investor Tom Lee: Yesterday’s SMH & SOXX Sell-Off Has Historically Led to an 88% Win Rate the Next Month",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/d652629b-bc8b-3c1c-910c-bb134c970540/famous-tech-investor-tom-lee%3A.html",
-          "publishedAt": "2026-06-24T18:09:26.000Z"
+          "title": "Prediction: This Will Be Nvidia's Stock Price by the End of 2027 (Hint: Big Gains Ahead!)",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/002b2c97-d576-3777-b5d6-051bf41ae6b9/prediction%3A-this-will-be.html",
+          "publishedAt": "2026-06-24T19:51:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 234.27,
+      "previousClose": 207.24,
+      "changePct": 13.04,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-06-24T20:00:02.000Z",
+      "headlines": [
+        {
+          "title": "Amazon Rises on Day Two of Prime Day",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-rises-day-two-prime-193325189.html",
+          "publishedAt": "2026-06-24T19:33:25.000Z"
+        },
+        {
+          "title": "Sector Update: Consumer Stocks Rise Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-192803927.html",
+          "publishedAt": "2026-06-24T19:28:03.000Z"
+        },
+        {
+          "title": "Bath & Body Works’ Ulta Beauty launch may expand reach, but channel shift risks remain: Jefferies",
+          "publisher": "Proactive",
+          "url": "https://finance.yahoo.com/m/2de0c988-700b-3b56-851b-23934145bbd4/bath-%26-body-works%E2%80%99-ulta.html",
+          "publishedAt": "2026-06-24T19:05:00.000Z"
+        },
+        {
+          "title": "How Corning’s (GLW) Amazon Agreement Turns AI Data-Center Fiber Demand Into Domestic Capacity Expansion",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/corning-glw-amazon-agreement-turns-185313051.html",
+          "publishedAt": "2026-06-24T18:53:13.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "ABOS",
+      "name": "Acumen Pharmaceuticals, Inc.",
+      "price": 2.31,
+      "previousClose": 2.59,
+      "changePct": -10.81,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-06-24T20:00:01.000Z",
+      "headlines": [
+        {
+          "title": "Acumen Pharmaceuticals Exercises Option on Alzheimer's Program Using JCR's Technology",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-exercises-option-alzheimer-172220379.html",
+          "publishedAt": "2026-06-17T17:22:20.000Z"
+        },
+        {
+          "title": "JCR Pharmaceuticals Announces That Acumen Pharmaceuticals Has Exercised its Exclusive Option to Develop Therapeutic Candidates for Alzheimer’s Disease, Enabled by J-Brain Cargo® Technology Platform",
+          "publisher": "Business Wire",
+          "url": "https://finance.yahoo.com/healthcare/articles/jcr-pharmaceuticals-announces-acumen-pharmaceuticals-163000760.html",
+          "publishedAt": "2026-06-17T16:30:00.000Z"
+        },
+        {
+          "title": "Acumen Nominates 2 Therapies to Treat Alzheimer’s Disease",
+          "publisher": "Exec Edge",
+          "url": "https://finance.yahoo.com/healthcare/articles/acumen-nominates-2-therapies-treat-221817738.html",
+          "publishedAt": "2026-06-16T22:18:17.000Z"
+        },
+        {
+          "title": "Acumen Pharmaceuticals Nominates 2 Drug Candidates to Treat Alzheimer's Disease",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-nominates-2-drug-120936254.html",
+          "publishedAt": "2026-06-16T12:09:36.000Z"
         }
       ]
     },
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 153.37,
+      "price": 152.75,
       "previousClose": 171,
-      "changePct": -10.31,
+      "changePct": -10.67,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-24T18:18:47.000Z",
+      "asOf": "2026-06-24T20:00:02.000Z",
       "headlines": [
         {
           "title": "European Equities Traded in the US as American Depositary Receipts Fall Sharply in Tuesday Trading",
@@ -331,12 +367,12 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 263.8,
+      "price": 262.96,
       "previousClose": 240.59,
-      "changePct": 9.65,
+      "changePct": 9.3,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-24T18:19:01.000Z",
+      "asOf": "2026-06-24T20:00:02.000Z",
       "headlines": [
         {
           "title": "Oracle Stock's New Identity Is Hiding In Its Old Story's Silence",
@@ -365,50 +401,14 @@
       ]
     },
     {
-      "ticker": "ABOS",
-      "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.37,
-      "previousClose": 2.59,
-      "changePct": -8.69,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-06-24T18:18:58.000Z",
-      "headlines": [
-        {
-          "title": "Acumen Pharmaceuticals Exercises Option on Alzheimer's Program Using JCR's Technology",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-exercises-option-alzheimer-172220379.html",
-          "publishedAt": "2026-06-17T17:22:20.000Z"
-        },
-        {
-          "title": "JCR Pharmaceuticals Announces That Acumen Pharmaceuticals Has Exercised its Exclusive Option to Develop Therapeutic Candidates for Alzheimer’s Disease, Enabled by J-Brain Cargo® Technology Platform",
-          "publisher": "Business Wire",
-          "url": "https://finance.yahoo.com/healthcare/articles/jcr-pharmaceuticals-announces-acumen-pharmaceuticals-163000760.html",
-          "publishedAt": "2026-06-17T16:30:00.000Z"
-        },
-        {
-          "title": "Acumen Nominates 2 Therapies to Treat Alzheimer’s Disease",
-          "publisher": "Exec Edge",
-          "url": "https://finance.yahoo.com/healthcare/articles/acumen-nominates-2-therapies-treat-221817738.html",
-          "publishedAt": "2026-06-16T22:18:17.000Z"
-        },
-        {
-          "title": "Acumen Pharmaceuticals Nominates 2 Drug Candidates to Treat Alzheimer's Disease",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-nominates-2-drug-120936254.html",
-          "publishedAt": "2026-06-16T12:09:36.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 25.41,
+      "price": 25.3,
       "previousClose": 23.54,
-      "changePct": 7.94,
+      "changePct": 7.48,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-24T18:18:56.000Z",
+      "asOf": "2026-06-24T20:00:03.000Z",
       "headlines": [
         {
           "title": "Zacks Industry Outlook Weyerhaeuser, Trex and Worthington",
@@ -439,12 +439,12 @@
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 4.5,
+      "price": 4.56,
       "previousClose": 4.68,
-      "changePct": -3.85,
+      "changePct": -2.56,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-06-24T18:18:52.000Z",
+      "asOf": "2026-06-24T20:00:00.000Z",
       "headlines": [
         {
           "title": "Prediction: TMC The Metals Company Will Soar Over the Next Year -- 2 Key Catalysts to Watch",
@@ -473,14 +473,50 @@
       ]
     },
     {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 365.46,
+      "previousClose": 372.74,
+      "changePct": -1.95,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-06-24T20:00:03.000Z",
+      "headlines": [
+        {
+          "title": "Qualcomm debuts line of AI data center chips and systems, increasing competition with Nvidia",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/article/qualcomm-debuts-line-of-ai-data-center-chips-and-systems-increasing-competition-with-nvidia-193000684.html",
+          "publishedAt": "2026-06-24T19:30:00.000Z"
+        },
+        {
+          "title": "Sector Update: Energy",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/energy/articles/sector-energy-192523565.html",
+          "publishedAt": "2026-06-24T19:25:23.000Z"
+        },
+        {
+          "title": "A Top Strategist Says the AI Trade Is Cooling, but Chipmakers Are Quietly Winning",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/f5c0cc21-a50a-3f62-a795-0f50f630128c/a-top-strategist-says-the-ai.html",
+          "publishedAt": "2026-06-24T19:15:50.000Z"
+        },
+        {
+          "title": "Microsoft Corporation (MSFT) Is One Of Billionaire David Tepper’s Oldest AI Stocks",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-msft-one-billionaire-190347977.html",
+          "publishedAt": "2026-06-24T19:03:47.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 16.99,
+      "price": 17.12,
       "previousClose": 17.34,
-      "changePct": -2.04,
+      "changePct": -1.27,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-06-24T18:18:48.000Z",
+      "asOf": "2026-06-24T20:00:02.000Z",
       "headlines": [
         {
           "title": "Is Cameco Set to Benefit From DOE-Backed Nuclear Expansion?",
@@ -511,12 +547,12 @@
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.9,
+      "price": 3.84,
       "previousClose": 3.87,
-      "changePct": 0.65,
+      "changePct": -0.78,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-06-24T18:18:04.000Z",
+      "asOf": "2026-06-24T20:00:02.000Z",
       "headlines": [
         {
           "title": "Barclays Initiates SAB Biotherapeutics at Overweight With $13 Price Target",
@@ -541,42 +577,6 @@
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-initiates-sab-biotherapeutics-buy-105511656.html",
           "publishedAt": "2026-05-22T10:55:11.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation",
-      "price": 372.1,
-      "previousClose": 372.74,
-      "changePct": -0.17,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-06-24T18:19:00.000Z",
-      "headlines": [
-        {
-          "title": "Billionaire Philippe Laffont Says a $10 Trillion Company Is Coming and Agentic AI Is the ‘Big Bang Moment’",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/103c2a20-e417-35c0-9170-80c24ad4906d/billionaire-philippe-laffont.html",
-          "publishedAt": "2026-06-24T18:10:42.000Z"
-        },
-        {
-          "title": "3 No-Brainer Stocks to Buy in June and Hold Forever",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/708f2216-d6d3-340f-928b-515a24c0b6d7/3-no-brainer-stocks-to-buy-in.html",
-          "publishedAt": "2026-06-24T18:07:16.000Z"
-        },
-        {
-          "title": "AI Data Centers Are Driving a Power Supercycle. GE Vernova’s Gas Turbine Prices Are Up 300% in Three Years",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/b65ea86e-9f2c-3ec5-b0b2-46adc5afbe72/ai-data-centers-are-driving-a.html",
-          "publishedAt": "2026-06-24T18:06:58.000Z"
-        },
-        {
-          "title": "AI Bottleneck Leads to 300% Pricing Surge: Is GE Vernova Still a Top Stock to Buy?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/25b1b0b0-3ddb-3e5a-9b7b-3494cf294615/ai-bottleneck-leads-to-300%25.html",
-          "publishedAt": "2026-06-24T17:58:46.000Z"
         }
       ]
     }
