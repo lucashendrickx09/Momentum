@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T20:04:16.412Z",
+  "generatedAt": "2026-07-02T20:54:16.426Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -43,12 +43,12 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 434.48,
+      "price": 434.16,
       "previousClose": 339.04,
-      "changePct": 28.15,
+      "changePct": 28.06,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-02T20:00:00.000Z",
+      "asOf": "2026-07-02T20:00:02.000Z",
       "headlines": [
         {
           "title": "This 40%-a-Year Fund Manager Says Semis Are STILL the Place to Be After a 100% Run",
@@ -57,9 +57,9 @@
           "publishedAt": "2026-07-02T15:31:07.000Z"
         },
         {
-          "title": "Does Intel pay dividends? How the chipmaker spends its money",
+          "title": "Does Intel pay dividends? History & future prospects explained",
           "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/m/0da116da-590f-3515-b191-eb1e5ff83752/does-intel-pay-dividends%3F-how.html",
+          "url": "https://finance.yahoo.com/m/0da116da-590f-3515-b191-eb1e5ff83752/does-intel-pay-dividends%3F.html",
           "publishedAt": "2026-07-02T15:23:00.000Z"
         },
         {
@@ -81,10 +81,10 @@
       "name": "Devon Energy Corporation",
       "price": 40.47,
       "previousClose": 49.49,
-      "changePct": -18.24,
+      "changePct": -18.23,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-02T19:59:59.000Z",
+      "asOf": "2026-07-02T20:00:02.000Z",
       "headlines": [
         {
           "title": "Is Devon (DVN) One of the Best Value Stocks to Buy Right Now?",
@@ -115,12 +115,12 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 289.12,
+      "price": 289.52,
       "previousClose": 248.16,
-      "changePct": 16.51,
+      "changePct": 16.67,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-02T19:59:59.000Z",
+      "asOf": "2026-07-02T20:00:03.000Z",
       "headlines": [
         {
           "title": "IQM Begins Trading: What to Know About the Newly Listed Quantum Stock",
@@ -159,6 +159,18 @@
       "asOf": "2026-07-02T20:00:01.000Z",
       "headlines": [
         {
+          "title": "JPMorgan warns of risks from Strategy's Bitcoin sales policy",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/fda224f9-4352-34c2-af5b-c5339cdb90c6/jpmorgan-warns-of-risks-from.html",
+          "publishedAt": "2026-07-02T20:18:04.000Z"
+        },
+        {
+          "title": "JPMorgan says Strategy's Bitcoin sales are a market risk",
+          "publisher": "CoinDesk",
+          "url": "https://finance.yahoo.com/m/03391bf7-a914-38e8-bbb5-d72cb61b2a11/jpmorgan-says-strategy%27s.html",
+          "publishedAt": "2026-07-02T19:32:23.000Z"
+        },
+        {
           "title": "Michael Saylor reveals why Strategy sold Bitcoin and why critics are wrong",
           "publisher": "TheStreet",
           "url": "https://finance.yahoo.com/m/5c5d7b80-8206-3a5d-9d78-66373b229578/michael-saylor-reveals-why.html",
@@ -169,18 +181,6 @@
           "publisher": "Barrons.com",
           "url": "https://finance.yahoo.com/m/2e642161-0ef1-39fd-9ac2-f1ecca51b063/tesla%2C-rivian%2C-strategy%2C.html",
           "publishedAt": "2026-07-02T18:35:00.000Z"
-        },
-        {
-          "title": "Strategy’s bitcoin trading policy creates risks for broader markets, says JPMorgan",
-          "publisher": "Investing.com",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-bitcoin-trading-policy-creates-183224947.html",
-          "publishedAt": "2026-07-02T18:32:24.000Z"
-        },
-        {
-          "title": "JPMorgan Says Strategy's Bitcoin Sales Add Risks to Crypto Market",
-          "publisher": "CryptoProwl",
-          "url": "https://finance.yahoo.com/m/b295c4fe-59ad-3d0c-b4cf-ad8f5a3c59c4/jpmorgan-says-strategy%27s.html",
-          "publishedAt": "2026-07-02T18:17:00.000Z"
         }
       ]
     },
@@ -194,6 +194,12 @@
       "exchange": "NasdaqGS",
       "asOf": "2026-07-02T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Meta just picked a fight with Amazon's cash cow",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/15b96bff-db63-3911-8528-636c5682d80d/meta-just-picked-a-fight-with.html",
+          "publishedAt": "2026-07-02T20:07:00.000Z"
+        },
         {
           "title": "Trump Jr.'s 'Amazon of guns' could make millions under new proposed firearm rule",
           "publisher": "Reuters",
@@ -211,12 +217,6 @@
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-invests-2-5-billion-192515066.html",
           "publishedAt": "2026-07-02T19:25:15.000Z"
-        },
-        {
-          "title": "A warning sign about AI’s real cost, courtesy of Google and Amazon",
-          "publisher": "TechCrunch",
-          "url": "https://finance.yahoo.com/technology/ai/articles/warning-sign-ai-real-cost-191446544.html",
-          "publishedAt": "2026-07-02T19:14:46.000Z"
         }
       ]
     },
@@ -259,12 +259,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 246.04,
+      "price": 245.97,
       "previousClose": 281.16,
-      "changePct": -12.49,
+      "changePct": -12.52,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-02T19:59:59.000Z",
+      "asOf": "2026-07-02T20:00:02.000Z",
       "headlines": [
         {
           "title": "Cheniere Energy (LNG) Benefited from Supply Constraints",
@@ -303,28 +303,28 @@
       "asOf": "2026-07-02T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Is NVIDIA Corporation (NVDA) Stock Positioned for AI Growth Through New NVIDIA Blackwell Infrastructure Deal?",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-corporation-nvda-stock-positioned-195614610.html",
-          "publishedAt": "2026-07-02T19:56:14.000Z"
+          "title": "Veteran manager sends blunt take on buying the June swoon in July",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/1e8dde7f-d9ed-366e-8f6f-f6e263f6119b/veteran-manager-sends-blunt.html",
+          "publishedAt": "2026-07-02T20:42:19.000Z"
         },
         {
-          "title": "AI-fueled leverage is increasing market risk, expert cautions",
-          "publisher": "Reuters Videos",
-          "url": "https://finance.yahoo.com/video/ai-fueled-leverage-increasing-market-194304779.html",
-          "publishedAt": "2026-07-02T19:43:04.000Z"
+          "title": "5 Artificial Intelligence (AI) Stocks to Load Up On in July",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/35da6d58-3622-303f-bee7-04b9eca736a3/5-artificial-intelligence.html",
+          "publishedAt": "2026-07-02T20:42:00.000Z"
         },
         {
-          "title": "An Analyst Called SpaceX’s Valuation ‘Catastrophic.’ Options Traders Are Betting the Other Way",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/65faba3d-f494-3fb0-876c-7c9aaec3a84c/an-analyst-called-spacex%E2%80%99s.html",
-          "publishedAt": "2026-07-02T19:36:35.000Z"
+          "title": "Tesla Quarterly Deliveries Jump 25%. Here’s Why the Stock Fell Anyway.",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/32f8b559-68dc-3e81-9671-480b0c730bdf/tesla-quarterly-deliveries.html",
+          "publishedAt": "2026-07-02T20:27:01.000Z"
         },
         {
-          "title": "Palantir upgraded to Buy, Rivian lifts delivery outlook, Robinhood's new product",
-          "publisher": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/palantir-upgraded-to-buy-rivian-lifts-delivery-outlook-robinhoods-new-product-193145290.html",
-          "publishedAt": "2026-07-02T19:31:45.000Z"
+          "title": "US Equity Indexes Rise This Week as Mag-7 Gains Help Offset Chipmakers-Led Decline in Technology",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-week-202332283.html",
+          "publishedAt": "2026-07-02T20:23:32.000Z"
         }
       ]
     },
@@ -338,6 +338,12 @@
       "exchange": "NasdaqGS",
       "asOf": "2026-07-02T20:00:00.000Z",
       "headlines": [
+        {
+          "title": "Is TMC the metals company Inc. (TMC) Stock a Critical Minerals Opportunity After NOAA Exploration Milestone?",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tmc-metals-company-inc-tmc-200752644.html",
+          "publishedAt": "2026-07-02T20:07:52.000Z"
+        },
         {
           "title": "Retail Investors Say This Is The Next SanDisk Stock Everyone’s Ignoring",
           "publisher": "Insider Monkey",
@@ -355,24 +361,18 @@
           "publisher": "ACCESS Newswire",
           "url": "https://finance.yahoo.com/markets/commodities/articles/metals-royalty-company-provides-mesabi-113000861.html",
           "publishedAt": "2026-06-30T11:30:00.000Z"
-        },
-        {
-          "title": "TMC The Metals Company vs. MP Materials: 1 of These Industrial Stocks Is a Far Better Bet Right Now",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/431bf13c-ac6d-3bfb-82c3-a11c5c7eb6ba/tmc-the-metals-company-vs.-mp.html",
-          "publishedAt": "2026-06-27T14:35:00.000Z"
         }
       ]
     },
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 162.53,
+      "price": 162.59,
       "previousClose": 171.77,
-      "changePct": -5.38,
+      "changePct": -5.34,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-02T19:59:59.000Z",
+      "asOf": "2026-07-02T20:00:03.000Z",
       "headlines": [
         {
           "title": "SAP SE (SAP) Among Jefferies’ Top European Software Stock Picks",
@@ -411,6 +411,18 @@
       "asOf": "2026-07-02T20:00:01.000Z",
       "headlines": [
         {
+          "title": "Meta just picked a fight with Amazon's cash cow",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/15b96bff-db63-3911-8528-636c5682d80d/meta-just-picked-a-fight-with.html",
+          "publishedAt": "2026-07-02T20:07:00.000Z"
+        },
+        {
+          "title": "Is Microsoft Corporation (MSFT) Stock Impacted by Reported Xbox Restructuring and Gaming Division Changes?",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-msft-stock-impacted-195630678.html",
+          "publishedAt": "2026-07-02T19:56:30.000Z"
+        },
+        {
           "title": "Microsoft Unveils 6,000-Employee AI Deployment Organization",
           "publisher": "GuruFocus.com",
           "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-unveils-6-000-employee-193951787.html",
@@ -421,30 +433,18 @@
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-192933263.html",
           "publishedAt": "2026-07-02T19:29:33.000Z"
-        },
-        {
-          "title": "Microsoft to invest $2.5B in new AI implementation business",
-          "publisher": "Proactive",
-          "url": "https://finance.yahoo.com/m/4b00940f-be2b-3069-83b8-0b0d1a45ec5c/microsoft-to-invest-%242.5b-in.html",
-          "publishedAt": "2026-07-02T19:27:00.000Z"
-        },
-        {
-          "title": "Microsoft Invests $2.5 Billion in New AI Implementation Business",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-invests-2-5-billion-192515066.html",
-          "publishedAt": "2026-07-02T19:25:15.000Z"
         }
       ]
     },
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.06,
+      "price": 17.05,
       "previousClose": 17.77,
-      "changePct": -4.02,
+      "changePct": -4.05,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-02T19:59:58.000Z",
+      "asOf": "2026-07-02T20:00:03.000Z",
       "headlines": [
         {
           "title": "Peninsula Clean Energy Rebrands as WestLight Energy; Name Change Will Appear on Utility Bills Starting July 17",
@@ -475,12 +475,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 23.77,
+      "price": 23.79,
       "previousClose": 24.43,
-      "changePct": -2.72,
+      "changePct": -2.62,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-02T19:59:56.000Z",
+      "asOf": "2026-07-02T20:00:03.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Earnings Preview: What to Expect",
