@@ -1,90 +1,18 @@
 {
-  "generatedAt": "2026-07-07T18:31:04.713Z",
+  "generatedAt": "2026-07-07T20:27:46.244Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
   "items": [
     {
-      "ticker": "IBM",
-      "name": "International Business Machines Corporation",
-      "price": 310.46,
-      "previousClose": 245.07,
-      "changePct": 26.68,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-07-07T18:31:00.000Z",
-      "headlines": [
-        {
-          "title": "Palo Alto Networks (PANW) Teams With IBM And Red Hat As Fair Value Debate Heats Up",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-teams-171616036.html",
-          "publishedAt": "2026-07-07T17:16:16.000Z"
-        },
-        {
-          "title": "IBM (IBM) Stock Looks Below Fair Value Despite Cautious Checks",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-ibm-stock-looks-below-151556073.html",
-          "publishedAt": "2026-07-07T15:15:56.000Z"
-        },
-        {
-          "title": "Dow Futures Maintain Northward Journey in Pre-Market",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/dow-futures-maintain-northward-journey-150600681.html",
-          "publishedAt": "2026-07-07T15:06:00.000Z"
-        },
-        {
-          "title": "IBM Exec Ric Lewis Explains How Pair of New Systems Enable More Flexibility",
-          "publisher": "NYSE",
-          "url": "https://finance.yahoo.com/video/ibm-exec-ric-lewis-explains-145156396.html",
-          "publishedAt": "2026-07-07T14:51:56.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "APLD",
-      "name": "Applied Digital Corporation",
-      "price": 31.83,
-      "previousClose": 25.18,
-      "changePct": 26.41,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-07-07T18:31:01.000Z",
-      "headlines": [
-        {
-          "title": "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/e0b5fc0f-f479-315f-8d2a-196ea19b97c8/terawulf-drops-8%25-even-as.html",
-          "publishedAt": "2026-07-07T16:54:08.000Z"
-        },
-        {
-          "title": "Is Applied Digital’s (APLD) New 175 MW AI Campus Milestone Redefining Its Core Infrastructure Story?",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/applied-digital-apld-175-mw-044058594.html",
-          "publishedAt": "2026-07-07T04:40:58.000Z"
-        },
-        {
-          "title": "TeraWulf, Anthropic Sign $19 Billion Data Center Lease. Neocloud Stocks Soar.",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/21a0c327-87ae-3213-b30a-e194f708d278/terawulf%2C-anthropic-sign-%2419.html",
-          "publishedAt": "2026-07-06T20:03:50.000Z"
-        },
-        {
-          "title": "TeraWulf Stock Is Up 95% This Year: Here’s Why",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/667f88bd-5a17-3299-b535-bd1d05eba926/terawulf-stock-is-up-95%25-this.html",
-          "publishedAt": "2026-07-06T19:11:46.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 433.76,
+      "price": 432.57,
       "previousClose": 345.32,
-      "changePct": 25.61,
+      "changePct": 25.27,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-07T18:31:00.000Z",
+      "asOf": "2026-07-07T20:00:02.000Z",
       "headlines": [
         {
           "title": "This Semiconductor ETF Is Up 58% This Year and Doesn’t Own TSMC",
@@ -113,50 +41,122 @@
       ]
     },
     {
-      "ticker": "MSTR",
-      "name": "Strategy Inc",
-      "price": 99.08,
-      "previousClose": 123.72,
-      "changePct": -19.92,
+      "ticker": "IBM",
+      "name": "International Business Machines Corporation",
+      "price": 306.13,
+      "previousClose": 245.07,
+      "changePct": 24.92,
       "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-07-07T18:31:01.000Z",
+      "exchange": "NYSE",
+      "asOf": "2026-07-07T20:00:02.000Z",
       "headlines": [
         {
-          "title": "Bitcoin Miners ETF Up 47.58% This Year, Completely Avoids MicroStrategy",
+          "title": "Stock Market Today: Nasdaq Losses Mount; Pharma Names See Strength (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/110b2049-5932-3626-b8a1-7e911ed6df13/stock-market-today%3A-nasdaq.html",
+          "publishedAt": "2026-07-07T19:53:34.000Z"
+        },
+        {
+          "title": "Memory chip stocks fall into a bull market amid latest tech sell-off",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/memory-chip-stocks-fall-into-a-bull-market-amid-latest-tech-sell-off-191922938.html",
+          "publishedAt": "2026-07-07T19:19:22.000Z"
+        },
+        {
+          "title": "Palo Alto Networks (PANW) Teams With IBM And Red Hat As Fair Value Debate Heats Up",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-teams-171616036.html",
+          "publishedAt": "2026-07-07T17:16:16.000Z"
+        },
+        {
+          "title": "IBM (IBM) Stock Looks Below Fair Value Despite Cautious Checks",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-ibm-stock-looks-below-151556073.html",
+          "publishedAt": "2026-07-07T15:15:56.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital Corporation",
+      "price": 30.71,
+      "previousClose": 25.18,
+      "changePct": 21.96,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-07-07T20:00:01.000Z",
+      "headlines": [
+        {
+          "title": "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/9da5c33d-df43-36f8-9eff-4948aca6626a/bitcoin-miners-etf-up-47.58%25.html",
-          "publishedAt": "2026-07-07T17:33:06.000Z"
+          "url": "https://finance.yahoo.com/m/e0b5fc0f-f479-315f-8d2a-196ea19b97c8/terawulf-drops-8%25-even-as.html",
+          "publishedAt": "2026-07-07T16:54:08.000Z"
         },
         {
-          "title": "Ondo Unveils Perps DEX With Tokenized Stocks as Collateral",
+          "title": "Is Applied Digital’s (APLD) New 175 MW AI Campus Milestone Redefining Its Core Infrastructure Story?",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/applied-digital-apld-175-mw-044058594.html",
+          "publishedAt": "2026-07-07T04:40:58.000Z"
+        },
+        {
+          "title": "TeraWulf, Anthropic Sign $19 Billion Data Center Lease. Neocloud Stocks Soar.",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/21a0c327-87ae-3213-b30a-e194f708d278/terawulf%2C-anthropic-sign-%2419.html",
+          "publishedAt": "2026-07-06T20:03:50.000Z"
+        },
+        {
+          "title": "TeraWulf Stock Is Up 95% This Year: Here’s Why",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/667f88bd-5a17-3299-b535-bd1d05eba926/terawulf-stock-is-up-95%25-this.html",
+          "publishedAt": "2026-07-06T19:11:46.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "MSTR",
+      "name": "Strategy Inc",
+      "price": 97.36,
+      "previousClose": 123.72,
+      "changePct": -21.31,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-07-07T20:00:01.000Z",
+      "headlines": [
+        {
+          "title": "How Strategy Can Sell Billions in Bitcoin",
           "publisher": "Bankless",
-          "url": "https://finance.yahoo.com/m/938b801b-044d-32c3-bcea-9dd6a17cc317/ondo-unveils-perps-dex-with.html",
-          "publishedAt": "2026-07-07T17:24:02.000Z"
+          "url": "https://finance.yahoo.com/m/6a10f7a3-1f5f-341d-b071-a855a2089491/how-strategy-can-sell.html",
+          "publishedAt": "2026-07-07T20:04:44.000Z"
         },
         {
-          "title": "🔎 Under the Radar: American Bitcoin Stock Slides After Reverse Stock Split",
-          "publisher": "The Wall Street Journal",
-          "url": "https://finance.yahoo.com/m/e781b051-1477-3de8-8c2e-4d9dc87c632a/%F0%9F%94%8E-under-the-radar%3A-american.html",
-          "publishedAt": "2026-07-07T17:10:34.000Z"
+          "title": "Update: Market Chatter: Strategy Banker Discusses Securities Swap With Distressed-Debt Funds",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-strategy-banker-discusses-195742831.html",
+          "publishedAt": "2026-07-07T19:57:42.000Z"
         },
         {
-          "title": "Ondo Joins Perps Race Against Hyperliquid, Coinbase — Allows Tokenized Stocks As Collateral",
+          "title": "Crypto analyst says MicroStrategy's latest Bitcoin sale comes at a bad time for bulls",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/720da780-4dc2-3891-b7ae-1cbdbf647652/crypto-analyst-says.html",
+          "publishedAt": "2026-07-07T19:06:00.000Z"
+        },
+        {
+          "title": "MSTR, BMNR Stocks Defy Stock Market Slump – COIN Drops Despite Upgrade With 20% Upside",
           "publisher": "Stocktwits",
-          "url": "https://finance.yahoo.com/m/795e6de3-b368-3e07-a127-db0568aac519/ondo-joins-perps-race-against.html",
-          "publishedAt": "2026-07-07T17:05:03.000Z"
+          "url": "https://finance.yahoo.com/m/7bc43d3d-2287-3bba-aa69-86512475dbe5/mstr%2C-bmnr-stocks-defy-stock.html",
+          "publishedAt": "2026-07-07T17:49:06.000Z"
         }
       ]
     },
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 41.93,
+      "price": 42.41,
       "previousClose": 49.95,
-      "changePct": -16.07,
+      "changePct": -15.1,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-07T18:31:01.000Z",
+      "asOf": "2026-07-07T20:00:02.000Z",
       "headlines": [
         {
           "title": "Devon Energy Corporation (DVN) Is a Trending Stock: Facts to Know Before Betting on It",
@@ -187,48 +187,120 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 245.94,
+      "price": 245.98,
       "previousClose": 213.77,
-      "changePct": 15.05,
+      "changePct": 15.07,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-07T18:31:01.000Z",
+      "asOf": "2026-07-07T20:00:01.000Z",
       "headlines": [
         {
-          "title": "6 Space Stocks to Buy Now",
+          "title": "Trump's $1.4 Billion Crypto Haul Draws Fresh Investor Scrutiny",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/m/f9ce98a7-6f2d-32d4-aa94-bc5fa018d8a3/trump%27s-%241.4-billion-crypto.html",
+          "publishedAt": "2026-07-07T19:59:05.000Z"
+        },
+        {
+          "title": "Amazon Plans $25 Billion Bond Sale",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-plans-25-billion-bond-192227995.html",
+          "publishedAt": "2026-07-07T19:22:27.000Z"
+        },
+        {
+          "title": "Amazon's AI Spending Push Hits Bond Market",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amazons-ai-spending-push-hits-191559609.html",
+          "publishedAt": "2026-07-07T19:15:59.000Z"
+        },
+        {
+          "title": "BofA Warns on Big Tech: Meta, Alphabet, and Amazon’s AI Spending Could Spook the Market",
           "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/cc425fc5-f35f-30ed-b60c-319c3c6b3896/6-space-stocks-to-buy-now.html",
-          "publishedAt": "2026-07-07T18:12:00.000Z"
+          "url": "https://finance.yahoo.com/m/d2ba8202-865b-3e97-aa3b-cfebb498b8e7/bofa-warns-on-big-tech%3A-meta%2C.html",
+          "publishedAt": "2026-07-07T19:13:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 196.93,
+      "previousClose": 178.1,
+      "changePct": 10.57,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-07-07T20:00:01.000Z",
+      "headlines": [
+        {
+          "title": "3 Reasons to Buy Novo Nordisk Stock",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/60922691-54cb-3b76-858e-4a9697e0d73e/3-reasons-to-buy-novo-nordisk.html",
+          "publishedAt": "2026-07-07T20:20:00.000Z"
         },
         {
-          "title": "Market Chatter: Amazon Draws $62 Billion of Peak Demand for US Dollar Bond Sale",
+          "title": "US Equity Markets Lower as Semiconductor Stocks Fall, Crude Oil Prices Rise",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-amazon-draws-62-174039722.html",
-          "publishedAt": "2026-07-07T17:40:39.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-lower-semiconductor-200946448.html",
+          "publishedAt": "2026-07-07T20:09:46.000Z"
         },
         {
-          "title": "Update: US Equity Indexes Retreat as Chipmakers Hit Technology While Crude Oil Jumps Following Hormuz Missile Strike",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-retreat-chipmakers-172557520.html",
-          "publishedAt": "2026-07-07T17:25:57.000Z"
+          "title": "Why Micron Outweighs Meta 2-to-1 in the Nasdaq 100, Even Though Meta Is Way Bigger",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/e0742e4f-46a1-38e7-bcbc-a23459a78212/why-micron-outweighs-meta.html",
+          "publishedAt": "2026-07-07T20:00:52.000Z"
         },
         {
-          "title": "Both He And His Father Are Truckers, Yet His 'Boomer Father' Could Buy A House, Multiple Vehicles And Boats While He Is Struggling To Keep Up",
-          "publisher": "Benzinga",
-          "url": "https://finance.yahoo.com/economy/articles/both-father-truckers-yet-boomer-170108506.html",
-          "publishedAt": "2026-07-07T17:01:08.000Z"
+          "title": "S&P 500 ends down as AI worries hit chipmakers",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-fall-samsungs-record-092753715.html",
+          "publishedAt": "2026-07-07T20:00:50.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "price": 134.37,
+      "previousClose": 150.07,
+      "changePct": -10.46,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-07-07T20:00:00.000Z",
+      "headlines": [
+        {
+          "title": "The New AI Revolution Is Here: Buy These 3 Stocks Before They Surge",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/716c4eaf-1909-3271-b025-814f7042f1b3/the-new-ai-revolution-is.html",
+          "publishedAt": "2026-07-07T19:20:00.000Z"
+        },
+        {
+          "title": "Palantir Expands Mexico Insurance Deal",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-expands-mexico-insurance-deal-185123883.html",
+          "publishedAt": "2026-07-07T18:51:23.000Z"
+        },
+        {
+          "title": "Palantir Expands AI Deal With Mexico's GNP Seguros",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-expands-ai-deal-mexicos-184519529.html",
+          "publishedAt": "2026-07-07T18:45:19.000Z"
+        },
+        {
+          "title": "Beyond the CIA: Palantir Moves Into Mexico’s Private Sector",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/0fe6d88c-db90-32d7-9286-77fd38a8eca8/beyond-the-cia%3A-palantir.html",
+          "publishedAt": "2026-07-07T18:40:00.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 252.55,
+      "price": 255,
       "previousClose": 284.27,
-      "changePct": -11.16,
+      "changePct": -10.3,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-07T18:30:44.000Z",
+      "asOf": "2026-07-07T20:00:02.000Z",
       "headlines": [
         {
           "title": "Cheniere Energy (LNG) Benefited from Supply Constraints",
@@ -257,86 +329,14 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 197.3,
-      "previousClose": 178.1,
-      "changePct": 10.78,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-07-07T18:31:01.000Z",
-      "headlines": [
-        {
-          "title": "Cramer: Samsung Is More Profitable Than Nvidia, but He Has a Warning on SK Hynix’s $28 Billion Raise",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/b70c1093-d682-318f-af00-dab02e366f02/cramer%3A-samsung-is-more.html",
-          "publishedAt": "2026-07-07T18:20:09.000Z"
-        },
-        {
-          "title": "FuelCell Energy Drops 10%, Bloom Energy Slides 8%, Plug Power Falls 5% Despite Positive News as Profit-Taking Hits Fuel Cell Stocks",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/9e5b97c7-f63c-3a44-88af-f77115fa1004/fuelcell-energy-drops-10%25%2C.html",
-          "publishedAt": "2026-07-07T18:19:05.000Z"
-        },
-        {
-          "title": "Micron Vs. Apple: Why MU Is Still The Better Buy Between These Tech Giants",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/82c23f4b-5656-3f23-8ba3-b04eb1603db3/micron-vs.-apple%3A-why-mu-is.html",
-          "publishedAt": "2026-07-07T18:06:27.000Z"
-        },
-        {
-          "title": "Over 2 Billion Reasons to Love CRISPR Therapeutics Right Now",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/9b17c5ef-4d61-387d-9285-d026e8079e85/over-2-billion-reasons-to.html",
-          "publishedAt": "2026-07-07T18:05:00.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc.",
-      "price": 138.45,
-      "previousClose": 150.07,
-      "changePct": -7.74,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-07-07T18:31:01.000Z",
-      "headlines": [
-        {
-          "title": "QQQ, Meet IQQ. BlackRock Is Launching a Cheaper Nasdaq-100 ETF.",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/38736384-68a8-3859-ac6e-d5cd68766379/qqq%2C-meet-iqq.-blackrock-is.html",
-          "publishedAt": "2026-07-07T17:51:00.000Z"
-        },
-        {
-          "title": "Palantir Vs. Google: Why Palantir is Surging in July and Should Investors Buy it Over Google",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/f1bdecea-f4a5-3cf7-a3a3-6dccd386c347/palantir-vs.-google%3A-why.html",
-          "publishedAt": "2026-07-07T17:43:44.000Z"
-        },
-        {
-          "title": "Is Palantir Technologies (PLTR) Undervalued After Its Nvidia Partnership And DA Davidson Upgrade?",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-pltr-undervalued-nvidia-171406194.html",
-          "publishedAt": "2026-07-07T17:14:06.000Z"
-        },
-        {
-          "title": "Palantir Stock Rises After Major AI Expansion Deal",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-stock-rises-major-ai-171058894.html",
-          "publishedAt": "2026-07-07T17:10:58.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 4.09,
+      "price": 4.04,
       "previousClose": 4.41,
-      "changePct": -7.37,
+      "changePct": -8.39,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-07T18:30:41.000Z",
+      "asOf": "2026-07-07T20:00:00.000Z",
       "headlines": [
         {
           "title": "Where Will TMC The Metals Company Be By This Time Next Year?",
@@ -367,84 +367,48 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 391.42,
+      "price": 388.84,
       "previousClose": 372.29,
-      "changePct": 5.14,
+      "changePct": 4.45,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-07T18:31:01.000Z",
+      "asOf": "2026-07-07T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Memory Chip Crunch Deepens as SEMI Warns Washington",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/articles/memory-chip-crunch-deepens-semi-175944791.html",
-          "publishedAt": "2026-07-07T17:59:44.000Z"
+          "title": "Anthropic’s Claude Cowork targets busy work ahead of IPO",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/anthropics-claude-cowork-targets-busy-work-ahead-of-ipo-202120374.html",
+          "publishedAt": "2026-07-07T20:21:20.000Z"
         },
         {
-          "title": "QQQ, Meet IQQ. BlackRock Is Launching a Cheaper Nasdaq-100 ETF.",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/38736384-68a8-3859-ac6e-d5cd68766379/qqq%2C-meet-iqq.-blackrock-is.html",
-          "publishedAt": "2026-07-07T17:51:00.000Z"
-        },
-        {
-          "title": "Ondo Unveils Perps DEX With Tokenized Stocks as Collateral",
-          "publisher": "Bankless",
-          "url": "https://finance.yahoo.com/m/938b801b-044d-32c3-bcea-9dd6a17cc317/ondo-unveils-perps-dex-with.html",
-          "publishedAt": "2026-07-07T17:24:02.000Z"
-        },
-        {
-          "title": "Microsoft dashes game developer dreams",
-          "publisher": "Axios",
-          "url": "https://finance.yahoo.com/m/fef15a72-c50b-3dc6-b235-e288ff4bb853/microsoft-dashes-game.html",
-          "publishedAt": "2026-07-07T17:03:51.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "SABS",
-      "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.94,
-      "previousClose": 3.76,
-      "changePct": 4.79,
-      "currency": "USD",
-      "exchange": "NasdaqCM",
-      "asOf": "2026-07-07T18:30:46.000Z",
-      "headlines": [
-        {
-          "title": "Breakthrough T1D Awards Grant to Support PRISE‑hATG Study of SAB‑142 in Stage 3 Type 1 Diabetes",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/healthcare/articles/breakthrough-t1d-awards-grant-support-120000812.html",
-          "publishedAt": "2026-07-07T12:00:00.000Z"
-        },
-        {
-          "title": "Why Is H.C. Wainwright Bullish On SAB Biotherapeutics (SABS) With $10 Price Target?",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/healthcare/articles/why-h-c-wainwright-bullish-220812002.html",
-          "publishedAt": "2026-07-05T22:08:12.000Z"
-        },
-        {
-          "title": "Barclays Assigns Overweight Rating to SAB Biotherapeutics Inc. (SABS)",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-assigns-overweight-rating-sab-163449158.html",
-          "publishedAt": "2026-06-30T16:34:49.000Z"
-        },
-        {
-          "title": "Barclays Initiates SAB Biotherapeutics at Overweight With $13 Price Target",
+          "title": "Update: Market Chatter: Microsoft Replacing OpenAI, Anthropic With its Own AI Models",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-initiates-sab-biotherapeutics-overweight-113744600.html",
-          "publishedAt": "2026-06-24T11:37:44.000Z"
+          "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-microsoft-replacing-openai-195215605.html",
+          "publishedAt": "2026-07-07T19:52:15.000Z"
+        },
+        {
+          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-194019934.html",
+          "publishedAt": "2026-07-07T19:40:19.000Z"
+        },
+        {
+          "title": "Sector Update: Tech",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-191532847.html",
+          "publishedAt": "2026-07-07T19:15:32.000Z"
         }
       ]
     },
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 164.3,
+      "price": 162.77,
       "previousClose": 169.48,
-      "changePct": -3.06,
+      "changePct": -3.96,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-07T18:30:54.000Z",
+      "asOf": "2026-07-07T20:00:02.000Z",
       "headlines": [
         {
           "title": "Salesforce Down 6% in Three Months: Should Investors Retain the Stock?",
@@ -473,14 +437,50 @@
       ]
     },
     {
+      "ticker": "SABS",
+      "name": "SAB Biotherapeutics, Inc.",
+      "price": 3.9,
+      "previousClose": 3.76,
+      "changePct": 3.72,
+      "currency": "USD",
+      "exchange": "NasdaqCM",
+      "asOf": "2026-07-07T20:00:00.000Z",
+      "headlines": [
+        {
+          "title": "Breakthrough T1D Awards Grant to Support PRISE‑hATG Study of SAB‑142 in Stage 3 Type 1 Diabetes",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/healthcare/articles/breakthrough-t1d-awards-grant-support-120000812.html",
+          "publishedAt": "2026-07-07T12:00:00.000Z"
+        },
+        {
+          "title": "Why Is H.C. Wainwright Bullish On SAB Biotherapeutics (SABS) With $10 Price Target?",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/healthcare/articles/why-h-c-wainwright-bullish-220812002.html",
+          "publishedAt": "2026-07-05T22:08:12.000Z"
+        },
+        {
+          "title": "Barclays Assigns Overweight Rating to SAB Biotherapeutics Inc. (SABS)",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-assigns-overweight-rating-sab-163449158.html",
+          "publishedAt": "2026-06-30T16:34:49.000Z"
+        },
+        {
+          "title": "Barclays Initiates SAB Biotherapeutics at Overweight With $13 Price Target",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-initiates-sab-biotherapeutics-overweight-113744600.html",
+          "publishedAt": "2026-06-24T11:37:44.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 23.41,
+      "price": 23.29,
       "previousClose": 24.02,
-      "changePct": -2.52,
+      "changePct": -3.04,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-07T18:30:52.000Z",
+      "asOf": "2026-07-07T20:00:03.000Z",
       "headlines": [
         {
           "title": "The Best REITs to Buy",
@@ -511,12 +511,12 @@
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.2,
+      "price": 17.18,
       "previousClose": 17.62,
-      "changePct": -2.41,
+      "changePct": -2.5,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-07T18:30:59.000Z",
+      "asOf": "2026-07-07T20:00:02.000Z",
       "headlines": [
         {
           "title": "Are Investors Undervaluing PG&E (PCG) Right Now?",
@@ -547,12 +547,12 @@
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.59,
+      "price": 2.57,
       "previousClose": 2.63,
-      "changePct": -1.52,
+      "changePct": -2.28,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-07T18:30:39.000Z",
+      "asOf": "2026-07-07T20:00:01.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals to Present Data on Enhanced Brain Delivery™ (EBD™) Technology and Early Alzheimer’s Disease Insights at the Alzheimer’s Association International Conference (AAIC®) 2026",
