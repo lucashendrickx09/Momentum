@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T20:04:54.160Z",
+  "generatedAt": "2026-07-08T20:56:43.219Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -14,6 +14,12 @@
       "exchange": "NasdaqGS",
       "asOf": "2026-07-08T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "This is what $1,000 investment in Strategy 10 years ago is worth today",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/79143a06-a990-36e2-a0d2-8e97a173fbae/this-is-what-%241%2C000.html",
+          "publishedAt": "2026-07-08T20:41:58.000Z"
+        },
         {
           "title": "Bitmine Immersion Technologies Stock Is Down 46% This Year: Is It Time to Switch to Strategy or Circle Internet Group?",
           "publisher": "24/7 Wall St.",
@@ -31,25 +37,25 @@
           "publisher": "Benzinga",
           "url": "https://finance.yahoo.com/markets/crypto/articles/michael-saylors-strategy-normalizes-bitcoin-180122755.html",
           "publishedAt": "2026-07-08T18:01:22.000Z"
-        },
-        {
-          "title": "Top 3 Crypto Treasury Stocks to Watch Near Key Support Levels",
-          "publisher": "BeInCrypto",
-          "url": "https://finance.yahoo.com/m/9adffc3e-2729-309e-8c83-872ad7fe15f5/top-3-crypto-treasury-stocks.html",
-          "publishedAt": "2026-07-08T16:00:00.000Z"
         }
       ]
     },
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 301.92,
+      "price": 302.05,
       "previousClose": 241.74,
-      "changePct": 24.89,
+      "changePct": 24.95,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-08T19:59:58.000Z",
+      "asOf": "2026-07-08T20:00:03.000Z",
       "headlines": [
+        {
+          "title": "SAP (XTRA:SAP) Stock Looks Below Fair Value Despite AI Hopes",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sap-xtra-sap-stock-looks-201446170.html",
+          "publishedAt": "2026-07-08T20:14:46.000Z"
+        },
         {
           "title": "International Business Machines (IBM) Unveils New AI Infrastructure, Is The Stock Fully Priced?",
           "publisher": "Simply Wall St.",
@@ -67,24 +73,18 @@
           "publisher": "Trefis",
           "url": "https://finance.yahoo.com/m/5379f7ac-3c2b-3271-9bda-5e1dcd8f1b6e/how-to-bank-10%25-on-ibm-stock.html",
           "publishedAt": "2026-07-08T15:23:31.000Z"
-        },
-        {
-          "title": "Can IBM's Enterprise Infrastructure Portfolio Expansion Aid Growth?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/technology/articles/ibms-enterprise-infrastructure-portfolio-expansion-152000044.html",
-          "publishedAt": "2026-07-08T15:20:00.000Z"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 436.59,
+      "price": 436.98,
       "previousClose": 365.9,
-      "changePct": 19.32,
+      "changePct": 19.43,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-08T19:59:59.000Z",
+      "asOf": "2026-07-08T20:00:02.000Z",
       "headlines": [
         {
           "title": "Veteran analyst drops massive Micron valuation prediction",
@@ -195,28 +195,28 @@
       "asOf": "2026-07-08T20:00:00.000Z",
       "headlines": [
         {
-          "title": "Better Space Stock to Buy Before 2026 Runs Out: SpaceX vs. Rocket Lab",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/5229a7fa-9a7b-3cc2-80ac-fbc2a206f408/better-space-stock-to-buy.html",
-          "publishedAt": "2026-07-08T19:50:00.000Z"
+          "title": "SpaceXAI launches Grok 4.5 model for coding, agentic tasks",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/technology/ai/articles/spacexai-launches-grok-4-5-204651036.html",
+          "publishedAt": "2026-07-08T20:46:51.000Z"
         },
         {
-          "title": "Bitmine Immersion Technologies Stock Is Down 46% This Year: Is It Time to Switch to Strategy or Circle Internet Group?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/fb8e9ccc-e270-3ec6-812e-91e5a9f32b92/bitmine-immersion.html",
-          "publishedAt": "2026-07-08T19:44:59.000Z"
-        },
-        {
-          "title": "Should You Buy Intel Stock Before July 23?",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/ee7e0757-bebb-3f0e-ab6a-85d38ef08a70/should-you-buy-intel-stock.html",
-          "publishedAt": "2026-07-08T19:43:00.000Z"
-        },
-        {
-          "title": "Sector Update: Tech Stocks Rise Late Afternoon",
+          "title": "Update: Dow Logs Worst Day in 4 Weeks Amid Renewed US-Iran Tensions",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-193936783.html",
-          "publishedAt": "2026-07-08T19:39:36.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dow-logs-worst-day-4-204002072.html",
+          "publishedAt": "2026-07-08T20:40:02.000Z"
+        },
+        {
+          "title": "China warned that Anthropic's Claude Code puts your data at risk. Is that true?",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/china-warned-that-anthropics-claude-code-puts-your-data-at-risk-is-that-true-203951387.html",
+          "publishedAt": "2026-07-08T20:39:51.000Z"
+        },
+        {
+          "title": "Jim Cramer Sees Tech Rebound And Oracle Upside as Data Center Spending Reshapes Market",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/b88e51ae-3c08-3ff6-ba88-8bf65f5fe97b/jim-cramer-sees-tech-rebound.html",
+          "publishedAt": "2026-07-08T20:36:41.000Z"
         }
       ]
     },
@@ -231,6 +231,18 @@
       "asOf": "2026-07-08T20:00:00.000Z",
       "headlines": [
         {
+          "title": "OpenAI to release ChatGPT 5.6 models & 'GPT Live' on Thursday: What to know",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/openai-to-release-chatgpt-56-models--gpt-live-on-thursday-what-to-know-202217707.html",
+          "publishedAt": "2026-07-08T20:22:17.000Z"
+        },
+        {
+          "title": "Why Anthropic Could Be Worth $6T by 2027, Inside CCP-Affiliated Data Center Pushback, Amazon’s $25B Bond",
+          "publisher": "Blockspace",
+          "url": "https://finance.yahoo.com/m/e2c9dd12-e502-3dbb-b1d5-1ad447c59fbf/why-anthropic-could-be-worth.html",
+          "publishedAt": "2026-07-08T19:41:45.000Z"
+        },
+        {
           "title": "Sector Update: Tech Stocks Rise Late Afternoon",
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-193936783.html",
@@ -241,30 +253,18 @@
           "publisher": "GuruFocus.com",
           "url": "https://finance.yahoo.com/markets/stocks/articles/estee-lauder-raises-restructuring-charges-190928171.html",
           "publishedAt": "2026-07-08T19:09:28.000Z"
-        },
-        {
-          "title": "Corning Incorporated (GLW) Announces Quarterly Dividend",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/corning-incorporated-glw-announces-quarterly-185018770.html",
-          "publishedAt": "2026-07-08T18:50:18.000Z"
-        },
-        {
-          "title": "Cerebras Stock: Wafer-Scale AI Offers Big Potential, Big Risks?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-stock-wafer-scale-ai-184400121.html",
-          "publishedAt": "2026-07-08T18:44:00.000Z"
         }
       ]
     },
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 22.47,
+      "price": 22.46,
       "previousClose": 24.9,
-      "changePct": -9.78,
+      "changePct": -9.8,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-08T19:59:59.000Z",
+      "asOf": "2026-07-08T20:00:03.000Z",
       "headlines": [
         {
           "title": "The Best REITs to Buy",
@@ -297,10 +297,10 @@
       "name": "Devon Energy Corporation",
       "price": 43.31,
       "previousClose": 47.91,
-      "changePct": -9.61,
+      "changePct": -9.6,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-08T19:59:59.000Z",
+      "asOf": "2026-07-08T20:00:02.000Z",
       "headlines": [
         {
           "title": "JPMorgan Adjusts Devon Energy Price Target to $55 From $62",
@@ -331,12 +331,12 @@
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.03,
+      "price": 17.05,
       "previousClose": 18.39,
-      "changePct": -7.4,
+      "changePct": -7.29,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-08T19:59:59.000Z",
+      "asOf": "2026-07-08T20:00:02.000Z",
       "headlines": [
         {
           "title": "PG&E Surpasses 2030 Methane Reduction Goal Five Years Ahead of Plan",
@@ -372,8 +372,14 @@
       "changePct": -6.95,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-08T19:59:56.000Z",
+      "asOf": "2026-07-08T20:02:31.000Z",
       "headlines": [
+        {
+          "title": "SAP (XTRA:SAP) Stock Looks Below Fair Value Despite AI Hopes",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sap-xtra-sap-stock-looks-201446170.html",
+          "publishedAt": "2026-07-08T20:14:46.000Z"
+        },
         {
           "title": "SAP (XTRA:SAP) Leans On Its Cloud Narrative As Undervalued Calls Persist",
           "publisher": "Simply Wall St.",
@@ -391,12 +397,6 @@
           "publisher": "ACCESS Newswire",
           "url": "https://finance.yahoo.com/technology/ai/articles/ai-data-centres-climate-tech-155000605.html",
           "publishedAt": "2026-07-08T15:50:00.000Z"
-        },
-        {
-          "title": "This is Why SAP SE (SAP) is A Top AI Stock on Wall Street Radar amid Reorganization Drive",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/why-sap-se-sap-top-153859414.html",
-          "publishedAt": "2026-07-08T15:38:59.000Z"
         }
       ]
     },
@@ -475,12 +475,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 260.98,
+      "price": 260.94,
       "previousClose": 275.21,
-      "changePct": -5.17,
+      "changePct": -5.19,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-08T19:59:59.000Z",
+      "asOf": "2026-07-08T20:00:02.000Z",
       "headlines": [
         {
           "title": "Cheniere Energy (LNG) Benefited from Supply Constraints",
@@ -519,28 +519,28 @@
       "asOf": "2026-07-08T20:00:01.000Z",
       "headlines": [
         {
+          "title": "SAP (XTRA:SAP) Stock Looks Below Fair Value Despite AI Hopes",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sap-xtra-sap-stock-looks-201446170.html",
+          "publishedAt": "2026-07-08T20:14:46.000Z"
+        },
+        {
+          "title": "Microsoft announces quarterly earnings release date",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-announces-quarterly-earnings-release-200500926.html",
+          "publishedAt": "2026-07-08T20:05:00.000Z"
+        },
+        {
           "title": "IREN Limited (IREN) Co-founders Score US$788M Pay Packet Amid AI Bonanza",
           "publisher": "Insider Monkey",
           "url": "https://finance.yahoo.com/technology/ai/articles/iren-limited-iren-co-founders-192017979.html",
           "publishedAt": "2026-07-08T19:20:17.000Z"
         },
         {
-          "title": "Microsoft Is Downsizing Its Xbox Unit. Will That Rescue Its Stock?",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/11352467-414a-3d97-aa8f-76bd0141a41b/microsoft-is-downsizing-its.html",
-          "publishedAt": "2026-07-08T18:05:00.000Z"
-        },
-        {
-          "title": "West Texas Cowboys Are Cashing In on the AI Land Rush",
-          "publisher": "Oilprice.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/west-texas-cowboys-cashing-ai-180000409.html",
-          "publishedAt": "2026-07-08T18:00:00.000Z"
-        },
-        {
-          "title": "Sector Update: Tech Stocks Rise Wednesday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-rise-wednesday-173927838.html",
-          "publishedAt": "2026-07-08T17:39:27.000Z"
+          "title": "Microsoft's Quantum Security Push: 1 Stock With 111% Upside to Buy Now",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsofts-quantum-security-push-1-190000381.html",
+          "publishedAt": "2026-07-08T19:00:00.000Z"
         }
       ]
     },
