@@ -1,55 +1,61 @@
 {
-  "generatedAt": "2026-07-13T18:17:46.208Z",
+  "generatedAt": "2026-07-13T20:00:02.928Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
-  "count": 15,
+  "count": 16,
   "items": [
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 91.35,
+      "price": 92.1,
       "previousClose": 132.36,
-      "changePct": -30.98,
+      "changePct": -30.42,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-13T18:17:42.000Z",
+      "asOf": "2026-07-13T19:59:50.000Z",
       "headlines": [
         {
-          "title": "Bitcoin Falling to $50K Would Be a 'Blessing' For Investors: Fundstrat",
-          "publisher": "Coinage Coop",
-          "url": "https://finance.yahoo.com/m/b5d5d7ba-3947-3ccd-8055-1c3bc27844f8/bitcoin-falling-to-%2450k-would.html",
-          "publishedAt": "2026-07-13T16:27:00.000Z"
+          "title": "Strategy's New MSTR Sale Pushes Its Cash Reserves to $3B",
+          "publisher": "Bankless",
+          "url": "https://finance.yahoo.com/m/801f4ce2-5b45-3986-9f3d-3168c39e0fab/strategy%27s-new-mstr-sale.html",
+          "publishedAt": "2026-07-13T19:05:28.000Z"
+        },
+        {
+          "title": "MicroStrategy Unveils Bitcoin Banking Index as Institutional Adoption Reaches 32%",
+          "publisher": "BeInCrypto",
+          "url": "https://finance.yahoo.com/m/f8e4f1b2-c826-333b-b81a-260b866d3174/microstrategy-unveils-bitcoin.html",
+          "publishedAt": "2026-07-13T18:47:02.000Z"
         },
         {
           "title": "Strategy Pauses Bitcoin Sales to Tap an Old Funding Source",
           "publisher": "Barrons.com",
           "url": "https://finance.yahoo.com/m/c4ba41a8-667e-33c3-a422-5363d346b63d/strategy-pauses-bitcoin-sales.html",
-          "publishedAt": "2026-07-13T16:13:00.000Z"
+          "publishedAt": "2026-07-13T18:44:00.000Z"
         },
         {
-          "title": "Should You Hold Strategy Stock Following Its Bitcoin Monetization Plan?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hold-strategy-stock-following-bitcoin-154600560.html",
-          "publishedAt": "2026-07-13T15:46:00.000Z"
-        },
-        {
-          "title": "Jim Cramer on Weyerhaeuser: “I’m More Bullish on It Than the Rest of Wall Street”",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-weyerhaeuser-m-more-152607539.html",
-          "publishedAt": "2026-07-13T15:26:07.000Z"
+          "title": "MicroStrategy sells shares to boost U.S. dollar reserve",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/523979ad-b8a9-3397-9c41-cd2aa3bca1c7/microstrategy-sells-shares-to.html",
+          "publishedAt": "2026-07-13T18:38:13.000Z"
         }
       ]
     },
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 290.08,
+      "price": 290.42,
       "previousClose": 237.82,
-      "changePct": 21.98,
+      "changePct": 22.12,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-13T18:17:40.000Z",
+      "asOf": "2026-07-13T19:59:41.000Z",
       "headlines": [
+        {
+          "title": "Why IonQ Stock Is on a Losing Streak Even as Quantum Sector Booms",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/34731d9d-6f3d-373f-b126-e09230958f8b/why-ionq-stock-is-on-a-losing.html",
+          "publishedAt": "2026-07-13T18:39:00.000Z"
+        },
         {
           "title": "Jim Cramer Says Buy IBM Right Now: Here Is Why Arvind Krishna Has This Stock Undervalued",
           "publisher": "24/7 Wall St.",
@@ -67,60 +73,54 @@
           "publisher": "Insider Monkey",
           "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-ibm-inexpensive-arvind-152555444.html",
           "publishedAt": "2026-07-13T15:25:55.000Z"
-        },
-        {
-          "title": "AI Moves From Pilots to Production at the World's Largest Developer Event",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ai-moves-pilots-production-worlds-142700512.html",
-          "publishedAt": "2026-07-13T14:27:00.000Z"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 423.62,
+      "price": 421.58,
       "previousClose": 369.57,
-      "changePct": 14.63,
+      "changePct": 14.07,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-13T18:17:42.000Z",
+      "asOf": "2026-07-13T19:59:44.000Z",
       "headlines": [
         {
-          "title": "TSMC Revenue Tops Forecasts on AI Strength",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-revenue-tops-forecasts-ai-171945309.html",
-          "publishedAt": "2026-07-13T17:19:45.000Z"
-        },
-        {
-          "title": "TSMC Reports 36% Sales Growth as AI Demand Stays Strong",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-reports-36-sales-growth-171805440.html",
-          "publishedAt": "2026-07-13T17:18:05.000Z"
-        },
-        {
-          "title": "Premium Smartphone Demand Holds Up: What's Ahead for Amkor Technology?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/technology/articles/premium-smartphone-demand-holds-whats-162500286.html",
-          "publishedAt": "2026-07-13T16:25:00.000Z"
-        },
-        {
-          "title": "Stock Market Today: Dow Drops As Trump Reinstates Hormuz Blockade; Oil Refiners Rise (Live Coverage)",
+          "title": "Stock Market Today: Dow Lower As Oil Spikes On Hormuz Conflict; Memory ETF In Bear Market (Live Coverage)",
           "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/5eba618e-9a5d-3cbe-906d-545b7db0d19c/stock-market-today%3A-dow-drops.html",
-          "publishedAt": "2026-07-13T16:15:49.000Z"
+          "url": "https://finance.yahoo.com/m/5eba618e-9a5d-3cbe-906d-545b7db0d19c/stock-market-today%3A-dow-lower.html",
+          "publishedAt": "2026-07-13T19:46:59.000Z"
+        },
+        {
+          "title": "SK Hynix, Sandisk, AppLovin, Intuit, Meta, SpaceX, and More Stocks That Explain Today’s Market",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/5c3f659d-71a8-31f7-a452-f104234e74cc/sk-hynix%2C-sandisk%2C-applovin%2C.html",
+          "publishedAt": "2026-07-13T18:27:00.000Z"
+        },
+        {
+          "title": "Arm And Marvell Tumble As Chip Stocks Sell Off",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/bc731bd7-164f-3a39-8914-952d250a5dbb/arm-and-marvell-tumble-as.html",
+          "publishedAt": "2026-07-13T18:21:53.000Z"
+        },
+        {
+          "title": "Taiwan Semiconductor Posts Stronger-Than-Expected June Sales",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/b7241a55-936d-38db-a264-ab0ba8eddc85/taiwan-semiconductor-posts.html",
+          "publishedAt": "2026-07-13T18:16:25.000Z"
         }
       ]
     },
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 3.98,
+      "price": 3.99,
       "previousClose": 4.62,
-      "changePct": -13.96,
+      "changePct": -13.74,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-13T18:17:27.000Z",
+      "asOf": "2026-07-13T19:59:50.000Z",
       "headlines": [
         {
           "title": "RedChip to Host Exclusive Live Webinar and Investor Q&A with The Metals Company on July 15, 2026",
@@ -149,55 +149,19 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 204.1,
-      "previousClose": 189.31,
-      "changePct": 7.81,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-07-13T18:17:43.000Z",
-      "headlines": [
-        {
-          "title": "Why SK Hynix Stock Just Crashed",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/6d9e9679-7a8b-3caa-b5c1-be178f093c23/why-sk-hynix-stock-just.html",
-          "publishedAt": "2026-07-13T18:02:33.000Z"
-        },
-        {
-          "title": "Prediction: 1 New Reason Eli Lilly Stock Could Still Be Headed Higher",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/c170a3a5-f697-3f50-9970-37893513cdf8/prediction%3A-1-new-reason-eli.html",
-          "publishedAt": "2026-07-13T18:00:35.000Z"
-        },
-        {
-          "title": "The Vanguard S&P 500 ETF Is Unstoppable, but This 1 Investment Could Be Safer Right Now",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/526fd211-93ca-3111-97d2-a06b5ef0b39a/the-vanguard-s%26p-500-etf-is.html",
-          "publishedAt": "2026-07-13T17:50:00.000Z"
-        },
-        {
-          "title": "A Generational Transfer Is Happening: Amazon, Google, Microsoft Are the Losers. NVIDIA and Micron the Winners.",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/3ce38ae3-4708-30cd-981d-3026edd54051/a-generational-transfer-is.html",
-          "publishedAt": "2026-07-13T17:38:21.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 43.72,
+      "price": 43.7,
       "previousClose": 47.27,
-      "changePct": -7.52,
+      "changePct": -7.56,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-13T18:17:41.000Z",
+      "asOf": "2026-07-13T19:59:45.000Z",
       "headlines": [
         {
-          "title": "Trump Makes U.S. The 'Guardian' Of Hormuz; What Happens Now",
+          "title": "Oil Jumps As Trump Makes U.S. 'Guardian' Of Hormuz; What Happens Now",
           "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/97f5e136-6c23-3394-9cd9-787789a56ec9/trump-makes-u.s.-the.html",
+          "url": "https://finance.yahoo.com/m/97f5e136-6c23-3394-9cd9-787789a56ec9/oil-jumps-as-trump-makes-u.s..html",
           "publishedAt": "2026-07-13T15:46:03.000Z"
         },
         {
@@ -221,14 +185,50 @@
       ]
     },
     {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 203.54,
+      "previousClose": 189.31,
+      "changePct": 7.52,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-07-13T19:59:50.000Z",
+      "headlines": [
+        {
+          "title": "Citi Has a Stark Message for Nvidia Stock Fans",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/citi-stark-message-nvidia-stock-195213457.html",
+          "publishedAt": "2026-07-13T19:52:13.000Z"
+        },
+        {
+          "title": "Why AI Investors Can Finally Buy the World's Top HBM Maker Directly",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/53b3f8c4-81da-3cb0-9bf2-a38a7dd39855/why-ai-investors-can-finally.html",
+          "publishedAt": "2026-07-13T19:50:00.000Z"
+        },
+        {
+          "title": "Google Takes Aim at Nvidia's AI Chip Market",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/google-takes-aim-nvidias-ai-193636716.html",
+          "publishedAt": "2026-07-13T19:36:36.000Z"
+        },
+        {
+          "title": "Jensen Huang Slammed a $2.5 Billion Chip-Smuggling Scheme at Nvidia's Stockholder Meeting",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/9199c239-ba4c-32a3-ab69-0d8e5d76ddec/jensen-huang-slammed-a-%242.5.html",
+          "publishedAt": "2026-07-13T19:35:00.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 23.3,
+      "price": 23.39,
       "previousClose": 24.82,
-      "changePct": -6.14,
+      "changePct": -5.76,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-13T18:17:43.000Z",
+      "asOf": "2026-07-13T19:59:44.000Z",
       "headlines": [
         {
           "title": "Jim Cramer on Weyerhaeuser: “I’m More Bullish on It Than the Rest of Wall Street”",
@@ -259,12 +259,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 160.38,
+      "price": 160.02,
       "previousClose": 169.57,
-      "changePct": -5.42,
+      "changePct": -5.63,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-13T18:17:23.000Z",
+      "asOf": "2026-07-13T19:59:45.000Z",
       "headlines": [
         {
           "title": "European Equities Traded in US as ADRs Decline",
@@ -295,12 +295,12 @@
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.62,
+      "price": 2.65,
       "previousClose": 2.51,
-      "changePct": 4.38,
+      "changePct": 5.38,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-13T18:13:52.000Z",
+      "asOf": "2026-07-13T19:59:51.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals and Unlearn Collaborate to Explore Analyses of Alzheimer's Disease Clinical Programs",
@@ -329,50 +329,50 @@
       ]
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "price": 248.22,
-      "previousClose": 239.89,
-      "changePct": 3.47,
+      "ticker": "APLD",
+      "name": "Applied Digital Corporation",
+      "price": 28.84,
+      "previousClose": 27.6,
+      "changePct": 4.47,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-13T18:17:42.000Z",
+      "asOf": "2026-07-13T19:59:51.000Z",
       "headlines": [
         {
-          "title": "A Generational Transfer Is Happening: Amazon, Google, Microsoft Are the Losers. NVIDIA and Micron the Winners.",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/3ce38ae3-4708-30cd-981d-3026edd54051/a-generational-transfer-is.html",
-          "publishedAt": "2026-07-13T17:38:21.000Z"
-        },
-        {
-          "title": "Amazon Stock Hasn't Been This Cheap in Over a Decade. Has the Sell-Off Gone Too Far?",
+          "title": "Applied Digital vs. TeraWulf: Which Neocloud Stock Is the Better Buy?",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/5332548f-af51-365b-93b2-44222d01d9ab/amazon-stock-hasn%27t-been-this.html",
-          "publishedAt": "2026-07-13T17:35:00.000Z"
+          "url": "https://finance.yahoo.com/m/5e89c361-3fa7-3ab8-8682-44ed711e518c/applied-digital-vs.-terawulf%3A.html",
+          "publishedAt": "2026-07-13T19:11:00.000Z"
         },
         {
-          "title": "GOOGL Reportedly Expands TPU Sales To Battle Nvidia Amid Wall Street Price Target Cuts On Big Tech Ahead Of Q2 Earnings",
-          "publisher": "Stocktwits",
-          "url": "https://finance.yahoo.com/m/83eea701-85e1-3dc2-ab54-23db91f9c803/googl-reportedly-expands-tpu.html",
-          "publishedAt": "2026-07-13T17:22:51.000Z"
+          "title": "Applied Digital: Is The $16 Billion AI Bet Worth The Risk?",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/65afa6fd-03c4-399b-8533-ff7a2d976b2a/applied-digital%3A-is-the-%2416.html",
+          "publishedAt": "2026-07-13T16:25:32.000Z"
         },
         {
-          "title": "AI Costs Keep Rising As Morgan Stanley Ups CapEx Estimates For Amazon, Meta",
+          "title": "Google, Amazon Increase Data-Center Capacity Plans",
           "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/25a60e93-a37b-3f2d-8e53-4da3112469b1/ai-costs-keep-rising-as.html",
-          "publishedAt": "2026-07-13T16:49:19.000Z"
+          "url": "https://finance.yahoo.com/m/c6471f28-c858-3f6b-b2b4-96de5d4711d0/google%2C-amazon-increase.html",
+          "publishedAt": "2026-07-10T17:48:48.000Z"
+        },
+        {
+          "title": "APLD's Customer Concentration Remains High: Will it Limit Growth?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aplds-customer-concentration-remains-high-160500472.html",
+          "publishedAt": "2026-07-10T16:05:00.000Z"
         }
       ]
     },
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.79,
+      "price": 3.74,
       "previousClose": 3.9,
-      "changePct": -2.82,
+      "changePct": -4.23,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-07-13T18:16:00.000Z",
+      "asOf": "2026-07-13T19:59:51.000Z",
       "headlines": [
         {
           "title": "Breakthrough T1D Awards Grant to Support PRISE‑hATG Study of SAB‑142 in Stage 3 Type 1 Diabetes",
@@ -401,14 +401,50 @@
       ]
     },
     {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 247.28,
+      "previousClose": 239.89,
+      "changePct": 3.08,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-07-13T19:59:50.000Z",
+      "headlines": [
+        {
+          "title": "Apple Sat Out the AI Arms Race. It’s the Only Magnificent 7 Stock Near All-Time Highs.",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/a8d34e3c-14ad-327c-993e-04e4b5892fdc/apple-sat-out-the-ai-arms.html",
+          "publishedAt": "2026-07-13T19:21:46.000Z"
+        },
+        {
+          "title": "Nvidia, Amazon, and Microsoft Stocks Just Did Something for the First Time in at Least 5 Years. Here's What History Says Will Happen Next",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/72aa21ec-6184-3602-aaca-83388907dc8a/nvidia%2C-amazon%2C-and-microsoft.html",
+          "publishedAt": "2026-07-13T19:16:40.000Z"
+        },
+        {
+          "title": "This Is Why I Keep Buying Meta Stock",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/7dd0db7f-3b2e-31bf-b85b-6b1f43f9e63b/this-is-why-i-keep-buying.html",
+          "publishedAt": "2026-07-13T18:23:08.000Z"
+        },
+        {
+          "title": "A Generational Transfer Is Happening: Amazon, Google, Microsoft Are the Losers. NVIDIA and Micron the Winners.",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/3ce38ae3-4708-30cd-981d-3026edd54051/a-generational-transfer-is.html",
+          "publishedAt": "2026-07-13T17:38:21.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.36,
+      "price": 17.38,
       "previousClose": 17.74,
-      "changePct": -2.17,
+      "changePct": -2.06,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-13T18:17:34.000Z",
+      "asOf": "2026-07-13T19:59:44.000Z",
       "headlines": [
         {
           "title": "PG&E faces $22M penalty for Mosquito Fire under proposed agreement",
@@ -439,12 +475,12 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 129.53,
+      "price": 130.02,
       "previousClose": 132.37,
-      "changePct": -2.15,
+      "changePct": -1.78,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-13T18:17:43.000Z",
+      "asOf": "2026-07-13T19:59:50.000Z",
       "headlines": [
         {
           "title": "Palantir vs. Snowflake: Which AI Strategy Has the Better Long-Term Potential?",
@@ -475,48 +511,48 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 392.24,
+      "price": 391.02,
       "previousClose": 384.37,
-      "changePct": 2.05,
+      "changePct": 1.73,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-13T18:17:43.000Z",
+      "asOf": "2026-07-13T19:59:50.000Z",
       "headlines": [
         {
-          "title": "Elon Musk trolls OpenAI CEO Sam Altman over Apple trade secrets suit",
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/article/elon-musk-trolls-openai-ceo-sam-altman-over-apple-trade-secrets-suit-181116261.html",
-          "publishedAt": "2026-07-13T18:11:16.000Z"
-        },
-        {
-          "title": "The Vanguard S&P 500 ETF Is Unstoppable, but This 1 Investment Could Be Safer Right Now",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/526fd211-93ca-3111-97d2-a06b5ef0b39a/the-vanguard-s%26p-500-etf-is.html",
-          "publishedAt": "2026-07-13T17:50:00.000Z"
-        },
-        {
-          "title": "A Generational Transfer Is Happening: Amazon, Google, Microsoft Are the Losers. NVIDIA and Micron the Winners.",
+          "title": "Apple Sat Out the AI Arms Race. It’s the Only Magnificent 7 Stock Near All-Time Highs.",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/3ce38ae3-4708-30cd-981d-3026edd54051/a-generational-transfer-is.html",
-          "publishedAt": "2026-07-13T17:38:21.000Z"
+          "url": "https://finance.yahoo.com/m/a8d34e3c-14ad-327c-993e-04e4b5892fdc/apple-sat-out-the-ai-arms.html",
+          "publishedAt": "2026-07-13T19:21:46.000Z"
         },
         {
-          "title": "Global Unified Communication as a Service (UCaaS) Market Size to Reach USD 605.5 Billion by 2035 | Growing at 20.4% CAGR | Industry Trends, Market Share & Forecast – Custom Market Insights",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/articles/global-unified-communication-ucaas-market-173000679.html",
-          "publishedAt": "2026-07-13T17:30:00.000Z"
+          "title": "Nvidia, Amazon, and Microsoft Stocks Just Did Something for the First Time in at Least 5 Years. Here's What History Says Will Happen Next",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/72aa21ec-6184-3602-aaca-83388907dc8a/nvidia%2C-amazon%2C-and-microsoft.html",
+          "publishedAt": "2026-07-13T19:16:40.000Z"
+        },
+        {
+          "title": "Nvidia, AMD, Microsoft Partnerships — And These Clues — Fuel Dell Stock",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/568ed7cb-87e6-3e83-af96-b829d4b5992f/nvidia%2C-amd%2C-microsoft.html",
+          "publishedAt": "2026-07-13T19:02:15.000Z"
+        },
+        {
+          "title": "This Is Why I Keep Buying Meta Stock",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/7dd0db7f-3b2e-31bf-b85b-6b1f43f9e63b/this-is-why-i-keep-buying.html",
+          "publishedAt": "2026-07-13T18:23:08.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 264.78,
+      "price": 263.19,
       "previousClose": 261.6,
-      "changePct": 1.22,
+      "changePct": 0.61,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-13T18:17:43.000Z",
+      "asOf": "2026-07-13T19:59:45.000Z",
       "headlines": [
         {
           "title": "Baker Hughes Wins Cheniere Sabine Pass Awards to Drive LNG Growth",
@@ -545,7 +581,5 @@
       ]
     }
   ],
-  "errors": [
-    "APLD: HTTP 404"
-  ]
+  "errors": []
 }
