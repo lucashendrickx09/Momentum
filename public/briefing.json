@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-07-17T16:41:41.185Z",
+  "generatedAt": "2026-07-17T18:35:58.477Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
-  "count": 15,
+  "count": 16,
   "items": [
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 93.83,
+      "price": 94.03,
       "previousClose": 166.52,
-      "changePct": -43.66,
+      "changePct": -43.53,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-17T16:41:34.000Z",
+      "asOf": "2026-07-17T18:35:54.000Z",
       "headlines": [
         {
           "title": "Price Prediction: MicroStrategy Has 260% Upside as Bitcoin Adoption Accelerates",
@@ -43,12 +43,12 @@
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 3.74,
+      "price": 3.76,
       "previousClose": 5.32,
-      "changePct": -29.74,
+      "changePct": -29.42,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-17T16:41:23.000Z",
+      "asOf": "2026-07-17T18:35:52.000Z",
       "headlines": [
         {
           "title": "Why's Everyone Getting Excited About The Metals Company?",
@@ -79,12 +79,12 @@
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.22,
+      "price": 2.23,
       "previousClose": 2.82,
-      "changePct": -21.28,
+      "changePct": -21.1,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-17T16:41:21.000Z",
+      "asOf": "2026-07-17T18:34:25.000Z",
       "headlines": [
         {
           "title": "Slate Medicines Appoints Mark W. Hahn to Board of Directors",
@@ -113,50 +113,86 @@
       ]
     },
     {
-      "ticker": "IBM",
-      "name": "International Business Machines Corporation",
-      "price": 213.38,
-      "previousClose": 253.47,
-      "changePct": -15.82,
+      "ticker": "APLD",
+      "name": "Applied Digital Corporation",
+      "price": 25.27,
+      "previousClose": 31.53,
+      "changePct": -19.87,
       "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-07-17T16:41:35.000Z",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-07-17T18:35:57.000Z",
       "headlines": [
         {
-          "title": "Oracle is Falling Fast. Here’s Why This Wall Street Firm Believes The Stock Will Triple in 12 Months",
+          "title": "Coreweave Down 35% . This Analyst Reiterated His $250 Target Even After ‘Meta Compute’ Was Announced.",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/e67cbcb0-d8c5-3fc9-b95e-8367be03378b/oracle-is-falling-fast..html",
-          "publishedAt": "2026-07-17T15:00:54.000Z"
+          "url": "https://finance.yahoo.com/m/53ff87c3-bd42-39d7-9fb0-3f6f4a01e6c6/coreweave-down-35%25-.-this.html",
+          "publishedAt": "2026-07-17T14:33:59.000Z"
         },
         {
-          "title": "Housing Starts Jump, Building Permits Decline in June",
+          "title": "3 Small-Cap Stocks That Fall Short",
+          "publisher": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-small-cap-stocks-fall-140146907.html",
+          "publishedAt": "2026-07-17T14:01:46.000Z"
+        },
+        {
+          "title": "Applied Digital (APLD) Expands North Dakota AI Campus on Schedule",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/applied-digital-apld-expands-north-183640640.html",
+          "publishedAt": "2026-07-16T18:36:40.000Z"
+        },
+        {
+          "title": "LITE vs. APLD: Which AI Infrastructure Stock Offers Better Growth?",
           "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/real-estate/articles/housing-starts-jump-building-permits-150000194.html",
-          "publishedAt": "2026-07-17T15:00:00.000Z"
+          "url": "https://finance.yahoo.com/technology/ai/articles/lite-vs-apld-ai-infrastructure-153500607.html",
+          "publishedAt": "2026-07-16T15:35:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "IBM",
+      "name": "International Business Machines Corporation",
+      "price": 211.2,
+      "previousClose": 253.47,
+      "changePct": -16.68,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-07-17T18:35:55.000Z",
+      "headlines": [
+        {
+          "title": "Stock Market Losses Led By Nasdaq, AI Stocks; Goldman, GE, Taiwan Semi, IBM In Focus: Weekly Review",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/0470026f-2446-36c6-97c4-0335129409df/stock-market-losses-led-by.html",
+          "publishedAt": "2026-07-17T17:02:58.000Z"
         },
         {
-          "title": "Why the Dow Is Flat After Opening Down 500 Points",
+          "title": "Stock Market Midday, July 17: Netflix Plunges and Stocks Slide as Semiconductor Sell-Off Deepens",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/9bf5de24-9dc7-3fab-8eca-2e745e865eb1/stock-market-midday%2C-july-17%3A.html",
+          "publishedAt": "2026-07-17T16:58:30.000Z"
+        },
+        {
+          "title": "The 'Invisible Speculative Bear Market' Is Coming Out of Hiding",
           "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/1292bb15-71fd-34ac-b62c-0b2d2fb0fcdb/why-the-dow-is-flat-after.html",
-          "publishedAt": "2026-07-17T14:37:02.000Z"
+          "url": "https://finance.yahoo.com/m/19e70832-e060-35d4-afce-0a03116909da/the-%27invisible-speculative.html",
+          "publishedAt": "2026-07-17T16:39:41.000Z"
         },
         {
-          "title": "Pre-Markets Down on Weak Overnight in Asia",
+          "title": "Should You Buy, Sell or Hold IBM Stock Before Q2 Earnings?",
           "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/pre-markets-down-weak-overnight-143500539.html",
-          "publishedAt": "2026-07-17T14:35:00.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-ibm-stock-154400229.html",
+          "publishedAt": "2026-07-17T15:44:00.000Z"
         }
       ]
     },
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 158.26,
+      "price": 158.54,
       "previousClose": 181.22,
-      "changePct": -12.67,
+      "changePct": -12.52,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-17T16:41:29.000Z",
+      "asOf": "2026-07-17T18:35:53.000Z",
       "headlines": [
         {
           "title": "European Equities Traded in the US as American Depositary Receipts Decline Friday",
@@ -187,13 +223,19 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 132.33,
+      "price": 133.07,
       "previousClose": 146.39,
-      "changePct": -9.6,
+      "changePct": -9.1,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-17T16:41:37.000Z",
+      "asOf": "2026-07-17T18:35:53.000Z",
       "headlines": [
+        {
+          "title": "The 'Invisible Speculative Bear Market' Is Coming Out of Hiding",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/19e70832-e060-35d4-afce-0a03116909da/the-%27invisible-speculative.html",
+          "publishedAt": "2026-07-17T16:39:41.000Z"
+        },
         {
           "title": "How to Find the Bargains in the Software Stock Wreckage",
           "publisher": "Barrons.com",
@@ -201,106 +243,64 @@
           "publishedAt": "2026-07-17T15:43:00.000Z"
         },
         {
+          "title": "With a $15 billion net worth, Palantir CEO Alex Karp predicts he will get 20x richer from AI—but that middle-class workers will get just modest raises",
+          "publisher": "Fortune",
+          "url": "https://finance.yahoo.com/economy/policy/articles/15-billion-net-worth-palantir-150653679.html",
+          "publishedAt": "2026-07-17T15:06:53.000Z"
+        },
+        {
           "title": "3 Hypergrowth Stocks That You Should Consider Buying in July",
           "publisher": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/m/15748b33-51f3-339c-b8dc-e09bbd970eeb/3-hypergrowth-stocks-that-you.html",
           "publishedAt": "2026-07-17T12:00:03.000Z"
-        },
-        {
-          "title": "Alex Karp Grouped Palantir With These 3 Unstoppable Stocks as the Only True Artificial Intelligence (AI) Infrastructure Winners",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/725b9a9d-b2da-31be-99a9-e6aabdd0b00f/alex-karp-grouped-palantir.html",
-          "publishedAt": "2026-07-16T21:05:00.000Z"
-        },
-        {
-          "title": "Palantir CTO Warns AI Distillation Threat Could Undermine U.S. AI Lead",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-cto-warns-ai-distillation-193451235.html",
-          "publishedAt": "2026-07-16T19:34:51.000Z"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 400.47,
+      "price": 397.36,
       "previousClose": 370.5,
-      "changePct": 8.09,
+      "changePct": 7.25,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-17T16:41:37.000Z",
+      "asOf": "2026-07-17T18:35:54.000Z",
       "headlines": [
         {
-          "title": "Taiwan Semiconductor Q2 Earnings Beat Estimates, Revenues Rise Y/Y",
+          "title": "Nvidia, AMD, Mircon, TSMC Shares Sink as China Unveils Powerful New AI Model",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-amd-mircon-tsmc-shares-175211072.html",
+          "publishedAt": "2026-07-17T17:52:11.000Z"
+        },
+        {
+          "title": "Stock Market Losses Led By Nasdaq, AI Stocks; Goldman, GE, Taiwan Semi, IBM In Focus: Weekly Review",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/0470026f-2446-36c6-97c4-0335129409df/stock-market-losses-led-by.html",
+          "publishedAt": "2026-07-17T17:02:58.000Z"
+        },
+        {
+          "title": "Tech selloff weighs on European shares ahead of ECB meeting next week",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/european-shares-slip-tech-stocks-072308407.html",
+          "publishedAt": "2026-07-17T16:45:12.000Z"
+        },
+        {
+          "title": "All You Need to Know About TSMC (TSM) Rating Upgrade to Strong Buy",
           "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-q2-earnings-beat-150200488.html",
-          "publishedAt": "2026-07-17T15:02:00.000Z"
-        },
-        {
-          "title": "AMD Falls 5%, Intel Drops 4%, NVIDIA Slides 3% Before Recovering as Rotation Hits Semiconductor Stocks",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/2499445d-70b3-317a-912f-e7330e6b6725/amd-falls-5%25%2C-intel-drops-4%25%2C.html",
-          "publishedAt": "2026-07-17T14:30:21.000Z"
-        },
-        {
-          "title": "Taiwan Semiconductor Manufacturing (TSM): A Beneficiary of AI Boom",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-tsm-beneficiary-141959698.html",
-          "publishedAt": "2026-07-17T14:19:59.000Z"
-        },
-        {
-          "title": "Best Momentum Stocks to Buy for July 17th",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/best-momentum-stocks-buy-july-141500744.html",
-          "publishedAt": "2026-07-17T14:15:00.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation",
-      "price": 393.3,
-      "previousClose": 422.79,
-      "changePct": -6.97,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-07-17T16:41:36.000Z",
-      "headlines": [
-        {
-          "title": "Nebius’ $775 Million Debt Deal Changes Everything About Its AI Growth Story",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/f8298105-312d-3609-a8dc-8f3ee1ebf5da/nebius%E2%80%99-%24775-million-debt.html",
-          "publishedAt": "2026-07-17T16:10:15.000Z"
-        },
-        {
-          "title": "Bank of America Says Alphabet’s Q2 Will Deliver. Here’s The Price Target",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/ae80813c-5e1f-39e4-ae1d-2b7f7432ba33/bank-of-america-says.html",
-          "publishedAt": "2026-07-17T15:30:47.000Z"
-        },
-        {
-          "title": "NBIS Stock Rallies After The Nvidia-Backed Company Lands $775M Debt Deal To Fund AI Buildout",
-          "publisher": "Stocktwits",
-          "url": "https://finance.yahoo.com/m/a1424085-9a54-3843-9725-e17eaf13ddb7/nbis-stock-rallies-after-the.html",
-          "publishedAt": "2026-07-17T15:29:40.000Z"
-        },
-        {
-          "title": "Alphabet Drops 4%, But Analyst Believes There Is Massive Upside",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/57cdbd66-fb8a-3a2e-b62e-f90edc4eedbc/alphabet-drops-4%25%2C-but.html",
-          "publishedAt": "2026-07-17T15:25:53.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/know-tsmc-tsm-rating-upgrade-160005301.html",
+          "publishedAt": "2026-07-17T16:00:05.000Z"
         }
       ]
     },
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.63,
+      "price": 3.58,
       "previousClose": 3.85,
-      "changePct": -5.84,
+      "changePct": -7.12,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-07-17T16:40:55.000Z",
+      "asOf": "2026-07-17T18:33:29.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics (SABS) and Breakthrough T1D Award Research Grant For SAB-142 Assessment",
@@ -329,14 +329,50 @@
       ]
     },
     {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 394.51,
+      "previousClose": 422.79,
+      "changePct": -6.69,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-07-17T18:35:53.000Z",
+      "headlines": [
+        {
+          "title": "Analyst Report: Microsoft Corporation",
+          "publisher": "Morningstar Research",
+          "url": "https://finance.yahoo.com/m/11e4905d-9436-3993-8ab1-f4050dd6ed0b/analyst-report%3A-microsoft.html",
+          "publishedAt": "2026-07-17T17:55:43.000Z"
+        },
+        {
+          "title": "Big Tech Is Spending Hundreds Of Billions On AI Infrastructure — IO Fund's Beth Kindig Says It's Time To Show The Payoff",
+          "publisher": "Stocktwits",
+          "url": "https://finance.yahoo.com/m/dea1dd98-338a-3dcd-a518-aad24d8a9be4/big-tech-is-spending-hundreds.html",
+          "publishedAt": "2026-07-17T17:38:13.000Z"
+        },
+        {
+          "title": "Microsoft’s Xbox Mistake Is a Preview of Its AI Bet",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/2bd5dc43-3296-32fa-9a81-6069d48d64f9/microsoft%E2%80%99s-xbox-mistake-is-a.html",
+          "publishedAt": "2026-07-17T17:23:00.000Z"
+        },
+        {
+          "title": "Update: US Equity Indexes Drop Amid Declines in Growth Sectors, Surge in Crude Oil as Washington-Tehran Widen Strikes",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-amid-171345942.html",
+          "publishedAt": "2026-07-17T17:13:45.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 260.43,
+      "price": 261.37,
       "previousClose": 251.07,
-      "changePct": 3.73,
+      "changePct": 4.1,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-17T16:41:24.000Z",
+      "asOf": "2026-07-17T18:35:22.000Z",
       "headlines": [
         {
           "title": "Cheniere Energy (LNG) Appoints Britt Vitalone As It Reworks Key Credit Lines",
@@ -367,12 +403,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 24.45,
+      "price": 24.38,
       "previousClose": 25.17,
-      "changePct": -2.88,
+      "changePct": -3.16,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-17T16:41:35.000Z",
+      "asOf": "2026-07-17T18:35:44.000Z",
       "headlines": [
         {
           "title": "Truist Securities Trims Weyerhaeuser Price Target to $27 From $28, Maintains Hold Rating",
@@ -401,15 +437,57 @@
       ]
     },
     {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 247.64,
+      "previousClose": 250.56,
+      "changePct": -1.17,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-07-17T18:35:54.000Z",
+      "headlines": [
+        {
+          "title": "The Race to Beat Nvidia: Does Google or Amazon Have the Better In-House Silicon",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/1c112ac9-e5cd-334b-955a-f11967d8a45e/the-race-to-beat-nvidia%3A-does.html",
+          "publishedAt": "2026-07-17T18:01:56.000Z"
+        },
+        {
+          "title": "Analyst Report: Amazon.com, Inc.",
+          "publisher": "Morningstar Research",
+          "url": "https://finance.yahoo.com/m/e84a2c2b-5ce8-3a12-9d09-801791463bf2/analyst-report%3A-amazon.com%2C.html",
+          "publishedAt": "2026-07-17T17:54:37.000Z"
+        },
+        {
+          "title": "Amazon or Meta: Wedbush Chooses the Superior AI Hyperscaler Stock to Buy",
+          "publisher": "TipRanks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-meta-wedbush-chooses-superior-175300984.html",
+          "publishedAt": "2026-07-17T17:53:00.000Z"
+        },
+        {
+          "title": "Analyst Report: Prologis Inc",
+          "publisher": "Argus Research",
+          "url": "https://finance.yahoo.com/m/f2d8703d-adf5-377c-a489-aa63fcad5671/analyst-report%3A-prologis-inc.html",
+          "publishedAt": "2026-07-17T17:48:30.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 43.51,
+      "price": 43.77,
       "previousClose": 44.23,
-      "changePct": -1.64,
+      "changePct": -1.05,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-17T16:41:32.000Z",
+      "asOf": "2026-07-17T18:35:52.000Z",
       "headlines": [
+        {
+          "title": "The Great Rotation: 5 Stocks Set to Win as Money Leaves Megacap Tech",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/143c5886-bf16-3665-95ee-947122eb65a4/the-great-rotation%3A-5-stocks.html",
+          "publishedAt": "2026-07-17T16:47:31.000Z"
+        },
         {
           "title": "Can Occidental Continue to Grow on the Back of the Permian Basin?",
           "publisher": "Zacks",
@@ -427,60 +505,54 @@
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/devon-energy-dvn-stock-slides-215004762.html",
           "publishedAt": "2026-07-15T21:50:04.000Z"
-        },
-        {
-          "title": "UBS Adjusts Devon Energy Price Target to $54 From $58, Maintains Buy Rating",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-devon-energy-price-134101225.html",
-          "publishedAt": "2026-07-15T13:41:01.000Z"
         }
       ]
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 204.97,
+      "price": 203.4,
       "previousClose": 201.68,
-      "changePct": 1.63,
+      "changePct": 0.85,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-17T16:41:37.000Z",
+      "asOf": "2026-07-17T18:35:55.000Z",
       "headlines": [
         {
-          "title": "Why Did Nvidia Stock Sink Today?",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/b96412da-b5ee-301e-a524-2891d2b5cfea/why-did-nvidia-stock-sink.html",
-          "publishedAt": "2026-07-17T16:23:58.000Z"
+          "title": "Lucid Rallies 10% for a Third Straight Up Day, Leaving Tesla, Rivian Behind",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/0dc1beec-dba6-3bbc-9f95-1813a6ce0066/lucid-rallies-10%25-for-a-third.html",
+          "publishedAt": "2026-07-17T18:18:21.000Z"
         },
         {
-          "title": "Mark Zuckerberg's Meta Launched a Cloud Business This Week. The Stock Had Its Best Week Since Early 2024, Surging 15%.",
+          "title": "This $26.5 Billion Listing Ranks Behind Only SpaceX in U.S. Market History",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/8d35af4d-0630-3775-bd95-dc6d932b502e/mark-zuckerberg%27s-meta.html",
-          "publishedAt": "2026-07-17T16:20:00.000Z"
+          "url": "https://finance.yahoo.com/m/ac6875f1-9167-3f6d-ab7e-98cbbc3eaa83/this-%2426.5-billion-listing.html",
+          "publishedAt": "2026-07-17T18:18:00.000Z"
         },
         {
-          "title": "Nvidia CEO doubles down on AI and stock market verdict",
-          "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/m/b290a56d-dac3-3e45-91f4-0ddb60a76b10/nvidia-ceo-doubles-down-on-ai.html",
-          "publishedAt": "2026-07-17T16:17:00.000Z"
+          "title": "The Race to Beat Nvidia: Does Google or Amazon Have the Better In-House Silicon",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/1c112ac9-e5cd-334b-955a-f11967d8a45e/the-race-to-beat-nvidia%3A-does.html",
+          "publishedAt": "2026-07-17T18:01:56.000Z"
         },
         {
-          "title": "Why PayPal Shares Are Skyrocketing Higher This Week",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/48c8ae0c-59bb-3750-bc33-e97a6544cb22/why-paypal-shares-are.html",
-          "publishedAt": "2026-07-17T16:16:42.000Z"
+          "title": "Kimi K3 Just Triggered DeepSeek Flashbacks for the Stock Market",
+          "publisher": "decrypt",
+          "url": "https://finance.yahoo.com/m/e6446c22-6fb4-313e-be5e-cf37126263b7/kimi-k3-just-triggered.html",
+          "publishedAt": "2026-07-17T17:55:32.000Z"
         }
       ]
     },
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.4,
+      "price": 17.36,
       "previousClose": 17.26,
-      "changePct": 0.78,
+      "changePct": 0.61,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-17T16:41:34.000Z",
+      "asOf": "2026-07-17T18:35:51.000Z",
       "headlines": [
         {
           "title": "/U P D A T E -- Pacific Gas and Electric Company/",
@@ -507,45 +579,7 @@
           "publishedAt": "2026-07-15T15:43:14.000Z"
         }
       ]
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "price": 248.66,
-      "previousClose": 250.56,
-      "changePct": -0.76,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-07-17T16:41:35.000Z",
-      "headlines": [
-        {
-          "title": "Mag 7: Buy Amazon’s AI Maximalist Investment or Apple’s Minimalist Approach Right Now?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/d5b5a8a2-dc10-30b1-8da4-6e69d19b0c17/mag-7%3A-buy-amazon%E2%80%99s-ai.html",
-          "publishedAt": "2026-07-17T16:14:19.000Z"
-        },
-        {
-          "title": "Here’s How Main Street Misunderstands In-House Silicon Threats to Nvidia and Why I Keep Buying",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/aa4efcf0-182b-3279-9f2c-4989cb104a53/here%E2%80%99s-how-main-street.html",
-          "publishedAt": "2026-07-17T16:13:20.000Z"
-        },
-        {
-          "title": "AMZ Shipper Announces Full Enterprise Access to LTL Services",
-          "publisher": "ACCESS Newswire",
-          "url": "https://finance.yahoo.com/small-business/articles/amz-shipper-announces-full-enterprise-160000948.html",
-          "publishedAt": "2026-07-17T16:00:00.000Z"
-        },
-        {
-          "title": "Tech share selloff rolls on, oil prices climb on Mideast clashes",
-          "publisher": "AFP",
-          "url": "https://finance.yahoo.com/markets/world-indices/articles/tokyo-taipei-lead-tech-losses-022548774.html",
-          "publishedAt": "2026-07-17T15:59:13.000Z"
-        }
-      ]
     }
   ],
-  "errors": [
-    "APLD: HTTP 404"
-  ]
+  "errors": []
 }
