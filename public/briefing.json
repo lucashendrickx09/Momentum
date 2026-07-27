@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T15:59:51.656Z",
+  "generatedAt": "2026-07-27T18:07:23.362Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,48 +7,48 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 96.4,
+      "price": 98.25,
       "previousClose": 169.2,
-      "changePct": -43.03,
+      "changePct": -41.93,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-27T15:59:38.000Z",
+      "asOf": "2026-07-27T18:07:20.000Z",
       "headlines": [
         {
-          "title": "MKS (MKSI) Gains from Surging Demand for High Band Memory (HBM)",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mks-mksi-gains-surging-demand-150045433.html",
-          "publishedAt": "2026-07-27T15:00:45.000Z"
+          "title": "Peter Schiff Says Saylor Just Wiped 66% Off MicroStrategy’s Bitcoin Yield",
+          "publisher": "BeInCrypto",
+          "url": "https://finance.yahoo.com/m/28159e5e-8120-3e76-ac95-b07b7940c24b/peter-schiff-says-saylor-just.html",
+          "publishedAt": "2026-07-27T17:15:58.000Z"
         },
         {
-          "title": "Allegro Microsystems (ALGM) Advanced from Sharp Demand Growth",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/allegro-microsystems-algm-advanced-sharp-145714557.html",
-          "publishedAt": "2026-07-27T14:57:14.000Z"
+          "title": "Strategy raises $544.5M in stock sales, but doesn't buy any bitcoin",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/strategy-raises-544-5m-stock-163000894.html",
+          "publishedAt": "2026-07-27T16:30:00.000Z"
         },
         {
-          "title": "PTC (PTC): A Mispriced Opportunity?",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ptc-ptc-mispriced-opportunity-144841368.html",
-          "publishedAt": "2026-07-27T14:48:41.000Z"
+          "title": "Strategy sells $544.5M in MSTR, makes no bitcoin purchase",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/strategy-sells-5445m-in-mstr-makes-no-bitcoin-purchase-162207839.html",
+          "publishedAt": "2026-07-27T16:22:07.000Z"
         },
         {
-          "title": "Inflated AI Risk Hurt Autodesk (ADSK)",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/inflated-ai-risk-hurt-autodesk-144509816.html",
-          "publishedAt": "2026-07-27T14:45:09.000Z"
+          "title": "Can Bitcoin Price Reach $500,000? Coinbase Is Preparing for Its Biggest Security Threat",
+          "publisher": "CCN",
+          "url": "https://finance.yahoo.com/m/6f05b9ac-ad30-3588-8c61-781ee025c723/can-bitcoin-price-reach.html",
+          "publishedAt": "2026-07-27T16:12:44.000Z"
         }
       ]
     },
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 3.68,
+      "price": 3.75,
       "previousClose": 5.2,
-      "changePct": -29.19,
+      "changePct": -27.88,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-27T15:59:21.000Z",
+      "asOf": "2026-07-27T18:07:11.000Z",
       "headlines": [
         {
           "title": "Millionaire Maker or Market Hype? The Honest Truth About TMC The Metals Company.",
@@ -79,13 +79,25 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 26.08,
+      "price": 26.21,
       "previousClose": 33.67,
-      "changePct": -22.54,
+      "changePct": -22.16,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-27T15:59:48.000Z",
+      "asOf": "2026-07-27T18:07:17.000Z",
       "headlines": [
+        {
+          "title": "TeraWulf and Cipher Digital Drop Even As Wall Street Hikes Targets Above $30: Best Setup for 2026?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/5ca20d1c-3d4f-3fbc-9b53-096eb7de45ed/terawulf-and-cipher-digital.html",
+          "publishedAt": "2026-07-27T17:48:54.000Z"
+        },
+        {
+          "title": "Coreweave is $71 After Falling 43% in a Year: One Analyst Thinks It Can Rocket to $250",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/9d3caebd-897d-3d5b-b971-9e3ee105694a/coreweave-is-%2471-after.html",
+          "publishedAt": "2026-07-27T16:44:24.000Z"
+        },
         {
           "title": "KBW says miner selloff erased pipeline value despite AI/HPC leasing rebound",
           "publisher": "Blockspace",
@@ -97,30 +109,18 @@
           "publisher": "StockStory",
           "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-earnings-look-apld-034113706.html",
           "publishedAt": "2026-07-26T03:41:13.000Z"
-        },
-        {
-          "title": "Earnings Calendar and Analysis for This Week (July 27-31)",
-          "publisher": "Kiplinger",
-          "url": "https://finance.yahoo.com/m/ea7e8759-c4d2-388b-adbc-040c632ad89a/earnings-calendar-and.html",
-          "publishedAt": "2026-07-24T14:20:45.000Z"
-        },
-        {
-          "title": "Goldman Offers Way to Trade AI Junk Bonds $250 Million at a Time",
-          "publisher": "Bloomberg",
-          "url": "https://finance.yahoo.com/markets/options/articles/goldman-offers-way-trade-ai-204112017.html",
-          "publishedAt": "2026-07-23T20:41:12.000Z"
         }
       ]
     },
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.19,
+      "price": 2.23,
       "previousClose": 2.52,
-      "changePct": -13.29,
+      "changePct": -11.71,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-27T15:59:28.000Z",
+      "asOf": "2026-07-27T17:58:01.000Z",
       "headlines": [
         {
           "title": "VERAXA Biotech Shows Regulatory Progress on Cancer Therapy Platform",
@@ -151,120 +151,48 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 231.96,
+      "price": 232.07,
       "previousClose": 261.12,
-      "changePct": -11.17,
+      "changePct": -11.13,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-27T15:59:47.000Z",
+      "asOf": "2026-07-27T18:07:20.000Z",
       "headlines": [
         {
-          "title": "Amazon's Halloween shop is a must for Summerween and beyond — from $7",
-          "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/m/43bbea7a-f639-3c8a-b5e6-bafea41a2b55/amazon%27s-halloween-shop-is-a.html",
-          "publishedAt": "2026-07-27T15:30:00.000Z"
+          "title": "TeraWulf and Cipher Digital Drop Even As Wall Street Hikes Targets Above $30: Best Setup for 2026?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/5ca20d1c-3d4f-3fbc-9b53-096eb7de45ed/terawulf-and-cipher-digital.html",
+          "publishedAt": "2026-07-27T17:48:54.000Z"
         },
         {
-          "title": "AI spending in focus ahead of Mag 7 earnings",
-          "publisher": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/ai-spending-focus-ahead-mag-152500813.html",
-          "publishedAt": "2026-07-27T15:25:00.000Z"
-        },
-        {
-          "title": "Amazon's Leo Starlink Challenger Plans For More Satellites, Mobile Connectivity",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/95c829df-44cd-3fd7-9254-f907df71f659/amazon%27s-leo-starlink.html",
-          "publishedAt": "2026-07-27T15:20:36.000Z"
-        },
-        {
-          "title": "Amazon Leo seeks FCC approval to provide mobile services from space",
-          "publisher": "Investing.com",
-          "url": "https://finance.yahoo.com/technology/articles/amazon-leo-seeks-fcc-approval-151711599.html",
-          "publishedAt": "2026-07-27T15:17:11.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc.",
-      "price": 129.51,
-      "previousClose": 143.1,
-      "changePct": -9.5,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-07-27T15:59:48.000Z",
-      "headlines": [
-        {
-          "title": "Palantir Technologies Likely to Deliver Q2 Revenue Beat, Raise Annual Outlook, Oppenheimer Says",
+          "title": "Sector Update: Tech Stocks Fall Monday Afternoon",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/news/palantir-technologies-likely-deliver-q2-150806362.html",
-          "publishedAt": "2026-07-27T15:08:06.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-monday-173532065.html",
+          "publishedAt": "2026-07-27T17:35:32.000Z"
         },
         {
-          "title": "Prediction: Palantir Stock Will Hit a New Low After Aug. 3",
+          "title": "Apple Is Barely Spending on AI While Its Rivals Pour In $700 Billion. Is That Discipline or Denial?",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/7854c575-794c-3107-9875-77892b773f08/prediction%3A-palantir-stock.html",
-          "publishedAt": "2026-07-27T14:37:36.000Z"
+          "url": "https://finance.yahoo.com/m/37e2b663-c510-37cd-a64f-7f65d6447a51/apple-is-barely-spending-on.html",
+          "publishedAt": "2026-07-27T17:34:00.000Z"
         },
         {
-          "title": "Palantir Technologies Inc. (PLTR) Earnings Expected to Grow: Should You Buy?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-inc-pltr-earnings-140011166.html",
-          "publishedAt": "2026-07-27T14:00:11.000Z"
-        },
-        {
-          "title": "Palantir Stock Could Be Setting Up for a Big Earnings Beat. Why This Pro Thinks $200 is Realistic",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7e180635-84b3-32c2-b730-2cd9e9452367/palantir-stock-could-be.html",
-          "publishedAt": "2026-07-27T13:30:51.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 197.55,
-      "previousClose": 216.61,
-      "changePct": -8.8,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-07-27T15:59:48.000Z",
-      "headlines": [
-        {
-          "title": "Nvidia’s Margins are Safe This Decade So I Keep Loading Up as Fear Resonates",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/9aa66331-18a4-3d6f-b073-d8f7f80e8225/nvidia%E2%80%99s-margins-are-safe.html",
-          "publishedAt": "2026-07-27T15:50:56.000Z"
-        },
-        {
-          "title": "AMD Is On Track to Beat Lisa Su’s $100 Billion Revenue Prediction By 2 Years",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/74257daa-727e-38dc-b1dc-7a695a7cb00b/amd-is-on-track-to-beat-lisa.html",
-          "publishedAt": "2026-07-27T15:50:29.000Z"
-        },
-        {
-          "title": "Forget Social Security: 5 Sleep-at-Night Dividend Stocks Retirees Are Using to Replace a Paycheck",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/f49a5927-ac96-362a-8232-adfa56e26482/forget-social-security%3A-5.html",
-          "publishedAt": "2026-07-27T15:40:30.000Z"
-        },
-        {
-          "title": "Stock Market Today: Indexes Mixed On U.S.-Iran War Pause; Pharma Player Tests Entry, Oil Skids (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/de8b5436-c73d-31ce-a62f-9df4d32cb08d/stock-market-today%3A-indexes.html",
-          "publishedAt": "2026-07-27T15:39:42.000Z"
+          "title": "Time is running out to claim cash in Amazon FTC settlement",
+          "publisher": "USA TODAY",
+          "url": "https://finance.yahoo.com/m/42396dee-0aa3-36f2-a06d-ec075cf0d87f/time-is-running-out-to-claim.html",
+          "publishedAt": "2026-07-27T17:19:50.000Z"
         }
       ]
     },
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 43.97,
+      "price": 43.65,
       "previousClose": 48.2,
-      "changePct": -8.78,
+      "changePct": -9.44,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-27T15:59:44.000Z",
+      "asOf": "2026-07-27T18:07:17.000Z",
       "headlines": [
         {
           "title": "Energy Stocks Tumble After Oil Suffers Biggest Drop in Months",
@@ -293,50 +221,122 @@
       ]
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation",
-      "price": 390.34,
-      "previousClose": 424.82,
-      "changePct": -8.12,
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 196.5,
+      "previousClose": 216.61,
+      "changePct": -9.28,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-27T15:59:47.000Z",
+      "asOf": "2026-07-27T18:07:20.000Z",
       "headlines": [
         {
-          "title": "Nvidia’s Margins are Safe This Decade So I Keep Loading Up as Fear Resonates",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/9aa66331-18a4-3d6f-b073-d8f7f80e8225/nvidia%E2%80%99s-margins-are-safe.html",
-          "publishedAt": "2026-07-27T15:50:56.000Z"
-        },
-        {
-          "title": "Stock Market Today: Indexes Mixed On U.S.-Iran War Pause; Pharma Player Tests Entry, Oil Skids (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/de8b5436-c73d-31ce-a62f-9df4d32cb08d/stock-market-today%3A-indexes.html",
-          "publishedAt": "2026-07-27T15:39:42.000Z"
-        },
-        {
-          "title": "Just 3 \"Magnificent Seven\" Stocks Remain Founder-Led. Should Investors Bet on Elon Musk, Mark Zuckerberg, or Jensen Huang for the Long Term?",
+          "title": "Should You Invest $10,000 in SpaceX Stock Before Its First Earnings Release?",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/ee658c5d-4008-34e7-a93b-9f92450c357d/just-3-%22magnificent-seven%22.html",
-          "publishedAt": "2026-07-27T15:10:00.000Z"
+          "url": "https://finance.yahoo.com/m/0bf1d09a-9aa7-3e31-bbdb-1141ccb4cb8c/should-you-invest-%2410%2C000-in.html",
+          "publishedAt": "2026-07-27T17:57:50.000Z"
         },
         {
-          "title": "Apple Is on Track to Dethrone Nvidia",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/274f8552-9e59-3eb2-9486-ee8e17e8983b/apple-is-on-track-to-dethrone.html",
-          "publishedAt": "2026-07-27T15:08:50.000Z"
+          "title": "Nvidia to invest $5 billion in Ilya Sutskever's AI startup, source says",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-invest-5-billion-ilya-175322821.html",
+          "publishedAt": "2026-07-27T17:53:22.000Z"
+        },
+        {
+          "title": "Apple overtakes Nvidia as world's most valuable company",
+          "publisher": "Quartz",
+          "url": "https://finance.yahoo.com/m/b6937e98-b9c5-3608-884a-b4e0a1bc3b2f/apple-overtakes-nvidia-as.html",
+          "publishedAt": "2026-07-27T17:53:12.000Z"
+        },
+        {
+          "title": "The Best High-Yield REIT to Buy With $1,000 Right Now",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/8eec08eb-10e2-3910-aa6e-6df49a152393/the-best-high-yield-reit-to.html",
+          "publishedAt": "2026-07-27T17:50:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "price": 131.99,
+      "previousClose": 143.1,
+      "changePct": -7.76,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-07-27T18:07:20.000Z",
+      "headlines": [
+        {
+          "title": "SpaceX stock plunge sends a big reminder to those who want to get in on or near IPO day",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/spacex-stock-plunge-sends-a-big-reminder-to-those-who-want-to-get-in-on-or-near-ipo-day-174744909.html",
+          "publishedAt": "2026-07-27T17:47:44.000Z"
+        },
+        {
+          "title": "PAYC vs. PLTR: Which Stock Is the Better Value Option?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/payc-vs-pltr-stock-better-154003282.html",
+          "publishedAt": "2026-07-27T15:40:03.000Z"
+        },
+        {
+          "title": "Nvidia Leads Defense of Open-Source AI With New Cybersecurity Initiative",
+          "publisher": "The Wall Street Journal",
+          "url": "https://finance.yahoo.com/m/54668d30-f029-392c-9a87-9e1aad5e32d8/nvidia-leads-defense-of.html",
+          "publishedAt": "2026-07-27T15:21:00.000Z"
+        },
+        {
+          "title": "Palantir Technologies Likely to Deliver Q2 Revenue Beat, Raise Annual Outlook, Oppenheimer Says",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/news/palantir-technologies-likely-deliver-q2-150806362.html",
+          "publishedAt": "2026-07-27T15:08:06.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 393.56,
+      "previousClose": 424.82,
+      "changePct": -7.36,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-07-27T18:07:19.000Z",
+      "headlines": [
+        {
+          "title": "Sector Update: Tech Stocks Fall Monday Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-monday-173532065.html",
+          "publishedAt": "2026-07-27T17:35:32.000Z"
+        },
+        {
+          "title": "Apple Is Barely Spending on AI While Its Rivals Pour In $700 Billion. Is That Discipline or Denial?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/37e2b663-c510-37cd-a64f-7f65d6447a51/apple-is-barely-spending-on.html",
+          "publishedAt": "2026-07-27T17:34:00.000Z"
+        },
+        {
+          "title": "Stock Market Today: Dow Up; Pharma Firm Tests Entry; Memory Plays Sink As China Rival Soars (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/de8b5436-c73d-31ce-a62f-9df4d32cb08d/stock-market-today%3A-dow-up%3B.html",
+          "publishedAt": "2026-07-27T17:28:16.000Z"
+        },
+        {
+          "title": "SpaceX and Tesla shed $1.2 trillion in July as Apple keeps the megacaps afloat: Chart of the Day",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/spacex-and-tesla-shed-12-trillion-in-july-as-apple-keeps-the-megacaps-afloat-chart-of-the-day-172709478.html",
+          "publishedAt": "2026-07-27T17:27:09.000Z"
         }
       ]
     },
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.68,
+      "price": 17.56,
       "previousClose": 16.39,
-      "changePct": 7.84,
+      "changePct": 7.11,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-27T15:59:46.000Z",
+      "asOf": "2026-07-27T18:07:05.000Z",
       "headlines": [
         {
           "title": "Pacific Gas and Electric Company Announces Cash Tender Offers",
@@ -367,48 +367,48 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 216.5,
+      "price": 217.42,
       "previousClose": 228.05,
-      "changePct": -5.06,
+      "changePct": -4.66,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-27T15:59:45.000Z",
+      "asOf": "2026-07-27T18:07:11.000Z",
       "headlines": [
+        {
+          "title": "Popular crypto stock jumps after acquiring nearly 1,000 patents",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/17866ef6-cd82-3637-b002-a47ad268bf3e/popular-crypto-stock-jumps.html",
+          "publishedAt": "2026-07-27T17:10:00.000Z"
+        },
+        {
+          "title": "Circle and IBM Shares Rise After Landmark Blockchain Patent Deal",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/circle-ibm-shares-rise-landmark-165907196.html",
+          "publishedAt": "2026-07-27T16:59:07.000Z"
+        },
+        {
+          "title": "Circle Acquires 1,000 IBM Blockchain Patents",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/circle-acquires-1-000-ibm-164509634.html",
+          "publishedAt": "2026-07-27T16:45:09.000Z"
+        },
         {
           "title": "Circle Buys IBM Blockchain Patent Estate—And Becomes America's Biggest Holder",
           "publisher": "decrypt",
           "url": "https://finance.yahoo.com/m/2dbc7ac7-6b62-354c-84af-6c46dc9cf60e/circle-buys-ibm-blockchain.html",
           "publishedAt": "2026-07-27T15:35:25.000Z"
-        },
-        {
-          "title": "The D-Wave Quantum Bet: How an Expanded AT&T Deal Is Boosting the Stock",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/9fe25478-19cb-3ad9-bcbb-9c39e911d422/the-d-wave-quantum-bet%3A-how.html",
-          "publishedAt": "2026-07-27T14:32:00.000Z"
-        },
-        {
-          "title": "CRCL Stock Rallies After Circle Acquires Nearly 1,000 Blockchain Patents From IBM",
-          "publisher": "Stocktwits",
-          "url": "https://finance.yahoo.com/m/83e8ad30-2933-361b-98fd-6c98f1b9ae04/crcl-stock-rallies-after.html",
-          "publishedAt": "2026-07-27T14:05:07.000Z"
-        },
-        {
-          "title": "Circle shares rise after acquiring IBM’s blockchain patent portfolio",
-          "publisher": "InvestorsHub",
-          "url": "https://finance.yahoo.com/m/efb9ba68-a02e-3461-b50d-9cf4687c37fc/circle-shares-rise-after.html",
-          "publishedAt": "2026-07-27T13:44:03.000Z"
         }
       ]
     },
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 24.09,
+      "price": 24.07,
       "previousClose": 25.02,
-      "changePct": -3.74,
+      "changePct": -3.82,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-27T15:59:47.000Z",
+      "asOf": "2026-07-27T18:07:08.000Z",
       "headlines": [
         {
           "title": "Should Bearish Earnings Revisions and Negative ESP Require Action From Weyerhaeuser (WY) Investors?",
@@ -439,13 +439,19 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 393.92,
+      "price": 392.35,
       "previousClose": 404.98,
-      "changePct": -2.73,
+      "changePct": -3.12,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-27T15:59:48.000Z",
+      "asOf": "2026-07-27T18:07:18.000Z",
       "headlines": [
+        {
+          "title": "NVIDIA Plans a $750 Billion Spending Spree. Is This the Dot-Com All Over or the Beginning of a Massive AI Boom?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/673aeedd-b310-38e2-887d-da384a0d3f77/nvidia-plans-a-%24750-billion.html",
+          "publishedAt": "2026-07-27T16:09:06.000Z"
+        },
         {
           "title": "SanDisk’s $42 Billion Backlog Is Real — So Is the Valuation Question Now Hitting Every Memory Stock",
           "publisher": "Insider Monkey",
@@ -463,24 +469,18 @@
           "publisher": "Insider Monkey",
           "url": "https://finance.yahoo.com/markets/stocks/articles/beijing-just-aimed-taiwan-semiconductor-140827384.html",
           "publishedAt": "2026-07-27T14:08:27.000Z"
-        },
-        {
-          "title": "KKR Plans LCY Exit as Chairman Targets Bigger U.S. Semiconductor Expansion",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/articles/kkr-plans-lcy-exit-chairman-130932515.html",
-          "publishedAt": "2026-07-27T13:09:32.000Z"
         }
       ]
     },
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.52,
+      "price": 3.53,
       "previousClose": 3.47,
-      "changePct": 1.44,
+      "changePct": 1.73,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-07-27T15:58:23.000Z",
+      "asOf": "2026-07-27T18:03:16.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics (SABS) and Breakthrough T1D Award Research Grant For SAB-142 Assessment",
@@ -511,12 +511,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 171.77,
+      "price": 172.82,
       "previousClose": 173.44,
-      "changePct": -0.96,
+      "changePct": -0.36,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-27T15:59:39.000Z",
+      "asOf": "2026-07-27T18:07:17.000Z",
       "headlines": [
         {
           "title": "European Equities Traded in the US as American Depositary Receipts Start Week Marginally Higher in Monday Trading",
@@ -547,12 +547,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 260.92,
+      "price": 259.89,
       "previousClose": 259.4,
-      "changePct": 0.59,
+      "changePct": 0.19,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-27T15:59:49.000Z",
+      "asOf": "2026-07-27T18:07:01.000Z",
       "headlines": [
         {
           "title": "Chevron Signs Multi-Year North Malay Basin Contract With Velesto",
