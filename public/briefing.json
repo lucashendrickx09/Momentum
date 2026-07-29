@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T19:54:44.794Z",
+  "generatedAt": "2026-07-29T20:42:21.988Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 93.67,
+      "price": 93.33,
       "previousClose": 158.19,
-      "changePct": -40.79,
+      "changePct": -41,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-29T19:54:40.000Z",
+      "asOf": "2026-07-29T20:00:00.000Z",
       "headlines": [
         {
           "title": "Strategy Hasn’t Bought Bitcoin in Five Weeks. Is Bitcoin Losing Its Biggest Corporate Buyer?",
@@ -43,12 +43,12 @@
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 3.44,
+      "price": 3.45,
       "previousClose": 4.92,
-      "changePct": -30.08,
+      "changePct": -29.88,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-29T19:54:22.000Z",
+      "asOf": "2026-07-29T20:00:00.000Z",
       "headlines": [
         {
           "title": "2 Rare-Earth Stocks to Buy Right Now, and 1 to Sell",
@@ -79,12 +79,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 23.15,
+      "price": 23.22,
       "previousClose": 32.69,
-      "changePct": -29.17,
+      "changePct": -28.96,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-29T19:54:43.000Z",
+      "asOf": "2026-07-29T20:00:01.000Z",
       "headlines": [
         {
           "title": "IREN, TeraWulf, and Applied Digital Are All Down 30% in a Month. Is More Pain Coming for Data Center Stocks?",
@@ -115,12 +115,12 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 227.39,
+      "price": 226.65,
       "previousClose": 263.04,
-      "changePct": -13.55,
+      "changePct": -13.83,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-29T19:54:40.000Z",
+      "asOf": "2026-07-29T20:00:01.000Z",
       "headlines": [
         {
           "title": "Oracle Is Sending a Different Signal Than Big Tech",
@@ -151,12 +151,12 @@
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 44.48,
+      "price": 44.46,
       "previousClose": 51.08,
-      "changePct": -12.93,
+      "changePct": -12.96,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-29T19:54:40.000Z",
+      "asOf": "2026-07-29T20:00:02.000Z",
       "headlines": [
         {
           "title": "Can EOG Resources Keep Its Winning Streak Alive in Q2 Earnings?",
@@ -171,28 +171,28 @@
           "publishedAt": "2026-07-29T15:01:00.000Z"
         },
         {
+          "title": "Stocks Pressured by Renewed US-Iran Hostilities",
+          "publisher": "Barchart",
+          "url": "https://finance.yahoo.com/m/3f9418a2-9fe8-3cde-8c85-43d831d8e151/stocks-pressured-by-renewed.html",
+          "publishedAt": "2026-07-29T14:06:28.000Z"
+        },
+        {
           "title": "Murphy Oil (MUR) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/murphy-oil-mur-earnings-expected-140027581.html",
           "publishedAt": "2026-07-29T14:00:27.000Z"
-        },
-        {
-          "title": "Crescent Energy to Report Q2 Earnings: What's in Store?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/crescent-energy-report-q2-earnings-131200044.html",
-          "publishedAt": "2026-07-29T13:12:00.000Z"
         }
       ]
     },
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 123.14,
+      "price": 123,
       "previousClose": 137.97,
-      "changePct": -10.75,
+      "changePct": -10.85,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-29T19:54:40.000Z",
+      "asOf": "2026-07-29T20:00:01.000Z",
       "headlines": [
         {
           "title": "The Playbook for Palantir Ahead of Q3 Earnings",
@@ -225,10 +225,10 @@
       "name": "Acumen Pharmaceuticals, Inc.",
       "price": 2.11,
       "previousClose": 2.34,
-      "changePct": -10.04,
+      "changePct": -9.83,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-29T19:54:35.000Z",
+      "asOf": "2026-07-29T20:00:01.000Z",
       "headlines": [
         {
           "title": "VERAXA Biotech Shows Regulatory Progress on Cancer Therapy Platform",
@@ -259,12 +259,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 186.78,
+      "price": 185.99,
       "previousClose": 170.1,
-      "changePct": 9.81,
+      "changePct": 9.34,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-29T19:54:41.000Z",
+      "asOf": "2026-07-29T20:00:02.000Z",
       "headlines": [
         {
           "title": "European Equities Traded in US as ADRs Ease in Wednesday Trading",
@@ -295,13 +295,25 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 191.55,
+      "price": 190.01,
       "previousClose": 209.25,
-      "changePct": -8.46,
+      "changePct": -9.19,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-29T19:54:41.000Z",
+      "asOf": "2026-07-29T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Why Avis Budget Stock Crashed Today",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/6beb8ad6-2e87-346b-a21b-786e1b638833/why-avis-budget-stock-crashed.html",
+          "publishedAt": "2026-07-29T20:04:52.000Z"
+        },
+        {
+          "title": "Why VF Corp Stock Tumbled Today",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/166e6c09-7fcd-3c7a-9c9a-b621560b7d4b/why-vf-corp-stock-tumbled.html",
+          "publishedAt": "2026-07-29T19:52:39.000Z"
+        },
         {
           "title": "Even a Successful Starship Launch Wasn't Enough to Lift SpaceX Stock. Investors Are Still Worried About This 1 Thing",
           "publisher": "Motley Fool",
@@ -313,30 +325,18 @@
           "publisher": "Moby",
           "url": "https://finance.yahoo.com/m/872fadf4-6bc5-3b06-8ae7-67e44d92563b/biogen-inc.-q2-2026-earnings.html",
           "publishedAt": "2026-07-29T19:31:30.000Z"
-        },
-        {
-          "title": "Aon plc Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/m/8e6d7ecd-6193-371d-9caa-6d742e2622e4/aon-plc-q2-2026-earnings-call.html",
-          "publishedAt": "2026-07-29T19:26:04.000Z"
-        },
-        {
-          "title": "Jensen Huang Says AI Needs \"1,000 Times More Power Than We Currently Have.\" These 3 Industrial Stocks Will Deliver It.",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/ac849a00-5c7b-34d7-b425-92bd3622fc05/jensen-huang-says-ai-needs.html",
-          "publishedAt": "2026-07-29T19:25:00.000Z"
         }
       ]
     },
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.75,
+      "price": 17.71,
       "previousClose": 16.37,
-      "changePct": 8.4,
+      "changePct": 8.19,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-29T19:54:41.000Z",
+      "asOf": "2026-07-29T20:00:02.000Z",
       "headlines": [
         {
           "title": "California's For-Profit Utilities Bankroll \"Wildfire Victims First\" Front Group to Push Utility Bailout, Says Consumer Watchdog",
@@ -367,48 +367,48 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 391.43,
+      "price": 390.54,
       "previousClose": 424.46,
-      "changePct": -7.78,
+      "changePct": -7.99,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-07-29T19:54:40.000Z",
+      "asOf": "2026-07-29T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Stock Market Today: Nasdaq Tumbles As Fed's Warsh Notes Two Trends; Meta Losing Gains (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/031fc95b-4216-3fa9-93d3-0f98e7121d16/stock-market-today%3A-nasdaq.html",
-          "publishedAt": "2026-07-29T19:38:47.000Z"
+          "title": "Wall Street closes down sharply after Fed holds rates unchanged",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-edge-113734004.html",
+          "publishedAt": "2026-07-29T20:35:31.000Z"
         },
         {
-          "title": "SK Hynix’s Profits Explode 550%, but Its $31 Billion Spending Plan Sends Investors Running",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/65d916c5-d52e-3743-bc90-d3bfc1f77419/sk-hynix%E2%80%99s-profits-explode.html",
-          "publishedAt": "2026-07-29T19:05:55.000Z"
+          "title": "Microsoft shares rise after Q4 beat",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/microsoft-shares-rise-q4-beat-202831072.html",
+          "publishedAt": "2026-07-29T20:28:31.000Z"
         },
         {
-          "title": "Sector Update: Tech",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-190437910.html",
-          "publishedAt": "2026-07-29T19:04:37.000Z"
+          "title": "Microsoft Azure growth reaches 43% as cloud backlog climbs to $678 billion",
+          "publisher": "Blockspace",
+          "url": "https://finance.yahoo.com/m/dd4a1120-c749-375f-b1fc-455ab92df59e/microsoft-azure-growth.html",
+          "publishedAt": "2026-07-29T20:27:02.000Z"
         },
         {
-          "title": "Oracle Is Sending a Different Signal Than Big Tech",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/articles/oracle-sending-different-signal-big-190427661.html",
-          "publishedAt": "2026-07-29T19:04:27.000Z"
+          "title": "Microsoft’s (NASDAQ:MSFT) Q2 CY2026: Beats On Revenue",
+          "publisher": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-nasdaq-msft-q2-cy2026-202345338.html",
+          "publishedAt": "2026-07-29T20:23:45.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 258.39,
+      "price": 258.61,
       "previousClose": 272.23,
-      "changePct": -5.08,
+      "changePct": -5,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-29T19:54:41.000Z",
+      "asOf": "2026-07-29T20:00:02.000Z",
       "headlines": [
         {
           "title": "Cheniere Energy (LNG) Backs LNG Diversification And Qatar While Choosing Steadier Growth",
@@ -439,12 +439,12 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 376.27,
+      "price": 374.67,
       "previousClose": 393.83,
-      "changePct": -4.46,
+      "changePct": -4.87,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-29T19:54:39.000Z",
+      "asOf": "2026-07-29T20:00:02.000Z",
       "headlines": [
         {
           "title": "TSMC Stock Drops 4.1% as $2 Trillion AI Rout Spreads",
@@ -473,50 +473,14 @@
       ]
     },
     {
-      "ticker": "SABS",
-      "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.45,
-      "previousClose": 3.48,
-      "changePct": -1.01,
-      "currency": "USD",
-      "exchange": "NasdaqCM",
-      "asOf": "2026-07-29T19:52:52.000Z",
-      "headlines": [
-        {
-          "title": "SAB Biotherapeutics (SABS) and Breakthrough T1D Award Research Grant For SAB-142 Assessment",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/healthcare/articles/sab-biotherapeutics-sabs-breakthrough-t1d-154307842.html",
-          "publishedAt": "2026-07-15T15:43:07.000Z"
-        },
-        {
-          "title": "Breakthrough T1D Awards Grant to Support PRISE‑hATG Study of SAB‑142 in Stage 3 Type 1 Diabetes",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/healthcare/articles/breakthrough-t1d-awards-grant-support-120000812.html",
-          "publishedAt": "2026-07-07T12:00:00.000Z"
-        },
-        {
-          "title": "Why Is H.C. Wainwright Bullish On SAB Biotherapeutics (SABS) With $10 Price Target?",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/healthcare/articles/why-h-c-wainwright-bullish-220812002.html",
-          "publishedAt": "2026-07-05T22:08:12.000Z"
-        },
-        {
-          "title": "Barclays Assigns Overweight Rating to SAB Biotherapeutics Inc. (SABS)",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-assigns-overweight-rating-sab-163449158.html",
-          "publishedAt": "2026-06-30T16:34:49.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 24.46,
+      "price": 24.45,
       "previousClose": 24.25,
-      "changePct": 0.87,
+      "changePct": 0.82,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-29T19:54:41.000Z",
+      "asOf": "2026-07-29T20:00:03.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser's Q2 Earnings Preview: Key Factors Investors Should Watch",
@@ -547,12 +511,12 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 226.7,
+      "price": 226.44,
       "previousClose": 227.1,
-      "changePct": -0.18,
+      "changePct": -0.29,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-29T19:54:40.000Z",
+      "asOf": "2026-07-29T20:00:02.000Z",
       "headlines": [
         {
           "title": "ORCL Is Back At A Level It Has Defended Before",
@@ -577,6 +541,42 @@
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/itri-q2-earnings-top-despite-145500487.html",
           "publishedAt": "2026-07-29T14:55:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "SABS",
+      "name": "SAB Biotherapeutics, Inc.",
+      "price": 3.48,
+      "previousClose": 3.48,
+      "changePct": 0,
+      "currency": "USD",
+      "exchange": "NasdaqCM",
+      "asOf": "2026-07-29T20:00:00.000Z",
+      "headlines": [
+        {
+          "title": "SAB Biotherapeutics (SABS) and Breakthrough T1D Award Research Grant For SAB-142 Assessment",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/healthcare/articles/sab-biotherapeutics-sabs-breakthrough-t1d-154307842.html",
+          "publishedAt": "2026-07-15T15:43:07.000Z"
+        },
+        {
+          "title": "Breakthrough T1D Awards Grant to Support PRISE‑hATG Study of SAB‑142 in Stage 3 Type 1 Diabetes",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/healthcare/articles/breakthrough-t1d-awards-grant-support-120000812.html",
+          "publishedAt": "2026-07-07T12:00:00.000Z"
+        },
+        {
+          "title": "Why Is H.C. Wainwright Bullish On SAB Biotherapeutics (SABS) With $10 Price Target?",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/healthcare/articles/why-h-c-wainwright-bullish-220812002.html",
+          "publishedAt": "2026-07-05T22:08:12.000Z"
+        },
+        {
+          "title": "Barclays Assigns Overweight Rating to SAB Biotherapeutics Inc. (SABS)",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-assigns-overweight-rating-sab-163449158.html",
+          "publishedAt": "2026-06-30T16:34:49.000Z"
         }
       ]
     }
