@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T20:43:47.473Z",
+  "generatedAt": "2026-07-30T20:56:07.688Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -14,6 +14,12 @@
       "exchange": "NasdaqGS",
       "asOf": "2026-07-30T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Strategy: Q2 Earnings Snapshot",
+          "publisher": "Associated Press",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/strategy-q2-earnings-snapshot-202849690.html",
+          "publishedAt": "2026-07-30T20:28:49.000Z"
+        },
         {
           "title": "Coinbase Rut Continues With Q2 Miss. Bitcoin, Miners Jump On AI Trade.",
           "publisher": "Investor's Business Daily",
@@ -31,12 +37,6 @@
           "publisher": "TheStreet",
           "url": "https://finance.yahoo.com/m/fcd8720b-d47a-3be5-ab93-e5bd0debb9f3/saylor-sends-a-sharp-message.html",
           "publishedAt": "2026-07-30T20:00:00.000Z"
-        },
-        {
-          "title": "Why Bitcoin Whale Strategy May Resume Buying Crypto With Q2 Earnings Report",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/04307e5b-dbcd-3626-a19e-bc43d337774f/why-bitcoin-whale-strategy.html",
-          "publishedAt": "2026-07-30T19:34:34.000Z"
         }
       ]
     },
@@ -195,6 +195,12 @@
       "asOf": "2026-07-30T20:00:01.000Z",
       "headlines": [
         {
+          "title": "Amazon Q2 2026 earnings: AWS grows 37%, revenue tops $200B",
+          "publisher": "Quartz",
+          "url": "https://finance.yahoo.com/m/9ab85b26-c04a-381e-9515-b31a2e645890/amazon-q2-2026-earnings%3A-aws.html",
+          "publishedAt": "2026-07-30T20:44:11.000Z"
+        },
+        {
           "title": "Amazon shares jump as Q2 earnings beat estimates on Cloud strength",
           "publisher": "Proactive",
           "url": "https://finance.yahoo.com/m/45a705f3-7090-33b0-bc75-f16dedb68a5b/amazon-shares-jump-as-q2.html",
@@ -211,12 +217,6 @@
           "publisher": "Yahoo Finance Video",
           "url": "https://finance.yahoo.com/video/amazon-q2-earnings-results-beat-202007846.html",
           "publishedAt": "2026-07-30T20:20:07.000Z"
-        },
-        {
-          "title": "Amazon’s (NASDAQ:AMZN) Q2 CY2026 Sales Beat Estimates, Stock Soars",
-          "publisher": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-nasdaq-amzn-q2-cy2026-201609907.html",
-          "publishedAt": "2026-07-30T20:16:09.000Z"
         }
       ]
     },
@@ -303,6 +303,18 @@
       "asOf": "2026-07-30T20:00:00.000Z",
       "headlines": [
         {
+          "title": "Robinhood Is Now Making More Money From Prediction Markets Than Crypto Trading. Here's What That Means For Crypto Investors",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/cf84a74f-d548-31db-9a1e-81d39c8ceaaa/robinhood-is-now-making-more.html",
+          "publishedAt": "2026-07-30T20:35:01.000Z"
+        },
+        {
+          "title": "Johnson & Johnson Just Got FDA Clearance for Its Surgical Robot, Hiked Its Dividend for the 64th Time, and Is Targeting $100 Billion in Revenue. But Here's What Investors Should Be Most Excited About",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/dfcd9276-a594-303b-8c69-9aeb3ad349e5/johnson-%26-johnson-just-got.html",
+          "publishedAt": "2026-07-30T20:35:00.000Z"
+        },
+        {
           "title": "AMD Stock Gets Powerful Vote of Confidence",
           "publisher": "GuruFocus.com",
           "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-gets-powerful-vote-202832603.html",
@@ -313,18 +325,6 @@
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/m/b7af81ee-b6ae-3e9a-8ebf-ffa49be47042/spacex-is-down-nearly-50%25.html",
           "publishedAt": "2026-07-30T20:25:00.000Z"
-        },
-        {
-          "title": "Nvidia-Backed Stock Opens Door to Classified AI Work",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-stock-opens-door-201009493.html",
-          "publishedAt": "2026-07-30T20:10:09.000Z"
-        },
-        {
-          "title": "Looking To Diversify Away From AI? This Surging Stock Deserves a Look",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/e89e0862-9b96-3533-a520-9c69fc69b105/looking-to-diversify-away.html",
-          "publishedAt": "2026-07-30T20:05:00.000Z"
         }
       ]
     },
