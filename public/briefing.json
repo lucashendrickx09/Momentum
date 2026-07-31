@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T20:03:56.299Z",
+  "generatedAt": "2026-07-31T20:53:56.744Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -123,28 +123,28 @@
       "asOf": "2026-07-31T20:00:01.000Z",
       "headlines": [
         {
+          "title": "Wall Street ends higher as Amazon soothes AI jitters",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-climbs-amazon-soothes-183104054.html",
+          "publishedAt": "2026-07-31T20:23:51.000Z"
+        },
+        {
+          "title": "US Equity Indexes Rise This Week as AI Monetization Evidence in Big-Tech Quarterly Results Energizes Bulls",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-week-202115125.html",
+          "publishedAt": "2026-07-31T20:21:15.000Z"
+        },
+        {
+          "title": "Microsoft Stock Rises Again After Record $450 Billion Gain",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-rises-again-record-201157133.html",
+          "publishedAt": "2026-07-31T20:11:57.000Z"
+        },
+        {
           "title": "Research Firm Says Big Tech Earnings Just Flipped Valuation Risk",
           "publisher": "GuruFocus.com",
           "url": "https://finance.yahoo.com/markets/stocks/articles/research-firm-says-big-tech-195552438.html",
           "publishedAt": "2026-07-31T19:55:52.000Z"
-        },
-        {
-          "title": "Samsung Stock Soars 27% as Korea's AI-Chip Rally Breaks Records",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-stock-soars-27-koreas-194037099.html",
-          "publishedAt": "2026-07-31T19:40:37.000Z"
-        },
-        {
-          "title": "Micron Stock Drops 4.2% Despite Amazon's $220 Billion AI Bet",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-drops-4-2-193736166.html",
-          "publishedAt": "2026-07-31T19:37:36.000Z"
-        },
-        {
-          "title": "Wall Street To Big Tech: Show Us The Money In Pricey AI Race",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/4876651d-9636-3981-a47c-4dce34f73a78/wall-street-to-big-tech%3A-show.html",
-          "publishedAt": "2026-07-31T19:13:37.000Z"
         }
       ]
     },
@@ -156,8 +156,14 @@
       "changePct": -12.15,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-31T19:59:59.000Z",
+      "asOf": "2026-07-31T20:00:03.000Z",
       "headlines": [
+        {
+          "title": "CNX Resources Q2 Earnings Surpass Estimates, Production Falls Y/Y",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cnx-resources-q2-earnings-surpass-185400348.html",
+          "publishedAt": "2026-07-31T18:54:00.000Z"
+        },
         {
           "title": "Devon Energy Set to Report Q2 Earnings: What's in Store for the Stock?",
           "publisher": "Zacks",
@@ -175,12 +181,6 @@
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/energy/articles/diversified-energy-gears-q2-earnings-123400167.html",
           "publishedAt": "2026-07-31T12:34:00.000Z"
-        },
-        {
-          "title": "ONEOK Gears Up to Report Q2 Earnings: What to Expect From the Stock?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/oneok-gears-report-q2-earnings-153400883.html",
-          "publishedAt": "2026-07-30T15:34:00.000Z"
         }
       ]
     },
@@ -194,6 +194,12 @@
       "exchange": "NasdaqGS",
       "asOf": "2026-07-31T20:00:00.000Z",
       "headlines": [
+        {
+          "title": "Veteran Bank Sounds Alarm on Palantir Stock Ahead of Earnings",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/veteran-bank-sounds-alarm-palantir-201846391.html",
+          "publishedAt": "2026-07-31T20:18:46.000Z"
+        },
         {
           "title": "Palantir CEO Takes Fresh Shot at AI Giants: 'They Sell Tokens'",
           "publisher": "GuruFocus.com",
@@ -211,12 +217,6 @@
           "publisher": "GuruFocus.com",
           "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-faces-crucial-ai-195051865.html",
           "publishedAt": "2026-07-31T19:50:51.000Z"
-        },
-        {
-          "title": "Palantir Technologies' Next Earnings Report on Aug. 3 Could Send the Stock Soaring. Here's Why.",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/9549e554-68ce-3581-a03f-a5a29f904324/palantir-technologies%27-next.html",
-          "publishedAt": "2026-07-31T18:16:13.000Z"
         }
       ]
     },
@@ -259,12 +259,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 183.72,
+      "price": 183.62,
       "previousClose": 169.49,
-      "changePct": 8.4,
+      "changePct": 8.34,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-31T19:59:59.000Z",
+      "asOf": "2026-07-31T20:00:02.000Z",
       "headlines": [
         {
           "title": "Rimini Street Launches Rimini Govern™ for AI to Deliver Comprehensive AI Agent Governance, Security & Interoperability as a Service",
@@ -300,8 +300,14 @@
       "changePct": 4.57,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-31T19:59:59.000Z",
+      "asOf": "2026-07-31T20:00:03.000Z",
       "headlines": [
+        {
+          "title": "Pacific Gas and Electric Company Announces Pricing Terms of Cash Tender Offers",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/pacific-gas-electric-company-announces-200000581.html",
+          "publishedAt": "2026-07-31T20:00:00.000Z"
+        },
         {
           "title": "Edison International Q2 Earnings Surpass Estimates, Revenues Miss",
           "publisher": "Zacks",
@@ -319,12 +325,6 @@
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/american-electrics-q2-earnings-lag-152000883.html",
           "publishedAt": "2026-07-30T15:20:00.000Z"
-        },
-        {
-          "title": "PG&E Readies Electric System and Crews for Extended Heat and Elevated Wildfire Conditions",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/energy/articles/pg-e-readies-electric-system-003400702.html",
-          "publishedAt": "2026-07-30T00:34:00.000Z"
         }
       ]
     },
@@ -367,12 +367,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 263.71,
+      "price": 263.57,
       "previousClose": 274.95,
-      "changePct": -4.09,
+      "changePct": -4.14,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-31T19:59:56.000Z",
+      "asOf": "2026-07-31T20:00:02.000Z",
       "headlines": [
         {
           "title": "Expand Energy Targets the LNG, Power and Industrial Demand Expansion",
@@ -403,12 +403,12 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 223.79,
+      "price": 223.65,
       "previousClose": 230.98,
-      "changePct": -3.11,
+      "changePct": -3.17,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-31T19:59:59.000Z",
+      "asOf": "2026-07-31T20:00:03.000Z",
       "headlines": [
         {
           "title": "IBM's Enterprise AI Strategy Targets Security, Data Control and Trust",
@@ -447,64 +447,28 @@
       "asOf": "2026-07-31T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Flipkart Turns Netflix Into a Loyalty Perk",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/media-advertising/articles/flipkart-turns-netflix-loyalty-perk-195828346.html",
-          "publishedAt": "2026-07-31T19:58:28.000Z"
-        },
-        {
-          "title": "Alphabet Stock Rallies 3.9% as Amazon Revives AI Confidence",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-rallies-3-9-194727044.html",
-          "publishedAt": "2026-07-31T19:47:27.000Z"
-        },
-        {
-          "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-afternoon-194133265.html",
-          "publishedAt": "2026-07-31T19:41:33.000Z"
-        },
-        {
-          "title": "Stock Market Today: Nasdaq Advances Despite Spiking Yields; Amazon Soars (Live Coverage)",
+          "title": "Stock Market Today: Dow, Nasdaq End Higher Despite Spiking Yields; Amazon Soars",
           "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/6ec11dff-c0be-3dbf-a268-76836122a7aa/stock-market-today%3A-nasdaq.html",
-          "publishedAt": "2026-07-31T19:40:44.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 404.31,
-      "previousClose": 396.06,
-      "changePct": 2.08,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-07-31T20:00:00.000Z",
-      "headlines": [
-        {
-          "title": "1 AI Stock I’d Buy Before It Hits Another All-Time High",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/023a2b12-26d0-3648-9c5d-84c5aeb55287/1-ai-stock-i%E2%80%99d-buy-before-it.html",
-          "publishedAt": "2026-07-31T18:00:13.000Z"
+          "url": "https://finance.yahoo.com/m/6ec11dff-c0be-3dbf-a268-76836122a7aa/stock-market-today%3A-dow%2C.html",
+          "publishedAt": "2026-07-31T20:37:59.000Z"
         },
         {
-          "title": "AI’s Biggest Winners Today Will Share the Spotlight as Technology Spreads Across the Entire Market",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/99dad0b1-df1f-388b-9123-826301affc29/ai%E2%80%99s-biggest-winners-today.html",
-          "publishedAt": "2026-07-31T13:43:33.000Z"
+          "title": "How major US stock indexes fared Friday 7/31/2026",
+          "publisher": "Associated Press",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-202409133.html",
+          "publishedAt": "2026-07-31T20:24:09.000Z"
         },
         {
-          "title": "Why Apple Needs Intel to Overcome Supply Worries",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/32588060-6365-376c-9f7d-fd9110328510/why-apple-needs-intel-to.html",
-          "publishedAt": "2026-07-31T11:42:00.000Z"
+          "title": "Wall Street ends higher as Amazon soothes AI jitters",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-climbs-amazon-soothes-183104054.html",
+          "publishedAt": "2026-07-31T20:23:51.000Z"
         },
         {
-          "title": "Analyst Report: Apple Inc.",
-          "publisher": "Morningstar Research",
-          "url": "https://finance.yahoo.com/m/587d2c91-8c4f-379f-9882-75ffa02fe78b/analyst-report%3A-apple-inc..html",
-          "publishedAt": "2026-07-31T01:07:57.000Z"
+          "title": "US Equity Indexes Rise This Week as AI Monetization Evidence in Big-Tech Quarterly Results Energizes Bulls",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-week-202115125.html",
+          "publishedAt": "2026-07-31T20:21:15.000Z"
         }
       ]
     },
@@ -516,7 +480,7 @@
       "changePct": 2.08,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-07-31T19:59:57.000Z",
+      "asOf": "2026-07-31T20:00:03.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Q2 Earnings & Sales Top, Adjusted EBITDA Down Y/Y",
@@ -545,6 +509,42 @@
       ]
     },
     {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "price": 404.25,
+      "previousClose": 396.06,
+      "changePct": 2.07,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-07-31T20:00:02.000Z",
+      "headlines": [
+        {
+          "title": "1 AI Stock I’d Buy Before It Hits Another All-Time High",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/023a2b12-26d0-3648-9c5d-84c5aeb55287/1-ai-stock-i%E2%80%99d-buy-before-it.html",
+          "publishedAt": "2026-07-31T18:00:13.000Z"
+        },
+        {
+          "title": "AI’s Biggest Winners Today Will Share the Spotlight as Technology Spreads Across the Entire Market",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/99dad0b1-df1f-388b-9123-826301affc29/ai%E2%80%99s-biggest-winners-today.html",
+          "publishedAt": "2026-07-31T13:43:33.000Z"
+        },
+        {
+          "title": "Why Apple Needs Intel to Overcome Supply Worries",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/32588060-6365-376c-9f7d-fd9110328510/why-apple-needs-intel-to.html",
+          "publishedAt": "2026-07-31T11:42:00.000Z"
+        },
+        {
+          "title": "Analyst Report: Apple Inc.",
+          "publisher": "Morningstar Research",
+          "url": "https://finance.yahoo.com/m/587d2c91-8c4f-379f-9882-75ffa02fe78b/analyst-report%3A-apple-inc..html",
+          "publishedAt": "2026-07-31T01:07:57.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
       "price": 200.75,
@@ -554,6 +554,18 @@
       "exchange": "NasdaqGS",
       "asOf": "2026-07-31T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "NVIDIA Stock Rises as Amazon Lifts AI Spending",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-stock-rises-amazon-lifts-201324588.html",
+          "publishedAt": "2026-07-31T20:13:24.000Z"
+        },
+        {
+          "title": "Alibaba shares rise on Moonshot’s 20,000-chip AI deal",
+          "publisher": "InvestorsHub",
+          "url": "https://finance.yahoo.com/m/96bb12fd-4869-3686-b0fb-d0f0c90f43b5/alibaba-shares-rise-on.html",
+          "publishedAt": "2026-07-31T20:06:11.000Z"
+        },
         {
           "title": "Alibaba's AI Bet Is Powering a Rival",
           "publisher": "GuruFocus.com",
@@ -565,18 +577,6 @@
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/m/b014a493-ad0e-348b-98b5-6a84e206b19a/why-wall-street-keeps.html",
           "publishedAt": "2026-07-31T19:50:00.000Z"
-        },
-        {
-          "title": "Samsung Stock Soars 27% as Korea's AI-Chip Rally Breaks Records",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-stock-soars-27-koreas-194037099.html",
-          "publishedAt": "2026-07-31T19:40:37.000Z"
-        },
-        {
-          "title": "Forget SpaceX's Upcoming Q2 Results. History Says You Should Wait at Least This Long Before Buying SpaceX Stock.",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/c24d6a30-efbe-3c22-95e8-bc8e85760821/forget-spacex%27s-upcoming-q2.html",
-          "publishedAt": "2026-07-31T19:39:33.000Z"
         }
       ]
     }
