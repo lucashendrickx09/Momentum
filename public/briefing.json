@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T20:09:58.015Z",
+  "generatedAt": "2026-08-04T21:01:44.852Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -14,6 +14,12 @@
       "exchange": "NasdaqGS",
       "asOf": "2026-08-04T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Garrett Motion Announces Participation at J.P. Morgan 2026 Automotive Conference",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/technology/articles/garrett-motion-announces-participation-j-203500673.html",
+          "publishedAt": "2026-08-04T20:35:00.000Z"
+        },
         {
           "title": "T-REX Funds Announce Reverse Share Splits of Seven ETFs",
           "publisher": "ACCESS Newswire",
@@ -31,12 +37,6 @@
           "publisher": "Cryptonews",
           "url": "https://finance.yahoo.com/m/6b0c1670-d89b-3004-b3d5-f06fff1d7cfe/strategy-hasn%E2%80%99t-bought.html",
           "publishedAt": "2026-08-04T14:24:00.000Z"
-        },
-        {
-          "title": "Coinbase, Circle, and MicroStrategy Forecasts – Crypto Equities Test Key Support Floors",
-          "publisher": "FX Empire",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-circle-microstrategy-forecasts-crypto-130614961.html",
-          "publishedAt": "2026-08-04T13:06:14.000Z"
         }
       ]
     },
@@ -87,40 +87,76 @@
       "asOf": "2026-08-04T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Microsoft CEO Satya Nadella Just Announced Great News for AMD Stock Investors",
+          "title": "SpaceX doubles revenues on Anthropic and Google compute deals, Starlink growth",
+          "publisher": "TechCrunch",
+          "url": "https://finance.yahoo.com/technology/articles/spacex-doubles-revenues-anthropic-google-203630798.html",
+          "publishedAt": "2026-08-04T20:36:30.000Z"
+        },
+        {
+          "title": "The Toughest Questions AMZN Faced On Its Latest Call",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/64357cd2-12d9-38e8-8168-fb5c88147fbf/the-toughest-questions-amzn.html",
+          "publishedAt": "2026-08-04T20:08:31.000Z"
+        },
+        {
+          "title": "The Unusual Cash Offer Sitting In IBM Stock",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/a9e095e6-0dd8-390d-9a01-561c95fd191d/the-unusual-cash-offer.html",
+          "publishedAt": "2026-08-04T19:59:42.000Z"
+        },
+        {
+          "title": "Advanced Micro Devices vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/a4e32ddd-de74-3750-a04b-66a76cf3688b/microsoft-ceo-satya-nadella.html",
-          "publishedAt": "2026-08-04T19:50:00.000Z"
+          "url": "https://finance.yahoo.com/m/4440ea57-9646-318c-90ae-766418c342f7/advanced-micro-devices-vs..html",
+          "publishedAt": "2026-08-04T19:59:01.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy Corporation",
+      "price": 44.05,
+      "previousClose": 51.26,
+      "changePct": -14.07,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-08-04T20:00:03.000Z",
+      "headlines": [
+        {
+          "title": "Devon Energy Q2 Adjusted Earnings Rise",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/devon-energy-q2-adjusted-earnings-203001122.html",
+          "publishedAt": "2026-08-04T20:30:01.000Z"
         },
         {
-          "title": "Dow Jones AI Giant Microsoft Breaks Out After Earnings-Fueled Surge",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/77b38b28-13a7-35fe-85f2-9c61372b43ab/dow-jones-ai-giant-microsoft.html",
-          "publishedAt": "2026-08-04T19:29:59.000Z"
+          "title": "Devon Energy: Q2 Earnings Snapshot",
+          "publisher": "Associated Press",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/devon-energy-q2-earnings-snapshot-201756288.html",
+          "publishedAt": "2026-08-04T20:17:56.000Z"
         },
         {
-          "title": "Wall Street Short Sellers Piled Into Amazon and Microsoft at Historic Rates Before Earnings. Now They’re Rallying.",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/59910e5d-0b5f-355c-890f-1e609534ddd3/wall-street-short-sellers.html",
-          "publishedAt": "2026-08-04T19:14:03.000Z"
+          "title": "Devon Energy Reports Second-Quarter 2026 Results",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/energy/articles/devon-energy-reports-second-quarter-200500330.html",
+          "publishedAt": "2026-08-04T20:05:00.000Z"
         },
         {
-          "title": "Palantir CEO escalates Microsoft’s AI warning",
-          "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/m/8b2b3fd5-26ac-3a90-9784-706944226bdc/palantir-ceo-escalates.html",
-          "publishedAt": "2026-08-04T18:33:00.000Z"
+          "title": "HXMX’s AI Matches Expert Geoscientists in Williston Basin Case Study with Devon Energy",
+          "publisher": "Business Wire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/hxmx-ai-matches-expert-geoscientists-163200822.html",
+          "publishedAt": "2026-08-04T16:32:00.000Z"
         }
       ]
     },
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 195.57,
+      "price": 195.49,
       "previousClose": 171.42,
-      "changePct": 14.09,
+      "changePct": 14.04,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-04T19:59:55.000Z",
+      "asOf": "2026-08-04T20:00:02.000Z",
       "headlines": [
         {
           "title": "SAP (XTRA:SAP) Launches AI Agent Hub As AI Governance Reaches The Boardroom",
@@ -145,42 +181,6 @@
           "publisher": "Business Wire",
           "url": "https://finance.yahoo.com/technology/ai/articles/tungsten-automation-appoints-gopi-kalahasthy-130000433.html",
           "publishedAt": "2026-08-03T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "DVN",
-      "name": "Devon Energy Corporation",
-      "price": 44.06,
-      "previousClose": 51.26,
-      "changePct": -14.05,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-04T19:59:59.000Z",
-      "headlines": [
-        {
-          "title": "HXMX’s AI Matches Expert Geoscientists in Williston Basin Case Study with Devon Energy",
-          "publisher": "Business Wire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/hxmx-ai-matches-expert-geoscientists-163200822.html",
-          "publishedAt": "2026-08-04T16:32:00.000Z"
-        },
-        {
-          "title": "Analyst Report: Devon Energy Corporation",
-          "publisher": "Morningstar Research",
-          "url": "https://finance.yahoo.com/m/8b9a70d1-8573-3e89-b503-0015e5e34c0e/analyst-report%3A-devon-energy.html",
-          "publishedAt": "2026-08-03T21:21:03.000Z"
-        },
-        {
-          "title": "Several Oil Stocks Tee Up For Earnings, As One Breaks Out Bullishly",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/543c3d5f-81e1-3761-a6f9-f540aef3bd68/several-oil-stocks-tee-up-for.html",
-          "publishedAt": "2026-08-03T20:06:25.000Z"
-        },
-        {
-          "title": "SolarEdge Technologies to Report Q2 Earnings: Here's What to Expect",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/solaredge-technologies-report-q2-earnings-154300343.html",
-          "publishedAt": "2026-08-03T15:43:00.000Z"
         }
       ]
     },
@@ -231,28 +231,28 @@
       "asOf": "2026-08-04T20:00:00.000Z",
       "headlines": [
         {
+          "title": "Wall Street Is Paying Attention to Palantir (PLTR) Again",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-paying-attention-palantir-205245219.html",
+          "publishedAt": "2026-08-04T20:52:45.000Z"
+        },
+        {
+          "title": "Update: S&P 500, Dow Notch New Highs on Earnings Boost, Hormuz Deal Optimism",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-notch-highs-203710876.html",
+          "publishedAt": "2026-08-04T20:37:10.000Z"
+        },
+        {
           "title": "Dow, S&P 500 close at record on AI-linked earnings, Mideast deal hopes",
           "publisher": "Reuters",
           "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-underpinned-strong-ai-094041040.html",
-          "publishedAt": "2026-08-04T20:00:34.000Z"
+          "publishedAt": "2026-08-04T20:27:42.000Z"
         },
         {
-          "title": "Update: US Equity Indexes Surge as Technology Leads Amid Strong Earnings While Iran Deal Optimism Pushes Crude Oil Lower",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-surge-technology-200004255.html",
-          "publishedAt": "2026-08-04T20:00:04.000Z"
-        },
-        {
-          "title": "Stock Market Today: Dow Gains 1,000 Points On Hormuz Hopes; SpaceX Soars Ahead Of Q2 Report (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/9e9492e8-dc43-3309-bb2e-9b428195c126/stock-market-today%3A-dow-gains.html",
-          "publishedAt": "2026-08-04T19:52:54.000Z"
-        },
-        {
-          "title": "Sector Update: Tech Stocks Gain Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-afternoon-194534400.html",
-          "publishedAt": "2026-08-04T19:45:34.000Z"
+          "title": "Palantir Stock Is Having Its Best Day in Years",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-having-best-day-202521351.html",
+          "publishedAt": "2026-08-04T20:25:21.000Z"
         }
       ]
     },
@@ -261,10 +261,10 @@
       "name": "Weyerhaeuser Company",
       "price": 25.83,
       "previousClose": 23.53,
-      "changePct": 9.75,
+      "changePct": 9.77,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-04T19:59:58.000Z",
+      "asOf": "2026-08-04T20:00:03.000Z",
       "headlines": [
         {
           "title": "Citigroup Adjusts Price Target on Weyerhaeuser to $29 From $30, Maintains Buy Rating",
@@ -331,12 +331,12 @@
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.43,
+      "price": 17.45,
       "previousClose": 16.21,
-      "changePct": 7.56,
+      "changePct": 7.65,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-04T20:00:00.000Z",
+      "asOf": "2026-08-04T20:00:02.000Z",
       "headlines": [
         {
           "title": "PEG Q2 Earnings Outpace Expectations, Revenues Decrease Y/Y",
@@ -375,40 +375,40 @@
       "asOf": "2026-08-04T20:00:00.000Z",
       "headlines": [
         {
-          "title": "Nvidia-Backed Stock Wins Major Vote of Confidence",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-backed-stock-wins-major-200807928.html",
-          "publishedAt": "2026-08-04T20:08:07.000Z"
+          "title": "'This was not an exceptional result': Strategist talks AMD earnings & 'shocking' capex",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/this-was-not-an-exceptional-result-strategist-talks-amd-earnings--shocking-capex-205254303.html",
+          "publishedAt": "2026-08-04T20:52:54.000Z"
         },
         {
-          "title": "Prediction: This Brilliant ETF Will Crush the S&P 500 Over the Next 30 Years",
+          "title": "Jeff Bezos Is Pushing Amazon's Prime Video Into an AI Showcase, a Sign of How the Company Plans to Justify Its AI Spending",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/29c29f6a-1a48-392d-970f-208c77ed2f52/prediction%3A-this-brilliant.html",
-          "publishedAt": "2026-08-04T20:05:00.000Z"
+          "url": "https://finance.yahoo.com/m/80eecfdd-f029-3b8e-bc7b-c537c88d5ef4/jeff-bezos-is-pushing.html",
+          "publishedAt": "2026-08-04T20:41:00.000Z"
         },
         {
-          "title": "Nvidia-Backed Startup Quitely Builds Big Business",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-startup-quitely-builds-200402437.html",
-          "publishedAt": "2026-08-04T20:04:02.000Z"
+          "title": "Why Charles Schwab Stock Jumped in July",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/af381684-5e97-373c-91bd-76e3a3eff6c4/why-charles-schwab-stock.html",
+          "publishedAt": "2026-08-04T20:40:59.000Z"
         },
         {
-          "title": "Ken Fisher's Bold Q2 2026 Move: A Massive Bet on GE Aerospace Reshapes Portfolio",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ken-fishers-bold-q2-2026-200044038.html",
-          "publishedAt": "2026-08-04T20:00:44.000Z"
+          "title": "SpaceX Spends $18.4 Billion, Somehow Beats Estimates In First Quarter Ever",
+          "publisher": "Moby",
+          "url": "https://finance.yahoo.com/m/b1a451d1-8202-3a4e-842e-e6a64c915eef/spacex-spends-%2418.4-billion%2C.html",
+          "publishedAt": "2026-08-04T20:32:28.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 257.36,
+      "price": 257.29,
       "previousClose": 272.85,
-      "changePct": -5.68,
+      "changePct": -5.7,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-04T19:59:58.000Z",
+      "asOf": "2026-08-04T20:00:02.000Z",
       "headlines": [
         {
           "title": "Venture Global (VG) Reports Next Week: Wall Street Expects Earnings Growth",
@@ -475,13 +475,19 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 417.09,
+      "price": 417.17,
       "previousClose": 401.61,
-      "changePct": 3.85,
+      "changePct": 3.87,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-04T20:00:00.000Z",
+      "asOf": "2026-08-04T20:00:03.000Z",
       "headlines": [
+        {
+          "title": "Taiwan Semiconductor's AI Push Hits Surprising Milestone",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductors-ai-push-hits-202554417.html",
+          "publishedAt": "2026-08-04T20:25:54.000Z"
+        },
         {
           "title": "MediaTek Wants 20% of Custom AI Chips. Alphabet (GOOGL) Could Win Before Broadcom (AVGO) Loses",
           "publisher": "Insider Monkey",
@@ -495,29 +501,35 @@
           "publishedAt": "2026-08-04T18:08:21.000Z"
         },
         {
-          "title": "Stanley Druckenmiller Holds Taiwan Semiconductor After Its Q2 Beat, Betting Chip Demand From Nvidia and AMD Keeps Growing",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/cb6536cc-3c8d-389b-9eb6-133619d7c369/stanley-druckenmiller-holds.html",
-          "publishedAt": "2026-08-04T10:05:00.000Z"
-        },
-        {
-          "title": "Asia Hedge Funds Suffer Widespread Losses in July Market Rout",
-          "publisher": "Bloomberg",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/asia-hedge-funds-suffer-widespread-084707489.html",
-          "publishedAt": "2026-08-04T08:47:07.000Z"
+          "title": "Intel vs. TSMC: Intel Is Winning an AI Battle Against TSMC That Few Investors Are Watching",
+          "publisher": "Barchart",
+          "url": "https://finance.yahoo.com/m/f6da56b4-d267-304e-be5b-ae27d0175fd6/intel-vs.-tsmc%3A-intel-is.html",
+          "publishedAt": "2026-08-04T14:41:39.000Z"
         }
       ]
     },
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 235.11,
+      "price": 235.15,
       "previousClose": 229.48,
-      "changePct": 2.45,
+      "changePct": 2.47,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-04T19:59:58.000Z",
+      "asOf": "2026-08-04T20:00:03.000Z",
       "headlines": [
+        {
+          "title": "Jim Cramer Is Selling His Bitcoin Over Quantum Threat—Crypto Twitter Is Thrilled",
+          "publisher": "decrypt",
+          "url": "https://finance.yahoo.com/m/1e6326fa-cdcf-30ed-a80c-08a1dbe573b2/jim-cramer-is-selling-his.html",
+          "publishedAt": "2026-08-04T20:45:18.000Z"
+        },
+        {
+          "title": "The Unusual Cash Offer Sitting In IBM Stock",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/a9e095e6-0dd8-390d-9a01-561c95fd191d/the-unusual-cash-offer.html",
+          "publishedAt": "2026-08-04T19:59:42.000Z"
+        },
         {
           "title": "The Hidden Turbulence Priced Into Accenture Stock",
           "publisher": "Trefis",
@@ -529,18 +541,6 @@
           "publisher": "Trefis",
           "url": "https://finance.yahoo.com/m/e5c8316e-8e7b-395b-8865-fbfd50b67042/netapp%27s-buyback-is-better.html",
           "publishedAt": "2026-08-04T17:52:01.000Z"
-        },
-        {
-          "title": "Oracle's AI Build-Out Is Squeezing Gross Margin, Not Its Valuation",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/ca309d92-5114-31b7-bbd1-bb3012fbbe08/oracle%27s-ai-build-out-is.html",
-          "publishedAt": "2026-08-04T14:25:15.000Z"
-        },
-        {
-          "title": "Can IBM's Sovereign AI Solutions for India Propel the Stock Higher?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ibms-sovereign-ai-solutions-india-135100455.html",
-          "publishedAt": "2026-08-04T13:51:00.000Z"
         }
       ]
     },
@@ -555,28 +555,28 @@
       "asOf": "2026-08-04T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Cathie Wood Invests $32.2 Million in Surging Tech Stocks",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-invests-32-2-195712605.html",
-          "publishedAt": "2026-08-04T19:57:12.000Z"
+          "title": "Jeff Bezos Is Pushing Amazon's Prime Video Into an AI Showcase, a Sign of How the Company Plans to Justify Its AI Spending",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/80eecfdd-f029-3b8e-bc7b-c537c88d5ef4/jeff-bezos-is-pushing.html",
+          "publishedAt": "2026-08-04T20:41:00.000Z"
         },
         {
-          "title": "Amazon's Bid to Block Perplexity's Comet Agent Rejected by Ninth Circuit",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-apos-bid-block-perplexity-195501744.html",
-          "publishedAt": "2026-08-04T19:55:01.000Z"
+          "title": "SpaceX doubles revenues on Anthropic and Google compute deals, Starlink growth",
+          "publisher": "TechCrunch",
+          "url": "https://finance.yahoo.com/technology/articles/spacex-doubles-revenues-anthropic-google-203630798.html",
+          "publishedAt": "2026-08-04T20:36:30.000Z"
         },
         {
-          "title": "Amazon loses US court ban on Perplexity's AI shopping tools",
-          "publisher": "Reuters",
-          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-loses-us-court-ban-195251592.html",
-          "publishedAt": "2026-08-04T19:52:51.000Z"
+          "title": "The Toughest Questions AMZN Faced On Its Latest Call",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/64357cd2-12d9-38e8-8168-fb5c88147fbf/the-toughest-questions-amzn.html",
+          "publishedAt": "2026-08-04T20:08:31.000Z"
         },
         {
-          "title": "New Jersey Sues Amazon, Alleging Delivery Network Illegally Suppresses Wages",
-          "publisher": "The Wall Street Journal",
-          "url": "https://finance.yahoo.com/m/a0488797-e758-39f0-b0c2-431f564e4b40/new-jersey-sues-amazon%2C.html",
-          "publishedAt": "2026-08-04T19:31:00.000Z"
+          "title": "The Unusual Cash Offer Sitting In IBM Stock",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/a9e095e6-0dd8-390d-9a01-561c95fd191d/the-unusual-cash-offer.html",
+          "publishedAt": "2026-08-04T19:59:42.000Z"
         }
       ]
     }
