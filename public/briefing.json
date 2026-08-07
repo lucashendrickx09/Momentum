@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T17:24:55.557Z",
+  "generatedAt": "2026-08-07T18:23:46.179Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 97.71,
+      "price": 98.52,
       "previousClose": 179.84,
-      "changePct": -45.67,
+      "changePct": -45.22,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-07T17:24:51.000Z",
+      "asOf": "2026-08-07T18:23:40.000Z",
       "headlines": [
         {
           "title": "MSTR, CRCL, BMNR Stocks Rally After Bitcoin Reclaims $65K Despite CLARITY Delay",
@@ -43,12 +43,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 28.95,
+      "price": 29.09,
       "previousClose": 41.53,
-      "changePct": -30.29,
+      "changePct": -29.95,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-07T17:24:53.000Z",
+      "asOf": "2026-08-07T18:23:26.000Z",
       "headlines": [
         {
           "title": "Applied Digital Insider Sold Shares Worth $2,336,250, According to a Recent SEC Filing",
@@ -79,49 +79,61 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 170.41,
+      "price": 170.84,
       "previousClose": 137.05,
-      "changePct": 24.34,
+      "changePct": 24.66,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-07T17:24:52.000Z",
+      "asOf": "2026-08-07T18:23:42.000Z",
       "headlines": [
+        {
+          "title": "Palantir Surges 10%, UiPath Rises 7%, C3.ai Gains 5% as Agentic AI Stocks Rally Together",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/ac257fb0-c914-35af-8bb6-3565d03f4825/palantir-surges-10%25%2C-uipath.html",
+          "publishedAt": "2026-08-07T18:12:34.000Z"
+        },
+        {
+          "title": "PTIR Jumps 18% as Palantir Stock Rallies Yet Again",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/34747cd6-d51e-386d-92cd-989fe67b5d63/ptir-jumps-18%25-as-palantir.html",
+          "publishedAt": "2026-08-07T17:44:59.000Z"
+        },
+        {
+          "title": "Why Palantir Technologies Stock Skyrocketed (Again) Today",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/d35e1198-14ad-36c7-9ee1-25e74147b713/why-palantir-technologies.html",
+          "publishedAt": "2026-08-07T17:42:41.000Z"
+        },
         {
           "title": "Stock Market Today: Nasdaq Pops As July Jobs Miss Dampens Rates View; Gold Stocks Shine (Live Coverage)",
           "publisher": "Investor's Business Daily",
           "url": "https://finance.yahoo.com/m/f31b7dd5-5905-3ff6-bb6f-3918f4e33295/stock-market-today%3A-nasdaq.html",
           "publishedAt": "2026-08-07T17:04:37.000Z"
-        },
-        {
-          "title": "Palantir Stock Soars -- Bank of America Sees Massive Upside",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-soars-bank-america-164742904.html",
-          "publishedAt": "2026-08-07T16:47:42.000Z"
-        },
-        {
-          "title": "Stock Market Rally Powers Ahead; SpaceX, Palantir, Sandisk Are Key Earnings Movers: Weekly Review",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/4bbd3b4d-594f-317e-abf8-1e6e0fda7e15/stock-market-rally-powers.html",
-          "publishedAt": "2026-08-07T16:35:07.000Z"
-        },
-        {
-          "title": "Palantir CEO drops 11-word bombshell for stock market investors",
-          "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/m/c2e76070-6aea-36e7-a904-7c4f05f7d7d0/palantir-ceo-drops-11-word.html",
-          "publishedAt": "2026-08-07T16:03:00.000Z"
         }
       ]
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 499.4,
+      "price": 499.37,
       "previousClose": 420.77,
-      "changePct": 18.69,
+      "changePct": 18.68,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-07T17:24:51.000Z",
+      "asOf": "2026-08-07T18:23:42.000Z",
       "headlines": [
+        {
+          "title": "Update: Market Chatter: OpenAI Slows Release of Astra Model Over Cyber Concerns",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-openai-slows-release-175907290.html",
+          "publishedAt": "2026-08-07T17:59:07.000Z"
+        },
+        {
+          "title": "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/4c427706-d807-397b-8248-5aafd35373c7/nvidia%2C-microsoft-partner.html",
+          "publishedAt": "2026-08-07T17:36:45.000Z"
+        },
         {
           "title": "Market Chatter: OpenAI Slows Release of Astra Model Over Cyber Concerns",
           "publisher": "MT Newswires",
@@ -133,18 +145,6 @@
           "publisher": "GuruFocus.com",
           "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-winning-ai-cash-flow-163832703.html",
           "publishedAt": "2026-08-07T16:38:32.000Z"
-        },
-        {
-          "title": "Datadog Posts Q2 Beat as Observability, AI Demand Remain Strong, RBC Capital Markets Says",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/ai/articles/datadog-posts-q2-beat-observability-163051334.html",
-          "publishedAt": "2026-08-07T16:30:51.000Z"
-        },
-        {
-          "title": "Prediction: Can Apple Stock Reach $400 This Year?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/25dce539-00e2-3649-9ebf-3ee787b16fd9/prediction%3A-can-apple-stock.html",
-          "publishedAt": "2026-08-07T16:30:51.000Z"
         }
       ]
     },
@@ -153,10 +153,10 @@
       "name": "TMC the metals company Inc.",
       "price": 4.64,
       "previousClose": 5.7,
-      "changePct": -18.68,
+      "changePct": -18.6,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-07T17:24:44.000Z",
+      "asOf": "2026-08-07T18:23:32.000Z",
       "headlines": [
         {
           "title": "Forget TMC The Metals Company: This Rare Earth Stock Is the Smarter Bet Right Now",
@@ -192,7 +192,7 @@
       "changePct": 17.68,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-07T17:24:19.000Z",
+      "asOf": "2026-08-07T18:23:22.000Z",
       "headlines": [
         {
           "title": "European Equities Traded in the US as American Depositary Receipts Rise in Friday Trading",
@@ -221,50 +221,14 @@
       ]
     },
     {
-      "ticker": "PCG",
-      "name": "PG&E Corporation",
-      "price": 17.56,
-      "previousClose": 16.19,
-      "changePct": 8.46,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-07T17:24:52.000Z",
-      "headlines": [
-        {
-          "title": "Evergy's Q2 Earnings Beat Estimates, Revenues Increase Y/Y",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/evergys-q2-earnings-beat-estimates-151000235.html",
-          "publishedAt": "2026-08-06T15:10:00.000Z"
-        },
-        {
-          "title": "Utilities threaten action if lawmakers fail to cut their wildfire liability risk",
-          "publisher": "LA Times",
-          "url": "https://finance.yahoo.com/economy/policy/articles/utilities-threaten-action-lawmakers-fail-100000707.html",
-          "publishedAt": "2026-08-05T10:00:00.000Z"
-        },
-        {
-          "title": "PEG Q2 Earnings Outpace Expectations, Revenues Decrease Y/Y",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/peg-q2-earnings-outpace-expectations-152600102.html",
-          "publishedAt": "2026-08-04T15:26:00.000Z"
-        },
-        {
-          "title": "NRG Energy Q2 Earnings Lag Estimates, Revenues Increase Y/Y",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nrg-energy-q2-earnings-lag-151900357.html",
-          "publishedAt": "2026-08-04T15:19:00.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 25.65,
+      "price": 25.69,
       "previousClose": 23.7,
-      "changePct": 8.24,
+      "changePct": 8.4,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-07T17:24:38.000Z",
+      "asOf": "2026-08-07T18:22:58.000Z",
       "headlines": [
         {
           "title": "WY Q2 Beat Shows a Lumber Rebound but Higher OSB Costs Cloud Outlook",
@@ -293,14 +257,50 @@
       ]
     },
     {
-      "ticker": "LNG",
-      "name": "Cheniere Energy, Inc.",
-      "price": 262.78,
-      "previousClose": 246.78,
-      "changePct": 6.48,
+      "ticker": "PCG",
+      "name": "PG&E Corporation",
+      "price": 17.54,
+      "previousClose": 16.19,
+      "changePct": 8.34,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-07T17:24:40.000Z",
+      "asOf": "2026-08-07T18:23:44.000Z",
+      "headlines": [
+        {
+          "title": "Evergy's Q2 Earnings Beat Estimates, Revenues Increase Y/Y",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/evergys-q2-earnings-beat-estimates-151000235.html",
+          "publishedAt": "2026-08-06T15:10:00.000Z"
+        },
+        {
+          "title": "Utilities threaten action if lawmakers fail to cut their wildfire liability risk",
+          "publisher": "LA Times",
+          "url": "https://finance.yahoo.com/economy/policy/articles/utilities-threaten-action-lawmakers-fail-100000707.html",
+          "publishedAt": "2026-08-05T10:00:00.000Z"
+        },
+        {
+          "title": "PEG Q2 Earnings Outpace Expectations, Revenues Decrease Y/Y",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/peg-q2-earnings-outpace-expectations-152600102.html",
+          "publishedAt": "2026-08-04T15:26:00.000Z"
+        },
+        {
+          "title": "NRG Energy Q2 Earnings Lag Estimates, Revenues Increase Y/Y",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nrg-energy-q2-earnings-lag-151900357.html",
+          "publishedAt": "2026-08-04T15:19:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "LNG",
+      "name": "Cheniere Energy, Inc.",
+      "price": 262.88,
+      "previousClose": 246.78,
+      "changePct": 6.52,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-08-07T18:23:26.000Z",
       "headlines": [
         {
           "title": "LNG Q2 Earnings Call Highlights Guidance Raise and Output Gains",
@@ -329,86 +329,14 @@
       ]
     },
     {
-      "ticker": "SABS",
-      "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.88,
-      "previousClose": 4.09,
-      "changePct": -5.13,
-      "currency": "USD",
-      "exchange": "NasdaqCM",
-      "asOf": "2026-08-07T17:24:02.000Z",
-      "headlines": [
-        {
-          "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "url": "https://finance.yahoo.com/m/3c1df30f-9934-393a-a2cc-bd15cbc1b11b/sab-biotherapeutics-q2.html",
-          "publishedAt": "2026-08-07T12:03:53.000Z"
-        },
-        {
-          "title": "SAB Biotherapeutics Inc (SABS) (Q2 2026) Earnings Call Highlights: Advancing SAB142 with Strong ...",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/healthcare/articles/sab-biotherapeutics-inc-sabs-q2-231421977.html",
-          "publishedAt": "2026-08-06T23:14:21.000Z"
-        },
-        {
-          "title": "SAB BIO Reports Q2 2026 Financial Results and Provides Business Highlights",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/healthcare/articles/sab-bio-reports-q2-2026-113000535.html",
-          "publishedAt": "2026-08-06T11:30:00.000Z"
-        },
-        {
-          "title": "SAB BIO to Host Second Quarter 2026 Financial Results Conference Call and Webcast on August 6, 2026, 08:30 AM ET",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/healthcare/articles/sab-bio-host-second-quarter-123000403.html",
-          "publishedAt": "2026-07-30T12:30:00.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 221.69,
-      "previousClose": 211.5,
-      "changePct": 4.82,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-07T17:24:52.000Z",
-      "headlines": [
-        {
-          "title": "Fluor Corporation Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/m/1c5d04b8-9d48-3257-8fe6-2491751d3d80/fluor-corporation-q2-2026.html",
-          "publishedAt": "2026-08-07T17:11:33.000Z"
-        },
-        {
-          "title": "AdvanSix Inc. Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/m/7527bbd7-5114-342b-b2c1-a23bfe588043/advansix-inc.-q2-2026.html",
-          "publishedAt": "2026-08-07T17:11:12.000Z"
-        },
-        {
-          "title": "Silvaco Group Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "url": "https://finance.yahoo.com/m/a32e5c6c-548a-3d9f-ad57-c7292f75986a/silvaco-group-q2-earnings.html",
-          "publishedAt": "2026-08-07T17:04:05.000Z"
-        },
-        {
-          "title": "MercadoLibre Quarterly Revenue Just Topped $10 Billion for the First Time. Is the Post-Earnings Sell-Off a Gift for Long-Term Investors?",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/8be1400c-0fd5-3d08-b210-7a6f6068274d/mercadolibre-quarterly.html",
-          "publishedAt": "2026-08-07T17:01:00.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.36,
+      "price": 2.35,
       "previousClose": 2.47,
-      "changePct": -4.45,
+      "changePct": -5.06,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-07T17:20:08.000Z",
+      "asOf": "2026-08-07T18:19:10.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals to Report Second Quarter Financial Results on August 12, 2026",
@@ -437,14 +365,86 @@
       ]
     },
     {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 221.99,
+      "previousClose": 211.5,
+      "changePct": 4.96,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-07T18:23:43.000Z",
+      "headlines": [
+        {
+          "title": "Nvidia Earnings: Turn A $265 Profit Trading Around The AI Chipmaker's Report",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/d3c375f7-c53c-3fd2-b122-e77548f6a01a/nvidia-earnings%3A-turn-a-%24265.html",
+          "publishedAt": "2026-08-07T18:09:55.000Z"
+        },
+        {
+          "title": "Why Atlassian Stock Soared Today",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/11014bad-0607-39a8-8baf-7cd66240e0ac/why-atlassian-stock-soared.html",
+          "publishedAt": "2026-08-07T18:08:53.000Z"
+        },
+        {
+          "title": "Why IonQ Stock Crashed 31.6% In July",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/9559a4e2-353d-3bdf-a339-11c1e6bbe729/why-ionq-stock-crashed-31.6%25.html",
+          "publishedAt": "2026-08-07T18:08:47.000Z"
+        },
+        {
+          "title": "Why Dutch Bros Stock Is Plummeting Lower This Week",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/7e34bc35-5443-332a-8a68-3d3bc3b76b2b/why-dutch-bros-stock-is.html",
+          "publishedAt": "2026-08-07T17:57:36.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "SABS",
+      "name": "SAB Biotherapeutics, Inc.",
+      "price": 3.9,
+      "previousClose": 4.09,
+      "changePct": -4.77,
+      "currency": "USD",
+      "exchange": "NasdaqCM",
+      "asOf": "2026-08-07T18:20:27.000Z",
+      "headlines": [
+        {
+          "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "url": "https://finance.yahoo.com/m/3c1df30f-9934-393a-a2cc-bd15cbc1b11b/sab-biotherapeutics-q2.html",
+          "publishedAt": "2026-08-07T12:03:53.000Z"
+        },
+        {
+          "title": "SAB Biotherapeutics Inc (SABS) (Q2 2026) Earnings Call Highlights: Advancing SAB142 with Strong ...",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/healthcare/articles/sab-biotherapeutics-inc-sabs-q2-231421977.html",
+          "publishedAt": "2026-08-06T23:14:21.000Z"
+        },
+        {
+          "title": "SAB BIO Reports Q2 2026 Financial Results and Provides Business Highlights",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/healthcare/articles/sab-bio-reports-q2-2026-113000535.html",
+          "publishedAt": "2026-08-06T11:30:00.000Z"
+        },
+        {
+          "title": "SAB BIO to Host Second Quarter 2026 Financial Results Conference Call and Webcast on August 6, 2026, 08:30 AM ET",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/healthcare/articles/sab-bio-host-second-quarter-123000403.html",
+          "publishedAt": "2026-07-30T12:30:00.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 43.36,
+      "price": 43.22,
       "previousClose": 45.31,
-      "changePct": -4.3,
+      "changePct": -4.61,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-07T17:24:47.000Z",
+      "asOf": "2026-08-07T18:23:44.000Z",
       "headlines": [
         {
           "title": "Analyst Report: Devon Energy Corporation",
@@ -475,12 +475,12 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 236.59,
+      "price": 235.73,
       "previousClose": 231.31,
-      "changePct": 2.28,
+      "changePct": 1.91,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-07T17:24:49.000Z",
+      "asOf": "2026-08-07T18:23:33.000Z",
       "headlines": [
         {
           "title": "Oracle Stock Fell While Its Operating Margin Climbed For A Third Straight Year",
@@ -509,14 +509,50 @@
       ]
     },
     {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 275.14,
+      "previousClose": 271.17,
+      "changePct": 1.46,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-07T18:23:39.000Z",
+      "headlines": [
+        {
+          "title": "Amazon vs MercadoLibre: Two E-Commerce Titans, Only One is The Smarter Buy Now",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/4fa87019-76ee-365b-94e0-35939261f0dd/amazon-vs-mercadolibre%3A-two.html",
+          "publishedAt": "2026-08-07T18:00:33.000Z"
+        },
+        {
+          "title": "Microsoft Is Winning the AI Cash Flow Test",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-winning-ai-cash-flow-163832703.html",
+          "publishedAt": "2026-08-07T16:38:32.000Z"
+        },
+        {
+          "title": "Amazon's $220 billion AI bet hits a snag: Trainium 2 chips are only 20 months old and already being replaced",
+          "publisher": "Moneywise",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amazons-220-billion-ai-bet-163500285.html",
+          "publishedAt": "2026-08-07T16:35:00.000Z"
+        },
+        {
+          "title": "LaFontaine Automotive Group Joins Amazon Autos Marketplace with More Than 40 Retail Locations in Michigan",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/small-business/articles/lafontaine-automotive-group-joins-amazon-155200386.html",
+          "publishedAt": "2026-08-07T15:52:00.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 420.1,
+      "price": 419.31,
       "previousClose": 414.15,
-      "changePct": 1.44,
+      "changePct": 1.25,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-07T17:24:51.000Z",
+      "asOf": "2026-08-07T18:23:41.000Z",
       "headlines": [
         {
           "title": "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
@@ -541,42 +577,6 @@
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/technology/ai/articles/semiconductor-sales-continue-grow-ai-133600129.html",
           "publishedAt": "2026-08-07T13:36:00.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "price": 274.17,
-      "previousClose": 271.17,
-      "changePct": 1.11,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-07T17:24:51.000Z",
-      "headlines": [
-        {
-          "title": "Microsoft Is Winning the AI Cash Flow Test",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-winning-ai-cash-flow-163832703.html",
-          "publishedAt": "2026-08-07T16:38:32.000Z"
-        },
-        {
-          "title": "Amazon's $220 billion AI bet hits a snag: Trainium 2 chips are only 20 months old and already being replaced",
-          "publisher": "Moneywise",
-          "url": "https://finance.yahoo.com/technology/ai/articles/amazons-220-billion-ai-bet-163500285.html",
-          "publishedAt": "2026-08-07T16:35:00.000Z"
-        },
-        {
-          "title": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/0318f69f-306a-3b51-a62e-8aa5dab8bf8b/meet-the-low-cost-vanguard.html",
-          "publishedAt": "2026-08-07T15:47:00.000Z"
-        },
-        {
-          "title": "Top Midday Stories: Stocks Rise on Dismal Jobs Report; Doximity Shares Soar After CEO Touts New AI Search Tool",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-stocks-rise-154537150.html",
-          "publishedAt": "2026-08-07T15:45:37.000Z"
         }
       ]
     }
