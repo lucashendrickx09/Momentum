@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T20:10:55.056Z",
+  "generatedAt": "2026-08-10T20:31:15.235Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -51,6 +51,12 @@
       "asOf": "2026-08-10T20:00:02.000Z",
       "headlines": [
         {
+          "title": "What’s Driving TeraWulf (WULF) Stock, and Are Its Peers Moving Too?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/8af63d9d-77b5-33e4-8a2a-29c7b2142882/what%E2%80%99s-driving-terawulf.html",
+          "publishedAt": "2026-08-10T20:19:59.000Z"
+        },
+        {
           "title": "Cipher Digital Delivered Early, But Its Growth Waits On Texas",
           "publisher": "Trefis",
           "url": "https://finance.yahoo.com/m/1f592408-1653-305b-b850-aa4a69433aac/cipher-digital-delivered.html",
@@ -67,12 +73,6 @@
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/m/d73da7aa-f5a5-3303-9600-9c5c5a53137c/c3.ai-vs.-applied-digital%3A.html",
           "publishedAt": "2026-08-07T21:07:01.000Z"
-        },
-        {
-          "title": "Applied Digital Insider Sold Shares Worth $2,336,250, According to a Recent SEC Filing",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-insider-sold-shares-212542872.html",
-          "publishedAt": "2026-08-06T21:25:42.000Z"
         }
       ]
     },
@@ -86,6 +86,12 @@
       "exchange": "NasdaqGS",
       "asOf": "2026-08-10T20:00:00.000Z",
       "headlines": [
+        {
+          "title": "Cathie Wood Invests $36.9 Million in Surging Stock",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-invests-36-9-201143798.html",
+          "publishedAt": "2026-08-10T20:11:43.000Z"
+        },
         {
           "title": "Palantir CEO Sends Stark Warning for Businesses Betting Big on AI",
           "publisher": "GuruFocus.com",
@@ -103,12 +109,6 @@
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/m/bae20f3e-5022-35eb-b883-b83dd58f5150/can-palantir-reach-%24207-per.html",
           "publishedAt": "2026-08-10T18:50:00.000Z"
-        },
-        {
-          "title": "3 Reasons Why Growth Investors Shouldn't Overlook Palantir Technologies (PLTR)",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-why-growth-investors-164502970.html",
-          "publishedAt": "2026-08-10T16:45:02.000Z"
         }
       ]
     },
@@ -187,12 +187,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 208.54,
+      "price": 208.55,
       "previousClose": 173.7,
       "changePct": 20.06,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-10T19:59:59.000Z",
+      "asOf": "2026-08-10T20:00:02.000Z",
       "headlines": [
         {
           "title": "Salesforce Declines 17% Over the Past Year: How to Play CRM Stock?",
@@ -223,12 +223,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 265.71,
+      "price": 265.68,
       "previousClose": 240.11,
-      "changePct": 10.66,
+      "changePct": 10.65,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-10T19:59:59.000Z",
+      "asOf": "2026-08-10T20:00:02.000Z",
       "headlines": [
         {
           "title": "Cheniere Energy Q2 Earnings Call Highlights",
@@ -295,12 +295,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 25.31,
+      "price": 25.29,
       "previousClose": 23.53,
-      "changePct": 7.56,
+      "changePct": 7.48,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-10T19:59:57.000Z",
+      "asOf": "2026-08-10T20:00:03.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser (WY) Could Be 18% Undervalued On Its Latest Earnings Beat",
@@ -331,12 +331,12 @@
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.06,
+      "price": 17.04,
       "previousClose": 16.07,
-      "changePct": 6.13,
+      "changePct": 6.04,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-10T19:59:58.000Z",
+      "asOf": "2026-08-10T20:00:02.000Z",
       "headlines": [
         {
           "title": "Is PG&E (PCG) A Bargain Or Fully Priced Following Its Recent Share Move?",
@@ -403,12 +403,12 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 236.14,
+      "price": 236.31,
       "previousClose": 229.76,
-      "changePct": 2.77,
+      "changePct": 2.85,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-10T19:59:59.000Z",
+      "asOf": "2026-08-10T20:00:03.000Z",
       "headlines": [
         {
           "title": "IBM Stock Options Price A Band Half Above Today's Price And A Third Below",
@@ -475,13 +475,19 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 418.49,
+      "price": 418.47,
       "previousClose": 411.68,
       "changePct": 1.65,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-10T20:00:00.000Z",
+      "asOf": "2026-08-10T20:00:03.000Z",
       "headlines": [
+        {
+          "title": "The ETFs Most Exposed to the 2026 Chip Supply Chain Crisis — Winners and Losers",
+          "publisher": "etf.com",
+          "url": "https://finance.yahoo.com/m/1b1029b5-e8b9-3ad6-8694-3ae17d20f495/the-etfs-most-exposed-to-the.html",
+          "publishedAt": "2026-08-10T20:15:22.000Z"
+        },
         {
           "title": "ASML Stock Rises 1.7% as AI Demand Signal Strengthens",
           "publisher": "GuruFocus.com",
@@ -499,12 +505,6 @@
           "publisher": "Investor's Business Daily",
           "url": "https://finance.yahoo.com/m/5a48fb66-bb53-319a-8205-3a75ef0a9e9d/stock-market-today%3A-dow-dips%2C.html",
           "publishedAt": "2026-08-10T19:44:03.000Z"
-        },
-        {
-          "title": "Microsoft Rethinks Its Nvidia Reliance",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-rethinks-nvidia-reliance-185218565.html",
-          "publishedAt": "2026-08-10T18:52:18.000Z"
         }
       ]
     },
@@ -519,46 +519,52 @@
       "asOf": "2026-08-10T20:00:00.000Z",
       "headlines": [
         {
-          "title": "Why National Energy Stock Climbed to a New All-Time High Today",
+          "title": "Why Garmin Stock Soared in July and Is at an All-Time High",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/e0281b70-0a21-3bdd-8598-db5a0b93424b/why-national-energy-stock.html",
-          "publishedAt": "2026-08-10T20:03:55.000Z"
+          "url": "https://finance.yahoo.com/m/5bb649cd-9395-3293-a04b-b5d442493cbe/why-garmin-stock-soared-in.html",
+          "publishedAt": "2026-08-10T20:21:00.000Z"
         },
         {
-          "title": "Sector Update: Financial Stocks Mixed Late Afternoon",
+          "title": "US Equity Markets End Lower After Crude Oil Prices Rise Following US-Iran Disagreements",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-mixed-afternoon-200206688.html",
-          "publishedAt": "2026-08-10T20:02:06.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-202021991.html",
+          "publishedAt": "2026-08-10T20:20:21.000Z"
         },
         {
-          "title": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-partners-apollo-blackrock-blackstone-200100745.html",
-          "publishedAt": "2026-08-10T20:01:00.000Z"
+          "title": "Cathie Wood Invests $36.9 Million in Surging Stock",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-invests-36-9-201143798.html",
+          "publishedAt": "2026-08-10T20:11:43.000Z"
         },
         {
-          "title": "Why Calumet Stock Is Rocketing Higher Today",
+          "title": "Why Monday.com Sank Today",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/3255686a-3078-3dde-bd66-0efb7d3ff80c/why-calumet-stock-is.html",
-          "publishedAt": "2026-08-10T19:59:16.000Z"
+          "url": "https://finance.yahoo.com/m/9055e249-b83b-314a-981e-734aa886b9ae/why-monday.com-sank-today.html",
+          "publishedAt": "2026-08-10T20:10:27.000Z"
         }
       ]
     },
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 45.37,
+      "price": 45.36,
       "previousClose": 45.61,
-      "changePct": -0.53,
+      "changePct": -0.55,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-10T19:59:59.000Z",
+      "asOf": "2026-08-10T20:00:02.000Z",
       "headlines": [
         {
           "title": "2 Energy Dividend Stocks to Buy -- and the Risk Behind Each Payout",
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/m/23998f5b-4615-383b-8efe-47fa9caae294/2-energy-dividend-stocks-to.html",
           "publishedAt": "2026-08-10T15:35:00.000Z"
+        },
+        {
+          "title": "Stocks Pressured as Higher Crude Price Boosts T-Note Yields",
+          "publisher": "Barchart",
+          "url": "https://finance.yahoo.com/m/51978f34-3fd1-3e0f-a723-7473de213263/stocks-pressured-as-higher.html",
+          "publishedAt": "2026-08-10T14:04:42.000Z"
         },
         {
           "title": "Bernstein Adjusts Price Target on Devon Energy to $49 From $59, Keeps Outperform Rating",
@@ -571,12 +577,6 @@
           "publisher": "MarketBeat",
           "url": "https://finance.yahoo.com/m/796d71ab-8771-36ad-9ef1-ef1eff51c4ce/devon-energy-q2-earnings-call.html",
           "publishedAt": "2026-08-08T05:03:48.000Z"
-        },
-        {
-          "title": "CEG Q2 Earnings Top Estimates on Calpine Contribution, View Raised",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ceg-q2-earnings-top-estimates-154300717.html",
-          "publishedAt": "2026-08-06T15:43:00.000Z"
         }
       ]
     }
