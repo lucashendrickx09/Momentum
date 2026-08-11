@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T19:36:32.045Z",
+  "generatedAt": "2026-08-11T20:34:17.059Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,18 +7,24 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 96.11,
+      "price": 96.09,
       "previousClose": 195.94,
-      "changePct": -50.95,
+      "changePct": -50.96,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-11T19:36:25.000Z",
+      "asOf": "2026-08-11T20:00:01.000Z",
       "headlines": [
         {
           "title": "Circle Internet Is Still Down 10% in 2026. What Will It Take to Get CRCL Stock Back Up to $100?",
           "publisher": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/m/71b01d4a-b98d-3d17-ab2b-2b72e8a8933e/circle-internet-is-still-down.html",
           "publishedAt": "2026-08-11T19:25:16.000Z"
+        },
+        {
+          "title": "Why Twenty One Capital Stock is Worth Less Than the Bitcoin It Owns",
+          "publisher": "BeInCrypto",
+          "url": "https://finance.yahoo.com/m/3a43f158-731c-38ea-881c-baadcc3a4eeb/why-twenty-one-capital-stock.html",
+          "publishedAt": "2026-08-11T19:06:08.000Z"
         },
         {
           "title": "Blackstone Digital (BXDC) Q2 2026 Earnings Call",
@@ -31,24 +37,18 @@
           "publisher": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/m/f23e7f51-942f-3b35-9038-20ba09ce232e/long-term-bitcoin-bulls.html",
           "publishedAt": "2026-08-11T16:43:15.000Z"
-        },
-        {
-          "title": "Why Strategy Is Selling Bitcoin and How Much It Has Sold So Far",
-          "publisher": "decrypt",
-          "url": "https://finance.yahoo.com/m/043c0abd-7dd6-30ad-a15d-dfdcf6051d55/why-strategy-is-selling.html",
-          "publishedAt": "2026-08-11T14:46:11.000Z"
         }
       ]
     },
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 29.76,
+      "price": 29.69,
       "previousClose": 44.59,
-      "changePct": -33.26,
+      "changePct": -33.42,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-11T19:36:24.000Z",
+      "asOf": "2026-08-11T20:00:01.000Z",
       "headlines": [
         {
           "title": "Babcock & Wilcox stakes out another perch in AI, data center bonanza",
@@ -79,12 +79,12 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 175.45,
+      "price": 174.94,
       "previousClose": 136.89,
-      "changePct": 28.17,
+      "changePct": 27.8,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-11T19:36:28.000Z",
+      "asOf": "2026-08-11T20:00:00.000Z",
       "headlines": [
         {
           "title": "Cathie Wood Just Sold $21 Million of Palantir Stock. Here's Why That Could Be a Big Mistake.",
@@ -113,50 +113,14 @@
       ]
     },
     {
-      "ticker": "TMC",
-      "name": "TMC the metals company Inc.",
-      "price": 4.53,
-      "previousClose": 5.91,
-      "changePct": -23.35,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-11T19:36:19.000Z",
-      "headlines": [
-        {
-          "title": "MP Materials (MP) Stock Is Rising Today: What’s Behind the Rally in Rare Earth Stocks?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/35fa19c0-24bd-3756-9d26-c6756193e3f2/mp-materials-%28mp%29-stock-is.html",
-          "publishedAt": "2026-08-10T18:29:58.000Z"
-        },
-        {
-          "title": "TMC The Metals (TMC) Could Be 59% Undervalued After Its August 13 Earnings Call Date",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tmc-metals-tmc-could-59-130900623.html",
-          "publishedAt": "2026-08-08T13:09:00.000Z"
-        },
-        {
-          "title": "Forget TMC The Metals Company: This Rare Earth Stock Is the Smarter Bet Right Now",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/d49101c0-5d01-348d-be9a-804152e033f5/forget-tmc-the-metals.html",
-          "publishedAt": "2026-08-06T21:20:00.000Z"
-        },
-        {
-          "title": "Chinese Robot Maker To IPO At $9 Billion Valuation. How It Compares To Tesla's Optimus.",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/2c655800-018b-3cfc-8a21-8f03d1f9f4e6/chinese-robot-maker-to-ipo-at.html",
-          "publishedAt": "2026-08-06T20:00:46.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 209.06,
+      "price": 209.68,
       "previousClose": 170.1,
-      "changePct": 22.9,
+      "changePct": 23.27,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-11T19:36:29.000Z",
+      "asOf": "2026-08-11T20:00:02.000Z",
       "headlines": [
         {
           "title": "Salesforce Declines 17% Over the Past Year: How to Play CRM Stock?",
@@ -185,14 +149,50 @@
       ]
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation",
-      "price": 503.48,
-      "previousClose": 412.66,
-      "changePct": 22.01,
+      "ticker": "TMC",
+      "name": "TMC the metals company Inc.",
+      "price": 4.55,
+      "previousClose": 5.91,
+      "changePct": -23.01,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-11T19:36:27.000Z",
+      "asOf": "2026-08-11T20:00:00.000Z",
+      "headlines": [
+        {
+          "title": "MP Materials (MP) Stock Is Rising Today: What’s Behind the Rally in Rare Earth Stocks?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/35fa19c0-24bd-3756-9d26-c6756193e3f2/mp-materials-%28mp%29-stock-is.html",
+          "publishedAt": "2026-08-10T18:29:58.000Z"
+        },
+        {
+          "title": "TMC The Metals (TMC) Could Be 59% Undervalued After Its August 13 Earnings Call Date",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tmc-metals-tmc-could-59-130900623.html",
+          "publishedAt": "2026-08-08T13:09:00.000Z"
+        },
+        {
+          "title": "Forget TMC The Metals Company: This Rare Earth Stock Is the Smarter Bet Right Now",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/d49101c0-5d01-348d-be9a-804152e033f5/forget-tmc-the-metals.html",
+          "publishedAt": "2026-08-06T21:20:00.000Z"
+        },
+        {
+          "title": "Chinese Robot Maker To IPO At $9 Billion Valuation. How It Compares To Tesla's Optimus.",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/2c655800-018b-3cfc-8a21-8f03d1f9f4e6/chinese-robot-maker-to-ipo-at.html",
+          "publishedAt": "2026-08-06T20:00:46.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 503.81,
+      "previousClose": 412.66,
+      "changePct": 22.09,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-11T20:00:01.000Z",
       "headlines": [
         {
           "title": "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
@@ -213,22 +213,22 @@
           "publishedAt": "2026-08-11T19:15:35.000Z"
         },
         {
-          "title": "Arkose Labs Named to Inc. 5000 List of America's Fastest-Growing Private Companies for Fifth Year",
-          "publisher": "Business Wire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/arkose-labs-named-inc-5000-191200497.html",
-          "publishedAt": "2026-08-11T19:12:00.000Z"
+          "title": "Alphabet's AI Story No Longer Runs Through The Business That Funds Everything Else",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/5f3b2955-7cd5-3a08-83c5-c0b82d303cc6/alphabet%27s-ai-story-no-longer.html",
+          "publishedAt": "2026-08-11T19:13:58.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 266.37,
+      "price": 265.43,
       "previousClose": 240.7,
-      "changePct": 10.66,
+      "changePct": 10.27,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-11T19:36:26.000Z",
+      "asOf": "2026-08-11T20:00:02.000Z",
       "headlines": [
         {
           "title": "Cheniere Energy Q2 Earnings Call Highlights",
@@ -257,14 +257,50 @@
       ]
     },
     {
-      "ticker": "PCG",
-      "name": "PG&E Corporation",
-      "price": 17.33,
-      "previousClose": 16.21,
-      "changePct": 6.88,
+      "ticker": "WY",
+      "name": "Weyerhaeuser Company",
+      "price": 25.02,
+      "previousClose": 23.42,
+      "changePct": 6.83,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-11T19:36:12.000Z",
+      "asOf": "2026-08-11T20:00:03.000Z",
+      "headlines": [
+        {
+          "title": "Analyst Report: Weyerhaeuser Co",
+          "publisher": "Argus Research",
+          "url": "https://finance.yahoo.com/m/f63f2f53-3237-3e23-b2f4-15ed7549ef5e/analyst-report%3A-weyerhaeuser.html",
+          "publishedAt": "2026-08-11T11:12:05.000Z"
+        },
+        {
+          "title": "Market Digest: AN, BA, CNC, MRK, WY, APO, LEA, HLN, CEG",
+          "publisher": "Argus Research",
+          "url": "https://finance.yahoo.com/m/96d79ed3-5001-301f-9429-19a7e49bdae1/market-digest%3A-an%2C-ba%2C-cnc%2C.html",
+          "publishedAt": "2026-08-11T10:57:05.000Z"
+        },
+        {
+          "title": "Weyerhaeuser (WY) Could Be 18% Undervalued On Its Latest Earnings Beat",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-could-18-undervalued-141212297.html",
+          "publishedAt": "2026-08-08T14:12:12.000Z"
+        },
+        {
+          "title": "Weyerhaeuser (WY) Stock Looks Cheap On Cash Flow But Pricey On Earnings",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-stock-looks-cheap-111124552.html",
+          "publishedAt": "2026-08-08T11:11:24.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "PCG",
+      "name": "PG&E Corporation",
+      "price": 17.3,
+      "previousClose": 16.21,
+      "changePct": 6.72,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-08-11T20:00:02.000Z",
       "headlines": [
         {
           "title": "National 811 Day: Damaging Underground Utility Lines During Digging Can be a Serious Public Safety Issue",
@@ -295,24 +331,24 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 238.81,
+      "price": 238.42,
       "previousClose": 223.55,
-      "changePct": 6.82,
+      "changePct": 6.65,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-11T19:36:02.000Z",
+      "asOf": "2026-08-11T20:00:02.000Z",
       "headlines": [
+        {
+          "title": "Stock Market Today: Dow Falls, Oil Rises As Iran Says This On Hormuz; Equity Sees 22% Gain Fade (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/88069686-fb31-35fa-b6c9-0c1477a53816/stock-market-today%3A-dow.html",
+          "publishedAt": "2026-08-11T19:56:06.000Z"
+        },
         {
           "title": "IBM Lands a $240 Million AI Inference Deal",
           "publisher": "GuruFocus.com",
           "url": "https://finance.yahoo.com/technology/ai/articles/ibm-lands-240-million-ai-191047046.html",
           "publishedAt": "2026-08-11T19:10:47.000Z"
-        },
-        {
-          "title": "Stock Market Today: Dow Falls, Oil Rises As Iran Says This On Hormuz; Energy Play Eyes Entry (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/88069686-fb31-35fa-b6c9-0c1477a53816/stock-market-today%3A-dow.html",
-          "publishedAt": "2026-08-11T18:38:15.000Z"
         },
         {
           "title": "Inside IBM’s $240 Million AI Bet to Build Out Its Cloud Capabilities",
@@ -329,50 +365,14 @@
       ]
     },
     {
-      "ticker": "WY",
-      "name": "Weyerhaeuser Company",
-      "price": 25.01,
-      "previousClose": 23.42,
-      "changePct": 6.79,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-11T19:36:17.000Z",
-      "headlines": [
-        {
-          "title": "Analyst Report: Weyerhaeuser Co",
-          "publisher": "Argus Research",
-          "url": "https://finance.yahoo.com/m/f63f2f53-3237-3e23-b2f4-15ed7549ef5e/analyst-report%3A-weyerhaeuser.html",
-          "publishedAt": "2026-08-11T11:12:05.000Z"
-        },
-        {
-          "title": "Market Digest: AN, BA, CNC, MRK, WY, APO, LEA, HLN, CEG",
-          "publisher": "Argus Research",
-          "url": "https://finance.yahoo.com/m/96d79ed3-5001-301f-9429-19a7e49bdae1/market-digest%3A-an%2C-ba%2C-cnc%2C.html",
-          "publishedAt": "2026-08-11T10:57:05.000Z"
-        },
-        {
-          "title": "Weyerhaeuser (WY) Could Be 18% Undervalued On Its Latest Earnings Beat",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-could-18-undervalued-141212297.html",
-          "publishedAt": "2026-08-08T14:12:12.000Z"
-        },
-        {
-          "title": "Weyerhaeuser (WY) Stock Looks Cheap On Cash Flow But Pricey On Earnings",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-stock-looks-cheap-111124552.html",
-          "publishedAt": "2026-08-08T11:11:24.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 421.42,
+      "price": 422.06,
       "previousClose": 404.54,
-      "changePct": 4.17,
+      "changePct": 4.33,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-11T19:36:25.000Z",
+      "asOf": "2026-08-11T20:00:02.000Z",
       "headlines": [
         {
           "title": "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
@@ -403,12 +403,12 @@
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.49,
+      "price": 2.47,
       "previousClose": 2.57,
-      "changePct": -3.11,
+      "changePct": -3.89,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-11T19:32:54.000Z",
+      "asOf": "2026-08-11T20:00:01.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals to Report Second Quarter Financial Results on August 12, 2026",
@@ -439,12 +439,12 @@
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 45.42,
+      "price": 45.4,
       "previousClose": 46.73,
-      "changePct": -2.81,
+      "changePct": -2.85,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-11T19:36:30.000Z",
+      "asOf": "2026-08-11T20:00:03.000Z",
       "headlines": [
         {
           "title": "2 Energy Dividend Stocks to Buy -- and the Risk Behind Each Payout",
@@ -475,48 +475,48 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 273.02,
+      "price": 272.27,
       "previousClose": 268.99,
-      "changePct": 1.5,
+      "changePct": 1.22,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-11T19:36:27.000Z",
+      "asOf": "2026-08-11T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Amazon Stock Drops 1.8% as $3 Trillion Rally Cools",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-stock-drops-1-8-191235091.html",
-          "publishedAt": "2026-08-11T19:12:35.000Z"
+          "title": "Wall Street ends down as US-Iran peace optimism fades",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/energy/articles/wall-st-futures-muted-us-102532652.html",
+          "publishedAt": "2026-08-11T20:14:32.000Z"
         },
         {
-          "title": "Should Amazon Investors Be Worried After Jeff Bezos Sold Over $4 Billion in Shares?",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/972569b2-ecda-379e-b52b-57ab7ba6b36b/should-amazon-investors-be.html",
-          "publishedAt": "2026-08-11T19:05:00.000Z"
+          "title": "Market Chatter: Amazon's Jeff Bezos, Investor Group Near Deal for Minority Stake in Liverpool Football Club",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-amazon-apos-jeff-194521771.html",
+          "publishedAt": "2026-08-11T19:45:21.000Z"
         },
         {
-          "title": "Vistra (VST) Just Grew Ebitda 30%, So Why Did Profit Fall?",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/energy/articles/vistra-vst-just-grew-ebitda-185214479.html",
-          "publishedAt": "2026-08-11T18:52:14.000Z"
+          "title": "Mamdani Takes on Amazon in New Battle Over New York’s Delivery Workers",
+          "publisher": "The Wall Street Journal",
+          "url": "https://finance.yahoo.com/m/c8852ca8-e1db-3693-9f7d-c4cb68cb1fb4/mamdani-takes-on-amazon-in.html",
+          "publishedAt": "2026-08-11T19:34:00.000Z"
         },
         {
-          "title": "Amazon.com, Inc. (AMZN) vs. Apple Inc. (AAPL): Hedge Funds Favor One over the Other",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-inc-amzn-vs-185154577.html",
-          "publishedAt": "2026-08-11T18:51:54.000Z"
+          "title": "Jabil upgraded by UBS as AI demand, healthcare growth support outlook",
+          "publisher": "Proactive",
+          "url": "https://finance.yahoo.com/m/8b401f42-7739-3e4a-9a56-471134b89f7d/jabil-upgraded-by-ubs-as-ai.html",
+          "publishedAt": "2026-08-11T19:32:00.000Z"
         }
       ]
     },
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.75,
+      "price": 3.76,
       "previousClose": 3.72,
-      "changePct": 0.81,
+      "changePct": 1.08,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-11T19:29:52.000Z",
+      "asOf": "2026-08-11T20:00:00.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
@@ -547,36 +547,36 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 218,
+      "price": 217.5,
       "previousClose": 219.44,
-      "changePct": -0.66,
+      "changePct": -0.88,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-11T19:36:27.000Z",
+      "asOf": "2026-08-11T20:00:00.000Z",
       "headlines": [
         {
-          "title": "Circle Internet Is Still Down 10% in 2026. What Will It Take to Get CRCL Stock Back Up to $100?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/71b01d4a-b98d-3d17-ab2b-2b72e8a8933e/circle-internet-is-still-down.html",
-          "publishedAt": "2026-08-11T19:25:16.000Z"
+          "title": "Update: Equities Post Back-to-Back Declines Amid Hormuz Deal Doubts",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/equities-post-back-back-declines-202958244.html",
+          "publishedAt": "2026-08-11T20:29:58.000Z"
         },
         {
-          "title": "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-ai-chip-could-big-192055770.html",
-          "publishedAt": "2026-08-11T19:20:55.000Z"
-        },
-        {
-          "title": "IBM Lands a $240 Million AI Inference Deal",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ibm-lands-240-million-ai-191047046.html",
-          "publishedAt": "2026-08-11T19:10:47.000Z"
-        },
-        {
-          "title": "This Unloved Dividend Stock Is Secretly Powering the AI Revolution",
+          "title": "Why Clean Energy Fuels Stock Is Soaring Today",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/91893917-5260-3d18-9f4f-a6e01937b060/this-unloved-dividend-stock.html",
-          "publishedAt": "2026-08-11T19:10:00.000Z"
+          "url": "https://finance.yahoo.com/m/2fe1dc33-9fbd-3a8a-89c7-6d3857bdcd68/why-clean-energy-fuels-stock.html",
+          "publishedAt": "2026-08-11T20:29:29.000Z"
+        },
+        {
+          "title": "Bloom Energy Stock Is Up 153% This Year. Can the Rally Continue?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/35ff25c2-1d57-3e63-9c11-ea844de950b0/bloom-energy-stock-is-up-153%25.html",
+          "publishedAt": "2026-08-11T20:25:00.000Z"
+        },
+        {
+          "title": "Pfizer Just Raised Its 2026 Guidance -- but the Boost Leans Heavily on a Drug Running Out the Patent Clock",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/ef498207-9959-3415-bd18-265e0b03bb31/pfizer-just-raised-its-2026.html",
+          "publishedAt": "2026-08-11T20:20:00.000Z"
         }
       ]
     }
