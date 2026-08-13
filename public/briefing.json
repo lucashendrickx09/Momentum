@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T16:26:41.548Z",
+  "generatedAt": "2026-08-13T17:30:43.987Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,13 +7,25 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 95.55,
+      "price": 94.7,
       "previousClose": 178.03,
-      "changePct": -46.33,
+      "changePct": -46.81,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T16:26:35.000Z",
+      "asOf": "2026-08-13T17:30:41.000Z",
       "headlines": [
+        {
+          "title": "SEC May Advance Crypto Rules, 24/7 Trading Without Clarity Act. OCC Paves Way For Crypto Banks.",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/da7cd1f3-3163-3809-a38a-4b50066e02b8/sec-may-advance-crypto-rules%2C.html",
+          "publishedAt": "2026-08-13T17:17:04.000Z"
+        },
+        {
+          "title": "Metaplanet Denies Selling $320M in Bitcoin as Firm Launches BitBonds",
+          "publisher": "decrypt",
+          "url": "https://finance.yahoo.com/m/3e834634-dff4-3759-9e74-033ee72259c6/metaplanet-denies-selling.html",
+          "publishedAt": "2026-08-13T16:40:49.000Z"
+        },
         {
           "title": "Metaplanet Denies Bitcoin Sale",
           "publisher": "CryptoProwl",
@@ -25,31 +37,25 @@
           "publisher": "TheStreet",
           "url": "https://finance.yahoo.com/m/8b5204be-9299-34ec-aa46-49d4ed96b232/michael-saylor-tells.html",
           "publishedAt": "2026-08-12T18:49:43.000Z"
-        },
-        {
-          "title": "Elon Musk says AI will make money disappear. But crypto billionaire Michael Saylor says he’s wrong for one key reason: ‘We’re status-oriented animals’",
-          "publisher": "Fortune",
-          "url": "https://finance.yahoo.com/technology/ai/articles/billionaire-michael-saylor-says-elon-151624642.html",
-          "publishedAt": "2026-08-12T15:16:24.000Z"
-        },
-        {
-          "title": "MicroStrategy Unveils Credit Model with Bitcoin Risk Dashboard",
-          "publisher": "BeInCrypto",
-          "url": "https://finance.yahoo.com/m/cde06367-0955-3171-8de4-5c0310387cec/microstrategy-unveils-credit.html",
-          "publishedAt": "2026-08-12T11:21:45.000Z"
         }
       ]
     },
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 175.06,
+      "price": 176.37,
       "previousClose": 130.05,
-      "changePct": 34.61,
+      "changePct": 35.61,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T16:26:38.000Z",
+      "asOf": "2026-08-13T17:30:40.000Z",
       "headlines": [
+        {
+          "title": "Strength in Defense & Propulsion Unit Drives GE Aerospace: Can It Sustain?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/strength-defense-propulsion-unit-drives-151700107.html",
+          "publishedAt": "2026-08-13T15:17:00.000Z"
+        },
         {
           "title": "Revenue at Palantir-Backed Ondas Rises 1,236%. Stock Falls as Losses Widen.",
           "publisher": "Barrons.com",
@@ -67,24 +73,18 @@
           "publisher": "Investor's Business Daily",
           "url": "https://finance.yahoo.com/m/30b2aa92-4f90-32dc-bb78-62c5936e6613/dow-fixture-microsoft-breaks.html",
           "publishedAt": "2026-08-13T12:01:19.000Z"
-        },
-        {
-          "title": "Market Would Fall by 12,152 Points in a ‘Black Monday’ Style Crash. Big Short Investor Says It’s Possible.",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/b775e8e6-8610-34de-b182-360cf33031e9/market-would-fall-by-12%2C152.html",
-          "publishedAt": "2026-08-13T11:18:35.000Z"
         }
       ]
     },
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 31.24,
+      "price": 31.01,
       "previousClose": 45.48,
-      "changePct": -31.31,
+      "changePct": -31.82,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T16:26:36.000Z",
+      "asOf": "2026-08-13T17:30:43.000Z",
       "headlines": [
         {
           "title": "CoreWeave’s Spike Hasn’t Erased 3-Month Losses: Why Trusted Wall Street Pro Expects 65% Post-Spike Gains",
@@ -115,12 +115,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 201.64,
+      "price": 202.52,
       "previousClose": 160.82,
-      "changePct": 25.38,
+      "changePct": 25.93,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-13T16:26:26.000Z",
+      "asOf": "2026-08-13T17:30:17.000Z",
       "headlines": [
         {
           "title": "NTT DATA awarded Golden Certificate by SAP as Global Operations Partner, reflecting the scale of its Global Managed Services expertise",
@@ -149,14 +149,50 @@
       ]
     },
     {
-      "ticker": "TMC",
-      "name": "TMC the metals company Inc.",
-      "price": 4.37,
-      "previousClose": 5.64,
-      "changePct": -22.61,
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 494.47,
+      "previousClose": 405.21,
+      "changePct": 22.03,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T16:26:37.000Z",
+      "asOf": "2026-08-13T17:30:41.000Z",
+      "headlines": [
+        {
+          "title": "Amazon’s Price Target Says +32% and Not a Single Analyst Says Sell",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/2c39b011-40a9-328e-9d90-c41f5d1bf6c3/amazon%E2%80%99s-price-target-says.html",
+          "publishedAt": "2026-08-13T17:00:06.000Z"
+        },
+        {
+          "title": "What Dip? Why Microsoft Stock's Post-Earnings Momentum Is Set To Continue.",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/1daa8a49-9c95-3761-a8bd-91626c7af6fa/what-dip%3F-why-microsoft.html",
+          "publishedAt": "2026-08-13T16:53:44.000Z"
+        },
+        {
+          "title": "Microsoft Is Retreating in China, but AI Keeps a Door Open",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-retreating-china-ai-keeps-165123485.html",
+          "publishedAt": "2026-08-13T16:51:23.000Z"
+        },
+        {
+          "title": "The Numbers Get Larger and Larger: Inside the AI Financing Scramble",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/e6273129-b1c4-3c91-b8de-df13d5a8aa2e/the-numbers-get-larger-and.html",
+          "publishedAt": "2026-08-13T16:51:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "TMC",
+      "name": "TMC the metals company Inc.",
+      "price": 4.42,
+      "previousClose": 5.64,
+      "changePct": -21.72,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-13T17:30:21.000Z",
       "headlines": [
         {
           "title": "MP Materials (MP) Stock Is Rising Today: What’s Behind the Rally in Rare Earth Stocks?",
@@ -185,50 +221,14 @@
       ]
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation",
-      "price": 494.59,
-      "previousClose": 405.21,
-      "changePct": 22.06,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T16:26:36.000Z",
-      "headlines": [
-        {
-          "title": "Loading Up on Amazon: The Market Digests, I Invest",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/361875cf-afc6-3da6-8b52-e4931fb7c743/loading-up-on-amazon%3A-the.html",
-          "publishedAt": "2026-08-13T16:02:04.000Z"
-        },
-        {
-          "title": "Fireflies.ai launches Email Assistant, bringing the AI millions rely on for meetings to the inbox",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/fireflies-ai-launches-email-assistant-160000507.html",
-          "publishedAt": "2026-08-13T16:00:00.000Z"
-        },
-        {
-          "title": "Nebius Surges to $255, Now What if You Didn’t Own It?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/25b0ff3e-bb94-3314-982c-eb312a21cf08/nebius-surges-to-%24255%2C-now.html",
-          "publishedAt": "2026-08-13T15:47:44.000Z"
-        },
-        {
-          "title": "\"Big Short\" Steve Eisman says China’s AI models are \"Achilles’ heel\" of AI trade",
-          "publisher": "Investing.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/big-short-steve-eisman-says-153333204.html",
-          "publishedAt": "2026-08-13T15:33:33.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 268.39,
+      "price": 268.89,
       "previousClose": 239.38,
-      "changePct": 12.12,
+      "changePct": 12.33,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-13T16:26:39.000Z",
+      "asOf": "2026-08-13T17:30:30.000Z",
       "headlines": [
         {
           "title": "LNG Q2 Earnings Beat Estimates on Higher Volumes and Margins",
@@ -259,13 +259,19 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 234.13,
+      "price": 235.81,
       "previousClose": 214.64,
-      "changePct": 9.08,
+      "changePct": 9.86,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-13T16:26:29.000Z",
+      "asOf": "2026-08-13T17:30:37.000Z",
       "headlines": [
+        {
+          "title": "Can IBM's Together AI Cloud Deal Boost Its Growth Prospects?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ibms-together-ai-cloud-deal-151500675.html",
+          "publishedAt": "2026-08-13T15:15:00.000Z"
+        },
         {
           "title": "The Gap Between ACN Stock And Its Own Numbers",
           "publisher": "Trefis",
@@ -283,24 +289,18 @@
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-mostly-flat-125425422.html",
           "publishedAt": "2026-08-13T12:54:25.000Z"
-        },
-        {
-          "title": "IBM Makes Massive OpenAI Push, Plans Thousands-Strong AI Practice Weeks After CEO Admitted It ‘Did Not Move Quickly Enough’",
-          "publisher": "Stocktwits",
-          "url": "https://finance.yahoo.com/m/7ea49b0f-ee4a-3fd6-bbcd-ce9f02d240b1/ibm-makes-massive-openai.html",
-          "publishedAt": "2026-08-13T11:02:42.000Z"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 433.36,
+      "price": 434.64,
       "previousClose": 399.8,
-      "changePct": 8.39,
+      "changePct": 8.72,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-13T16:26:28.000Z",
+      "asOf": "2026-08-13T17:30:39.000Z",
       "headlines": [
         {
           "title": "Intel’s Best Growth in 15 Years: 25% Revenue Surge and Our New Price Target",
@@ -331,12 +331,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 24.81,
+      "price": 24.88,
       "previousClose": 23.1,
-      "changePct": 7.38,
+      "changePct": 7.68,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-13T16:26:37.000Z",
+      "asOf": "2026-08-13T17:30:37.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser (WY) Could Be 18% Undervalued On Its Latest Earnings Beat",
@@ -367,12 +367,12 @@
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 44.12,
+      "price": 44.23,
       "previousClose": 46.9,
-      "changePct": -5.93,
+      "changePct": -5.7,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-13T16:26:14.000Z",
+      "asOf": "2026-08-13T17:30:30.000Z",
       "headlines": [
         {
           "title": "Devon Energy Corp. (DVN) Slipped Post-Acquisition",
@@ -401,42 +401,6 @@
       ]
     },
     {
-      "ticker": "PCG",
-      "name": "PG&E Corporation",
-      "price": 17.42,
-      "previousClose": 16.6,
-      "changePct": 4.91,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-13T16:26:34.000Z",
-      "headlines": [
-        {
-          "title": "Senate Energy Chair Calls Out Utility CEOs Over Bailout Blackmail Threats; Local Governments, Insurers, Fire Survivors & Consumer Groups Rally Against Bailout, Says Consumer Watchdog",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/energy/articles/senate-energy-chair-calls-utility-173400551.html",
-          "publishedAt": "2026-08-12T17:34:00.000Z"
-        },
-        {
-          "title": "Leap Opens New Grid Revenue Opportunity for California Batteries",
-          "publisher": "Business Wire",
-          "url": "https://finance.yahoo.com/energy/articles/leap-opens-grid-revenue-opportunity-130300356.html",
-          "publishedAt": "2026-08-12T13:03:00.000Z"
-        },
-        {
-          "title": "Analyst Report: PG&E Corporation",
-          "publisher": "Morningstar Research",
-          "url": "https://finance.yahoo.com/m/c893a0c3-96f1-30b7-a999-065487654f23/analyst-report%3A-pg%26e.html",
-          "publishedAt": "2026-08-11T19:45:14.000Z"
-        },
-        {
-          "title": "National 811 Day: Damaging Underground Utility Lines During Digging Can be a Serious Public Safety Issue",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/energy/articles/national-811-day-damaging-underground-182200493.html",
-          "publishedAt": "2026-08-10T18:22:00.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
       "price": 3.79,
@@ -444,7 +408,7 @@
       "changePct": -4.42,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-13T16:22:36.000Z",
+      "asOf": "2026-08-13T17:29:43.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
@@ -473,14 +437,86 @@
       ]
     },
     {
-      "ticker": "ABOS",
-      "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.42,
-      "previousClose": 2.49,
-      "changePct": -2.61,
+      "ticker": "PCG",
+      "name": "PG&E Corporation",
+      "price": 17.11,
+      "previousClose": 16.6,
+      "changePct": 3.1,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-08-13T17:30:37.000Z",
+      "headlines": [
+        {
+          "title": "Senate Energy Chair Calls Out Utility CEOs Over Bailout Blackmail Threats; Local Governments, Insurers, Fire Survivors & Consumer Groups Rally Against Bailout, Says Consumer Watchdog",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/energy/articles/senate-energy-chair-calls-utility-173400551.html",
+          "publishedAt": "2026-08-12T17:34:00.000Z"
+        },
+        {
+          "title": "Leap Opens New Grid Revenue Opportunity for California Batteries",
+          "publisher": "Business Wire",
+          "url": "https://finance.yahoo.com/energy/articles/leap-opens-grid-revenue-opportunity-130300356.html",
+          "publishedAt": "2026-08-12T13:03:00.000Z"
+        },
+        {
+          "title": "Analyst Report: PG&E Corporation",
+          "publisher": "Morningstar Research",
+          "url": "https://finance.yahoo.com/m/c893a0c3-96f1-30b7-a999-065487654f23/analyst-report%3A-pg%26e.html",
+          "publishedAt": "2026-08-11T19:45:14.000Z"
+        },
+        {
+          "title": "National 811 Day: Damaging Underground Utility Lines During Digging Can be a Serious Public Safety Issue",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/energy/articles/national-811-day-damaging-underground-182200493.html",
+          "publishedAt": "2026-08-10T18:22:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 265.66,
+      "previousClose": 270.13,
+      "changePct": -1.65,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T16:23:52.000Z",
+      "asOf": "2026-08-13T17:30:39.000Z",
+      "headlines": [
+        {
+          "title": "Why Amazon Stock Is Down Today",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-amazon-stock-down-today-170915102.html",
+          "publishedAt": "2026-08-13T17:09:15.000Z"
+        },
+        {
+          "title": "Amazon’s Price Target Says +32% and Not a Single Analyst Says Sell",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/2c39b011-40a9-328e-9d90-c41f5d1bf6c3/amazon%E2%80%99s-price-target-says.html",
+          "publishedAt": "2026-08-13T17:00:06.000Z"
+        },
+        {
+          "title": "Porter Stansberry Brings Jeff Bezos’ 2004 Transportation Machine Analogy Into CRWV Debate — Michael Burry Weighs In",
+          "publisher": "Stocktwits",
+          "url": "https://finance.yahoo.com/m/dc232aa3-afee-3e8c-903b-d370613354c9/porter-stansberry-brings-jeff.html",
+          "publishedAt": "2026-08-13T16:55:32.000Z"
+        },
+        {
+          "title": "The Numbers Get Larger and Larger: Inside the AI Financing Scramble",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/e6273129-b1c4-3c91-b8de-df13d5a8aa2e/the-numbers-get-larger-and.html",
+          "publishedAt": "2026-08-13T16:51:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "ABOS",
+      "name": "Acumen Pharmaceuticals, Inc.",
+      "price": 2.46,
+      "previousClose": 2.49,
+      "changePct": -1.41,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-13T17:16:15.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -509,74 +545,38 @@
       ]
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "price": 265.15,
-      "previousClose": 270.13,
-      "changePct": -1.84,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T16:26:36.000Z",
-      "headlines": [
-        {
-          "title": "Prediction: MercadoLibre Will Join Amazon, Walmart, and Costco in the $100 Billion Revenue Club by 2029",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/4e3adc0f-4971-3c17-a070-1ea8bd1556cb/prediction%3A-mercadolibre-will.html",
-          "publishedAt": "2026-08-13T16:13:00.000Z"
-        },
-        {
-          "title": "Your TV's Home Screen Is New Gatekeeper, And Advertisers Better Get Used To It",
-          "publisher": "MediaPost",
-          "url": "https://finance.yahoo.com/m/18712f9a-ebd4-3f99-9dad-f2a3da5fd836/your-tv%27s-home-screen-is-new.html",
-          "publishedAt": "2026-08-13T16:07:38.000Z"
-        },
-        {
-          "title": "Jeff Bezos takes bold new turn amid $4B Amazon sell-off",
-          "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/m/1b77656f-1b61-36c6-b46a-2761f45c2f38/jeff-bezos-takes-bold-new.html",
-          "publishedAt": "2026-08-13T16:03:00.000Z"
-        },
-        {
-          "title": "Loading Up on Amazon: The Market Digests, I Invest",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/361875cf-afc6-3da6-8b52-e4931fb7c743/loading-up-on-amazon%3A-the.html",
-          "publishedAt": "2026-08-13T16:02:04.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 225.34,
+      "price": 225.44,
       "previousClose": 225.83,
-      "changePct": -0.22,
+      "changePct": -0.17,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T16:26:36.000Z",
+      "asOf": "2026-08-13T17:30:41.000Z",
       "headlines": [
         {
-          "title": "Why Did CuriosityStream Stock Rocket Higher Today?",
+          "title": "Why Arm Holdings Stock Popped Today",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/d800dea6-5159-3e34-9f3c-a854d13dd2a9/why-did-curiositystream-stock.html",
-          "publishedAt": "2026-08-13T16:14:18.000Z"
+          "url": "https://finance.yahoo.com/m/11342043-098b-3271-b54b-b481e259697c/why-arm-holdings-stock-popped.html",
+          "publishedAt": "2026-08-13T17:23:21.000Z"
         },
         {
-          "title": "Prediction: MercadoLibre Will Join Amazon, Walmart, and Costco in the $100 Billion Revenue Club by 2029",
+          "title": "Bit Digital, Inc. Q2 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "url": "https://finance.yahoo.com/m/aede6493-426e-3675-9513-b155707031f8/bit-digital%2C-inc.-q2-2026.html",
+          "publishedAt": "2026-08-13T17:20:26.000Z"
+        },
+        {
+          "title": "Is Novo Nordisk's Wegovy-Fueled Rebound Evaporating?",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/4e3adc0f-4971-3c17-a070-1ea8bd1556cb/prediction%3A-mercadolibre-will.html",
-          "publishedAt": "2026-08-13T16:13:00.000Z"
+          "url": "https://finance.yahoo.com/m/27d8b4f9-67b9-3672-b89c-b41d85367aa4/is-novo-nordisk%27s.html",
+          "publishedAt": "2026-08-13T17:20:00.000Z"
         },
         {
-          "title": "Jim Cramer Told Club Members to Check Their Inbox for “Multiple Moves”: What Retail Investors Should Know",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/9bf4cb0e-0f6a-3660-a321-aed82d94bf69/jim-cramer-told-club-members.html",
-          "publishedAt": "2026-08-13T16:12:02.000Z"
-        },
-        {
-          "title": "Top Midday Stories: Accelerant to be Taken Private by Thoma Bravo in $4 Billion Deal; Cisco Shares Fall Despite Strong Earnings, Guidance",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-accelerant-taken-160019493.html",
-          "publishedAt": "2026-08-13T16:00:19.000Z"
+          "title": "Archer Aviation Stock Has Surged 45% in the Past Month. Should You Buy Into the Rally?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/09babbe7-a9cf-39f0-b44f-416f178c367d/archer-aviation-stock-has.html",
+          "publishedAt": "2026-08-13T17:17:47.000Z"
         }
       ]
     }
