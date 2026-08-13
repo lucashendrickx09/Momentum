@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T14:38:12.682Z",
+  "generatedAt": "2026-08-13T16:26:41.548Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 98.59,
+      "price": 95.55,
       "previousClose": 178.03,
-      "changePct": -44.62,
+      "changePct": -46.33,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T14:38:08.000Z",
+      "asOf": "2026-08-13T16:26:35.000Z",
       "headlines": [
         {
           "title": "Metaplanet Denies Bitcoin Sale",
@@ -43,18 +43,24 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 175.23,
+      "price": 175.06,
       "previousClose": 130.05,
-      "changePct": 34.74,
+      "changePct": 34.61,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T14:38:09.000Z",
+      "asOf": "2026-08-13T16:26:38.000Z",
       "headlines": [
         {
           "title": "Revenue at Palantir-Backed Ondas Rises 1,236%. Stock Falls as Losses Widen.",
           "publisher": "Barrons.com",
           "url": "https://finance.yahoo.com/m/5a8f0245-cf08-346b-9a59-873a8c7d16c1/revenue-at-palantir-backed.html",
-          "publishedAt": "2026-08-13T12:54:00.000Z"
+          "publishedAt": "2026-08-13T14:50:00.000Z"
+        },
+        {
+          "title": "If You Invested $10,000 in Palantir Before It Released Its AIP Platform, Here's What Your Stake Would Be Worth Today",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/1d0daf86-111a-35f3-b03e-4ce27010fa31/if-you-invested-%2410%2C000-in.html",
+          "publishedAt": "2026-08-13T14:30:00.000Z"
         },
         {
           "title": "Dow Fixture Microsoft Breaks Out Along With These Stocks, But Datadog Triggers Sell Signals",
@@ -67,24 +73,18 @@
           "publisher": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/m/b775e8e6-8610-34de-b182-360cf33031e9/market-would-fall-by-12%2C152.html",
           "publishedAt": "2026-08-13T11:18:35.000Z"
-        },
-        {
-          "title": "Peter Thiel Was Bullied So Badly Neighborhood Kids Put 'For Sale' Signs Outside His House — but the Palantir Co-founder Was 'Destined for Greatness'",
-          "publisher": "Benzinga",
-          "url": "https://finance.yahoo.com/m/4220c5cc-ac96-3d26-a1d5-bc546542c9d4/peter-thiel-was-bullied-so.html",
-          "publishedAt": "2026-08-13T09:46:03.000Z"
         }
       ]
     },
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 31.77,
+      "price": 31.24,
       "previousClose": 45.48,
-      "changePct": -30.16,
+      "changePct": -31.31,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T14:38:10.000Z",
+      "asOf": "2026-08-13T16:26:36.000Z",
       "headlines": [
         {
           "title": "CoreWeave’s Spike Hasn’t Erased 3-Month Losses: Why Trusted Wall Street Pro Expects 65% Post-Spike Gains",
@@ -115,12 +115,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 204.03,
+      "price": 201.64,
       "previousClose": 160.82,
-      "changePct": 26.87,
+      "changePct": 25.38,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-13T14:38:09.000Z",
+      "asOf": "2026-08-13T16:26:26.000Z",
       "headlines": [
         {
           "title": "NTT DATA awarded Golden Certificate by SAP as Global Operations Partner, reflecting the scale of its Global Managed Services expertise",
@@ -149,50 +149,14 @@
       ]
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation",
-      "price": 498.9,
-      "previousClose": 405.21,
-      "changePct": 23.12,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T14:38:09.000Z",
-      "headlines": [
-        {
-          "title": "IREN Jumps 10% as Microsoft Accepts First AI Data Center Under $9.7 Billion Deal",
-          "publisher": "Benzinga Prediction Markets",
-          "url": "https://finance.yahoo.com/m/1bbf042f-0ef5-3bd8-9a8a-ccaed79aae88/iren-jumps-10%25-as-microsoft.html",
-          "publishedAt": "2026-08-13T14:16:54.000Z"
-        },
-        {
-          "title": "How the AI boom is keeping Microsoft in China",
-          "publisher": "Reuters Videos",
-          "url": "https://finance.yahoo.com/video/ai-boom-keeping-microsoft-china-140134048.html",
-          "publishedAt": "2026-08-13T14:01:34.000Z"
-        },
-        {
-          "title": "Jeremy Grantham's Bold Q2 2026 Move: A Massive Bet on NVIDIA Corp Reshapes His Portfolio",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jeremy-granthams-bold-q2-2026-140121502.html",
-          "publishedAt": "2026-08-13T14:01:21.000Z"
-        },
-        {
-          "title": "Stock Market Today: Dow Lags Nasdaq's Gain; Cisco Falls 7% On Earnings (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/a86837ac-df8a-3747-8923-5f2f47063c11/stock-market-today%3A-dow-lags.html",
-          "publishedAt": "2026-08-13T14:24:38.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 4.44,
+      "price": 4.37,
       "previousClose": 5.64,
-      "changePct": -21.28,
+      "changePct": -22.61,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T14:38:06.000Z",
+      "asOf": "2026-08-13T16:26:37.000Z",
       "headlines": [
         {
           "title": "MP Materials (MP) Stock Is Rising Today: What’s Behind the Rally in Rare Earth Stocks?",
@@ -221,15 +185,57 @@
       ]
     },
     {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 494.59,
+      "previousClose": 405.21,
+      "changePct": 22.06,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-13T16:26:36.000Z",
+      "headlines": [
+        {
+          "title": "Loading Up on Amazon: The Market Digests, I Invest",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/361875cf-afc6-3da6-8b52-e4931fb7c743/loading-up-on-amazon%3A-the.html",
+          "publishedAt": "2026-08-13T16:02:04.000Z"
+        },
+        {
+          "title": "Fireflies.ai launches Email Assistant, bringing the AI millions rely on for meetings to the inbox",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/fireflies-ai-launches-email-assistant-160000507.html",
+          "publishedAt": "2026-08-13T16:00:00.000Z"
+        },
+        {
+          "title": "Nebius Surges to $255, Now What if You Didn’t Own It?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/25b0ff3e-bb94-3314-982c-eb312a21cf08/nebius-surges-to-%24255%2C-now.html",
+          "publishedAt": "2026-08-13T15:47:44.000Z"
+        },
+        {
+          "title": "\"Big Short\" Steve Eisman says China’s AI models are \"Achilles’ heel\" of AI trade",
+          "publisher": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/big-short-steve-eisman-says-153333204.html",
+          "publishedAt": "2026-08-13T15:33:33.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 269.8,
+      "price": 268.39,
       "previousClose": 239.38,
-      "changePct": 12.71,
+      "changePct": 12.12,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-13T14:38:10.000Z",
+      "asOf": "2026-08-13T16:26:39.000Z",
       "headlines": [
+        {
+          "title": "LNG Q2 Earnings Beat Estimates on Higher Volumes and Margins",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/lng-q2-earnings-beat-estimates-144000186.html",
+          "publishedAt": "2026-08-13T14:40:00.000Z"
+        },
         {
           "title": "Cheniere Energy (LNG) Q2 2026 Earnings Call Transcript",
           "publisher": "Motley Fool",
@@ -247,25 +253,25 @@
           "publisher": "MarketBeat",
           "url": "https://finance.yahoo.com/m/8a7944d4-fef4-334e-8dbe-6951d1df981e/cheniere-energy-q2-earnings.html",
           "publishedAt": "2026-08-08T16:04:04.000Z"
-        },
-        {
-          "title": "LNG Q2 Earnings Call Highlights Guidance Raise and Output Gains",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/lng-q2-earnings-call-highlights-140000245.html",
-          "publishedAt": "2026-08-07T14:00:00.000Z"
         }
       ]
     },
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 237.02,
+      "price": 234.13,
       "previousClose": 214.64,
-      "changePct": 10.43,
+      "changePct": 9.08,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-13T14:38:07.000Z",
+      "asOf": "2026-08-13T16:26:29.000Z",
       "headlines": [
+        {
+          "title": "The Gap Between ACN Stock And Its Own Numbers",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/a36dffb6-3731-351e-ac87-9f3deb063a77/the-gap-between-acn-stock-and.html",
+          "publishedAt": "2026-08-13T14:30:20.000Z"
+        },
         {
           "title": "Sector Update: Tech Stocks Steady Pre-Bell Thursday",
           "publisher": "MT Newswires",
@@ -283,24 +289,18 @@
           "publisher": "Stocktwits",
           "url": "https://finance.yahoo.com/m/7ea49b0f-ee4a-3fd6-bbcd-ce9f02d240b1/ibm-makes-massive-openai.html",
           "publishedAt": "2026-08-13T11:02:42.000Z"
-        },
-        {
-          "title": "IBM, OpenAI Partner to Help Enterprises Scale AI Across Business Operations",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ibm-openai-partner-help-enterprises-104627388.html",
-          "publishedAt": "2026-08-13T10:46:27.000Z"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 435.09,
+      "price": 433.36,
       "previousClose": 399.8,
-      "changePct": 8.83,
+      "changePct": 8.39,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-13T14:38:08.000Z",
+      "asOf": "2026-08-13T16:26:28.000Z",
       "headlines": [
         {
           "title": "Intel’s Best Growth in 15 Years: 25% Revenue Surge and Our New Price Target",
@@ -331,12 +331,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 24.87,
+      "price": 24.81,
       "previousClose": 23.1,
-      "changePct": 7.64,
+      "changePct": 7.38,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-13T14:37:47.000Z",
+      "asOf": "2026-08-13T16:26:37.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser (WY) Could Be 18% Undervalued On Its Latest Earnings Beat",
@@ -365,14 +365,50 @@
       ]
     },
     {
-      "ticker": "PCG",
-      "name": "PG&E Corporation",
-      "price": 17.73,
-      "previousClose": 16.6,
-      "changePct": 6.81,
+      "ticker": "DVN",
+      "name": "Devon Energy Corporation",
+      "price": 44.12,
+      "previousClose": 46.9,
+      "changePct": -5.93,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-13T14:38:09.000Z",
+      "asOf": "2026-08-13T16:26:14.000Z",
+      "headlines": [
+        {
+          "title": "Devon Energy Corp. (DVN) Slipped Post-Acquisition",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/devon-energy-corp-dvn-slipped-145027877.html",
+          "publishedAt": "2026-08-13T14:50:27.000Z"
+        },
+        {
+          "title": "CHRD Jumps 14.1% in a Month, but Can the Rally Keep Running Higher?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chrd-jumps-14-1-month-125800264.html",
+          "publishedAt": "2026-08-13T12:58:00.000Z"
+        },
+        {
+          "title": "Devon Energy (DVN) Stock Looks Below Fair Value As Q2 Profit Lands",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/devon-energy-dvn-stock-looks-121032388.html",
+          "publishedAt": "2026-08-13T12:10:32.000Z"
+        },
+        {
+          "title": "Wells Fargo Adjusts Price Target on Devon Energy to $65 From $68, Keeps Overweight Rating",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-adjusts-price-target-110433260.html",
+          "publishedAt": "2026-08-13T11:04:33.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "PCG",
+      "name": "PG&E Corporation",
+      "price": 17.42,
+      "previousClose": 16.6,
+      "changePct": 4.91,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-08-13T16:26:34.000Z",
       "headlines": [
         {
           "title": "Senate Energy Chair Calls Out Utility CEOs Over Bailout Blackmail Threats; Local Governments, Insurers, Fire Survivors & Consumer Groups Rally Against Bailout, Says Consumer Watchdog",
@@ -401,50 +437,14 @@
       ]
     },
     {
-      "ticker": "DVN",
-      "name": "Devon Energy Corporation",
-      "price": 44.12,
-      "previousClose": 46.9,
-      "changePct": -5.93,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-13T14:38:09.000Z",
-      "headlines": [
-        {
-          "title": "CHRD Jumps 14.1% in a Month, but Can the Rally Keep Running Higher?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/chrd-jumps-14-1-month-125800264.html",
-          "publishedAt": "2026-08-13T12:58:00.000Z"
-        },
-        {
-          "title": "Devon Energy (DVN) Stock Looks Below Fair Value As Q2 Profit Lands",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/devon-energy-dvn-stock-looks-121032388.html",
-          "publishedAt": "2026-08-13T12:10:32.000Z"
-        },
-        {
-          "title": "Wells Fargo Adjusts Price Target on Devon Energy to $65 From $68, Keeps Overweight Rating",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-adjusts-price-target-110433260.html",
-          "publishedAt": "2026-08-13T11:04:33.000Z"
-        },
-        {
-          "title": "Devon Energy (DVN) Results Put Its Undervalued Narrative Back In Focus",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/devon-energy-dvn-results-put-031718891.html",
-          "publishedAt": "2026-08-13T03:17:18.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.81,
+      "price": 3.79,
       "previousClose": 3.96,
-      "changePct": -3.91,
+      "changePct": -4.42,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-13T14:37:59.000Z",
+      "asOf": "2026-08-13T16:22:36.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
@@ -475,12 +475,12 @@
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.47,
+      "price": 2.42,
       "previousClose": 2.49,
-      "changePct": -0.8,
+      "changePct": -2.61,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T14:33:03.000Z",
+      "asOf": "2026-08-13T16:23:52.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -511,72 +511,72 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 268.55,
+      "price": 265.15,
       "previousClose": 270.13,
-      "changePct": -0.58,
+      "changePct": -1.84,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T14:38:07.000Z",
+      "asOf": "2026-08-13T16:26:36.000Z",
       "headlines": [
         {
-          "title": "Steve Eisman warns AI boom depends on OpenAI and Anthropic",
-          "publisher": "Quartz",
-          "url": "https://finance.yahoo.com/m/9416351e-d0cf-34aa-afd6-e3183bd83f35/steve-eisman-warns-ai-boom.html",
-          "publishedAt": "2026-08-13T13:51:28.000Z"
+          "title": "Prediction: MercadoLibre Will Join Amazon, Walmart, and Costco in the $100 Billion Revenue Club by 2029",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/4e3adc0f-4971-3c17-a070-1ea8bd1556cb/prediction%3A-mercadolibre-will.html",
+          "publishedAt": "2026-08-13T16:13:00.000Z"
         },
         {
-          "title": "AutoStore Holdings Ltd (FRA:1IG) (Q2 2026) Earnings Call Highlights: Record Revenue and Amazon ...",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/autostore-holdings-ltd-fra-1ig-130029097.html",
-          "publishedAt": "2026-08-13T13:00:29.000Z"
+          "title": "Your TV's Home Screen Is New Gatekeeper, And Advertisers Better Get Used To It",
+          "publisher": "MediaPost",
+          "url": "https://finance.yahoo.com/m/18712f9a-ebd4-3f99-9dad-f2a3da5fd836/your-tv%27s-home-screen-is-new.html",
+          "publishedAt": "2026-08-13T16:07:38.000Z"
         },
         {
-          "title": "Credit Acceptance Announces New Chief Technology Officer to Advance Digital-First, AI-Enabled Business Evolution",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/credit-acceptance-announces-chief-technology-130000524.html",
-          "publishedAt": "2026-08-13T13:00:00.000Z"
+          "title": "Jeff Bezos takes bold new turn amid $4B Amazon sell-off",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/1b77656f-1b61-36c6-b46a-2761f45c2f38/jeff-bezos-takes-bold-new.html",
+          "publishedAt": "2026-08-13T16:03:00.000Z"
         },
         {
-          "title": "Oracle, Amazon Web Services Expand Collaboration to Accelerate Oracle Database Migration",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/ai/articles/oracle-amazon-services-expand-collaboration-124257006.html",
-          "publishedAt": "2026-08-13T12:42:57.000Z"
+          "title": "Loading Up on Amazon: The Market Digests, I Invest",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/361875cf-afc6-3da6-8b52-e4931fb7c743/loading-up-on-amazon%3A-the.html",
+          "publishedAt": "2026-08-13T16:02:04.000Z"
         }
       ]
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 226.42,
+      "price": 225.34,
       "previousClose": 225.83,
-      "changePct": 0.26,
+      "changePct": -0.22,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-13T14:38:10.000Z",
+      "asOf": "2026-08-13T16:26:36.000Z",
       "headlines": [
         {
-          "title": "Nvidia bulls may have a small problem on their hands",
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-bulls-may-have-a-small-problem-on-their-hands-142341243.html",
-          "publishedAt": "2026-08-13T14:23:41.000Z"
-        },
-        {
-          "title": "Here's Where the Fed May Take Interest Rates Under Chairman Kevin Warsh",
+          "title": "Why Did CuriosityStream Stock Rocket Higher Today?",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/0efccaca-cbbf-3c4a-b3b3-f728442e9b52/here%27s-where-the-fed-may-take.html",
-          "publishedAt": "2026-08-13T14:20:00.000Z"
+          "url": "https://finance.yahoo.com/m/d800dea6-5159-3e34-9f3c-a854d13dd2a9/why-did-curiositystream-stock.html",
+          "publishedAt": "2026-08-13T16:14:18.000Z"
         },
         {
-          "title": "IREN Jumps 10% as Microsoft Accepts First AI Data Center Under $9.7 Billion Deal",
-          "publisher": "Benzinga Prediction Markets",
-          "url": "https://finance.yahoo.com/m/1bbf042f-0ef5-3bd8-9a8a-ccaed79aae88/iren-jumps-10%25-as-microsoft.html",
-          "publishedAt": "2026-08-13T14:16:54.000Z"
+          "title": "Prediction: MercadoLibre Will Join Amazon, Walmart, and Costco in the $100 Billion Revenue Club by 2029",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/4e3adc0f-4971-3c17-a070-1ea8bd1556cb/prediction%3A-mercadolibre-will.html",
+          "publishedAt": "2026-08-13T16:13:00.000Z"
         },
         {
-          "title": "Why Is Coherent (COHR) Drawing Attention After A Q4 Beat And Raised Outlook?",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-coherent-cohr-drawing-attention-140942387.html",
-          "publishedAt": "2026-08-13T14:09:42.000Z"
+          "title": "Jim Cramer Told Club Members to Check Their Inbox for “Multiple Moves”: What Retail Investors Should Know",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/9bf4cb0e-0f6a-3660-a321-aed82d94bf69/jim-cramer-told-club-members.html",
+          "publishedAt": "2026-08-13T16:12:02.000Z"
+        },
+        {
+          "title": "Top Midday Stories: Accelerant to be Taken Private by Thoma Bravo in $4 Billion Deal; Cisco Shares Fall Despite Strong Earnings, Guidance",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-accelerant-taken-160019493.html",
+          "publishedAt": "2026-08-13T16:00:19.000Z"
         }
       ]
     }
