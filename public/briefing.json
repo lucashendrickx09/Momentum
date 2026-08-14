@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T15:23:29.198Z",
+  "generatedAt": "2026-08-14T16:25:07.926Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,13 +7,25 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 92.69,
+      "price": 93.72,
       "previousClose": 186.97,
-      "changePct": -50.43,
+      "changePct": -49.87,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T15:23:23.000Z",
+      "asOf": "2026-08-14T16:24:58.000Z",
       "headlines": [
+        {
+          "title": "MSTR, BMNR, COIN, CRCL Stocks Slide After Bitcoin Falls Below $63K",
+          "publisher": "Stocktwits",
+          "url": "https://finance.yahoo.com/m/119ae64e-34c1-3bb0-a5eb-a3a10ba3ebcf/mstr%2C-bmnr%2C-coin%2C-crcl-stocks.html",
+          "publishedAt": "2026-08-14T15:48:21.000Z"
+        },
+        {
+          "title": "SEC Delays Meeting On Crypto Rules Proposal. Bitcoin Price, Crypto Stocks Fall.",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/898124d0-52a1-33be-ab91-ea573626ed4f/sec-delays-meeting-on-crypto.html",
+          "publishedAt": "2026-08-14T15:42:29.000Z"
+        },
         {
           "title": "Michael Saylor's Strategy Is Selling Bitcoin Again. Here's Why I'm Still Bullish on Bitcoin.",
           "publisher": "Motley Fool",
@@ -25,30 +37,18 @@
           "publisher": "BeInCrypto",
           "url": "https://finance.yahoo.com/m/de17f036-c28b-3b42-82da-bd3cf7253966/two-bitcoin-treasury-firms.html",
           "publishedAt": "2026-08-14T04:03:32.000Z"
-        },
-        {
-          "title": "Trump Accounts Just Became More Attractive to Working Parents: Employers Can Contribute $2,500 Tax-Free Under New Treasury Guidance",
-          "publisher": "Benzinga",
-          "url": "https://finance.yahoo.com/economy/policy/articles/trump-accounts-just-became-more-233047175.html",
-          "publishedAt": "2026-08-13T23:30:47.000Z"
-        },
-        {
-          "title": "$10,000 in MSTY Became $6,614 Before the Tax Bill: The Cost of Riding MSTR’s Volatility",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/2328f6aa-fc6d-3818-a3c6-16c3470bbcf9/%2410%2C000-in-msty-became-%246%2C614.html",
-          "publishedAt": "2026-08-13T21:55:55.000Z"
         }
       ]
     },
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 30.17,
+      "price": 30.52,
       "previousClose": 46.71,
-      "changePct": -35.42,
+      "changePct": -34.67,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T15:23:27.000Z",
+      "asOf": "2026-08-14T16:25:00.000Z",
       "headlines": [
         {
           "title": "CoreWeave’s Spike Hasn’t Erased 3-Month Losses: Why Trusted Wall Street Pro Expects 65% Post-Spike Gains",
@@ -79,12 +79,12 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 176.85,
+      "price": 176.9,
       "previousClose": 133.73,
-      "changePct": 32.24,
+      "changePct": 32.28,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T15:23:25.000Z",
+      "asOf": "2026-08-14T16:25:01.000Z",
       "headlines": [
         {
           "title": "Michael Burry Ramped Up His Bets Against Micron and the QQQ ETF. Is the ‘Big Short’ Investor Asking for Trouble?",
@@ -115,12 +115,12 @@
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 4.03,
+      "price": 4.05,
       "previousClose": 5.71,
-      "changePct": -29.51,
+      "changePct": -29.07,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T15:23:25.000Z",
+      "asOf": "2026-08-14T16:24:58.000Z",
       "headlines": [
         {
           "title": "MP Materials vs. The Metals Company: Which Critical-Minerals Stock Is the Smarter Long-Term Buy?",
@@ -151,12 +151,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 208.69,
+      "price": 208.48,
       "previousClose": 164.18,
-      "changePct": 27.11,
+      "changePct": 26.98,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T15:22:34.000Z",
+      "asOf": "2026-08-14T16:25:04.000Z",
       "headlines": [
         {
           "title": "Computerized Maintenance Management System (CMMS) Market Analysis and Growth Forecast 2026-2032: AI and IoT Drive Predictive Maintenance Demand",
@@ -187,49 +187,55 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 498.15,
+      "price": 497.18,
       "previousClose": 409.43,
-      "changePct": 21.67,
+      "changePct": 21.43,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T15:23:17.000Z",
+      "asOf": "2026-08-14T16:25:02.000Z",
       "headlines": [
         {
-          "title": "OpenAI Annualized Revenue Tops $40 Billion Ahead of $1 Trillion IPO Push",
-          "publisher": "Benzinga Prediction Markets",
-          "url": "https://finance.yahoo.com/m/0653c3c0-0b58-381a-9445-15ffdb74e63d/openai-annualized-revenue.html",
-          "publishedAt": "2026-08-14T15:00:33.000Z"
+          "title": "Wall St subdued as markets pause after S&P record high; data, Mideast in focus",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-muted-higher-111429941.html",
+          "publishedAt": "2026-08-14T16:07:40.000Z"
         },
         {
-          "title": "AI Security Operations Center (SOC) Market Surges to $47.07 billion at a CAGR 21.1% by 2031 | Report by MarketsandMarkets™",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ai-security-operations-center-soc-144500073.html",
-          "publishedAt": "2026-08-14T14:45:00.000Z"
+          "title": "Apple Has a New Growth Engine, and It Could Be Huge",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/fb36b45f-f261-3f85-8401-83c47ffb8a8c/apple-has-a-new-growth.html",
+          "publishedAt": "2026-08-14T16:00:27.000Z"
         },
         {
-          "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
-          "publisher": "TechCrunch",
-          "url": "https://finance.yahoo.com/energy/articles/hyperscalers-might-regret-embracing-natural-140500532.html",
-          "publishedAt": "2026-08-14T14:05:00.000Z"
+          "title": "Nvidia earnings preview: What’s next for Nvidia stock",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/nvidia-earnings-preview-next-nvidia-153900980.html",
+          "publishedAt": "2026-08-14T15:39:00.000Z"
         },
         {
-          "title": "Microsoft’s (MSFT) AI Strategy: Cloud Growth, Big Bets, and Key Risks",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-ai-strategy-cloud-135455507.html",
-          "publishedAt": "2026-08-14T13:54:55.000Z"
+          "title": "JPMorgan Turns Bullish on Salesforce as the Stock Runs Three Straight Weeks",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/11b5164f-9455-352b-b5d2-9d84ce6ced73/jpmorgan-turns-bullish-on.html",
+          "publishedAt": "2026-08-14T15:30:45.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 270.09,
+      "price": 271.26,
       "previousClose": 241.08,
-      "changePct": 12.03,
+      "changePct": 12.52,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T15:23:24.000Z",
+      "asOf": "2026-08-14T16:25:02.000Z",
       "headlines": [
+        {
+          "title": "Is VG Stock a Buy as Strong LNG Growth Meets Debt and Legal Risk?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/vg-stock-buy-strong-lng-144400861.html",
+          "publishedAt": "2026-08-14T14:44:00.000Z"
+        },
         {
           "title": "Record Profits For Refiners. These 5 Oil Stocks Are Worth A Look.",
           "publisher": "Investor's Business Daily",
@@ -247,25 +253,25 @@
           "publisher": "Insider Monkey",
           "url": "https://finance.yahoo.com/energy/articles/cheniere-energy-best-bet-play-130902286.html",
           "publishedAt": "2026-08-14T13:09:02.000Z"
-        },
-        {
-          "title": "LNG Q2 Earnings Beat Estimates on Higher Volumes and Margins",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/lng-q2-earnings-beat-estimates-144000186.html",
-          "publishedAt": "2026-08-13T14:40:00.000Z"
         }
       ]
     },
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 234.66,
+      "price": 234.55,
       "previousClose": 218.37,
-      "changePct": 7.46,
+      "changePct": 7.41,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T15:23:10.000Z",
+      "asOf": "2026-08-14T16:24:59.000Z",
       "headlines": [
+        {
+          "title": "Oracle Gets Cheaper Only If The Megawatts Arrive",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/836c2b15-d9f8-3685-b058-0cd349315772/oracle-gets-cheaper-only-if.html",
+          "publishedAt": "2026-08-14T15:06:46.000Z"
+        },
         {
           "title": "AI Security Operations Center (SOC) Market Surges to $47.07 billion at a CAGR 21.1% by 2031 | Report by MarketsandMarkets™",
           "publisher": "GlobeNewswire",
@@ -283,24 +289,18 @@
           "publisher": "Simply Wall St.",
           "url": "https://finance.yahoo.com/technology/ai/articles/ibm-ibm-openai-together-ai-121144216.html",
           "publishedAt": "2026-08-14T12:11:44.000Z"
-        },
-        {
-          "title": "He Just Wanted a Gym Reservation. His AI Assistant Committed a Cyberattack Instead.",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/fd97bc3f-090a-3620-a8a8-1f68c079d1ad/he-just-wanted-a-gym.html",
-          "publishedAt": "2026-08-14T11:23:46.000Z"
         }
       ]
     },
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.54,
+      "price": 2.56,
       "previousClose": 2.39,
-      "changePct": 6.07,
+      "changePct": 7.11,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T15:21:07.000Z",
+      "asOf": "2026-08-14T16:24:38.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -333,10 +333,10 @@
       "name": "Weyerhaeuser Company",
       "price": 24.56,
       "previousClose": 23.35,
-      "changePct": 5.18,
+      "changePct": 5.19,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T15:23:20.000Z",
+      "asOf": "2026-08-14T16:25:02.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
@@ -367,12 +367,12 @@
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.63,
+      "price": 17.66,
       "previousClose": 16.81,
-      "changePct": 4.85,
+      "changePct": 5.03,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T15:23:22.000Z",
+      "asOf": "2026-08-14T16:25:04.000Z",
       "headlines": [
         {
           "title": "Senate Energy Chair Calls Out Utility CEOs Over Bailout Blackmail Threats; Local Governments, Insurers, Fire Survivors & Consumer Groups Rally Against Bailout, Says Consumer Watchdog",
@@ -403,48 +403,48 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 225.48,
+      "price": 225.65,
       "previousClose": 235.74,
-      "changePct": -4.35,
+      "changePct": -4.28,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T15:23:26.000Z",
+      "asOf": "2026-08-14T16:25:05.000Z",
       "headlines": [
         {
-          "title": "Why Red Cat Stock Just Popped",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/09eb7a6f-8151-331e-94a5-d6c4bcabb4ef/why-red-cat-stock-just-popped.html",
-          "publishedAt": "2026-08-14T15:10:23.000Z"
-        },
-        {
-          "title": "Should Investors Take Profits in GE Vernova After Its Big Run?",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/8af8abbf-6865-30e5-8aa7-f432b47a8ae4/should-investors-take-profits.html",
-          "publishedAt": "2026-08-14T15:05:00.000Z"
-        },
-        {
-          "title": "The $5.2 Trillion Company Just Asked Wall Street for $500 Billion More",
+          "title": "Rare Earth Stocks Soar on Friday: MP Materials Up 8%, USA Rare Earth Up 9%, NioCorp Up 3%. What’s Behind the Jump?",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/deca6069-c250-3e3e-8fdf-87a16dfccde9/the-%245.2-trillion-company.html",
-          "publishedAt": "2026-08-14T15:00:33.000Z"
+          "url": "https://finance.yahoo.com/m/e60168bb-07cd-338b-b0db-fa8348461b1e/rare-earth-stocks-soar-on.html",
+          "publishedAt": "2026-08-14T16:08:30.000Z"
         },
         {
-          "title": "Amazon and Alphabet Both Cost More on Next Year's Earnings Than on Last Year's",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/cb8de066-dfc4-36d9-ad2d-149bdd2b292a/amazon-and-alphabet-both-cost.html",
-          "publishedAt": "2026-08-14T14:58:00.000Z"
+          "title": "Wall St subdued as markets pause after S&P record high; data, Mideast in focus",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-muted-higher-111429941.html",
+          "publishedAt": "2026-08-14T16:07:40.000Z"
+        },
+        {
+          "title": "Reddit Is Getting Added to the S&P 500 — But You Still Shouldn’t Buy It",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/32dc0a44-57dd-3917-bd81-588488fbccb6/reddit-is-getting-added-to.html",
+          "publishedAt": "2026-08-14T16:06:37.000Z"
+        },
+        {
+          "title": "SpaceX Slides Again Friday but Still Holds Most of a Big Weekly Gain",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/c7a5cff5-2809-3ebf-8a2d-7d39bf34777b/spacex-slides-again-friday.html",
+          "publishedAt": "2026-08-14T16:03:42.000Z"
         }
       ]
     },
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 45.25,
+      "price": 45.39,
       "previousClose": 47.24,
-      "changePct": -4.21,
+      "changePct": -3.92,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T15:23:17.000Z",
+      "asOf": "2026-08-14T16:25:03.000Z",
       "headlines": [
         {
           "title": "Barclays Adjusts Devon Energy Price Target to $58 From $62, Maintains Overweight Rating",
@@ -475,12 +475,12 @@
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.75,
+      "price": 3.78,
       "previousClose": 3.89,
-      "changePct": -3.6,
+      "changePct": -2.83,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-14T15:20:10.000Z",
+      "asOf": "2026-08-14T16:24:27.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
@@ -511,12 +511,12 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 425.09,
+      "price": 426.67,
       "previousClose": 417.72,
-      "changePct": 1.76,
+      "changePct": 2.14,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T15:23:25.000Z",
+      "asOf": "2026-08-14T16:25:03.000Z",
       "headlines": [
         {
           "title": "Taiwan Semiconductor (TSM) Remains at the Center of the AI Boom",
@@ -547,36 +547,36 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 263.93,
+      "price": 263.87,
       "previousClose": 267.22,
-      "changePct": -1.23,
+      "changePct": -1.25,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T15:23:26.000Z",
+      "asOf": "2026-08-14T16:25:01.000Z",
       "headlines": [
         {
-          "title": "Amazon and Alphabet Both Cost More on Next Year's Earnings Than on Last Year's",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/cb8de066-dfc4-36d9-ad2d-149bdd2b292a/amazon-and-alphabet-both-cost.html",
-          "publishedAt": "2026-08-14T14:58:00.000Z"
+          "title": "Billionaire Investor Makes Huge Bet on Two AI Stocks",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/billionaire-investor-makes-huge-bet-160330451.html",
+          "publishedAt": "2026-08-14T16:03:30.000Z"
         },
         {
-          "title": "Fed Rate Hike Odds Fall As Amazon Prime Day Effect Hits Retail Sales",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/37849b57-2d30-3700-9051-895ddc9efccd/fed-rate-hike-odds-fall-as.html",
-          "publishedAt": "2026-08-14T14:33:52.000Z"
+          "title": "July Retail Sales Signal Consumer Caution",
+          "publisher": "WWD",
+          "url": "https://finance.yahoo.com/m/ac148da3-7e7f-33a9-b722-4b75fa09280c/july-retail-sales-signal.html",
+          "publishedAt": "2026-08-14T15:35:56.000Z"
         },
         {
-          "title": "Joshua Kushner’s Thrive Capital Invests $215 Million in Amazon",
-          "publisher": "Bloomberg",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/joshua-kushner-thrive-capital-invests-142550239.html",
-          "publishedAt": "2026-08-14T14:25:50.000Z"
+          "title": "CoreWeave Is A Diversifier That Does Not Calm The Ride",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/b1b14bbf-c929-3a89-8db2-3284d325d36e/coreweave-is-a-diversifier.html",
+          "publishedAt": "2026-08-14T15:26:11.000Z"
         },
         {
-          "title": "Retail Sales Unexpectedly Fall in July. What’s Behind the Slump.",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/576c3775-6e47-36f6-a38a-3bec98f72e4d/retail-sales-unexpectedly.html",
-          "publishedAt": "2026-08-14T14:25:00.000Z"
+          "title": "Oracle Gets Cheaper Only If The Megawatts Arrive",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/836c2b15-d9f8-3685-b058-0cd349315772/oracle-gets-cheaper-only-if.html",
+          "publishedAt": "2026-08-14T15:06:46.000Z"
         }
       ]
     }
