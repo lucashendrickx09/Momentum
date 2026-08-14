@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T14:32:30.212Z",
+  "generatedAt": "2026-08-14T15:23:29.198Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 93.04,
+      "price": 92.69,
       "previousClose": 186.97,
-      "changePct": -50.24,
+      "changePct": -50.43,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T14:32:27.000Z",
+      "asOf": "2026-08-14T15:23:23.000Z",
       "headlines": [
         {
           "title": "Michael Saylor's Strategy Is Selling Bitcoin Again. Here's Why I'm Still Bullish on Bitcoin.",
@@ -43,12 +43,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 30.61,
+      "price": 30.17,
       "previousClose": 46.71,
-      "changePct": -34.48,
+      "changePct": -35.42,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T14:32:27.000Z",
+      "asOf": "2026-08-14T15:23:27.000Z",
       "headlines": [
         {
           "title": "CoreWeave’s Spike Hasn’t Erased 3-Month Losses: Why Trusted Wall Street Pro Expects 65% Post-Spike Gains",
@@ -79,13 +79,19 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 177.2,
+      "price": 176.85,
       "previousClose": 133.73,
-      "changePct": 32.51,
+      "changePct": 32.24,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T14:32:27.000Z",
+      "asOf": "2026-08-14T15:23:25.000Z",
       "headlines": [
+        {
+          "title": "Michael Burry Ramped Up His Bets Against Micron and the QQQ ETF. Is the ‘Big Short’ Investor Asking for Trouble?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/577f82da-7d38-3aa0-bf2d-7d853e82d86d/michael-burry-ramped-up-his.html",
+          "publishedAt": "2026-08-14T14:40:07.000Z"
+        },
         {
           "title": "Prediction: 1 AI Stock That Could Be a Monster Winner",
           "publisher": "24/7 Wall St.",
@@ -103,60 +109,18 @@
           "publisher": "Reuters",
           "url": "https://finance.yahoo.com/news/global-equity-funds-extend-inflow-104703387.html",
           "publishedAt": "2026-08-14T10:47:03.000Z"
-        },
-        {
-          "title": "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/wall-streets-riskiest-trades-are-suddenly-back-on-top-chart-of-the-day-100100027.html",
-          "publishedAt": "2026-08-14T10:01:00.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "SAP",
-      "name": "SAP SE",
-      "price": 208.71,
-      "previousClose": 164.18,
-      "changePct": 27.12,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-14T14:32:19.000Z",
-      "headlines": [
-        {
-          "title": "Computerized Maintenance Management System (CMMS) Market Analysis and Growth Forecast 2026-2032: AI and IoT Drive Predictive Maintenance Demand",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/computerized-maintenance-management-system-cmms-092500271.html",
-          "publishedAt": "2026-08-14T09:25:00.000Z"
-        },
-        {
-          "title": "PetMed Express, Inc. Q1 2027 Earnings Call Summary",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/m/03b7d800-195b-36e8-90dc-2728691c707d/petmed-express%2C-inc.-q1-2027.html",
-          "publishedAt": "2026-08-14T01:55:38.000Z"
-        },
-        {
-          "title": "NTT DATA awarded Golden Certificate by SAP as Global Operations Partner, reflecting the scale of its Global Managed Services expertise",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ntt-data-awarded-golden-certificate-090000052.html",
-          "publishedAt": "2026-08-13T09:00:00.000Z"
-        },
-        {
-          "title": "European Equities Traded in the US as American Depositary Receipts Edge Lower in Wednesday Trading",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/world-indices/articles/european-equities-traded-us-american-151123119.html",
-          "publishedAt": "2026-08-12T15:11:23.000Z"
         }
       ]
     },
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 4.21,
+      "price": 4.03,
       "previousClose": 5.71,
-      "changePct": -26.36,
+      "changePct": -29.51,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T14:32:26.000Z",
+      "asOf": "2026-08-14T15:23:25.000Z",
       "headlines": [
         {
           "title": "MP Materials vs. The Metals Company: Which Critical-Minerals Stock Is the Smarter Long-Term Buy?",
@@ -185,15 +149,63 @@
       ]
     },
     {
+      "ticker": "SAP",
+      "name": "SAP SE",
+      "price": 208.69,
+      "previousClose": 164.18,
+      "changePct": 27.11,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-08-14T15:22:34.000Z",
+      "headlines": [
+        {
+          "title": "Computerized Maintenance Management System (CMMS) Market Analysis and Growth Forecast 2026-2032: AI and IoT Drive Predictive Maintenance Demand",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/computerized-maintenance-management-system-cmms-092500271.html",
+          "publishedAt": "2026-08-14T09:25:00.000Z"
+        },
+        {
+          "title": "PetMed Express, Inc. Q1 2027 Earnings Call Summary",
+          "publisher": "Moby",
+          "url": "https://finance.yahoo.com/m/03b7d800-195b-36e8-90dc-2728691c707d/petmed-express%2C-inc.-q1-2027.html",
+          "publishedAt": "2026-08-14T01:55:38.000Z"
+        },
+        {
+          "title": "NTT DATA awarded Golden Certificate by SAP as Global Operations Partner, reflecting the scale of its Global Managed Services expertise",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ntt-data-awarded-golden-certificate-090000052.html",
+          "publishedAt": "2026-08-13T09:00:00.000Z"
+        },
+        {
+          "title": "European Equities Traded in the US as American Depositary Receipts Edge Lower in Wednesday Trading",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/european-equities-traded-us-american-151123119.html",
+          "publishedAt": "2026-08-12T15:11:23.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 499.05,
+      "price": 498.15,
       "previousClose": 409.43,
-      "changePct": 21.89,
+      "changePct": 21.67,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T14:32:27.000Z",
+      "asOf": "2026-08-14T15:23:17.000Z",
       "headlines": [
+        {
+          "title": "OpenAI Annualized Revenue Tops $40 Billion Ahead of $1 Trillion IPO Push",
+          "publisher": "Benzinga Prediction Markets",
+          "url": "https://finance.yahoo.com/m/0653c3c0-0b58-381a-9445-15ffdb74e63d/openai-annualized-revenue.html",
+          "publishedAt": "2026-08-14T15:00:33.000Z"
+        },
+        {
+          "title": "AI Security Operations Center (SOC) Market Surges to $47.07 billion at a CAGR 21.1% by 2031 | Report by MarketsandMarkets™",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ai-security-operations-center-soc-144500073.html",
+          "publishedAt": "2026-08-14T14:45:00.000Z"
+        },
         {
           "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
           "publisher": "TechCrunch",
@@ -205,31 +217,25 @@
           "publisher": "Insider Monkey",
           "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-ai-strategy-cloud-135455507.html",
           "publishedAt": "2026-08-14T13:54:55.000Z"
-        },
-        {
-          "title": "Alphabet Turned $900 Million in SpaceX Into $94 Billion — Here’s the Lesson for Investors",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/16aa0025-71d8-3a2a-b39f-050a2a20b8c4/alphabet-turned-%24900-million.html",
-          "publishedAt": "2026-08-14T13:50:32.000Z"
-        },
-        {
-          "title": "I Keep Buying Alphabet Because Leadership Understands One Thing Far Better Than Other Hyperscalers",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/ec1db83f-6527-360a-b50c-4b79df6e0437/i-keep-buying-alphabet.html",
-          "publishedAt": "2026-08-14T13:33:26.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 270.6,
+      "price": 270.09,
       "previousClose": 241.08,
-      "changePct": 12.24,
+      "changePct": 12.03,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T14:32:25.000Z",
+      "asOf": "2026-08-14T15:23:24.000Z",
       "headlines": [
+        {
+          "title": "Record Profits For Refiners. These 5 Oil Stocks Are Worth A Look.",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/d9d1304a-5b77-3a1e-971a-c31d345c43c9/record-profits-for-refiners..html",
+          "publishedAt": "2026-08-14T14:22:20.000Z"
+        },
         {
           "title": "The Global Gas Market Has Shifted. Now Wall Street Loves These 5 Energy Stocks For August",
           "publisher": "24/7 Wall St.",
@@ -243,12 +249,6 @@
           "publishedAt": "2026-08-14T13:09:02.000Z"
         },
         {
-          "title": "Record Profits For Refiners. These 5 Oil Stocks Are Worth A Look.",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/d9d1304a-5b77-3a1e-971a-c31d345c43c9/record-profits-for-refiners..html",
-          "publishedAt": "2026-08-14T14:22:20.000Z"
-        },
-        {
           "title": "LNG Q2 Earnings Beat Estimates on Higher Volumes and Margins",
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/energy/articles/lng-q2-earnings-beat-estimates-144000186.html",
@@ -259,13 +259,19 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 234.13,
+      "price": 234.66,
       "previousClose": 218.37,
-      "changePct": 7.22,
+      "changePct": 7.46,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T14:32:20.000Z",
+      "asOf": "2026-08-14T15:23:10.000Z",
       "headlines": [
+        {
+          "title": "AI Security Operations Center (SOC) Market Surges to $47.07 billion at a CAGR 21.1% by 2031 | Report by MarketsandMarkets™",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ai-security-operations-center-soc-144500073.html",
+          "publishedAt": "2026-08-14T14:45:00.000Z"
+        },
         {
           "title": "Kyndryl’s Q2 Earnings Call: Our Top 5 Analyst Questions",
           "publisher": "StockStory",
@@ -283,60 +289,18 @@
           "publisher": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/m/fd97bc3f-090a-3620-a8a8-1f68c079d1ad/he-just-wanted-a-gym.html",
           "publishedAt": "2026-08-14T11:23:46.000Z"
-        },
-        {
-          "title": "Computerized Maintenance Management System (CMMS) Market Analysis and Growth Forecast 2026-2032: AI and IoT Drive Predictive Maintenance Demand",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/computerized-maintenance-management-system-cmms-092500271.html",
-          "publishedAt": "2026-08-14T09:25:00.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "WY",
-      "name": "Weyerhaeuser Company",
-      "price": 24.58,
-      "previousClose": 23.35,
-      "changePct": 5.27,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-14T14:32:25.000Z",
-      "headlines": [
-        {
-          "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-company-declares-dividend-common-000000288.html",
-          "publishedAt": "2026-08-14T00:00:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser (WY) Could Be 18% Undervalued On Its Latest Earnings Beat",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-could-18-undervalued-141212297.html",
-          "publishedAt": "2026-08-08T14:12:12.000Z"
-        },
-        {
-          "title": "Weyerhaeuser (WY) Stock Looks Cheap On Cash Flow But Pricey On Earnings",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-stock-looks-cheap-111124552.html",
-          "publishedAt": "2026-08-08T11:11:24.000Z"
-        },
-        {
-          "title": "Weyerhaeuser (WY) Q2 2026 Earnings Call Transcript",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/43ebaf46-0a53-3839-b13d-ced3a5c1123b/weyerhaeuser-%28wy%29-q2-2026.html",
-          "publishedAt": "2026-08-08T01:48:38.000Z"
         }
       ]
     },
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.51,
+      "price": 2.54,
       "previousClose": 2.39,
-      "changePct": 5.02,
+      "changePct": 6.07,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T14:28:23.000Z",
+      "asOf": "2026-08-14T15:21:07.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -365,86 +329,50 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 225.21,
-      "previousClose": 235.74,
-      "changePct": -4.47,
+      "ticker": "WY",
+      "name": "Weyerhaeuser Company",
+      "price": 24.56,
+      "previousClose": 23.35,
+      "changePct": 5.18,
       "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T14:32:27.000Z",
+      "exchange": "NYSE",
+      "asOf": "2026-08-14T15:23:20.000Z",
       "headlines": [
         {
-          "title": "Elon Musk Says SpaceX Will Generate $1 Trillion in Revenue by 2030. Time to Buy the Stock?",
+          "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-company-declares-dividend-common-000000288.html",
+          "publishedAt": "2026-08-14T00:00:00.000Z"
+        },
+        {
+          "title": "Weyerhaeuser (WY) Could Be 18% Undervalued On Its Latest Earnings Beat",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-could-18-undervalued-141212297.html",
+          "publishedAt": "2026-08-08T14:12:12.000Z"
+        },
+        {
+          "title": "Weyerhaeuser (WY) Stock Looks Cheap On Cash Flow But Pricey On Earnings",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-stock-looks-cheap-111124552.html",
+          "publishedAt": "2026-08-08T11:11:24.000Z"
+        },
+        {
+          "title": "Weyerhaeuser (WY) Q2 2026 Earnings Call Transcript",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/e4f78b89-048a-328f-844e-9aba22c2276e/elon-musk-says-spacex-will.html",
-          "publishedAt": "2026-08-14T14:20:00.000Z"
-        },
-        {
-          "title": "Intuitive Machines and Virgin Galactic Jump 10% While Rocket Lab, AST SpaceMobile Sit Out the Space Stock Rally",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/412d1ee5-41b1-346d-bccc-ea2c3a8d5142/intuitive-machines-and-virgin.html",
-          "publishedAt": "2026-08-14T14:12:15.000Z"
-        },
-        {
-          "title": "Intel Stock's Real Opportunity Is Demand It Cannot Yet Ship",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/ad1b6405-89f2-35c0-91af-e8ca0868f324/intel-stock%27s-real.html",
-          "publishedAt": "2026-08-14T14:10:30.000Z"
-        },
-        {
-          "title": "Can NVIDIA (NVDA) Keep Dominating the AI Infrastructure Boom?",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-keep-dominating-ai-140727128.html",
-          "publishedAt": "2026-08-14T14:07:27.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "SABS",
-      "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.74,
-      "previousClose": 3.89,
-      "changePct": -3.98,
-      "currency": "USD",
-      "exchange": "NasdaqCM",
-      "asOf": "2026-08-14T14:32:27.000Z",
-      "headlines": [
-        {
-          "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "url": "https://finance.yahoo.com/m/3c1df30f-9934-393a-a2cc-bd15cbc1b11b/sab-biotherapeutics-q2.html",
-          "publishedAt": "2026-08-07T12:03:53.000Z"
-        },
-        {
-          "title": "SAB Biotherapeutics Inc (SABS) (Q2 2026) Earnings Call Highlights: Advancing SAB142 with Strong ...",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/healthcare/articles/sab-biotherapeutics-inc-sabs-q2-231421977.html",
-          "publishedAt": "2026-08-06T23:14:21.000Z"
-        },
-        {
-          "title": "SAB BIO Reports Q2 2026 Financial Results and Provides Business Highlights",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/healthcare/articles/sab-bio-reports-q2-2026-113000535.html",
-          "publishedAt": "2026-08-06T11:30:00.000Z"
-        },
-        {
-          "title": "SAB BIO to Host Second Quarter 2026 Financial Results Conference Call and Webcast on August 6, 2026, 08:30 AM ET",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/healthcare/articles/sab-bio-host-second-quarter-123000403.html",
-          "publishedAt": "2026-07-30T12:30:00.000Z"
+          "url": "https://finance.yahoo.com/m/43ebaf46-0a53-3839-b13d-ced3a5c1123b/weyerhaeuser-%28wy%29-q2-2026.html",
+          "publishedAt": "2026-08-08T01:48:38.000Z"
         }
       ]
     },
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.45,
+      "price": 17.63,
       "previousClose": 16.81,
-      "changePct": 3.81,
+      "changePct": 4.85,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T14:32:28.000Z",
+      "asOf": "2026-08-14T15:23:22.000Z",
       "headlines": [
         {
           "title": "Senate Energy Chair Calls Out Utility CEOs Over Bailout Blackmail Threats; Local Governments, Insurers, Fire Survivors & Consumer Groups Rally Against Bailout, Says Consumer Watchdog",
@@ -473,14 +401,50 @@
       ]
     },
     {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 225.48,
+      "previousClose": 235.74,
+      "changePct": -4.35,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-14T15:23:26.000Z",
+      "headlines": [
+        {
+          "title": "Why Red Cat Stock Just Popped",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/09eb7a6f-8151-331e-94a5-d6c4bcabb4ef/why-red-cat-stock-just-popped.html",
+          "publishedAt": "2026-08-14T15:10:23.000Z"
+        },
+        {
+          "title": "Should Investors Take Profits in GE Vernova After Its Big Run?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/8af8abbf-6865-30e5-8aa7-f432b47a8ae4/should-investors-take-profits.html",
+          "publishedAt": "2026-08-14T15:05:00.000Z"
+        },
+        {
+          "title": "The $5.2 Trillion Company Just Asked Wall Street for $500 Billion More",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/deca6069-c250-3e3e-8fdf-87a16dfccde9/the-%245.2-trillion-company.html",
+          "publishedAt": "2026-08-14T15:00:33.000Z"
+        },
+        {
+          "title": "Amazon and Alphabet Both Cost More on Next Year's Earnings Than on Last Year's",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/cb8de066-dfc4-36d9-ad2d-149bdd2b292a/amazon-and-alphabet-both-cost.html",
+          "publishedAt": "2026-08-14T14:58:00.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 45.55,
+      "price": 45.25,
       "previousClose": 47.24,
-      "changePct": -3.58,
+      "changePct": -4.21,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T14:32:26.000Z",
+      "asOf": "2026-08-14T15:23:17.000Z",
       "headlines": [
         {
           "title": "Barclays Adjusts Devon Energy Price Target to $58 From $62, Maintains Overweight Rating",
@@ -509,14 +473,50 @@
       ]
     },
     {
+      "ticker": "SABS",
+      "name": "SAB Biotherapeutics, Inc.",
+      "price": 3.75,
+      "previousClose": 3.89,
+      "changePct": -3.6,
+      "currency": "USD",
+      "exchange": "NasdaqCM",
+      "asOf": "2026-08-14T15:20:10.000Z",
+      "headlines": [
+        {
+          "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "url": "https://finance.yahoo.com/m/3c1df30f-9934-393a-a2cc-bd15cbc1b11b/sab-biotherapeutics-q2.html",
+          "publishedAt": "2026-08-07T12:03:53.000Z"
+        },
+        {
+          "title": "SAB Biotherapeutics Inc (SABS) (Q2 2026) Earnings Call Highlights: Advancing SAB142 with Strong ...",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/healthcare/articles/sab-biotherapeutics-inc-sabs-q2-231421977.html",
+          "publishedAt": "2026-08-06T23:14:21.000Z"
+        },
+        {
+          "title": "SAB BIO Reports Q2 2026 Financial Results and Provides Business Highlights",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/healthcare/articles/sab-bio-reports-q2-2026-113000535.html",
+          "publishedAt": "2026-08-06T11:30:00.000Z"
+        },
+        {
+          "title": "SAB BIO to Host Second Quarter 2026 Financial Results Conference Call and Webcast on August 6, 2026, 08:30 AM ET",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/healthcare/articles/sab-bio-host-second-quarter-123000403.html",
+          "publishedAt": "2026-07-30T12:30:00.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 425.81,
+      "price": 425.09,
       "previousClose": 417.72,
-      "changePct": 1.94,
+      "changePct": 1.76,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T14:32:27.000Z",
+      "asOf": "2026-08-14T15:23:25.000Z",
       "headlines": [
         {
           "title": "Taiwan Semiconductor (TSM) Remains at the Center of the AI Boom",
@@ -547,36 +547,36 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 264.19,
+      "price": 263.93,
       "previousClose": 267.22,
-      "changePct": -1.13,
+      "changePct": -1.23,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T14:32:26.000Z",
+      "asOf": "2026-08-14T15:23:26.000Z",
       "headlines": [
         {
-          "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
-          "publisher": "TechCrunch",
-          "url": "https://finance.yahoo.com/energy/articles/hyperscalers-might-regret-embracing-natural-140500532.html",
-          "publishedAt": "2026-08-14T14:05:00.000Z"
+          "title": "Amazon and Alphabet Both Cost More on Next Year's Earnings Than on Last Year's",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/cb8de066-dfc4-36d9-ad2d-149bdd2b292a/amazon-and-alphabet-both-cost.html",
+          "publishedAt": "2026-08-14T14:58:00.000Z"
         },
         {
-          "title": "US retail sales post first decline in nine months in July",
-          "publisher": "Reuters",
-          "url": "https://finance.yahoo.com/economy/articles/us-retail-sales-unexpectedly-fall-123738457.html",
-          "publishedAt": "2026-08-14T13:57:36.000Z"
+          "title": "Fed Rate Hike Odds Fall As Amazon Prime Day Effect Hits Retail Sales",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/37849b57-2d30-3700-9051-895ddc9efccd/fed-rate-hike-odds-fall-as.html",
+          "publishedAt": "2026-08-14T14:33:52.000Z"
         },
         {
-          "title": "Alphabet Turned $900 Million in SpaceX Into $94 Billion — Here’s the Lesson for Investors",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/16aa0025-71d8-3a2a-b39f-050a2a20b8c4/alphabet-turned-%24900-million.html",
-          "publishedAt": "2026-08-14T13:50:32.000Z"
+          "title": "Joshua Kushner’s Thrive Capital Invests $215 Million in Amazon",
+          "publisher": "Bloomberg",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/joshua-kushner-thrive-capital-invests-142550239.html",
+          "publishedAt": "2026-08-14T14:25:50.000Z"
         },
         {
-          "title": "I Keep Buying Alphabet Because Leadership Understands One Thing Far Better Than Other Hyperscalers",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/ec1db83f-6527-360a-b50c-4b79df6e0437/i-keep-buying-alphabet.html",
-          "publishedAt": "2026-08-14T13:33:26.000Z"
+          "title": "Retail Sales Unexpectedly Fall in July. What’s Behind the Slump.",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/576c3775-6e47-36f6-a38a-3bec98f72e4d/retail-sales-unexpectedly.html",
+          "publishedAt": "2026-08-14T14:25:00.000Z"
         }
       ]
     }
