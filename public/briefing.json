@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T17:30:10.949Z",
+  "generatedAt": "2026-08-14T18:26:07.104Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,13 +7,19 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 94.33,
+      "price": 93.33,
       "previousClose": 186.97,
-      "changePct": -49.55,
+      "changePct": -50.08,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T17:29:58.000Z",
+      "asOf": "2026-08-14T18:25:59.000Z",
       "headlines": [
+        {
+          "title": "MicroStrategy sends harsh response to fresh MSCI delisting threat",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/4b17a7b6-7678-3983-9bae-2f825f053c74/microstrategy-sends-harsh.html",
+          "publishedAt": "2026-08-14T17:27:33.000Z"
+        },
         {
           "title": "Strategy (MSTR) Stock Still Looks Undervalued After a 180% Run",
           "publisher": "Simply Wall St.",
@@ -31,24 +37,18 @@
           "publisher": "Investor's Business Daily",
           "url": "https://finance.yahoo.com/m/898124d0-52a1-33be-ab91-ea573626ed4f/sec-delays-meeting-on-crypto.html",
           "publishedAt": "2026-08-14T15:42:29.000Z"
-        },
-        {
-          "title": "Bitcoin Falls as Regulatory Hopes Are Dashed",
-          "publisher": "Investopedia",
-          "url": "https://finance.yahoo.com/m/7a463706-da3f-39de-ae85-ee26566814de/bitcoin-falls-as-regulatory.html",
-          "publishedAt": "2026-08-14T15:25:33.000Z"
         }
       ]
     },
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 31.04,
+      "price": 31.13,
       "previousClose": 46.71,
-      "changePct": -33.56,
+      "changePct": -33.35,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T17:30:07.000Z",
+      "asOf": "2026-08-14T18:26:05.000Z",
       "headlines": [
         {
           "title": "CoreWeave’s Spike Hasn’t Erased 3-Month Losses: Why Trusted Wall Street Pro Expects 65% Post-Spike Gains",
@@ -79,18 +79,18 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 176.76,
+      "price": 175.53,
       "previousClose": 133.73,
-      "changePct": 32.18,
+      "changePct": 31.26,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T17:30:04.000Z",
+      "asOf": "2026-08-14T18:26:02.000Z",
       "headlines": [
         {
-          "title": "Unusual Machines Soars 22%, Red Cat Climbs 8%, Ondas Gains 4% on Trump’s 100% Drone Tariff",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/8087ad39-3f0b-317d-bde9-5bd0962e47ed/unusual-machines-soars-22%25%2C.html",
-          "publishedAt": "2026-08-14T17:22:02.000Z"
+          "title": "Palantir's $442 Billion Valuation Faces a Test",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantirs-442-billion-valuation-faces-180950928.html",
+          "publishedAt": "2026-08-14T18:09:50.000Z"
         },
         {
           "title": "C3.ai Remains Turbulent: Why One Of Wall Street’s Most Outspoken Pros Expects 50% Returns From Here",
@@ -115,12 +115,12 @@
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 4.01,
+      "price": 3.98,
       "previousClose": 5.71,
-      "changePct": -29.86,
+      "changePct": -30.39,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T17:30:06.000Z",
+      "asOf": "2026-08-14T18:26:01.000Z",
       "headlines": [
         {
           "title": "MP Materials vs. The Metals Company: Which Critical-Minerals Stock Is the Smarter Long-Term Buy?",
@@ -151,12 +151,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 208.67,
+      "price": 208.85,
       "previousClose": 164.18,
-      "changePct": 27.1,
+      "changePct": 27.21,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T17:29:48.000Z",
+      "asOf": "2026-08-14T18:26:01.000Z",
       "headlines": [
         {
           "title": "Computerized Maintenance Management System (CMMS) Market Analysis and Growth Forecast 2026-2032: AI and IoT Drive Predictive Maintenance Demand",
@@ -187,48 +187,48 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 495.75,
+      "price": 496.07,
       "previousClose": 409.43,
-      "changePct": 21.08,
+      "changePct": 21.16,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T17:30:05.000Z",
+      "asOf": "2026-08-14T18:26:04.000Z",
       "headlines": [
         {
-          "title": "Tech stocks pull Wall Street lower as investors weigh data, Middle East tensions",
-          "publisher": "Reuters",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-muted-higher-111429941.html",
-          "publishedAt": "2026-08-14T17:18:09.000Z"
+          "title": "Vanguard Quietly Changed the Index Behind Your VUG ETF. Here’s What Happens to Your Portfolio",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/6f4edfb3-de1a-35e0-a5dd-db50a8add2bd/vanguard-quietly-changed-the.html",
+          "publishedAt": "2026-08-14T18:15:41.000Z"
         },
         {
-          "title": "Liberty All-Star® Growth Fund, Inc. July 2026 Monthly Update",
+          "title": "Nvidia Poised for Strong Quarterly Results, Outlook, UBS Says",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-poised-strong-quarterly-results-180639120.html",
+          "publishedAt": "2026-08-14T18:06:39.000Z"
+        },
+        {
+          "title": "Liberty All-Star® Equity Fund July 2026 Monthly Update",
           "publisher": "Business Wire",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/liberty-star-growth-fund-inc-171000134.html",
-          "publishedAt": "2026-08-14T17:10:00.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/liberty-star-equity-fund-july-173600375.html",
+          "publishedAt": "2026-08-14T17:36:00.000Z"
         },
         {
-          "title": "Nvidia’s $500 Billion Plan Envelops Wall Street in Its AI Frenzy",
-          "publisher": "Bloomberg",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-500-billion-plan-envelops-164209178.html",
-          "publishedAt": "2026-08-14T16:42:09.000Z"
-        },
-        {
-          "title": "JPMorgan set a serious Microsoft stock price target for 2027",
-          "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/m/3f03f509-cd39-30fa-8b5e-2e958c8d229c/jpmorgan-set-a-serious.html",
-          "publishedAt": "2026-08-14T16:33:00.000Z"
+          "title": "Adobe Stock Eyes Rebound. Is This a Golden AI Opportunity?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/d3660398-dafd-308a-87ca-0d8bf0152242/adobe-stock-eyes-rebound.-is.html",
+          "publishedAt": "2026-08-14T17:30:19.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 271.27,
+      "price": 270.1,
       "previousClose": 241.08,
-      "changePct": 12.52,
+      "changePct": 12.04,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T17:30:00.000Z",
+      "asOf": "2026-08-14T18:25:49.000Z",
       "headlines": [
         {
           "title": "CQP Rises 10.8% in a Month: Can Its Recent Momentum Continue?",
@@ -259,12 +259,12 @@
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.62,
+      "price": 2.61,
       "previousClose": 2.39,
-      "changePct": 9.41,
+      "changePct": 9,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T17:27:58.000Z",
+      "asOf": "2026-08-14T18:25:31.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -295,12 +295,12 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 234.27,
+      "price": 235.12,
       "previousClose": 218.37,
-      "changePct": 7.28,
+      "changePct": 7.67,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T17:29:45.000Z",
+      "asOf": "2026-08-14T18:26:03.000Z",
       "headlines": [
         {
           "title": "AST SpaceMobile vs. IBM: Which Tech Stock is the Better Buy Now?",
@@ -333,10 +333,10 @@
       "name": "PG&E Corporation",
       "price": 17.77,
       "previousClose": 16.81,
-      "changePct": 5.74,
+      "changePct": 5.68,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T17:29:38.000Z",
+      "asOf": "2026-08-14T18:26:05.000Z",
       "headlines": [
         {
           "title": "Senate Energy Chair Calls Out Utility CEOs Over Bailout Blackmail Threats; Local Governments, Insurers, Fire Survivors & Consumer Groups Rally Against Bailout, Says Consumer Watchdog",
@@ -367,12 +367,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 24.63,
+      "price": 24.66,
       "previousClose": 23.35,
-      "changePct": 5.46,
+      "changePct": 5.59,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T17:30:00.000Z",
+      "asOf": "2026-08-14T18:26:01.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
@@ -403,48 +403,48 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 225.13,
+      "price": 225.04,
       "previousClose": 235.74,
-      "changePct": -4.5,
+      "changePct": -4.54,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T17:30:06.000Z",
+      "asOf": "2026-08-14T18:26:04.000Z",
       "headlines": [
         {
-          "title": "Renaissance Nearly Triples Nvidia Stake, Slashes Micron",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/renaissance-nearly-triples-nvidia-stake-172532360.html",
-          "publishedAt": "2026-08-14T17:25:32.000Z"
-        },
-        {
-          "title": "Unusual Machines Soars 22%, Red Cat Climbs 8%, Ondas Gains 4% on Trump’s 100% Drone Tariff",
+          "title": "Vanguard Quietly Changed the Index Behind Your VUG ETF. Here’s What Happens to Your Portfolio",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/8087ad39-3f0b-317d-bde9-5bd0962e47ed/unusual-machines-soars-22%25%2C.html",
-          "publishedAt": "2026-08-14T17:22:02.000Z"
+          "url": "https://finance.yahoo.com/m/6f4edfb3-de1a-35e0-a5dd-db50a8add2bd/vanguard-quietly-changed-the.html",
+          "publishedAt": "2026-08-14T18:15:41.000Z"
         },
         {
-          "title": "Tech stocks pull Wall Street lower as investors weigh data, Middle East tensions",
-          "publisher": "Reuters",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-muted-higher-111429941.html",
-          "publishedAt": "2026-08-14T17:18:09.000Z"
+          "title": "Broadcom Sinks 6% as BofA Flags $370B in AI Debt, AMD Climbs 4% on Baird’s $1,250 Call",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/37afad59-88c1-3b3e-83eb-d285d9cb7aac/broadcom-sinks-6%25-as-bofa.html",
+          "publishedAt": "2026-08-14T18:07:38.000Z"
         },
         {
-          "title": "S&P 500 Eases Off Its Record as the Consumer Finally Blinks",
+          "title": "Nvidia Poised for Strong Quarterly Results, Outlook, UBS Says",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-poised-strong-quarterly-results-180639120.html",
+          "publishedAt": "2026-08-14T18:06:39.000Z"
+        },
+        {
+          "title": "Why HawkEye 360 Stock Crashed Friday",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/dbabaa4c-d585-382e-9324-4732e7761fa2/s%26p-500-eases-off-its-record.html",
-          "publishedAt": "2026-08-14T17:14:50.000Z"
+          "url": "https://finance.yahoo.com/m/c5ab4ce5-6cda-3346-9b13-c20c794c71cb/why-hawkeye-360-stock-crashed.html",
+          "publishedAt": "2026-08-14T18:06:12.000Z"
         }
       ]
     },
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.74,
+      "price": 3.75,
       "previousClose": 3.89,
-      "changePct": -3.86,
+      "changePct": -3.73,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-14T17:14:30.000Z",
+      "asOf": "2026-08-14T18:23:15.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
@@ -475,12 +475,12 @@
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 45.55,
+      "price": 45.78,
       "previousClose": 47.24,
-      "changePct": -3.58,
+      "changePct": -3.1,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T17:30:00.000Z",
+      "asOf": "2026-08-14T18:25:49.000Z",
       "headlines": [
         {
           "title": "Barclays Adjusts Devon Energy Price Target to $58 From $62, Maintains Overweight Rating",
@@ -511,13 +511,19 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 425.71,
+      "price": 425.52,
       "previousClose": 417.72,
-      "changePct": 1.91,
+      "changePct": 1.87,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-14T17:30:04.000Z",
+      "asOf": "2026-08-14T18:26:02.000Z",
       "headlines": [
+        {
+          "title": "Broadcom Sinks 6% as BofA Flags $370B in AI Debt, AMD Climbs 4% on Baird’s $1,250 Call",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/37afad59-88c1-3b3e-83eb-d285d9cb7aac/broadcom-sinks-6%25-as-bofa.html",
+          "publishedAt": "2026-08-14T18:07:38.000Z"
+        },
         {
           "title": "SEC filing shows Softbank initiates stake in Capital One; sells 71.5% of its Taiwan Semi holdings",
           "publisher": "Reuters",
@@ -525,58 +531,52 @@
           "publishedAt": "2026-08-14T16:56:15.000Z"
         },
         {
+          "title": "Will There be a U.S. Recession in 2026?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/economy/articles/u-recession-2026-162600600.html",
+          "publishedAt": "2026-08-14T16:26:00.000Z"
+        },
+        {
           "title": "Taiwan Semiconductor (TSM) Remains at the Center of the AI Boom",
           "publisher": "Insider Monkey",
           "url": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-tsm-remains-center-140337973.html",
           "publishedAt": "2026-08-14T14:03:37.000Z"
-        },
-        {
-          "title": "Watch These Key Metrics After Applied Materials Dipped on Earnings",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/f3398c8c-7e68-3430-8def-d8cc62a1a1b7/watch-these-key-metrics-after.html",
-          "publishedAt": "2026-08-14T13:09:34.000Z"
-        },
-        {
-          "title": "Cathie Wood picks up $44.7 million in shares of two highly watched tech stocks. Is it too late to follow along?",
-          "publisher": "Moneywise",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-picks-44-7-115500302.html",
-          "publishedAt": "2026-08-14T11:55:00.000Z"
         }
       ]
     },
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 263.34,
+      "price": 263.42,
       "previousClose": 267.22,
-      "changePct": -1.45,
+      "changePct": -1.42,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-14T17:30:05.000Z",
+      "asOf": "2026-08-14T18:26:02.000Z",
       "headlines": [
         {
-          "title": "Renaissance Nearly Triples Nvidia Stake, Slashes Micron",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/renaissance-nearly-triples-nvidia-stake-172532360.html",
-          "publishedAt": "2026-08-14T17:25:32.000Z"
+          "title": "Vanguard Quietly Changed the Index Behind Your VUG ETF. Here’s What Happens to Your Portfolio",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/6f4edfb3-de1a-35e0-a5dd-db50a8add2bd/vanguard-quietly-changed-the.html",
+          "publishedAt": "2026-08-14T18:15:41.000Z"
         },
         {
-          "title": "Joshua Kushner's Thrive Capital discloses $215 million Amazon stake",
-          "publisher": "Reuters",
-          "url": "https://finance.yahoo.com/technology/articles/joshua-kushners-thrive-capital-discloses-165712497.html",
-          "publishedAt": "2026-08-14T16:57:12.000Z"
-        },
-        {
-          "title": "Jeff Bezos Consortium Buys Minority Stake in Liverpool FC",
+          "title": "Nvidia Poised for Strong Quarterly Results, Outlook, UBS Says",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jeff-bezos-consortium-buys-minority-165141352.html",
-          "publishedAt": "2026-08-14T16:51:41.000Z"
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-poised-strong-quarterly-results-180639120.html",
+          "publishedAt": "2026-08-14T18:06:39.000Z"
         },
         {
-          "title": "US retail sales post first decline in nine months in July",
-          "publisher": "Reuters",
-          "url": "https://finance.yahoo.com/economy/articles/us-retail-sales-unexpectedly-fall-123738457.html",
-          "publishedAt": "2026-08-14T16:46:31.000Z"
+          "title": "Liberty All-Star® Equity Fund July 2026 Monthly Update",
+          "publisher": "Business Wire",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/liberty-star-equity-fund-july-173600375.html",
+          "publishedAt": "2026-08-14T17:36:00.000Z"
+        },
+        {
+          "title": "AppFolio Names Amazon Web Services as Preferred Cloud Provider",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/appfolio-names-amazon-services-preferred-173153188.html",
+          "publishedAt": "2026-08-14T17:31:53.000Z"
         }
       ]
     }
