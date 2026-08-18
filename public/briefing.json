@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T19:50:05.835Z",
+  "generatedAt": "2026-08-18T20:12:27.580Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 93.09,
+      "price": 92.52,
       "previousClose": 166.63,
-      "changePct": -44.13,
+      "changePct": -44.48,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:50:00.000Z",
+      "asOf": "2026-08-18T20:00:01.000Z",
       "headlines": [
         {
           "title": "Michael Saylor Tells Strategy Investors to Prepare for ‘Difficult Years’",
@@ -43,12 +43,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 28.5,
+      "price": 28.51,
       "previousClose": 39.14,
-      "changePct": -27.18,
+      "changePct": -27.16,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:50:03.000Z",
+      "asOf": "2026-08-18T20:00:01.000Z",
       "headlines": [
         {
           "title": "What IREN's Microsoft Delivery Means for Its $9.7 Billion AI Pivot",
@@ -79,18 +79,24 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 171.25,
+      "price": 171.54,
       "previousClose": 135.14,
-      "changePct": 26.72,
+      "changePct": 26.94,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:50:01.000Z",
+      "asOf": "2026-08-18T20:00:00.000Z",
       "headlines": [
         {
           "title": "Better Buy: Palantir at 108 Times Forward Earnings or Tesla at 190 Times?",
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/m/b9a24f34-8161-3d7f-8c55-c88428879973/better-buy%3A-palantir-at-108.html",
           "publishedAt": "2026-08-18T19:03:00.000Z"
+        },
+        {
+          "title": "Palantir, SpaceX and Micron: Buy, Sell or Hold?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-spacex-micron-buy-sell-185300715.html",
+          "publishedAt": "2026-08-18T18:53:00.000Z"
         },
         {
           "title": "Gorilla Technology Rises 3% as AI Infrastructure Momentum Builds: How GRRR Compares With Palantir",
@@ -103,24 +109,18 @@
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/technology/articles/snowflake-faces-high-apos-achievable-163400570.html",
           "publishedAt": "2026-08-18T16:34:00.000Z"
-        },
-        {
-          "title": "BigBear.ai Trades at a Discount, Stock Up 14% in a Month: Buy or Sell?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bigbear-ai-trades-discount-stock-141600877.html",
-          "publishedAt": "2026-08-18T14:16:00.000Z"
         }
       ]
     },
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.75,
+      "price": 2.74,
       "previousClose": 2.18,
-      "changePct": 26.15,
+      "changePct": 25.69,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:47:27.000Z",
+      "asOf": "2026-08-18T20:00:01.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -151,12 +151,12 @@
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 3.96,
+      "price": 3.92,
       "previousClose": 5.16,
-      "changePct": -23.35,
+      "changePct": -24.03,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:49:59.000Z",
+      "asOf": "2026-08-18T20:00:00.000Z",
       "headlines": [
         {
           "title": "What's Going On With The Metals Company Stock?",
@@ -187,12 +187,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 211.34,
+      "price": 210.51,
       "previousClose": 174.62,
-      "changePct": 21.03,
+      "changePct": 20.55,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T19:50:00.000Z",
+      "asOf": "2026-08-18T19:59:58.000Z",
       "headlines": [
         {
           "title": "European Equities Traded in the US as American Depositary Receipts Head Lower in Tuesday Trading",
@@ -223,12 +223,12 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 481.91,
+      "price": 481.63,
       "previousClose": 423.54,
-      "changePct": 13.78,
+      "changePct": 13.72,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:50:00.000Z",
+      "asOf": "2026-08-18T20:00:01.000Z",
       "headlines": [
         {
           "title": "Q2 Earnings Roundup: Microsoft (NASDAQ:MSFT) And The Rest Of The Automation Software Segment",
@@ -259,12 +259,12 @@
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.8,
+      "price": 17.83,
       "previousClose": 15.85,
-      "changePct": 12.3,
+      "changePct": 12.46,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T19:50:00.000Z",
+      "asOf": "2026-08-18T19:59:59.000Z",
       "headlines": [
         {
           "title": "PCG Passed Our Value-Trap Test. Now What?",
@@ -295,12 +295,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 273.64,
+      "price": 273.78,
       "previousClose": 247.74,
-      "changePct": 10.45,
+      "changePct": 10.51,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T19:50:00.000Z",
+      "asOf": "2026-08-18T19:59:59.000Z",
       "headlines": [
         {
           "title": "Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets.",
@@ -331,12 +331,12 @@
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.8,
+      "price": 3.79,
       "previousClose": 3.56,
-      "changePct": 6.74,
+      "changePct": 6.46,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-18T19:50:01.000Z",
+      "asOf": "2026-08-18T20:00:00.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
@@ -365,50 +365,14 @@
       ]
     },
     {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 415.58,
-      "previousClose": 395.95,
-      "changePct": 4.96,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-18T19:50:00.000Z",
-      "headlines": [
-        {
-          "title": "TSMC Stock Slides Over 4% Despite 45% Revenue Surge",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-slides-over-4-185801894.html",
-          "publishedAt": "2026-08-18T18:58:01.000Z"
-        },
-        {
-          "title": "United Microelectronics Falls 7%, Tower Semiconductor Sinks 10%, GlobalFoundries Drops 7% as AI Spending Fears Hit Foundries",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/8bf284a8-5b1c-36dd-92da-3fa1a4015d17/united-microelectronics-falls.html",
-          "publishedAt": "2026-08-18T18:39:58.000Z"
-        },
-        {
-          "title": "Famous Billionaires Were Rushing to Buy Taiwan Semiconductor (TSM). Here’s Why",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/famous-billionaires-were-rushing-buy-183916148.html",
-          "publishedAt": "2026-08-18T18:39:16.000Z"
-        },
-        {
-          "title": "Beyond Nvidia: Buy These ETFs to Capture AI's Optical Boom",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/beyond-nvidia-buy-etfs-capture-134900872.html",
-          "publishedAt": "2026-08-18T13:49:00.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 233.39,
+      "price": 232.78,
       "previousClose": 222.75,
-      "changePct": 4.78,
+      "changePct": 4.5,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T19:50:00.000Z",
+      "asOf": "2026-08-18T19:59:59.000Z",
       "headlines": [
         {
           "title": "ORCL Stock: Why The Discount May Not Last",
@@ -437,14 +401,50 @@
       ]
     },
     {
-      "ticker": "DVN",
-      "name": "Devon Energy Corporation",
-      "price": 47.89,
-      "previousClose": 49.68,
-      "changePct": -3.6,
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "price": 413.37,
+      "previousClose": 395.95,
+      "changePct": 4.4,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T19:50:01.000Z",
+      "asOf": "2026-08-18T20:00:00.000Z",
+      "headlines": [
+        {
+          "title": "TSMC Stock Slides Over 4% Despite 45% Revenue Surge",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-slides-over-4-185801894.html",
+          "publishedAt": "2026-08-18T18:58:01.000Z"
+        },
+        {
+          "title": "United Microelectronics Falls 7%, Tower Semiconductor Sinks 10%, GlobalFoundries Drops 7% as AI Spending Fears Hit Foundries",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/8bf284a8-5b1c-36dd-92da-3fa1a4015d17/united-microelectronics-falls.html",
+          "publishedAt": "2026-08-18T18:39:58.000Z"
+        },
+        {
+          "title": "Famous Billionaires Were Rushing to Buy Taiwan Semiconductor (TSM). Here’s Why",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/famous-billionaires-were-rushing-buy-183916148.html",
+          "publishedAt": "2026-08-18T18:39:16.000Z"
+        },
+        {
+          "title": "Beyond Nvidia: Buy These ETFs to Capture AI's Optical Boom",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/beyond-nvidia-buy-etfs-capture-134900872.html",
+          "publishedAt": "2026-08-18T13:49:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy Corporation",
+      "price": 47.83,
+      "previousClose": 49.68,
+      "changePct": -3.72,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-08-18T19:59:59.000Z",
       "headlines": [
         {
           "title": "How Diamondback’s Permian‑to‑Katy Gas Pipeline Bet At Diamondback Energy (FANG) Has Changed Its Investment Story",
@@ -475,12 +475,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 23.59,
+      "price": 23.61,
       "previousClose": 22.87,
-      "changePct": 3.13,
+      "changePct": 3.21,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T19:50:00.000Z",
+      "asOf": "2026-08-18T19:59:59.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
@@ -511,12 +511,12 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 259.8,
+      "price": 259.45,
       "previousClose": 264.86,
-      "changePct": -1.91,
+      "changePct": -2.04,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:50:01.000Z",
+      "asOf": "2026-08-18T20:00:01.000Z",
       "headlines": [
         {
           "title": "Boeing-Lockheed’s ULA triples bond sale to $1.5 billion - report",
@@ -547,13 +547,25 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 219.75,
+      "price": 219.74,
       "previousClose": 222.32,
       "changePct": -1.16,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:50:01.000Z",
+      "asOf": "2026-08-18T20:00:00.000Z",
       "headlines": [
+        {
+          "title": "Why Weave Communications Stock Soared Today",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/c7383d14-7310-33c1-b04c-4460a94e0531/why-weave-communications.html",
+          "publishedAt": "2026-08-18T19:58:25.000Z"
+        },
+        {
+          "title": "Why Salesforce Stock Rallied Today",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/02a6bfeb-f7f2-34dc-810f-b3f8559244b2/why-salesforce-stock-rallied.html",
+          "publishedAt": "2026-08-18T19:57:12.000Z"
+        },
         {
           "title": "Sector Update: Tech Stocks Fall Late Afternoon",
           "publisher": "MT Newswires",
@@ -565,18 +577,6 @@
           "publisher": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/m/3b520a64-7b5f-3967-91e5-882fd5ea85cf/opendoor-is-down-42%25-in-2026%3A.html",
           "publishedAt": "2026-08-18T19:30:21.000Z"
-        },
-        {
-          "title": "Bank of America Thinks Nvidia Stock Could Go 50% Higher",
-          "publisher": "BeInCrypto",
-          "url": "https://finance.yahoo.com/m/9de42ee6-d8fd-3e1f-abc7-70dad0c241a8/bank-of-america-thinks-nvidia.html",
-          "publishedAt": "2026-08-18T19:29:15.000Z"
-        },
-        {
-          "title": "Stock Market Today: Nasdaq Hit Hard By Chip Names; Sandisk, Micron Slide As Biotech Soars (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/fdb8b55e-c80b-38c5-bab0-70133d76c05f/stock-market-today%3A-nasdaq.html",
-          "publishedAt": "2026-08-18T19:25:46.000Z"
         }
       ]
     }
