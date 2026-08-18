@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T19:07:54.748Z",
+  "generatedAt": "2026-08-18T19:50:05.835Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,13 +7,19 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 92.94,
+      "price": 93.09,
       "previousClose": 166.63,
-      "changePct": -44.23,
+      "changePct": -44.13,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:07:50.000Z",
+      "asOf": "2026-08-18T19:50:00.000Z",
       "headlines": [
+        {
+          "title": "Michael Saylor Tells Strategy Investors to Prepare for ‘Difficult Years’",
+          "publisher": "Investopedia",
+          "url": "https://finance.yahoo.com/m/159cc0d8-0c58-3d90-bae9-488619c03a81/michael-saylor-tells-strategy.html",
+          "publishedAt": "2026-08-18T18:22:42.000Z"
+        },
         {
           "title": "Saylor floats a Strategy buyback as MSTR falls more than 73% in past year",
           "publisher": "CoinDesk",
@@ -31,25 +37,31 @@
           "publisher": "BeInCrypto",
           "url": "https://finance.yahoo.com/m/525819b3-3bdf-3534-bc00-5464e1acce35/metaplanet-invades-saylor%E2%80%99s.html",
           "publishedAt": "2026-08-18T13:58:50.000Z"
-        },
-        {
-          "title": "Michael Saylor Warns MSTR Investors to Prepare for ‘Difficult Years’ — Hold for at Least 4 Years",
-          "publisher": "CCN",
-          "url": "https://finance.yahoo.com/m/ff1274b7-b4c4-3b53-8771-5f51075f5987/michael-saylor-warns-mstr.html",
-          "publishedAt": "2026-08-18T12:34:51.000Z"
         }
       ]
     },
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 28.22,
+      "price": 28.5,
       "previousClose": 39.14,
-      "changePct": -27.9,
+      "changePct": -27.18,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:07:53.000Z",
+      "asOf": "2026-08-18T19:50:03.000Z",
       "headlines": [
+        {
+          "title": "What IREN's Microsoft Delivery Means for Its $9.7 Billion AI Pivot",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/irens-microsoft-delivery-means-9-181800132.html",
+          "publishedAt": "2026-08-18T18:18:00.000Z"
+        },
+        {
+          "title": "Should Investors Buy IREN as AI Growth Meets a Premium Valuation?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/investors-buy-iren-ai-growth-181500334.html",
+          "publishedAt": "2026-08-18T18:15:00.000Z"
+        },
         {
           "title": "Bond yields spike worldwide on top of soaring debt, AI spending",
           "publisher": "Yahoo Finance Video",
@@ -61,31 +73,25 @@
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/irens-nvidia-status-microsoft-win-140600247.html",
           "publishedAt": "2026-08-17T14:06:00.000Z"
-        },
-        {
-          "title": "Stocks making big moves this week: Applied Digital, EnerSys, Sabre, Corning, and HighPeak Energy",
-          "publisher": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-week-225300033.html",
-          "publishedAt": "2026-08-16T22:53:00.000Z"
-        },
-        {
-          "title": "Applied Digital (APLD) Stock Trades Up, Here Is Why",
-          "publisher": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-apld-stock-trades-232500526.html",
-          "publishedAt": "2026-08-14T23:25:00.000Z"
         }
       ]
     },
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 172.48,
+      "price": 171.25,
       "previousClose": 135.14,
-      "changePct": 27.63,
+      "changePct": 26.72,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:07:52.000Z",
+      "asOf": "2026-08-18T19:50:01.000Z",
       "headlines": [
+        {
+          "title": "Better Buy: Palantir at 108 Times Forward Earnings or Tesla at 190 Times?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/b9a24f34-8161-3d7f-8c55-c88428879973/better-buy%3A-palantir-at-108.html",
+          "publishedAt": "2026-08-18T19:03:00.000Z"
+        },
         {
           "title": "Gorilla Technology Rises 3% as AI Infrastructure Momentum Builds: How GRRR Compares With Palantir",
           "publisher": "24/7 Wall St.",
@@ -103,24 +109,18 @@
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/bigbear-ai-trades-discount-stock-141600877.html",
           "publishedAt": "2026-08-18T14:16:00.000Z"
-        },
-        {
-          "title": "Snowflake’s 172% Melt‑Up Has Bulls Saying Agentic AI Could Extend the Run",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/61e61620-884a-30e3-87a2-563515238576/snowflake%E2%80%99s-172%25-melt%E2%80%91up-has.html",
-          "publishedAt": "2026-08-18T13:47:33.000Z"
         }
       ]
     },
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.74,
+      "price": 2.75,
       "previousClose": 2.18,
-      "changePct": 25.46,
+      "changePct": 26.15,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:04:46.000Z",
+      "asOf": "2026-08-18T19:47:27.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -151,12 +151,12 @@
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 3.93,
+      "price": 3.96,
       "previousClose": 5.16,
-      "changePct": -23.93,
+      "changePct": -23.35,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:07:49.000Z",
+      "asOf": "2026-08-18T19:49:59.000Z",
       "headlines": [
         {
           "title": "What's Going On With The Metals Company Stock?",
@@ -187,12 +187,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 212.36,
+      "price": 211.34,
       "previousClose": 174.62,
-      "changePct": 21.61,
+      "changePct": 21.03,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T19:07:28.000Z",
+      "asOf": "2026-08-18T19:50:00.000Z",
       "headlines": [
         {
           "title": "European Equities Traded in the US as American Depositary Receipts Head Lower in Tuesday Trading",
@@ -223,13 +223,25 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 482.97,
+      "price": 481.91,
       "previousClose": 423.54,
-      "changePct": 14.03,
+      "changePct": 13.78,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:07:50.000Z",
+      "asOf": "2026-08-18T19:50:00.000Z",
       "headlines": [
+        {
+          "title": "Q2 Earnings Roundup: Microsoft (NASDAQ:MSFT) And The Rest Of The Automation Software Segment",
+          "publisher": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-roundup-microsoft-nasdaq-191733756.html",
+          "publishedAt": "2026-08-18T19:17:33.000Z"
+        },
+        {
+          "title": "These Telltale Signs Cue Microsoft Investors Despite Earnings Surge; Is Microsoft A Sell Now?",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/b7ed9635-6bc3-32bc-afc7-5e98c2451501/these-telltale-signs-cue.html",
+          "publishedAt": "2026-08-18T19:11:36.000Z"
+        },
         {
           "title": "Snowflake's AI-driven data momentum justifies Buy rating: UBS",
           "publisher": "Proactive",
@@ -237,34 +249,22 @@
           "publishedAt": "2026-08-18T18:37:00.000Z"
         },
         {
-          "title": "Is MasTec’s (MTZ) New 5.850% Bond Deal Rewriting Its Balance Sheet Risk‑Reward Story?",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mastec-mtz-5-850-bond-181637176.html",
-          "publishedAt": "2026-08-18T18:16:37.000Z"
-        },
-        {
-          "title": "Microsoft (MSFT) Just Moved, What Is Catching Investor Attention?",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-just-moved-catching-181626621.html",
-          "publishedAt": "2026-08-18T18:16:26.000Z"
-        },
-        {
-          "title": "Techs Stocks Fall On War, Macro Woes. Is Anthropic Revenue Projection Also A Factor?",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/2a43df95-882d-3a22-9c7a-fe6198ff54b1/techs-stocks-fall-on-war%2C.html",
-          "publishedAt": "2026-08-18T17:54:32.000Z"
+          "title": "What IREN's Microsoft Delivery Means for Its $9.7 Billion AI Pivot",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/irens-microsoft-delivery-means-9-181800132.html",
+          "publishedAt": "2026-08-18T18:18:00.000Z"
         }
       ]
     },
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.83,
+      "price": 17.8,
       "previousClose": 15.85,
-      "changePct": 12.46,
+      "changePct": 12.3,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T19:07:35.000Z",
+      "asOf": "2026-08-18T19:50:00.000Z",
       "headlines": [
         {
           "title": "PCG Passed Our Value-Trap Test. Now What?",
@@ -295,12 +295,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 272.8,
+      "price": 273.64,
       "previousClose": 247.74,
-      "changePct": 10.12,
+      "changePct": 10.45,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T19:07:33.000Z",
+      "asOf": "2026-08-18T19:50:00.000Z",
       "headlines": [
         {
           "title": "Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets.",
@@ -331,12 +331,12 @@
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.81,
+      "price": 3.8,
       "previousClose": 3.56,
-      "changePct": 6.88,
+      "changePct": 6.74,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-18T18:57:12.000Z",
+      "asOf": "2026-08-18T19:50:01.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
@@ -365,50 +365,14 @@
       ]
     },
     {
-      "ticker": "IBM",
-      "name": "International Business Machines Corporation",
-      "price": 234.05,
-      "previousClose": 222.75,
-      "changePct": 5.07,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-18T19:07:47.000Z",
-      "headlines": [
-        {
-          "title": "ORCL Stock: Why The Discount May Not Last",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/52a928b9-1113-35e2-b190-b3a2f6305029/orcl-stock%3A-why-the-discount.html",
-          "publishedAt": "2026-08-18T15:40:14.000Z"
-        },
-        {
-          "title": "Arrow Electronics (ARW) Looks Fully Valued After IBM Distribution Expansion",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/arrow-electronics-arw-looks-fully-151223650.html",
-          "publishedAt": "2026-08-18T15:12:23.000Z"
-        },
-        {
-          "title": "Pinnacle Business Systems Announces Leadership Transition as Rob Anderson Retires After 27 Years; David Traxler Named CEO",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/technology/articles/pinnacle-business-systems-announces-leadership-150000933.html",
-          "publishedAt": "2026-08-18T15:00:00.000Z"
-        },
-        {
-          "title": "Global Video Streaming Infrastructure Market Report 2026-2031: Profiles AWS, Akamai, Microsoft, Alphabet, Cisco, IBM, and 14 Other Key Players",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/media-advertising/articles/global-video-streaming-infrastructure-market-135100829.html",
-          "publishedAt": "2026-08-18T13:51:00.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 412.86,
+      "price": 415.58,
       "previousClose": 395.95,
-      "changePct": 4.27,
+      "changePct": 4.96,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T19:07:50.000Z",
+      "asOf": "2026-08-18T19:50:00.000Z",
       "headlines": [
         {
           "title": "TSMC Stock Slides Over 4% Despite 45% Revenue Surge",
@@ -437,14 +401,50 @@
       ]
     },
     {
-      "ticker": "DVN",
-      "name": "Devon Energy Corporation",
-      "price": 47.8,
-      "previousClose": 49.68,
-      "changePct": -3.78,
+      "ticker": "IBM",
+      "name": "International Business Machines Corporation",
+      "price": 233.39,
+      "previousClose": 222.75,
+      "changePct": 4.78,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T19:07:51.000Z",
+      "asOf": "2026-08-18T19:50:00.000Z",
+      "headlines": [
+        {
+          "title": "ORCL Stock: Why The Discount May Not Last",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/52a928b9-1113-35e2-b190-b3a2f6305029/orcl-stock%3A-why-the-discount.html",
+          "publishedAt": "2026-08-18T15:40:14.000Z"
+        },
+        {
+          "title": "Arrow Electronics (ARW) Looks Fully Valued After IBM Distribution Expansion",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arrow-electronics-arw-looks-fully-151223650.html",
+          "publishedAt": "2026-08-18T15:12:23.000Z"
+        },
+        {
+          "title": "Pinnacle Business Systems Announces Leadership Transition as Rob Anderson Retires After 27 Years; David Traxler Named CEO",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/technology/articles/pinnacle-business-systems-announces-leadership-150000933.html",
+          "publishedAt": "2026-08-18T15:00:00.000Z"
+        },
+        {
+          "title": "Global Video Streaming Infrastructure Market Report 2026-2031: Profiles AWS, Akamai, Microsoft, Alphabet, Cisco, IBM, and 14 Other Key Players",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/media-advertising/articles/global-video-streaming-infrastructure-market-135100829.html",
+          "publishedAt": "2026-08-18T13:51:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy Corporation",
+      "price": 47.89,
+      "previousClose": 49.68,
+      "changePct": -3.6,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-08-18T19:50:01.000Z",
       "headlines": [
         {
           "title": "How Diamondback’s Permian‑to‑Katy Gas Pipeline Bet At Diamondback Energy (FANG) Has Changed Its Investment Story",
@@ -475,12 +475,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 23.58,
+      "price": 23.59,
       "previousClose": 22.87,
-      "changePct": 3.1,
+      "changePct": 3.13,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T19:07:42.000Z",
+      "asOf": "2026-08-18T19:50:00.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
@@ -511,12 +511,12 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 260.43,
+      "price": 259.8,
       "previousClose": 264.86,
-      "changePct": -1.67,
+      "changePct": -1.91,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:07:45.000Z",
+      "asOf": "2026-08-18T19:50:01.000Z",
       "headlines": [
         {
           "title": "Boeing-Lockheed’s ULA triples bond sale to $1.5 billion - report",
@@ -547,36 +547,36 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 219.76,
+      "price": 219.75,
       "previousClose": 222.32,
-      "changePct": -1.15,
+      "changePct": -1.16,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T19:07:51.000Z",
+      "asOf": "2026-08-18T19:50:01.000Z",
       "headlines": [
         {
-          "title": "Warren Buffett's 12-Word Strategy for Navigating a Fear-Driven Market",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/f358bcde-19c1-3a81-8c0d-3eadeb3d075d/warren-buffett%27s-12-word.html",
-          "publishedAt": "2026-08-18T18:50:00.000Z"
+          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-193526211.html",
+          "publishedAt": "2026-08-18T19:35:26.000Z"
         },
         {
-          "title": "Serve Robotics Sinks 7% as Guidance Cut Overshadows Grubhub Deal; Symbotic Drops 5%, DoorDash Ticks Up",
+          "title": "Opendoor Is Down 42% in 2026: How Does It Compare to Housing Competitors Like Offerpad and Compass?",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/f6597ee0-9723-3ea7-b197-43a01e895e37/serve-robotics-sinks-7%25-as.html",
-          "publishedAt": "2026-08-18T18:45:25.000Z"
+          "url": "https://finance.yahoo.com/m/3b520a64-7b5f-3967-91e5-882fd5ea85cf/opendoor-is-down-42%25-in-2026%3A.html",
+          "publishedAt": "2026-08-18T19:30:21.000Z"
         },
         {
-          "title": "United Microelectronics Falls 7%, Tower Semiconductor Sinks 10%, GlobalFoundries Drops 7% as AI Spending Fears Hit Foundries",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/8bf284a8-5b1c-36dd-92da-3fa1a4015d17/united-microelectronics-falls.html",
-          "publishedAt": "2026-08-18T18:39:58.000Z"
+          "title": "Bank of America Thinks Nvidia Stock Could Go 50% Higher",
+          "publisher": "BeInCrypto",
+          "url": "https://finance.yahoo.com/m/9de42ee6-d8fd-3e1f-abc7-70dad0c241a8/bank-of-america-thinks-nvidia.html",
+          "publishedAt": "2026-08-18T19:29:15.000Z"
         },
         {
-          "title": "QuantumScape Falls 6%, Enovix Sinks 14%, Solid Power Drops 4% as Yields at 19-Year Highs Hit Speculative Growth",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/7a6ff8b7-a89d-3aa9-84eb-ca16a1251d20/quantumscape-falls-6%25%2C-enovix.html",
-          "publishedAt": "2026-08-18T18:35:19.000Z"
+          "title": "Stock Market Today: Nasdaq Hit Hard By Chip Names; Sandisk, Micron Slide As Biotech Soars (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/fdb8b55e-c80b-38c5-bab0-70133d76c05f/stock-market-today%3A-nasdaq.html",
+          "publishedAt": "2026-08-18T19:25:46.000Z"
         }
       ]
     }
