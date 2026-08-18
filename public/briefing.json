@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T16:58:37.292Z",
+  "generatedAt": "2026-08-18T17:55:39.330Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 95.57,
+      "price": 94.36,
       "previousClose": 166.63,
-      "changePct": -42.65,
+      "changePct": -43.37,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T16:58:32.000Z",
+      "asOf": "2026-08-18T17:55:35.000Z",
       "headlines": [
         {
           "title": "Saylor floats a Strategy buyback as MSTR falls more than 73% in past year",
@@ -43,13 +43,19 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 173.35,
+      "price": 173.13,
       "previousClose": 135.14,
-      "changePct": 28.27,
+      "changePct": 28.11,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T16:58:33.000Z",
+      "asOf": "2026-08-18T17:55:33.000Z",
       "headlines": [
+        {
+          "title": "Gorilla Technology Rises 3% as AI Infrastructure Momentum Builds: How GRRR Compares With Palantir",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/708bbb24-ed2d-3e71-b744-94e87d710f6c/gorilla-technology-rises-3%25.html",
+          "publishedAt": "2026-08-18T17:26:05.000Z"
+        },
         {
           "title": "Snowflake Faces High But 'Achievable' Sales Growth Expectations, UBS Says",
           "publisher": "MT Newswires",
@@ -67,60 +73,18 @@
           "publisher": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/m/61e61620-884a-30e3-87a2-563515238576/snowflake%E2%80%99s-172%25-melt%E2%80%91up-has.html",
           "publishedAt": "2026-08-18T13:47:33.000Z"
-        },
-        {
-          "title": "Palantir and Sandisk Stocks Are Soaring: Wall Street Says to Buy 1 and Avoid the Other",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/29b0e9f8-7518-36da-bb59-77df27fc9461/palantir-and-sandisk-stocks.html",
-          "publishedAt": "2026-08-18T12:45:00.000Z"
-        }
-      ]
-    },
-    {
-      "ticker": "ABOS",
-      "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.75,
-      "previousClose": 2.18,
-      "changePct": 26.19,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T16:57:04.000Z",
-      "headlines": [
-        {
-          "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-inc-abos-q2-230426972.html",
-          "publishedAt": "2026-08-12T23:04:26.000Z"
-        },
-        {
-          "title": "Acumen Pharmaceuticals, Inc. Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/m/7794b6d1-1676-3d64-86d1-a362719d7e2b/acumen-pharmaceuticals%2C-inc..html",
-          "publishedAt": "2026-08-12T16:56:53.000Z"
-        },
-        {
-          "title": "Acumen Pharmaceuticals Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "url": "https://finance.yahoo.com/m/92245aa4-4110-35b8-9359-e6d05bf70e2a/acumen-pharmaceuticals-q2.html",
-          "publishedAt": "2026-08-12T13:03:22.000Z"
-        },
-        {
-          "title": "Acumen Pharmaceuticals Reports Second Quarter 2026 Financial Results and Business Highlights",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-reports-second-quarter-110000467.html",
-          "publishedAt": "2026-08-12T11:00:00.000Z"
         }
       ]
     },
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 29.14,
+      "price": 28.5,
       "previousClose": 39.14,
-      "changePct": -25.56,
+      "changePct": -27.18,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T16:58:25.000Z",
+      "asOf": "2026-08-18T17:55:36.000Z",
       "headlines": [
         {
           "title": "Bond yields spike worldwide on top of soaring debt, AI spending",
@@ -149,14 +113,50 @@
       ]
     },
     {
-      "ticker": "TMC",
-      "name": "TMC the metals company Inc.",
-      "price": 3.98,
-      "previousClose": 5.16,
-      "changePct": -22.87,
+      "ticker": "ABOS",
+      "name": "Acumen Pharmaceuticals, Inc.",
+      "price": 2.74,
+      "previousClose": 2.18,
+      "changePct": 25.69,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T16:58:31.000Z",
+      "asOf": "2026-08-18T17:53:36.000Z",
+      "headlines": [
+        {
+          "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-inc-abos-q2-230426972.html",
+          "publishedAt": "2026-08-12T23:04:26.000Z"
+        },
+        {
+          "title": "Acumen Pharmaceuticals, Inc. Q2 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "url": "https://finance.yahoo.com/m/7794b6d1-1676-3d64-86d1-a362719d7e2b/acumen-pharmaceuticals%2C-inc..html",
+          "publishedAt": "2026-08-12T16:56:53.000Z"
+        },
+        {
+          "title": "Acumen Pharmaceuticals Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "url": "https://finance.yahoo.com/m/92245aa4-4110-35b8-9359-e6d05bf70e2a/acumen-pharmaceuticals-q2.html",
+          "publishedAt": "2026-08-12T13:03:22.000Z"
+        },
+        {
+          "title": "Acumen Pharmaceuticals Reports Second Quarter 2026 Financial Results and Business Highlights",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-reports-second-quarter-110000467.html",
+          "publishedAt": "2026-08-12T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "TMC",
+      "name": "TMC the metals company Inc.",
+      "price": 3.95,
+      "previousClose": 5.16,
+      "changePct": -23.45,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-18T17:55:13.000Z",
       "headlines": [
         {
           "title": "What's Going On With The Metals Company Stock?",
@@ -187,12 +187,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 212.11,
+      "price": 212.3,
       "previousClose": 174.62,
-      "changePct": 21.47,
+      "changePct": 21.58,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T16:58:04.000Z",
+      "asOf": "2026-08-18T17:55:12.000Z",
       "headlines": [
         {
           "title": "European Equities Traded in the US as American Depositary Receipts Head Lower in Tuesday Trading",
@@ -223,48 +223,48 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 482.14,
+      "price": 481.78,
       "previousClose": 423.54,
-      "changePct": 13.84,
+      "changePct": 13.75,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T16:58:32.000Z",
+      "asOf": "2026-08-18T17:55:32.000Z",
       "headlines": [
+        {
+          "title": "Is This The Next CoreWeave Or Nebius Group? A Crusoe IPO Looms",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/0c1f16f3-f194-3c26-b4d5-05eeea6fc988/is-this-the-next-coreweave-or.html",
+          "publishedAt": "2026-08-18T17:15:47.000Z"
+        },
+        {
+          "title": "Microsoft is Consolidating and Will Be More Expensive Soon, So I Keep Buying",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/c2b82038-5501-37cd-824d-a83b47347ddf/microsoft-is-consolidating.html",
+          "publishedAt": "2026-08-18T16:50:09.000Z"
+        },
+        {
+          "title": "Evercore’s Top Strategist Says the Best Earnings Are Behind Us. He Still Wants You Buy Tech",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/5ddde34c-8128-349f-9916-41eb121643b8/evercore%E2%80%99s-top-strategist.html",
+          "publishedAt": "2026-08-18T16:45:22.000Z"
+        },
         {
           "title": "1 Unstoppable Stock to Buy Before It Joins Microsoft in the $3 Trillion Club",
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/m/d8be934d-e961-3114-942a-cded879f565d/1-unstoppable-stock-to-buy.html",
           "publishedAt": "2026-08-18T16:43:00.000Z"
-        },
-        {
-          "title": "CRM: A Cash Gusher At A Marked-Down Price",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/2a1024e4-a6e7-38fa-8d5f-494822cf684a/crm%3A-a-cash-gusher-at-a.html",
-          "publishedAt": "2026-08-18T16:16:19.000Z"
-        },
-        {
-          "title": "History Has An Opinion On This ADBE Price Level",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/2dd23342-8225-3760-9bbc-528bca7d3472/history-has-an-opinion-on.html",
-          "publishedAt": "2026-08-18T16:04:18.000Z"
-        },
-        {
-          "title": "ketteQ Named to the 2026 Inc. 5000 List, the Most Prestigious Ranking of America's Fastest-Growing Private Companies",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/small-business/articles/ketteq-named-2026-inc-5000-155400089.html",
-          "publishedAt": "2026-08-18T15:54:00.000Z"
         }
       ]
     },
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.83,
+      "price": 17.86,
       "previousClose": 15.85,
-      "changePct": 12.49,
+      "changePct": 12.71,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T16:58:06.000Z",
+      "asOf": "2026-08-18T17:55:18.000Z",
       "headlines": [
         {
           "title": "PCG Passed Our Value-Trap Test. Now What?",
@@ -295,12 +295,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 273.91,
+      "price": 273.56,
       "previousClose": 247.74,
-      "changePct": 10.56,
+      "changePct": 10.42,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T16:58:13.000Z",
+      "asOf": "2026-08-18T17:55:26.000Z",
       "headlines": [
         {
           "title": "Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets.",
@@ -331,12 +331,12 @@
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.8,
+      "price": 3.79,
       "previousClose": 3.56,
-      "changePct": 6.6,
+      "changePct": 6.32,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-18T16:57:43.000Z",
+      "asOf": "2026-08-18T17:48:25.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
@@ -367,12 +367,12 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 233.23,
+      "price": 233.5,
       "previousClose": 222.75,
-      "changePct": 4.7,
+      "changePct": 4.82,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T16:58:21.000Z",
+      "asOf": "2026-08-18T17:55:30.000Z",
       "headlines": [
         {
           "title": "ORCL Stock: Why The Discount May Not Last",
@@ -403,12 +403,12 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 413.2,
+      "price": 412.43,
       "previousClose": 395.95,
-      "changePct": 4.36,
+      "changePct": 4.16,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T16:58:33.000Z",
+      "asOf": "2026-08-18T17:55:25.000Z",
       "headlines": [
         {
           "title": "Beyond Nvidia: Buy These ETFs to Capture AI's Optical Boom",
@@ -437,50 +437,14 @@
       ]
     },
     {
-      "ticker": "WY",
-      "name": "Weyerhaeuser Company",
-      "price": 23.72,
-      "previousClose": 22.87,
-      "changePct": 3.69,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-18T16:58:15.000Z",
-      "headlines": [
-        {
-          "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-company-declares-dividend-common-000000288.html",
-          "publishedAt": "2026-08-14T00:00:00.000Z"
-        },
-        {
-          "title": "Weyerhaeuser (WY) Could Be 18% Undervalued On Its Latest Earnings Beat",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-could-18-undervalued-141212297.html",
-          "publishedAt": "2026-08-08T14:12:12.000Z"
-        },
-        {
-          "title": "Weyerhaeuser (WY) Stock Looks Cheap On Cash Flow But Pricey On Earnings",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-stock-looks-cheap-111124552.html",
-          "publishedAt": "2026-08-08T11:11:24.000Z"
-        },
-        {
-          "title": "Weyerhaeuser (WY) Q2 2026 Earnings Call Transcript",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/43ebaf46-0a53-3839-b13d-ced3a5c1123b/weyerhaeuser-%28wy%29-q2-2026.html",
-          "publishedAt": "2026-08-08T01:48:38.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 48.07,
+      "price": 47.92,
       "previousClose": 49.68,
-      "changePct": -3.25,
+      "changePct": -3.54,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-18T16:58:30.000Z",
+      "asOf": "2026-08-18T17:55:27.000Z",
       "headlines": [
         {
           "title": "Stock Market News for Aug 18, 2026",
@@ -509,74 +473,110 @@
       ]
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon.com, Inc.",
-      "price": 261.89,
-      "previousClose": 264.86,
-      "changePct": -1.12,
+      "ticker": "WY",
+      "name": "Weyerhaeuser Company",
+      "price": 23.6,
+      "previousClose": 22.87,
+      "changePct": 3.17,
       "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T16:58:34.000Z",
+      "exchange": "NYSE",
+      "asOf": "2026-08-18T17:55:15.000Z",
       "headlines": [
         {
-          "title": "Amazon’s $10B Houston Data Center Project Hits Snags",
-          "publisher": "CRE Daily",
-          "url": "https://finance.yahoo.com/m/60e0d413-db6f-3bbf-aef2-dc5e27d64ac8/amazon%E2%80%99s-%2410b-houston-data.html",
-          "publishedAt": "2026-08-18T16:42:42.000Z"
+          "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-company-declares-dividend-common-000000288.html",
+          "publishedAt": "2026-08-14T00:00:00.000Z"
         },
         {
-          "title": "Tesla (TSLA) Could Put 500 Semi Trucks Into Service Through A Freight Deal",
+          "title": "Weyerhaeuser (WY) Could Be 18% Undervalued On Its Latest Earnings Beat",
           "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-could-put-500-161006412.html",
-          "publishedAt": "2026-08-18T16:10:06.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-could-18-undervalued-141212297.html",
+          "publishedAt": "2026-08-08T14:12:12.000Z"
         },
         {
-          "title": "ORCL Stock: Why The Discount May Not Last",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/52a928b9-1113-35e2-b190-b3a2f6305029/orcl-stock%3A-why-the-discount.html",
-          "publishedAt": "2026-08-18T15:40:14.000Z"
+          "title": "Weyerhaeuser (WY) Stock Looks Cheap On Cash Flow But Pricey On Earnings",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-wy-stock-looks-cheap-111124552.html",
+          "publishedAt": "2026-08-08T11:11:24.000Z"
         },
         {
-          "title": "CoreWeave Vs. Cloud Giants: Amazon’s Most At Risk",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/a8aea530-b5f5-3efe-8ae8-87dee32cf9ef/coreweave-vs.-cloud-giants%3A.html",
-          "publishedAt": "2026-08-18T15:34:13.000Z"
+          "title": "Weyerhaeuser (WY) Q2 2026 Earnings Call Transcript",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/43ebaf46-0a53-3839-b13d-ced3a5c1123b/weyerhaeuser-%28wy%29-q2-2026.html",
+          "publishedAt": "2026-08-08T01:48:38.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 260.57,
+      "previousClose": 264.86,
+      "changePct": -1.62,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-18T17:55:35.000Z",
+      "headlines": [
+        {
+          "title": "Market Chatter: Anthropic Credit Facility Set to Top $10 Billion Target Ahead of IPO",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-anthropic-credit-facility-173538261.html",
+          "publishedAt": "2026-08-18T17:35:38.000Z"
+        },
+        {
+          "title": "Sector Update: Tech Stocks Fall in Afternoon Trading",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-173201461.html",
+          "publishedAt": "2026-08-18T17:32:01.000Z"
+        },
+        {
+          "title": "--Anthropic Credit Facility Set to Top $10 Billion Target Ahead of IPO, Bloomberg Reports",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-credit-facility-set-top-172802749.html",
+          "publishedAt": "2026-08-18T17:28:02.000Z"
+        },
+        {
+          "title": "Swedish Trucking Company Inks Deal For Tesla Semi Truck Rollout",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/7adf7450-36fe-3a96-86c7-ff965c2a4450/swedish-trucking-company-inks.html",
+          "publishedAt": "2026-08-18T16:51:30.000Z"
         }
       ]
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 220.19,
+      "price": 220.15,
       "previousClose": 222.32,
-      "changePct": -0.96,
+      "changePct": -0.98,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-18T16:58:32.000Z",
+      "asOf": "2026-08-18T17:55:37.000Z",
       "headlines": [
         {
-          "title": "Meet the Super Semiconductor Stock Crushing Nvidia in 2026",
+          "title": "Elon Musk Says SpaceX Will Hit $1 Trillion in Revenue by 2030 -- 1 Year Faster Than the Original Timeline. Here's the Math Behind the New Number.",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/ff2b8230-0cc9-3f82-9451-8af19d6bb240/meet-the-super-semiconductor.html",
-          "publishedAt": "2026-08-18T16:50:00.000Z"
+          "url": "https://finance.yahoo.com/m/2dcc4ab7-68a3-31e8-b086-2b204b7a5a59/elon-musk-says-spacex-will.html",
+          "publishedAt": "2026-08-18T17:45:00.000Z"
         },
         {
-          "title": "1 Unstoppable Stock to Buy Before It Joins Microsoft in the $3 Trillion Club",
+          "title": "Broadcom's Stock Has Beaten the Market in 12 of the Past 13 Years, and It Could Do It Again in 2026",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/d8be934d-e961-3114-942a-cded879f565d/1-unstoppable-stock-to-buy.html",
-          "publishedAt": "2026-08-18T16:43:00.000Z"
+          "url": "https://finance.yahoo.com/m/730a34bd-c181-31b6-93f9-5ca920d86774/broadcom%27s-stock-has-beaten.html",
+          "publishedAt": "2026-08-18T17:35:23.000Z"
         },
         {
-          "title": "Micron, Other Chip Stocks Drop During Dog Days Of Summer",
+          "title": "Stock Market Today: Nasdaq Weighed Down By Chip Names; Credo Plunges With Micron, Sandisk (Live Coverage)",
           "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/47aad014-8127-390d-b5bf-5fe35d3c29d4/micron%2C-other-chip-stocks.html",
-          "publishedAt": "2026-08-18T16:39:56.000Z"
+          "url": "https://finance.yahoo.com/m/fdb8b55e-c80b-38c5-bab0-70133d76c05f/stock-market-today%3A-nasdaq.html",
+          "publishedAt": "2026-08-18T17:35:06.000Z"
         },
         {
-          "title": "NuScale Power Falls 6% With Q2 Revenue Drop to $75,000 and a New $750M Share Sale",
+          "title": "Rocket Companies Slips as Mortgage Stocks Struggle: Can RKT Catch Up With UWM and Radian?",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/669e71a7-11b0-38f1-90fe-4dc8093ed2d9/nuscale-power-falls-6%25-with.html",
-          "publishedAt": "2026-08-18T16:33:46.000Z"
+          "url": "https://finance.yahoo.com/m/36f8565a-5537-3e55-929f-618451c8bf49/rocket-companies-slips-as.html",
+          "publishedAt": "2026-08-18T17:32:18.000Z"
         }
       ]
     }
