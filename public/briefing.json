@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T19:51:05.941Z",
+  "generatedAt": "2026-08-19T20:15:37.964Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 3.13,
+      "price": 3.15,
       "previousClose": 2.17,
-      "changePct": 44.01,
+      "changePct": 45.16,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-19T19:51:01.000Z",
+      "asOf": "2026-08-19T20:00:01.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -43,13 +43,19 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 104.05,
+      "price": 104.25,
       "previousClose": 164.63,
-      "changePct": -36.8,
+      "changePct": -36.68,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-19T19:51:02.000Z",
+      "asOf": "2026-08-19T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Crypto Stocks Rip Higher as Strategy Jumps 12%, Coinbase Climbs 9%",
+          "publisher": "decrypt",
+          "url": "https://finance.yahoo.com/m/9af682a2-624f-3e76-9985-bff0d4df35e5/crypto-stocks-rip-higher-as.html",
+          "publishedAt": "2026-08-19T19:51:11.000Z"
+        },
         {
           "title": "Stock Market Today: S&P 500 Higher As Yields Tumble; Coinbase Soars Amid White House News (Live Coverage)",
           "publisher": "Investor's Business Daily",
@@ -67,24 +73,18 @@
           "publisher": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/m/895f67fb-2956-33ae-8a6b-3a05e30f5b55/strategy-rockets-13%25%2C-bitmine.html",
           "publishedAt": "2026-08-19T16:38:29.000Z"
-        },
-        {
-          "title": "Strategy Just Stopped Bitcoin News: Is the Market’s Biggest Corporate Bid Gone for Good?",
-          "publisher": "Cryptonews",
-          "url": "https://finance.yahoo.com/m/69dba340-8c31-3ee9-b6eb-f8ce7f1b4a12/strategy-just-stopped-bitcoin.html",
-          "publishedAt": "2026-08-19T13:29:42.000Z"
         }
       ]
     },
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 175.12,
+      "price": 175.19,
       "previousClose": 135.26,
-      "changePct": 29.47,
+      "changePct": 29.52,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-19T19:51:03.000Z",
+      "asOf": "2026-08-19T20:00:00.000Z",
       "headlines": [
         {
           "title": "Is Palantir Technologies (PLTR) Overvalued As Revenue Growth And 2026 Outlook Jump?",
@@ -115,12 +115,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 28.12,
+      "price": 28.23,
       "previousClose": 36.62,
-      "changePct": -23.21,
+      "changePct": -22.91,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-19T19:51:05.000Z",
+      "asOf": "2026-08-19T20:00:01.000Z",
       "headlines": [
         {
           "title": "Cipher Digital Stock Is Valued On Revenue It Is Shutting Down",
@@ -153,10 +153,10 @@
       "name": "TMC the metals company Inc.",
       "price": 3.97,
       "previousClose": 5.01,
-      "changePct": -20.86,
+      "changePct": -20.76,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-19T19:50:58.000Z",
+      "asOf": "2026-08-19T20:00:00.000Z",
       "headlines": [
         {
           "title": "NOAA Publishes TMC USA’s Consolidated Application for an Exploration License and Commercial Recovery Permit for TMC USA-A in the Federal Register",
@@ -187,12 +187,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 215.59,
+      "price": 215.6,
       "previousClose": 178.8,
       "changePct": 20.58,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-19T19:51:04.000Z",
+      "asOf": "2026-08-19T20:00:02.000Z",
       "headlines": [
         {
           "title": "Is SAP (SAP) Mispriced as AI Fears Overshadow Its Core ERP Strength?",
@@ -223,12 +223,12 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 483.58,
+      "price": 484.31,
       "previousClose": 417.42,
-      "changePct": 15.85,
+      "changePct": 16.02,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-19T19:51:02.000Z",
+      "asOf": "2026-08-19T20:00:01.000Z",
       "headlines": [
         {
           "title": "OpenAI Unveils Safety Tool Compatible With Zero Data Retention",
@@ -259,12 +259,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 273.75,
+      "price": 274.3,
       "previousClose": 246.77,
-      "changePct": 10.93,
+      "changePct": 11.16,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-19T19:51:03.000Z",
+      "asOf": "2026-08-19T20:00:02.000Z",
       "headlines": [
         {
           "title": "Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets.",
@@ -293,50 +293,14 @@
       ]
     },
     {
-      "ticker": "PCG",
-      "name": "PG&E Corporation",
-      "price": 17.65,
-      "previousClose": 16.41,
-      "changePct": 7.53,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-19T19:51:04.000Z",
-      "headlines": [
-        {
-          "title": "PCG Passed Our Value-Trap Test. Now What?",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/ff4fbaf5-27b4-3016-bfdf-6af7772207ad/pcg-passed-our-value-trap.html",
-          "publishedAt": "2026-08-14T21:46:30.000Z"
-        },
-        {
-          "title": "Utilities' Phony \"Wildfire Victims First\" Coalition Trots Out Utility-Paid Spokespeople to Push Wildfire Bailout, Says Consumer Watchdog",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/energy/articles/utilities-phony-wildfire-victims-first-204700114.html",
-          "publishedAt": "2026-08-14T20:47:00.000Z"
-        },
-        {
-          "title": "Senate Energy Chair Calls Out Utility CEOs Over Bailout Blackmail Threats; Local Governments, Insurers, Fire Survivors & Consumer Groups Rally Against Bailout, Says Consumer Watchdog",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/energy/articles/senate-energy-chair-calls-utility-173400551.html",
-          "publishedAt": "2026-08-12T17:34:00.000Z"
-        },
-        {
-          "title": "Leap Opens New Grid Revenue Opportunity for California Batteries",
-          "publisher": "Business Wire",
-          "url": "https://finance.yahoo.com/energy/articles/leap-opens-grid-revenue-opportunity-130300356.html",
-          "publishedAt": "2026-08-12T13:03:00.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 24.57,
+      "price": 24.62,
       "previousClose": 22.89,
-      "changePct": 7.34,
+      "changePct": 7.56,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-19T19:51:02.000Z",
+      "asOf": "2026-08-19T20:00:02.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
@@ -365,50 +329,50 @@
       ]
     },
     {
-      "ticker": "SABS",
-      "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.79,
-      "previousClose": 3.55,
-      "changePct": 6.62,
+      "ticker": "PCG",
+      "name": "PG&E Corporation",
+      "price": 17.65,
+      "previousClose": 16.41,
+      "changePct": 7.56,
       "currency": "USD",
-      "exchange": "NasdaqCM",
-      "asOf": "2026-08-19T19:50:57.000Z",
+      "exchange": "NYSE",
+      "asOf": "2026-08-19T20:00:02.000Z",
       "headlines": [
         {
-          "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
-          "publisher": "MarketBeat",
-          "url": "https://finance.yahoo.com/m/3c1df30f-9934-393a-a2cc-bd15cbc1b11b/sab-biotherapeutics-q2.html",
-          "publishedAt": "2026-08-07T12:03:53.000Z"
+          "title": "PCG Passed Our Value-Trap Test. Now What?",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/ff4fbaf5-27b4-3016-bfdf-6af7772207ad/pcg-passed-our-value-trap.html",
+          "publishedAt": "2026-08-14T21:46:30.000Z"
         },
         {
-          "title": "SAB Biotherapeutics Inc (SABS) (Q2 2026) Earnings Call Highlights: Advancing SAB142 with Strong ...",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/healthcare/articles/sab-biotherapeutics-inc-sabs-q2-231421977.html",
-          "publishedAt": "2026-08-06T23:14:21.000Z"
+          "title": "Utilities' Phony \"Wildfire Victims First\" Coalition Trots Out Utility-Paid Spokespeople to Push Wildfire Bailout, Says Consumer Watchdog",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/energy/articles/utilities-phony-wildfire-victims-first-204700114.html",
+          "publishedAt": "2026-08-14T20:47:00.000Z"
         },
         {
-          "title": "SAB BIO Reports Q2 2026 Financial Results and Provides Business Highlights",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/healthcare/articles/sab-bio-reports-q2-2026-113000535.html",
-          "publishedAt": "2026-08-06T11:30:00.000Z"
+          "title": "Senate Energy Chair Calls Out Utility CEOs Over Bailout Blackmail Threats; Local Governments, Insurers, Fire Survivors & Consumer Groups Rally Against Bailout, Says Consumer Watchdog",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/energy/articles/senate-energy-chair-calls-utility-173400551.html",
+          "publishedAt": "2026-08-12T17:34:00.000Z"
         },
         {
-          "title": "SAB BIO to Host Second Quarter 2026 Financial Results Conference Call and Webcast on August 6, 2026, 08:30 AM ET",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/healthcare/articles/sab-bio-host-second-quarter-123000403.html",
-          "publishedAt": "2026-07-30T12:30:00.000Z"
+          "title": "Leap Opens New Grid Revenue Opportunity for California Batteries",
+          "publisher": "Business Wire",
+          "url": "https://finance.yahoo.com/energy/articles/leap-opens-grid-revenue-opportunity-130300356.html",
+          "publishedAt": "2026-08-12T13:03:00.000Z"
         }
       ]
     },
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 236.19,
+      "price": 237.16,
       "previousClose": 222.33,
-      "changePct": 6.23,
+      "changePct": 6.67,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-19T19:50:53.000Z",
+      "asOf": "2026-08-19T20:00:02.000Z",
       "headlines": [
         {
           "title": "Oracle Price Prediction: Can Its $638 Billion Backlog Send The Stock Back Toward $250?",
@@ -437,15 +401,57 @@
       ]
     },
     {
+      "ticker": "SABS",
+      "name": "SAB Biotherapeutics, Inc.",
+      "price": 3.78,
+      "previousClose": 3.55,
+      "changePct": 6.48,
+      "currency": "USD",
+      "exchange": "NasdaqCM",
+      "asOf": "2026-08-19T20:00:01.000Z",
+      "headlines": [
+        {
+          "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
+          "publisher": "MarketBeat",
+          "url": "https://finance.yahoo.com/m/3c1df30f-9934-393a-a2cc-bd15cbc1b11b/sab-biotherapeutics-q2.html",
+          "publishedAt": "2026-08-07T12:03:53.000Z"
+        },
+        {
+          "title": "SAB Biotherapeutics Inc (SABS) (Q2 2026) Earnings Call Highlights: Advancing SAB142 with Strong ...",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/healthcare/articles/sab-biotherapeutics-inc-sabs-q2-231421977.html",
+          "publishedAt": "2026-08-06T23:14:21.000Z"
+        },
+        {
+          "title": "SAB BIO Reports Q2 2026 Financial Results and Provides Business Highlights",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/healthcare/articles/sab-bio-reports-q2-2026-113000535.html",
+          "publishedAt": "2026-08-06T11:30:00.000Z"
+        },
+        {
+          "title": "SAB BIO to Host Second Quarter 2026 Financial Results Conference Call and Webcast on August 6, 2026, 08:30 AM ET",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/healthcare/articles/sab-bio-host-second-quarter-123000403.html",
+          "publishedAt": "2026-07-30T12:30:00.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 412.76,
+      "price": 412.09,
       "previousClose": 392.61,
-      "changePct": 5.13,
+      "changePct": 4.96,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-19T19:51:02.000Z",
+      "asOf": "2026-08-19T20:00:02.000Z",
       "headlines": [
+        {
+          "title": "SoundHound AI vs. Taiwan Semiconductor Manufacturing: Which Technology Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/f4fcb404-76f3-3810-b2a2-235c9bff093b/soundhound-ai-vs.-taiwan.html",
+          "publishedAt": "2026-08-19T19:51:17.000Z"
+        },
         {
           "title": "Samsung Sinks 7.8% Even as AI Chip Prices Jump 15%",
           "publisher": "GuruFocus.com",
@@ -463,24 +469,18 @@
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-turn-advanced-packaging-edge-153000692.html",
           "publishedAt": "2026-08-19T15:30:00.000Z"
-        },
-        {
-          "title": "Veteran fund manager rethinks Intel stock target",
-          "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/m/6ec7f95a-223a-3412-aefd-e3d2a3269bed/veteran-fund-manager-rethinks.html",
-          "publishedAt": "2026-08-19T15:07:00.000Z"
         }
       ]
     },
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 47.93,
+      "price": 48.19,
       "previousClose": 49.69,
-      "changePct": -3.54,
+      "changePct": -3.02,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-19T19:51:03.000Z",
+      "asOf": "2026-08-19T20:00:03.000Z",
       "headlines": [
         {
           "title": "Capital One Securities Adjusts Devon Energy Price Target to $62 From $60",
@@ -511,12 +511,12 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 265.88,
+      "price": 265.84,
       "previousClose": 259.34,
-      "changePct": 2.52,
+      "changePct": 2.51,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-19T19:51:02.000Z",
+      "asOf": "2026-08-19T20:00:01.000Z",
       "headlines": [
         {
           "title": "Prediction: This Will Be Amazon's Stock Price by the End of 2026",
@@ -547,36 +547,36 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 217.91,
+      "price": 217.56,
       "previousClose": 220.61,
-      "changePct": -1.22,
+      "changePct": -1.38,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-19T19:51:02.000Z",
+      "asOf": "2026-08-19T20:00:00.000Z",
       "headlines": [
         {
-          "title": "Cramer Warns Fintech Bulls: These Three Stocks Are Priced for Perfection",
+          "title": "Why Is Circle Internet Group Stock Up Today?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/c02a8eaf-c863-3757-b476-3680f390f57a/why-is-circle-internet-group.html",
+          "publishedAt": "2026-08-19T19:59:38.000Z"
+        },
+        {
+          "title": "Robinhood CEO: Tokenization Will Enable 24/7 Trading and “Take Over the Entire Financial System”",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/8cc84857-968a-334e-8fbf-6eac391119c1/cramer-warns-fintech-bulls%3A.html",
-          "publishedAt": "2026-08-19T19:45:11.000Z"
+          "url": "https://finance.yahoo.com/m/82981e53-88c1-3657-886d-7ac5ff5030f5/robinhood-ceo%3A-tokenization.html",
+          "publishedAt": "2026-08-19T19:51:40.000Z"
         },
         {
-          "title": "This Billionaire Tech Investor Is Betting Big on SpaceX and Chip Stocks",
+          "title": "Bloom Energy's New Product Just Made Its Biggest AI Advantage Even Stronger. Here's What Investors Need to Know.",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/24e3ca01-7b4a-3123-9ab3-231ed45fd00a/this-billionaire-tech.html",
-          "publishedAt": "2026-08-19T19:41:00.000Z"
+          "url": "https://finance.yahoo.com/m/70686368-12f2-3646-ac69-b8d4a47310a6/bloom-energy%27s-new-product.html",
+          "publishedAt": "2026-08-19T19:50:01.000Z"
         },
         {
-          "title": "Why Estée Lauder Stock Jumped Today",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/544fe569-9ddb-3b57-9039-3bfb5734d6d7/why-est%C3%A9e-lauder-stock-jumped.html",
-          "publishedAt": "2026-08-19T19:35:26.000Z"
-        },
-        {
-          "title": "Target Quarterly Profit Doubles to $1.88 Billion. Is the Turnaround Finally Taking Hold?",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/6ab78cf2-ab56-39df-bac6-3ead612c37f6/target-quarterly-profit.html",
-          "publishedAt": "2026-08-19T19:33:00.000Z"
+          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-194639070.html",
+          "publishedAt": "2026-08-19T19:46:39.000Z"
         }
       ]
     }
