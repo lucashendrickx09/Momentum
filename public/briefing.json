@@ -1,54 +1,18 @@
 {
-  "generatedAt": "2026-08-20T15:06:14.116Z",
+  "generatedAt": "2026-08-20T16:00:31.042Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
   "items": [
     {
-      "ticker": "MSTR",
-      "name": "Strategy Inc",
-      "price": 110.25,
-      "previousClose": 165.81,
-      "changePct": -33.51,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-20T15:06:10.000Z",
-      "headlines": [
-        {
-          "title": "Bitcoin Price Spikes Above $72,000 On Treasury-Fueled Short Squeeze",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/5915bc4a-ec47-3154-acbf-c7e15cbe648c/bitcoin-price-spikes-above.html",
-          "publishedAt": "2026-08-20T14:35:01.000Z"
-        },
-        {
-          "title": "Moderna, Walmart, Coinbase, Deere, SpaceX, Tesla, Alibaba, and More Stocks That Explain Today’s Market",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/2afb55d0-dbec-34e7-9348-293f9f18fb4a/moderna%2C-walmart%2C-coinbase%2C.html",
-          "publishedAt": "2026-08-20T14:28:00.000Z"
-        },
-        {
-          "title": "What’s Driving the Markets Today?",
-          "publisher": "The Wall Street Journal",
-          "url": "https://finance.yahoo.com/m/a8e539a6-a693-378d-a0a1-8424d90540f9/what%E2%80%99s-driving-the-markets.html",
-          "publishedAt": "2026-08-20T14:13:05.000Z"
-        },
-        {
-          "title": "Coinbase, Robinhood, Strategy Jump—and They’re Set for More Crypto Gains",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/9972cbaf-f93a-3c8e-9185-0584368d6bfa/coinbase%2C-robinhood%2C-strategy.html",
-          "publishedAt": "2026-08-20T13:55:00.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 3.08,
+      "price": 3.14,
       "previousClose": 2.35,
-      "changePct": 30.85,
+      "changePct": 33.62,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-20T15:06:07.000Z",
+      "asOf": "2026-08-20T15:59:56.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -77,14 +41,50 @@
       ]
     },
     {
-      "ticker": "APLD",
-      "name": "Applied Digital Corporation",
-      "price": 28.48,
-      "previousClose": 39.52,
-      "changePct": -27.94,
+      "ticker": "MSTR",
+      "name": "Strategy Inc",
+      "price": 112.7,
+      "previousClose": 165.81,
+      "changePct": -32.03,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-20T15:06:12.000Z",
+      "asOf": "2026-08-20T16:00:27.000Z",
+      "headlines": [
+        {
+          "title": "Strategy Owns 4% of All Bitcoin but MSTR Shareholders Face $22B in Senior Claims",
+          "publisher": "CCN",
+          "url": "https://finance.yahoo.com/m/38b87d2a-b5d0-3356-90b1-9a27f7dd5146/strategy-owns-4%25-of-all.html",
+          "publishedAt": "2026-08-20T15:04:33.000Z"
+        },
+        {
+          "title": "Bitcoin Price Spikes Above $72,000 On Treasury-Fueled Short Squeeze",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/5915bc4a-ec47-3154-acbf-c7e15cbe648c/bitcoin-price-spikes-above.html",
+          "publishedAt": "2026-08-20T14:35:01.000Z"
+        },
+        {
+          "title": "Moderna, Walmart, Coinbase, Deere, SpaceX, Tesla, Alibaba, and More Stocks That Explain Today’s Market",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/2afb55d0-dbec-34e7-9348-293f9f18fb4a/moderna%2C-walmart%2C-coinbase%2C.html",
+          "publishedAt": "2026-08-20T14:28:00.000Z"
+        },
+        {
+          "title": "What’s Driving the Markets Today?",
+          "publisher": "The Wall Street Journal",
+          "url": "https://finance.yahoo.com/m/a8e539a6-a693-378d-a0a1-8424d90540f9/what%E2%80%99s-driving-the-markets.html",
+          "publishedAt": "2026-08-20T14:13:05.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital Corporation",
+      "price": 28.07,
+      "previousClose": 39.52,
+      "changePct": -28.97,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-20T16:00:28.000Z",
       "headlines": [
         {
           "title": "Cipher Digital Stock Is Valued On Revenue It Is Shutting Down",
@@ -115,13 +115,19 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 174.77,
+      "price": 174.59,
       "previousClose": 137.15,
-      "changePct": 27.43,
+      "changePct": 27.3,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-20T15:06:10.000Z",
+      "asOf": "2026-08-20T16:00:27.000Z",
       "headlines": [
+        {
+          "title": "Palantir Is Growing Faster Than Almost Anyone Expected. Can the Stock Keep Up?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/b155fc50-8773-366c-8137-9a560a255e98/palantir-is-growing-faster.html",
+          "publishedAt": "2026-08-20T15:00:29.000Z"
+        },
         {
           "title": "Knox Systems Appoints former Palantir and Onebrief Executive Melissa Glauber Vice President of Marketing and Communications",
           "publisher": "PR Newswire",
@@ -139,24 +145,18 @@
           "publisher": "PR Newswire",
           "url": "https://finance.yahoo.com/economy/policy/articles/american-industrial-alliance-exiger-kick-110500359.html",
           "publishedAt": "2026-08-20T11:05:00.000Z"
-        },
-        {
-          "title": "Prediction: This Will Be Palantir's Stock Price at the End of 2026",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/7bafa479-cf96-3dc4-b8ba-c47497bb8afc/prediction%3A-this-will-be.html",
-          "publishedAt": "2026-08-20T10:40:00.000Z"
         }
       ]
     },
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 3.79,
+      "price": 3.88,
       "previousClose": 5.1,
-      "changePct": -25.69,
+      "changePct": -23.92,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-20T15:06:09.000Z",
+      "asOf": "2026-08-20T16:00:18.000Z",
       "headlines": [
         {
           "title": "NOAA Publishes TMC USA’s Consolidated Application for an Exploration License and Commercial Recovery Permit for TMC USA-A in the Federal Register",
@@ -187,12 +187,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 217.11,
+      "price": 216.95,
       "previousClose": 179.89,
-      "changePct": 20.69,
+      "changePct": 20.6,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-20T15:05:51.000Z",
+      "asOf": "2026-08-20T16:00:25.000Z",
       "headlines": [
         {
           "title": "Apiphani Achieves SAP® PartnerEdge® Sell and Build Authorizations, Offering Buy-Build-Run Model to Customers",
@@ -223,12 +223,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 279,
+      "price": 279.04,
       "previousClose": 243.66,
-      "changePct": 14.5,
+      "changePct": 14.52,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-20T15:06:02.000Z",
+      "asOf": "2026-08-20T15:59:54.000Z",
       "headlines": [
         {
           "title": "Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets.",
@@ -259,13 +259,19 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 480.6,
+      "price": 480.61,
       "previousClose": 421.06,
       "changePct": 14.14,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-20T15:06:09.000Z",
+      "asOf": "2026-08-20T16:00:25.000Z",
       "headlines": [
+        {
+          "title": "Top Midday Stories: Treasury Yields Back on the Rise; Walmart Shares Fall After Full-Year EPS Guidance Undershoots Estimates",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-treasury-yields-153556130.html",
+          "publishedAt": "2026-08-20T15:35:56.000Z"
+        },
         {
           "title": "North Launches North v3 to Help Companies Manage and Optimize Cloud, AI, and Data Spend in One Platform",
           "publisher": "PR Newswire",
@@ -279,28 +285,22 @@
           "publishedAt": "2026-08-20T14:48:06.000Z"
         },
         {
-          "title": "Meta Quietly Becomes One of Microsoft's Biggest AI Customers",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/meta-quietly-becomes-one-microsofts-141742063.html",
-          "publishedAt": "2026-08-20T14:17:42.000Z"
-        },
-        {
-          "title": "Prediction: Apple Is Entering Its Most Important Product Cycle in Years",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/5c730e6f-8d7d-32c5-b13b-fbb8d5cc8761/prediction%3A-apple-is-entering.html",
-          "publishedAt": "2026-08-20T14:00:07.000Z"
+          "title": "Beyond Chipmakers: 4 Stocks to Buy That Power AI Data Center Expansion",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/beyond-chipmakers-4-stocks-buy-144300979.html",
+          "publishedAt": "2026-08-20T14:43:00.000Z"
         }
       ]
     },
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 18.22,
+      "price": 18.3,
       "previousClose": 16.31,
-      "changePct": 11.68,
+      "changePct": 12.2,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-20T15:06:12.000Z",
+      "asOf": "2026-08-20T16:00:26.000Z",
       "headlines": [
         {
           "title": "PCG Passed Our Value-Trap Test. Now What?",
@@ -333,10 +333,10 @@
       "name": "Weyerhaeuser Company",
       "price": 24.81,
       "previousClose": 23.24,
-      "changePct": 6.76,
+      "changePct": 6.73,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-20T15:06:06.000Z",
+      "asOf": "2026-08-20T16:00:23.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
@@ -367,19 +367,13 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 236.51,
+      "price": 237.1,
       "previousClose": 225,
-      "changePct": 5.11,
+      "changePct": 5.38,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-20T15:06:11.000Z",
+      "asOf": "2026-08-20T16:00:26.000Z",
       "headlines": [
-        {
-          "title": "Circle Internet Group Targets Trillions in USDC Growth as Arc Mainnet Nears",
-          "publisher": "MarketBeat",
-          "url": "https://finance.yahoo.com/m/09eac1f3-c1be-3737-9ae3-2a03d92fb11e/circle-internet-group-targets.html",
-          "publishedAt": "2026-08-20T14:03:00.000Z"
-        },
         {
           "title": "CEPR and Cohesive Receive Maximo Award for Power Plant Health and Safety Excellence",
           "publisher": "Business Wire",
@@ -393,6 +387,12 @@
           "publishedAt": "2026-08-20T13:02:00.000Z"
         },
         {
+          "title": "IBM vs. Accenture: One Trades at a 52-Week Low. The Better Dividend Stock May Surprise You.",
+          "publisher": "Barchart",
+          "url": "https://finance.yahoo.com/m/9ddf5a08-af09-3abb-b5ab-e933dfe6ab68/ibm-vs.-accenture%3A-one-trades.html",
+          "publishedAt": "2026-08-20T09:28:21.000Z"
+        },
+        {
           "title": "Software Companies' Second-Quarter Beat Rate Accelerates Sequentially, RBC Says",
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/technology/articles/software-companies-apos-second-quarter-203412309.html",
@@ -401,14 +401,50 @@
       ]
     },
     {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 216.27,
+      "previousClose": 223.47,
+      "changePct": -3.22,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-20T16:00:28.000Z",
+      "headlines": [
+        {
+          "title": "Is It Really Smart to Buy Stocks Right Now? Here's Warren Buffett's Best Advice.",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/7af30f62-9c50-31dc-b6b3-806333859b77/is-it-really-smart-to-buy.html",
+          "publishedAt": "2026-08-20T15:50:00.000Z"
+        },
+        {
+          "title": "Ondas Drops 7%, Unusual Machines Sinks 8%, Kratos Falls 5% as the Drone Trade Unwinds",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/829a159c-078f-3011-bbd7-ecb861da6e20/ondas-drops-7%25%2C-unusual.html",
+          "publishedAt": "2026-08-20T15:42:19.000Z"
+        },
+        {
+          "title": "VYM Is Beating the S&P 500 With a 17% Year-to-Date Return by Owning What Wall Street Won’t",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/f9998266-34ee-3d1b-8b72-db29a59fa7b6/vym-is-beating-the-s%26p-500.html",
+          "publishedAt": "2026-08-20T15:40:27.000Z"
+        },
+        {
+          "title": "Why ScanSource Stock Is Soaring Today",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/9d56aece-5d97-3e7b-b8fa-9453957f3999/why-scansource-stock-is.html",
+          "publishedAt": "2026-08-20T15:40:23.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 415.94,
+      "price": 414.11,
       "previousClose": 401.62,
-      "changePct": 3.57,
+      "changePct": 3.11,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-20T15:06:08.000Z",
+      "asOf": "2026-08-20T16:00:25.000Z",
       "headlines": [
         {
           "title": "Alphabet’s Waymo Has Built a Custom Chip for Its Robotaxis",
@@ -437,50 +473,14 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 217.6,
-      "previousClose": 223.47,
-      "changePct": -2.63,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-20T15:06:10.000Z",
-      "headlines": [
-        {
-          "title": "This Billionaire Was Recently Loading Up on \"Magnificent Seven\" Stocks",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/7c626893-b012-349d-b5e5-9bbaa9b1f84a/this-billionaire-was-recently.html",
-          "publishedAt": "2026-08-20T15:03:00.000Z"
-        },
-        {
-          "title": "CrowdStrike’s Fal.Con 2026 Unites Cybersecurity’s Ecosystem to Secure the AI Revolution",
-          "publisher": "Business Wire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/crowdstrike-fal-con-2026-unites-150000651.html",
-          "publishedAt": "2026-08-20T15:00:00.000Z"
-        },
-        {
-          "title": "The Dividend Yield on Barrick Mining Just Crossed 2%. Here's Why It's Sustainable.",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/c19423a7-729a-3f96-8fd7-43639d181125/the-dividend-yield-on-barrick.html",
-          "publishedAt": "2026-08-20T14:43:00.000Z"
-        },
-        {
-          "title": "Why Bristol Myers, Johnson & Johnson and More Are Watching Seaport After IPO",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/8dc11b03-b6cd-3706-9098-1f719bec0d69/why-bristol-myers%2C-johnson-%26.html",
-          "publishedAt": "2026-08-20T14:40:31.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 49.57,
+      "price": 49.4,
       "previousClose": 48.46,
-      "changePct": 2.28,
+      "changePct": 1.94,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-20T15:06:12.000Z",
+      "asOf": "2026-08-20T16:00:13.000Z",
       "headlines": [
         {
           "title": "MGY's $4.06B WildFire Deal Could Reshape Its Growth and Risk Profile",
@@ -511,36 +511,36 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 260.94,
+      "price": 260.97,
       "previousClose": 265.01,
-      "changePct": -1.54,
+      "changePct": -1.52,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-20T15:06:10.000Z",
+      "asOf": "2026-08-20T16:00:26.000Z",
       "headlines": [
         {
-          "title": "Meta Falls Far Behind Amazon, Alphabet, and Microsoft In AI",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/619a15bb-d67c-32ba-8e56-597d46fcdec0/meta-falls-far-behind-amazon%2C.html",
-          "publishedAt": "2026-08-20T14:48:06.000Z"
-        },
-        {
-          "title": "Warning: The Buffett Portfolio Your OMAH ETF Copies Is Disappearing One 13F at a Time",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/21b0a99f-47e5-3963-b9eb-314a6b8fc0d7/warning%3A-the-buffett.html",
-          "publishedAt": "2026-08-20T14:35:22.000Z"
-        },
-        {
-          "title": "Amazon Drones Move To 500 Cities. It May Not Work",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/17a6bab8-0525-3347-8f90-b8fc948259a6/amazon-drones-move-to-500.html",
-          "publishedAt": "2026-08-20T14:34:35.000Z"
-        },
-        {
-          "title": "Market Chatter: Anthropic Joint Venture Buys AI Consultant Casper Studios",
+          "title": "Marvell Technology Likely to Post Slight Q2 Beat, RBC Says",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-anthropic-joint-venture-140906182.html",
-          "publishedAt": "2026-08-20T14:09:06.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-likely-post-slight-154109039.html",
+          "publishedAt": "2026-08-20T15:41:09.000Z"
+        },
+        {
+          "title": "What are paper gains & how can they inflate company earnings?",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/fc0a6f8d-abcf-371d-8776-1c9a11da097f/what-are-paper-gains-%26-how.html",
+          "publishedAt": "2026-08-20T15:33:00.000Z"
+        },
+        {
+          "title": "Dow Giant Walmart Sinks To A 2026 Low Despite Earnings Beat-And-Raise",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/4636436b-031c-3a60-8074-bdf83b8f6b03/dow-giant-walmart-sinks-to-a.html",
+          "publishedAt": "2026-08-20T15:26:47.000Z"
+        },
+        {
+          "title": "This Billionaire Was Recently Loading Up on \"Magnificent Seven\" Stocks",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/7c626893-b012-349d-b5e5-9bbaa9b1f84a/this-billionaire-was-recently.html",
+          "publishedAt": "2026-08-20T15:03:00.000Z"
         }
       ]
     },
@@ -549,10 +549,10 @@
       "name": "SAB Biotherapeutics, Inc.",
       "price": 3.69,
       "previousClose": 3.68,
-      "changePct": 0.14,
+      "changePct": 0.27,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-20T15:00:29.000Z",
+      "asOf": "2026-08-20T15:47:13.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
