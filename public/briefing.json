@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T19:49:00.313Z",
+  "generatedAt": "2026-08-21T20:14:35.031Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 27.15,
+      "price": 27.21,
       "previousClose": 48.02,
-      "changePct": -43.47,
+      "changePct": -43.34,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-21T19:48:56.000Z",
+      "asOf": "2026-08-21T20:00:01.000Z",
       "headlines": [
         {
           "title": "IREN Heads Into FY2026 Results: Can Growth Momentum Continue?",
@@ -43,12 +43,12 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 179.81,
+      "price": 179.94,
       "previousClose": 137.42,
-      "changePct": 30.85,
+      "changePct": 30.95,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-21T19:48:57.000Z",
+      "asOf": "2026-08-21T20:00:01.000Z",
       "headlines": [
         {
           "title": "Stock Market Today: Dow Gains 550 Points; Palantir Rises, Bitcoin Rallies (Live Coverage)",
@@ -79,13 +79,25 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 119.21,
+      "price": 119.25,
       "previousClose": 164.85,
-      "changePct": -27.69,
+      "changePct": -27.66,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-21T19:48:54.000Z",
+      "asOf": "2026-08-21T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Stock Market Today: Dow Gains 550 Points; Palantir Rises, Bitcoin Rallies (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/ab896025-9eb7-3478-b19c-7560fd065b92/stock-market-today%3A-dow-gains.html",
+          "publishedAt": "2026-08-21T19:40:32.000Z"
+        },
+        {
+          "title": "Tom Lee Ranks 17 Crypto Stocks: Is Your Bitcoin Bet Still Worthy?",
+          "publisher": "BeInCrypto",
+          "url": "https://finance.yahoo.com/m/76f4cc3e-30c8-3147-b3d7-d99d203ba830/tom-lee-ranks-17-crypto.html",
+          "publishedAt": "2026-08-21T19:33:51.000Z"
+        },
         {
           "title": "MicroCloud Hologram Adds $15.76M Strategy Stake, Shares Rise 5%",
           "publisher": "CryptoProwl",
@@ -97,30 +109,18 @@
           "publisher": "Barrons.com",
           "url": "https://finance.yahoo.com/m/8441cc58-de4e-35b7-8284-d4ebc8ed02e5/moderna%2C-robinhood%2C-marvell%2C.html",
           "publishedAt": "2026-08-21T18:11:00.000Z"
-        },
-        {
-          "title": "Stock Market Today: Dow Leads; Bitcoin Helps Lift Robinhood; Copper Names Soar (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/ab896025-9eb7-3478-b19c-7560fd065b92/stock-market-today%3A-dow.html",
-          "publishedAt": "2026-08-21T17:49:59.000Z"
-        },
-        {
-          "title": "Strategy Swings From $13 Billion Bitcoin Loss to $1.4 Billion Profit as BTC Rallies",
-          "publisher": "decrypt",
-          "url": "https://finance.yahoo.com/m/6e6f12b8-8255-3c6c-bd2a-5bb8f29e8ea9/strategy-swings-from-%2413.html",
-          "publishedAt": "2026-08-21T17:28:55.000Z"
         }
       ]
     },
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 3.15,
+      "price": 3.16,
       "previousClose": 2.49,
-      "changePct": 26.51,
+      "changePct": 26.91,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-21T19:48:51.000Z",
+      "asOf": "2026-08-21T20:00:01.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -151,12 +151,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 218.69,
+      "price": 218.61,
       "previousClose": 176.28,
-      "changePct": 24.06,
+      "changePct": 24.01,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-21T19:48:57.000Z",
+      "asOf": "2026-08-21T19:59:59.000Z",
       "headlines": [
         {
           "title": "Can SAP Business Data Cloud Become Its Next Major Growth Engine?",
@@ -187,12 +187,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 278.38,
+      "price": 277.34,
       "previousClose": 240.45,
-      "changePct": 15.77,
+      "changePct": 15.34,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-21T19:48:57.000Z",
+      "asOf": "2026-08-21T20:00:00.000Z",
       "headlines": [
         {
           "title": "Cheniere Rallies 16.1% in 3 Months: Can the Stock Keep Climbing?",
@@ -223,13 +223,19 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 484.3,
+      "price": 483.24,
       "previousClose": 419.09,
-      "changePct": 15.56,
+      "changePct": 15.31,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-21T19:48:57.000Z",
+      "asOf": "2026-08-21T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Microsoft Rises as $678 Billion Backlog Defies Yield Pressure",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-rises-678-billion-backlog-200956172.html",
+          "publishedAt": "2026-08-21T20:09:56.000Z"
+        },
         {
           "title": "Marvell Quarterly Results Poised for Upside Led by AI, Customer Wins, Oppenheimer Says",
           "publisher": "MT Newswires",
@@ -247,24 +253,18 @@
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/m/5f80281e-b114-34ac-bb02-b515e4599ca0/is-microsoft-a-screaming-buy.html",
           "publishedAt": "2026-08-21T18:52:00.000Z"
-        },
-        {
-          "title": "Microsoft Stock Gets Cheaper Only If The Forecast Arrives",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/51981666-fad5-3560-834f-d1fef4721335/microsoft-stock-gets-cheaper.html",
-          "publishedAt": "2026-08-21T18:30:28.000Z"
         }
       ]
     },
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 4.85,
+      "price": 4.79,
       "previousClose": 5.26,
-      "changePct": -7.79,
+      "changePct": -8.94,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-21T19:48:56.000Z",
+      "asOf": "2026-08-21T20:00:01.000Z",
       "headlines": [
         {
           "title": "The Metals Royalty Company Announces Fully Allocated US$165 Million Financing to Fund Acquisition of Additional 1.0% Mesabi Royalty",
@@ -293,50 +293,14 @@
       ]
     },
     {
-      "ticker": "IBM",
-      "name": "International Business Machines Corporation",
-      "price": 235.87,
-      "previousClose": 252.97,
-      "changePct": -6.76,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-21T19:48:53.000Z",
-      "headlines": [
-        {
-          "title": "Even The Calm Reading On Palantir Puts Nearly Half The Position In Play",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/82f7675c-88f1-3e0b-94f6-34c78b397d98/even-the-calm-reading-on.html",
-          "publishedAt": "2026-08-21T17:27:17.000Z"
-        },
-        {
-          "title": "RGTI's Q2 Revenues Soared 185.3% but Losses Widened: What Comes Next?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/rgtis-q2-revenues-soared-185-155400980.html",
-          "publishedAt": "2026-08-21T15:54:00.000Z"
-        },
-        {
-          "title": "Why Is IBM (IBM) Up 13.1% Since Last Earnings Report?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-ibm-ibm-13-1-153005468.html",
-          "publishedAt": "2026-08-21T15:30:05.000Z"
-        },
-        {
-          "title": "Hyperscale Data Center Market Surges to $608.54 billion at a CAGR 24.6% by 2030 | Report by MarketsandMarkets™",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/articles/hyperscale-data-center-market-surges-141500721.html",
-          "publishedAt": "2026-08-21T14:15:00.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 17.5,
+      "price": 17.61,
       "previousClose": 16.44,
-      "changePct": 6.45,
+      "changePct": 7.09,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-21T19:48:57.000Z",
+      "asOf": "2026-08-21T19:59:59.000Z",
       "headlines": [
         {
           "title": "PG&E Stock Runs On A Legislative Calendar, Not The Market's",
@@ -365,14 +329,50 @@
       ]
     },
     {
-      "ticker": "DVN",
-      "name": "Devon Energy Corporation",
-      "price": 49.26,
-      "previousClose": 47.11,
-      "changePct": 4.56,
+      "ticker": "IBM",
+      "name": "International Business Machines Corporation",
+      "price": 235.62,
+      "previousClose": 252.97,
+      "changePct": -6.86,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-21T19:48:57.000Z",
+      "asOf": "2026-08-21T19:59:59.000Z",
+      "headlines": [
+        {
+          "title": "The Cheapest Part Of Dell's Compounding Machine Just Got Expensive",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/8aff9b52-d10f-39ad-8fee-f80e97eee60c/the-cheapest-part-of-dell%27s.html",
+          "publishedAt": "2026-08-21T19:48:12.000Z"
+        },
+        {
+          "title": "Even The Calm Reading On Palantir Puts Nearly Half The Position In Play",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/82f7675c-88f1-3e0b-94f6-34c78b397d98/even-the-calm-reading-on.html",
+          "publishedAt": "2026-08-21T17:27:17.000Z"
+        },
+        {
+          "title": "RGTI's Q2 Revenues Soared 185.3% but Losses Widened: What Comes Next?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rgtis-q2-revenues-soared-185-155400980.html",
+          "publishedAt": "2026-08-21T15:54:00.000Z"
+        },
+        {
+          "title": "Why Is IBM (IBM) Up 13.1% Since Last Earnings Report?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-ibm-ibm-13-1-153005468.html",
+          "publishedAt": "2026-08-21T15:30:05.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy Corporation",
+      "price": 49.1,
+      "previousClose": 47.11,
+      "changePct": 4.22,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-08-21T19:59:59.000Z",
       "headlines": [
         {
           "title": "MGY's $4.06B WildFire Deal Could Reshape Its Growth and Risk Profile",
@@ -403,12 +403,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 24.43,
+      "price": 24.45,
       "previousClose": 23.52,
-      "changePct": 3.87,
+      "changePct": 3.95,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-21T19:48:54.000Z",
+      "asOf": "2026-08-21T19:59:58.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
@@ -439,13 +439,19 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 259.8,
+      "price": 258.63,
       "previousClose": 268.46,
-      "changePct": -3.23,
+      "changePct": -3.66,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-21T19:48:57.000Z",
+      "asOf": "2026-08-21T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Nvidia earnings are on deck next week. These 3 themes will be mission-critical.",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/nvidia-earnings-deck-next-week-200251512.html",
+          "publishedAt": "2026-08-21T20:02:51.000Z"
+        },
         {
           "title": "Elon Musk: “Starlink Now Has 11k Satellites in Orbit.” Amazon Hasn’t Even Cracked 1,000.",
           "publisher": "24/7 Wall St.",
@@ -463,24 +469,18 @@
           "publisher": "Trefis",
           "url": "https://finance.yahoo.com/m/f3bcd58e-3dfa-3db0-9549-10336be8a6d5/take-two-stock%27s-next-leg.html",
           "publishedAt": "2026-08-21T18:55:27.000Z"
-        },
-        {
-          "title": "Microsoft Stock Gets Cheaper Only If The Forecast Arrives",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/51981666-fad5-3560-834f-d1fef4721335/microsoft-stock-gets-cheaper.html",
-          "publishedAt": "2026-08-21T18:30:28.000Z"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 419.07,
+      "price": 418.9,
       "previousClose": 407.15,
-      "changePct": 2.93,
+      "changePct": 2.89,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-21T19:48:55.000Z",
+      "asOf": "2026-08-21T19:59:58.000Z",
       "headlines": [
         {
           "title": "TSMC Rises Ahead of Nvidia's Critical AI Demand Test",
@@ -511,48 +511,48 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 215.35,
+      "price": 214.72,
       "previousClose": 219.51,
-      "changePct": -1.9,
+      "changePct": -2.18,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-21T19:48:57.000Z",
+      "asOf": "2026-08-21T20:00:00.000Z",
       "headlines": [
         {
-          "title": "Sector Update: Tech Stocks Rise Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-194245037.html",
-          "publishedAt": "2026-08-21T19:42:45.000Z"
-        },
-        {
-          "title": "Stock Market Today: Dow Gains 550 Points; Palantir Rises, Bitcoin Rallies (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/ab896025-9eb7-3478-b19c-7560fd065b92/stock-market-today%3A-dow-gains.html",
-          "publishedAt": "2026-08-21T19:40:32.000Z"
-        },
-        {
-          "title": "TSMC Rises Ahead of Nvidia's Critical AI Demand Test",
+          "title": "AMD Falls as Nvidia's Earnings Test Looms Over AI Chips",
           "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-rises-ahead-nvidias-critical-193930535.html",
-          "publishedAt": "2026-08-21T19:39:30.000Z"
+          "url": "https://finance.yahoo.com/technology/ai/articles/amd-falls-nvidias-earnings-test-200822269.html",
+          "publishedAt": "2026-08-21T20:08:22.000Z"
         },
         {
-          "title": "Elon Musk: “Starlink Now Has 11k Satellites in Orbit.” Amazon Hasn’t Even Cracked 1,000.",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/fb9d44bd-5fa0-3fbc-9c2e-6dd7732910f2/elon-musk%3A-%E2%80%9Cstarlink-now-has.html",
-          "publishedAt": "2026-08-21T19:30:12.000Z"
+          "title": "Nvidia Makes Another Bet on the AI Power Bottleneck",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-makes-another-bet-ai-200702046.html",
+          "publishedAt": "2026-08-21T20:07:02.000Z"
+        },
+        {
+          "title": "Nvidia Earnings Preview: What's Needed To Drive Nvidia Stock Higher?",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/ade756df-32ba-36a9-8053-3749750445f6/nvidia-earnings-preview%3A.html",
+          "publishedAt": "2026-08-21T20:05:02.000Z"
+        },
+        {
+          "title": "Nike Just Hit a 12-Year Low. Does History Say Now Is the Time to Buy?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/b2d072be-8003-3c5a-b5de-76295c0a0875/nike-just-hit-a-12-year-low..html",
+          "publishedAt": "2026-08-21T19:55:00.000Z"
         }
       ]
     },
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.79,
+      "price": 3.78,
       "previousClose": 3.81,
-      "changePct": -0.52,
+      "changePct": -0.79,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-21T19:48:41.000Z",
+      "asOf": "2026-08-21T20:00:00.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
