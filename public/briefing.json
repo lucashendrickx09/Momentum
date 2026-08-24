@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T19:10:26.900Z",
+  "generatedAt": "2026-08-24T19:56:17.953Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 26.91,
+      "price": 26.94,
       "previousClose": 45.87,
-      "changePct": -41.34,
+      "changePct": -41.27,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-24T19:10:18.000Z",
+      "asOf": "2026-08-24T19:56:16.000Z",
       "headlines": [
         {
           "title": "Can APLD's Power Advantage Strengthen Its AI Edge Over WULF & CRWV?",
@@ -43,12 +43,12 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 176.32,
+      "price": 176.35,
       "previousClose": 136.88,
-      "changePct": 28.81,
+      "changePct": 28.84,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-24T19:10:23.000Z",
+      "asOf": "2026-08-24T19:56:15.000Z",
       "headlines": [
         {
           "title": "EXCLUSIVE: How AI's $220 Billion Bond Boom Competes With the Treasury",
@@ -79,12 +79,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 218.92,
+      "price": 218.55,
       "previousClose": 175.95,
-      "changePct": 24.42,
+      "changePct": 24.21,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-24T19:10:13.000Z",
+      "asOf": "2026-08-24T19:56:10.000Z",
       "headlines": [
         {
           "title": "Salesforce Set to Report Q2 Earnings: Buy, Sell or Hold the Stock?",
@@ -115,12 +115,12 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 122.42,
+      "price": 122.56,
       "previousClose": 159.89,
-      "changePct": -23.43,
+      "changePct": -23.35,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-24T19:10:19.000Z",
+      "asOf": "2026-08-24T19:56:14.000Z",
       "headlines": [
         {
           "title": "Strategy Creates $1.6B Flexible Cash Pool",
@@ -151,12 +151,12 @@
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 3.06,
+      "price": 3.08,
       "previousClose": 2.51,
-      "changePct": 21.91,
+      "changePct": 22.51,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-24T19:09:57.000Z",
+      "asOf": "2026-08-24T19:56:03.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -187,13 +187,25 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 487.72,
+      "price": 488.05,
       "previousClose": 418.57,
-      "changePct": 16.52,
+      "changePct": 16.6,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-24T19:10:22.000Z",
+      "asOf": "2026-08-24T19:56:13.000Z",
       "headlines": [
+        {
+          "title": "Microsoft Rises as $678 Billion Backlog Defies Tech Selloff",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-rises-678-billion-backlog-195022521.html",
+          "publishedAt": "2026-08-24T19:50:22.000Z"
+        },
+        {
+          "title": "Nvidia Makes Aggressive Move Ahead of Earnings",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-makes-aggressive-move-ahead-191307970.html",
+          "publishedAt": "2026-08-24T19:13:07.000Z"
+        },
         {
           "title": "Forget CoreWeave — This Is the AI Stock You Should Instead Be Buying",
           "publisher": "24/7 Wall St.",
@@ -205,30 +217,18 @@
           "publisher": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/m/36902413-b67a-3742-8db2-54a283b20081/exxonmobil-vs.-chevron%3A-we.html",
           "publishedAt": "2026-08-24T17:30:23.000Z"
-        },
-        {
-          "title": "Dan Ives Has Message For Nvidia Stock Investors",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/dan-ives-message-nvidia-stock-171418980.html",
-          "publishedAt": "2026-08-24T17:14:18.000Z"
-        },
-        {
-          "title": "Adobe Rises 16% in a Month: Should You Buy, Sell or Hold the Stock?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/adobe-rises-16-month-buy-170300387.html",
-          "publishedAt": "2026-08-24T17:03:00.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 280.31,
+      "price": 280.41,
       "previousClose": 240.85,
-      "changePct": 16.38,
+      "changePct": 16.43,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-24T19:10:02.000Z",
+      "asOf": "2026-08-24T19:56:12.000Z",
       "headlines": [
         {
           "title": "Cheniere Energy to Deliver Cash Flow Growth as LNG Capacity Expands, RBC Says",
@@ -259,12 +259,12 @@
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 4.7,
+      "price": 4.75,
       "previousClose": 5.4,
-      "changePct": -12.96,
+      "changePct": -12.13,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-24T19:10:23.000Z",
+      "asOf": "2026-08-24T19:56:12.000Z",
       "headlines": [
         {
           "title": "TMC the metals (TMC) Narrows Quarterly Losses as a Pre‑Revenue Miner Is the Risk Profile Shifting?",
@@ -295,12 +295,12 @@
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 18.1,
+      "price": 18.09,
       "previousClose": 16.49,
-      "changePct": 9.76,
+      "changePct": 9.7,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-24T19:10:07.000Z",
+      "asOf": "2026-08-24T19:56:15.000Z",
       "headlines": [
         {
           "title": "More California EV Owners Can Now Power Their Homes, Save on Energy Costs, and Support the Grid Through PG&E's Expanded Vehicle-to-Everything Program",
@@ -331,12 +331,12 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 232.72,
+      "price": 231.46,
       "previousClose": 253.84,
-      "changePct": -8.32,
+      "changePct": -8.82,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-24T19:10:11.000Z",
+      "asOf": "2026-08-24T19:56:10.000Z",
       "headlines": [
         {
           "title": "Why Is QBTS Stock Dropping While Its Quantum Order Book Explodes?",
@@ -367,12 +367,12 @@
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.69,
+      "price": 3.63,
       "previousClose": 3.9,
-      "changePct": -5.38,
+      "changePct": -6.92,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-24T19:08:15.000Z",
+      "asOf": "2026-08-24T19:55:14.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
@@ -401,14 +401,50 @@
       ]
     },
     {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 208.48,
+      "previousClose": 215.33,
+      "changePct": -3.18,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-24T19:56:15.000Z",
+      "headlines": [
+        {
+          "title": "TSMC Slides 2.3% as AI-Chip Confidence Suddenly Cracks",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-slides-2-3-ai-194932749.html",
+          "publishedAt": "2026-08-24T19:49:32.000Z"
+        },
+        {
+          "title": "Coinbase Brings Tokenized Stocks to Ethereum L2 Base",
+          "publisher": "decrypt",
+          "url": "https://finance.yahoo.com/m/426d46a6-321b-3fb7-bf0b-00479860e576/coinbase-brings-tokenized.html",
+          "publishedAt": "2026-08-24T19:43:43.000Z"
+        },
+        {
+          "title": "Which Aerospace and Defense Stock Has Dominated in 2026: GE Aerospace, Boeing, or RTX?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/d90df9b4-f9c1-3cc8-b05c-d5fe7af89547/which-aerospace-and-defense.html",
+          "publishedAt": "2026-08-24T19:39:40.000Z"
+        },
+        {
+          "title": "Warren Buffett's Favorite 'Forever' Stock Hits A Buy Point After Big Rally",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/2c940ff6-3b52-3cd2-ad00-4ef38f45111f/warren-buffett%27s-favorite.html",
+          "publishedAt": "2026-08-24T19:39:38.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 24.43,
+      "price": 24.41,
       "previousClose": 23.66,
-      "changePct": 3.23,
+      "changePct": 3.15,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-24T19:10:22.000Z",
+      "asOf": "2026-08-24T19:56:14.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
@@ -437,50 +473,14 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 209.17,
-      "previousClose": 215.33,
-      "changePct": -2.86,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-24T19:10:23.000Z",
-      "headlines": [
-        {
-          "title": "Update: Market Chatter: Nvidia Manager Indicted by Taiwan After Chip-Smuggling Investigation",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-nvidia-manager-indicted-190250528.html",
-          "publishedAt": "2026-08-24T19:02:50.000Z"
-        },
-        {
-          "title": "Cerebras Systems (CBRS) Revenue Surges: Why Did CBRS Stock Crash, and What About AMD?",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-systems-cbrs-revenue-surges-185707172.html",
-          "publishedAt": "2026-08-24T18:57:07.000Z"
-        },
-        {
-          "title": "Here's What a $1,000 Bet on USA Rare Earth a Year Ago Looks Like Today",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/99703d15-328b-3585-b850-f24cbfcae858/here%27s-what-a-%241%2C000-bet-on.html",
-          "publishedAt": "2026-08-24T18:50:00.000Z"
-        },
-        {
-          "title": "Micron's Customers Are Putting Up $22 Billion, and Its CEO Says Data Centers Want 50% More Memory Than It Can Ship",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/3cd3a6db-6b67-377d-b9fd-edc34fb0817a/micron%27s-customers-are.html",
-          "publishedAt": "2026-08-24T18:37:01.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 48.12,
+      "price": 48.26,
       "previousClose": 47.22,
-      "changePct": 1.9,
+      "changePct": 2.19,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-24T19:10:25.000Z",
+      "asOf": "2026-08-24T19:56:14.000Z",
       "headlines": [
         {
           "title": "EOG Stock Is Up 14.8% in 3 Months: Can Its Strong Rally Keep Going?",
@@ -511,13 +511,25 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 261.92,
+      "price": 262.09,
       "previousClose": 266.32,
-      "changePct": -1.65,
+      "changePct": -1.59,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-24T19:10:17.000Z",
+      "asOf": "2026-08-24T19:56:14.000Z",
       "headlines": [
+        {
+          "title": "Amazon Jumps 1.8% as AWS Growth Overpowers Tech Anxiety",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-jumps-1-8-aws-194722757.html",
+          "publishedAt": "2026-08-24T19:47:22.000Z"
+        },
+        {
+          "title": "Stanley Druckenmiller and Cathie Wood agree on 2 tech giant stocks",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/15d12751-3f31-3776-9f36-bf7cecf62fab/stanley-druckenmiller-and.html",
+          "publishedAt": "2026-08-24T19:13:00.000Z"
+        },
         {
           "title": "Netflix May Be Ready to Do Something It Long Resisted",
           "publisher": "GuruFocus.com",
@@ -529,31 +541,25 @@
           "publisher": "GuruFocus.com",
           "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-hugging-face-could-182628890.html",
           "publishedAt": "2026-08-24T18:26:28.000Z"
-        },
-        {
-          "title": "Nvidia Reports Earnings on Aug. 26. Here Are 3 Other Artificial Intelligence (AI) Chip Stocks I'll Be Watching Instead.",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/ec7b69a5-a558-3f66-8afc-fe4379bbe91d/nvidia-reports-earnings-on.html",
-          "publishedAt": "2026-08-24T18:23:21.000Z"
-        },
-        {
-          "title": "IonQ vs. Quantum Computing Inc.: Which Quantum Computing Stock Is a Better Buy in 2026?",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/b3fcc886-a7f6-3b08-90e7-cd1a91eaa0ff/ionq-vs.-quantum-computing.html",
-          "publishedAt": "2026-08-24T18:20:25.000Z"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 410.55,
+      "price": 409.71,
       "previousClose": 404.52,
-      "changePct": 1.49,
+      "changePct": 1.28,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-24T19:10:12.000Z",
+      "asOf": "2026-08-24T19:56:13.000Z",
       "headlines": [
+        {
+          "title": "Xiaomi Takes Another Page From Apple",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/articles/xiaomi-takes-another-page-apple-191226312.html",
+          "publishedAt": "2026-08-24T19:12:26.000Z"
+        },
         {
           "title": "GF Securities Picks 3 AI Chip Winners: Marvell and Intel Stand Out",
           "publisher": "GuruFocus.com",
@@ -571,12 +577,6 @@
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-q2-earnings-ai-data-141300944.html",
           "publishedAt": "2026-08-24T14:13:00.000Z"
-        },
-        {
-          "title": "Could Taiwan Semiconductor Manufacturing Co. (TSM) Be the Biggest Long-Term Winner From the AI Chip Boom?",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/could-taiwan-semiconductor-manufacturing-co-134836039.html",
-          "publishedAt": "2026-08-24T13:48:36.000Z"
         }
       ]
     }
