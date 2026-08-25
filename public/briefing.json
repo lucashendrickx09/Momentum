@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T15:22:54.743Z",
+  "generatedAt": "2026-08-25T16:09:00.778Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,19 +7,13 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 28.29,
+      "price": 28.31,
       "previousClose": 45.87,
-      "changePct": -38.33,
+      "changePct": -38.29,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T15:22:54.000Z",
+      "asOf": "2026-08-25T16:08:56.000Z",
       "headlines": [
-        {
-          "title": "Crypto Mining Stocks Rally as Bitcoin Hovers Around $80K: MARA Jumps 7%, TeraWulf and IREN Climb 5%",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/33ca8af8-7fe1-370d-a89f-3738b1a99eeb/crypto-mining-stocks-rally-as.html",
-          "publishedAt": "2026-08-25T15:10:10.000Z"
-        },
         {
           "title": "3 Unprofitable Stocks We Approach with Caution",
           "publisher": "StockStory",
@@ -37,19 +31,31 @@
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/technology/ai/articles/aplds-power-advantage-strengthen-ai-143800584.html",
           "publishedAt": "2026-08-24T14:38:00.000Z"
+        },
+        {
+          "title": "Morgan Stanley expects powered-shell deal wave by October",
+          "publisher": "Blockspace",
+          "url": "https://finance.yahoo.com/m/d8a7c605-51f6-3d06-a2fe-27bdf3a5eead/morgan-stanley-expects.html",
+          "publishedAt": "2026-08-24T14:24:27.000Z"
         }
       ]
     },
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 174.18,
+      "price": 176.6,
       "previousClose": 136.88,
-      "changePct": 27.25,
+      "changePct": 29.02,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T15:22:50.000Z",
+      "asOf": "2026-08-25T16:08:57.000Z",
       "headlines": [
+        {
+          "title": "Palantir's Maven Is Now an Official Pentagon Program of Record. Here's What Guaranteed Budget Dollars Are Worth.",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/adcd8759-0899-3aad-9f2f-2712a68c5154/palantir%27s-maven-is-now-an.html",
+          "publishedAt": "2026-08-25T15:41:00.000Z"
+        },
         {
           "title": "New disclosure: Trump owns SpaceX, Disney shares — and is reaping profits from oil & gas stocks",
           "publisher": "Yahoo Finance Video",
@@ -67,24 +73,18 @@
           "publisher": "ACCESS Newswire",
           "url": "https://finance.yahoo.com/technology/articles/roadzen-rdzn-joins-elite-group-131000461.html",
           "publishedAt": "2026-08-25T13:10:00.000Z"
-        },
-        {
-          "title": "Gorilla Sinks 11% Despite Guiding 2027 Revenue Up to 29% Above Consensus, Evolv Technologies and Ambarella Tick Up",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/ae1bb4f4-503b-3312-8063-e3f63a956713/gorilla-sinks-11%25-despite.html",
-          "publishedAt": "2026-08-25T13:05:00.000Z"
         }
       ]
     },
     {
       "ticker": "ABOS",
       "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 3.16,
+      "price": 3.14,
       "previousClose": 2.51,
-      "changePct": 25.7,
+      "changePct": 24.9,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T15:22:31.000Z",
+      "asOf": "2026-08-25T16:08:16.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -115,12 +115,12 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 217.26,
+      "price": 216.52,
       "previousClose": 175.95,
-      "changePct": 23.48,
+      "changePct": 23.06,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T15:22:42.000Z",
+      "asOf": "2026-08-25T16:07:11.000Z",
       "headlines": [
         {
           "title": "SAP Executive to Participate in Upcoming Investor Event",
@@ -151,24 +151,18 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 126.49,
+      "price": 127.39,
       "previousClose": 159.89,
-      "changePct": -20.89,
+      "changePct": -20.33,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T15:22:47.000Z",
+      "asOf": "2026-08-25T16:08:56.000Z",
       "headlines": [
         {
           "title": "MSTR Stock Price Target Raised to $175 by Canaccord as Strategy Swings to Profit",
           "publisher": "CoinGape",
           "url": "https://finance.yahoo.com/m/e6752a73-72c9-3532-a1a1-245960a87bde/mstr-stock-price-target.html",
           "publishedAt": "2026-08-25T13:21:06.000Z"
-        },
-        {
-          "title": "Intel, AMD, Marvell, Dick’s Sporting Goods, and Other Stocks That Explain Today’s Market",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/bea25143-fa2d-34b7-8235-692e7b1ed68a/intel%2C-amd%2C-marvell%2C-dick%E2%80%99s.html",
-          "publishedAt": "2026-08-25T11:41:00.000Z"
         },
         {
           "title": "MSTR, COIN Stocks See Price Target Hikes Amid Bitcoin Rally To $80K – Goldman ‘Cautiously Optimistic’ On Coinbase",
@@ -181,19 +175,31 @@
           "publisher": "CCN",
           "url": "https://finance.yahoo.com/m/06512d57-19be-355e-888c-691f89337974/strategy-builds-%246.69b-cash.html",
           "publishedAt": "2026-08-25T10:33:49.000Z"
+        },
+        {
+          "title": "Social Buzz: Wallstreetbets Stocks Mostly Advancing Premarket Tuesday; Nebius Group, Sandisk to Advance",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mostly-102918921.html",
+          "publishedAt": "2026-08-25T10:29:18.000Z"
         }
       ]
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 489.46,
+      "price": 489.23,
       "previousClose": 418.57,
-      "changePct": 16.94,
+      "changePct": 16.88,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T15:22:50.000Z",
+      "asOf": "2026-08-25T16:08:55.000Z",
       "headlines": [
+        {
+          "title": "Chamath Palihapitiya Flags 3 AI Killers — Could Anthropic’s $2 Trillion IPO Dreams Crash First?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/75bab659-5312-33e7-9bd0-e4c41ebc70d2/chamath-palihapitiya-flags-3.html",
+          "publishedAt": "2026-08-25T15:42:29.000Z"
+        },
         {
           "title": "Crypto Mining Stocks Rally as Bitcoin Hovers Around $80K: MARA Jumps 7%, TeraWulf and IREN Climb 5%",
           "publisher": "24/7 Wall St.",
@@ -211,24 +217,18 @@
           "publisher": "GlobeNewswire",
           "url": "https://finance.yahoo.com/technology/ai/articles/ai-governance-market-surges-5-150000670.html",
           "publishedAt": "2026-08-25T15:00:00.000Z"
-        },
-        {
-          "title": "Asymmetry Is The Reason I Will Not Stop Buying Oracle",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/48f055a4-12df-3aea-abe5-9f894273cc4e/asymmetry-is-the-reason-i.html",
-          "publishedAt": "2026-08-25T14:55:29.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 280.1,
+      "price": 279.27,
       "previousClose": 240.85,
-      "changePct": 16.29,
+      "changePct": 15.95,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T15:22:52.000Z",
+      "asOf": "2026-08-25T16:08:53.000Z",
       "headlines": [
         {
           "title": "Cheniere Energy (LNG) Stock Looks Reasonable Following LNG Capacity Growth News",
@@ -257,14 +257,50 @@
       ]
     },
     {
+      "ticker": "PCG",
+      "name": "PG&E Corporation",
+      "price": 18.16,
+      "previousClose": 16.49,
+      "changePct": 10.1,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-08-25T16:08:52.000Z",
+      "headlines": [
+        {
+          "title": "Keeping Restaurants Cooking: Nearly 240 Restaurants Receive Resilience Grants Funded by The PG&E Corporation Foundation",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/small-business/articles/keeping-restaurants-cooking-nearly-240-160000027.html",
+          "publishedAt": "2026-08-25T16:00:00.000Z"
+        },
+        {
+          "title": "California homeowners offered up to $18,300 in incentives to increase their home's energy independence",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/energy/articles/california-homeowners-offered-18-300-120000428.html",
+          "publishedAt": "2026-08-25T12:00:00.000Z"
+        },
+        {
+          "title": "More California EV Owners Can Now Power Their Homes, Save on Energy Costs, and Support the Grid Through PG&E's Expanded Vehicle-to-Everything Program",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/energy/articles/more-california-ev-owners-now-130000820.html",
+          "publishedAt": "2026-08-24T13:00:00.000Z"
+        },
+        {
+          "title": "PG&E Stock Runs On A Legislative Calendar, Not The Market's",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/3b687209-154c-34c1-ac09-8da24b3f3d5e/pg%26e-stock-runs-on-a.html",
+          "publishedAt": "2026-08-21T19:01:12.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 4.85,
+      "price": 4.92,
       "previousClose": 5.4,
-      "changePct": -10.19,
+      "changePct": -8.91,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T15:22:45.000Z",
+      "asOf": "2026-08-25T16:08:55.000Z",
       "headlines": [
         {
           "title": "Is The Metals Company a Potential Millionaire-Maker Stock?",
@@ -293,51 +329,27 @@
       ]
     },
     {
-      "ticker": "PCG",
-      "name": "PG&E Corporation",
-      "price": 18.15,
-      "previousClose": 16.49,
-      "changePct": 10.07,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-08-25T15:22:52.000Z",
-      "headlines": [
-        {
-          "title": "California homeowners offered up to $18,300 in incentives to increase their home's energy independence",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/energy/articles/california-homeowners-offered-18-300-120000428.html",
-          "publishedAt": "2026-08-25T12:00:00.000Z"
-        },
-        {
-          "title": "More California EV Owners Can Now Power Their Homes, Save on Energy Costs, and Support the Grid Through PG&E's Expanded Vehicle-to-Everything Program",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/energy/articles/more-california-ev-owners-now-130000820.html",
-          "publishedAt": "2026-08-24T13:00:00.000Z"
-        },
-        {
-          "title": "PG&E Stock Runs On A Legislative Calendar, Not The Market's",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/3b687209-154c-34c1-ac09-8da24b3f3d5e/pg%26e-stock-runs-on-a.html",
-          "publishedAt": "2026-08-21T19:01:12.000Z"
-        },
-        {
-          "title": "Arevon Brings Nighthawk Energy Storage Project Online in California",
-          "publisher": "POWER Magazine",
-          "url": "https://finance.yahoo.com/m/43233b3b-b6e5-3f96-86d2-1405333f2fed/arevon-brings-nighthawk.html",
-          "publishedAt": "2026-08-21T18:40:34.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 233.08,
+      "price": 233.04,
       "previousClose": 253.84,
-      "changePct": -8.18,
+      "changePct": -8.19,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T15:22:41.000Z",
+      "asOf": "2026-08-25T16:08:55.000Z",
       "headlines": [
+        {
+          "title": "IBM takes another giant step in the AI race",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/d8ad43e5-2e3b-39db-8f1d-a62a6fddc297/ibm-takes-another-giant-step.html",
+          "publishedAt": "2026-08-25T15:17:00.000Z"
+        },
+        {
+          "title": "What Could IBM (IBM) Gain From Its First Dual Architecture Mainframe Processor?",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/articles/could-ibm-ibm-gain-first-150842052.html",
+          "publishedAt": "2026-08-25T15:08:42.000Z"
+        },
         {
           "title": "Can IBM's Advanced Processor Shape the Future of Enterprise Computing?",
           "publisher": "Zacks",
@@ -349,30 +361,18 @@
           "publisher": "Trefis",
           "url": "https://finance.yahoo.com/m/15716447-083f-360b-b284-9b49a54e395e/the-real-question-behind.html",
           "publishedAt": "2026-08-25T14:47:58.000Z"
-        },
-        {
-          "title": "Managed Security Services Market Surges to $66.83 billion at a CAGR 11.1% by 2030 | Report by MarketsandMarkets™",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/articles/managed-security-services-market-surges-141500326.html",
-          "publishedAt": "2026-08-25T14:15:00.000Z"
-        },
-        {
-          "title": "THE Mining Investment Event in Partnership with Noble Capital Markets Announces THE Noble Mining Investment Conference",
-          "publisher": "TMX Newsfile",
-          "url": "https://finance.yahoo.com/markets/commodities/articles/mining-investment-event-partnership-noble-140000938.html",
-          "publishedAt": "2026-08-25T14:00:00.000Z"
         }
       ]
     },
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.72,
+      "price": 3.75,
       "previousClose": 3.9,
-      "changePct": -4.62,
+      "changePct": -3.97,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-25T15:19:24.000Z",
+      "asOf": "2026-08-25T16:07:20.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
@@ -403,13 +403,19 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 415.49,
+      "price": 416.55,
       "previousClose": 404.52,
-      "changePct": 2.71,
+      "changePct": 2.97,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T15:22:51.000Z",
+      "asOf": "2026-08-25T16:08:47.000Z",
       "headlines": [
+        {
+          "title": "TSM Rides on AI, Advanced Nodes & Capacity Expansion: Worth a Buy?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/technology/ai/articles/tsm-rides-ai-advanced-nodes-155200557.html",
+          "publishedAt": "2026-08-25T15:52:00.000Z"
+        },
         {
           "title": "Top Investors Name 5 AI Stocks That Could Win No Matter Which Model Leads",
           "publisher": "24/7 Wall St.",
@@ -427,24 +433,18 @@
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/crms-q2-earnings-coming-rising-141500807.html",
           "publishedAt": "2026-08-25T14:15:00.000Z"
-        },
-        {
-          "title": "OpenAI’s Sam Altman Admits the AI Boom Is Running Late: “We’ve Not Had the iPhone Moment”",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/fbce6457-4d6d-3615-a6ed-8233ca488293/openai%E2%80%99s-sam-altman-admits.html",
-          "publishedAt": "2026-08-25T14:05:03.000Z"
         }
       ]
     },
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 24.26,
+      "price": 24.28,
       "previousClose": 23.66,
-      "changePct": 2.51,
+      "changePct": 2.63,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T15:22:44.000Z",
+      "asOf": "2026-08-25T16:08:52.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
@@ -473,51 +473,27 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 210.71,
-      "previousClose": 215.33,
-      "changePct": -2.15,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T15:22:52.000Z",
-      "headlines": [
-        {
-          "title": "Nuclear Stocks Rebound on an Oversold Bounce: Uranium Energy Jumps 6%, NuScale Power and Oklo Climb 5%",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/97f1bcad-ccae-39cd-9693-d18d7f0610e2/nuclear-stocks-rebound-on-an.html",
-          "publishedAt": "2026-08-25T15:14:18.000Z"
-        },
-        {
-          "title": "Crypto Mining Stocks Rally as Bitcoin Hovers Around $80K: MARA Jumps 7%, TeraWulf and IREN Climb 5%",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/33ca8af8-7fe1-370d-a89f-3738b1a99eeb/crypto-mining-stocks-rally-as.html",
-          "publishedAt": "2026-08-25T15:10:10.000Z"
-        },
-        {
-          "title": "Visa or Mastercard: One Stock Will Outpace the Other at Record Highs — Here’s Our Pick",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/4e1777ec-9783-3411-895b-0bc56666cdad/visa-or-mastercard%3A-one-stock.html",
-          "publishedAt": "2026-08-25T15:10:10.000Z"
-        },
-        {
-          "title": "Stock Market Today: Nasdaq Holds Support Amid Surprise Economic Data; Nvidia Reverses Higher (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/de79ffd0-f04e-3c28-992c-6801c26cfde3/stock-market-today%3A-nasdaq.html",
-          "publishedAt": "2026-08-25T15:06:59.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 260.67,
+      "price": 260.85,
       "previousClose": 266.32,
-      "changePct": -2.12,
+      "changePct": -2.05,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T15:22:51.000Z",
+      "asOf": "2026-08-25T16:08:55.000Z",
       "headlines": [
+        {
+          "title": "Charter Communications' Spectrum to Offer Amazon Prime Benefits to Eligible Internet Customers",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/charter-communications-apos-spectrum-offer-155623813.html",
+          "publishedAt": "2026-08-25T15:56:23.000Z"
+        },
+        {
+          "title": "Chamath Palihapitiya Flags 3 AI Killers — Could Anthropic’s $2 Trillion IPO Dreams Crash First?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/75bab659-5312-33e7-9bd0-e4c41ebc70d2/chamath-palihapitiya-flags-3.html",
+          "publishedAt": "2026-08-25T15:42:29.000Z"
+        },
         {
           "title": "New disclosure: Trump owns SpaceX, Disney shares — and is reaping profits from oil & gas stocks",
           "publisher": "Yahoo Finance Video",
@@ -529,30 +505,54 @@
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/m/7847be71-9223-3104-8f2c-c703fe29545d/billionaire-bill-ackman-has.html",
           "publishedAt": "2026-08-25T15:05:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 211.69,
+      "previousClose": 215.33,
+      "changePct": -1.69,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-08-25T16:08:57.000Z",
+      "headlines": [
+        {
+          "title": "If I Could Tell All Investors 1 Thing About Buying at Record Highs, It Would Be This",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/2d619c93-7463-3a6b-8f9d-7855a2ca86ae/if-i-could-tell-all-investors.html",
+          "publishedAt": "2026-08-25T16:05:00.000Z"
         },
         {
-          "title": "Asymmetry Is The Reason I Will Not Stop Buying Oracle",
+          "title": "Aptiv, Nvidia Collaborate on Jetson Orin Nano 2",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/aptiv-nvidia-collaborate-jetson-orin-160227292.html",
+          "publishedAt": "2026-08-25T16:02:27.000Z"
+        },
+        {
+          "title": "Johnson & Johnson Is Near a Record High. Is There Still Room to Run?",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/48f055a4-12df-3aea-abe5-9f894273cc4e/asymmetry-is-the-reason-i.html",
-          "publishedAt": "2026-08-25T14:55:29.000Z"
+          "url": "https://finance.yahoo.com/m/dfebee5d-c65c-36bb-8c8c-6af236ec6823/johnson-%26-johnson-is-near-a.html",
+          "publishedAt": "2026-08-25T16:00:04.000Z"
         },
         {
-          "title": "The Real Question Behind Palantir Stock's High Price",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/15716447-083f-360b-b284-9b49a54e395e/the-real-question-behind.html",
-          "publishedAt": "2026-08-25T14:47:58.000Z"
+          "title": "Long-Term Investors Know Exactly What to Do With Nvidia Before Aug. 26 Earnings Drop",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/35503317-45ef-3fb6-a764-29735e957b75/long-term-investors-know.html",
+          "publishedAt": "2026-08-25T15:58:39.000Z"
         }
       ]
     },
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 47.47,
+      "price": 47.2,
       "previousClose": 47.22,
-      "changePct": 0.53,
+      "changePct": -0.04,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T15:22:53.000Z",
+      "asOf": "2026-08-25T16:08:54.000Z",
       "headlines": [
         {
           "title": "EOG Stock Is Up 14.8% in 3 Months: Can Its Strong Rally Keep Going?",
