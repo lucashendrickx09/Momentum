@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:06:29.159Z",
+  "generatedAt": "2026-08-25T17:57:44.487Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 28.32,
+      "price": 28.47,
       "previousClose": 45.87,
-      "changePct": -38.26,
+      "changePct": -37.94,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T17:06:28.000Z",
+      "asOf": "2026-08-25T17:57:20.000Z",
       "headlines": [
         {
           "title": "3 Unprofitable Stocks We Approach with Caution",
@@ -43,12 +43,12 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 174.16,
+      "price": 173.07,
       "previousClose": 136.88,
-      "changePct": 27.24,
+      "changePct": 26.44,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T17:06:25.000Z",
+      "asOf": "2026-08-25T17:57:41.000Z",
       "headlines": [
         {
           "title": "Palantir's Maven Is Now an Official Pentagon Program of Record. Here's What Guaranteed Budget Dollars Are Worth.",
@@ -79,13 +79,19 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 215.88,
+      "price": 215.85,
       "previousClose": 175.95,
-      "changePct": 22.69,
+      "changePct": 22.68,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T17:05:50.000Z",
+      "asOf": "2026-08-25T17:57:18.000Z",
       "headlines": [
+        {
+          "title": "Is Accenture (ACN) Still Worth A Look On Its McCoy Acquisition?",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/accenture-acn-still-worth-look-170950342.html",
+          "publishedAt": "2026-08-25T17:09:50.000Z"
+        },
         {
           "title": "SAP Executive to Participate in Upcoming Investor Event",
           "publisher": "PR Newswire",
@@ -103,12 +109,6 @@
           "publisher": "PR Newswire",
           "url": "https://finance.yahoo.com/technology/articles/spinnaker-support-names-rex-young-120000578.html",
           "publishedAt": "2026-08-25T12:00:00.000Z"
-        },
-        {
-          "title": "Accenture Is Acquiring This Dutch SAP Transformation Partner — A Look At Why This Makes Sense For The Company",
-          "publisher": "Stocktwits",
-          "url": "https://finance.yahoo.com/m/09878178-6935-3758-ba92-74de55112d70/accenture-is-acquiring-this.html",
-          "publishedAt": "2026-08-25T11:21:02.000Z"
         }
       ]
     },
@@ -117,10 +117,10 @@
       "name": "Acumen Pharmaceuticals, Inc.",
       "price": 3.06,
       "previousClose": 2.51,
-      "changePct": 21.91,
+      "changePct": 21.71,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T17:05:11.000Z",
+      "asOf": "2026-08-25T17:55:12.000Z",
       "headlines": [
         {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
@@ -151,13 +151,19 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 126.89,
+      "price": 127.49,
       "previousClose": 159.89,
-      "changePct": -20.64,
+      "changePct": -20.27,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T17:06:24.000Z",
+      "asOf": "2026-08-25T17:57:39.000Z",
       "headlines": [
+        {
+          "title": "What’s Moving the Markets Today?",
+          "publisher": "The Wall Street Journal",
+          "url": "https://finance.yahoo.com/m/467407ce-9ab6-3ec2-9eb3-919a62bb8627/what%E2%80%99s-moving-the-markets.html",
+          "publishedAt": "2026-08-25T16:29:26.000Z"
+        },
         {
           "title": "Crypto Stocks Rally While Bitcoin Trades Near $80K: CleanSpark Jumps 7%, BitMine Climbs 4%",
           "publisher": "24/7 Wall St.",
@@ -175,60 +181,54 @@
           "publisher": "Stocktwits",
           "url": "https://finance.yahoo.com/m/0b0c02db-98ec-3f2c-a333-e9f38f794df0/mstr%2C-coin-stocks-see-price.html",
           "publishedAt": "2026-08-25T11:27:16.000Z"
-        },
-        {
-          "title": "Strategy Builds $6.69B Cash War Chest While Holding 4% of Bitcoin Supply",
-          "publisher": "CCN",
-          "url": "https://finance.yahoo.com/m/06512d57-19be-355e-888c-691f89337974/strategy-builds-%246.69b-cash.html",
-          "publishedAt": "2026-08-25T10:33:49.000Z"
         }
       ]
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 489.25,
+      "price": 489.71,
       "previousClose": 418.57,
-      "changePct": 16.89,
+      "changePct": 17,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T17:06:23.000Z",
+      "asOf": "2026-08-25T17:57:40.000Z",
       "headlines": [
+        {
+          "title": "Spirit Airlines Sold Its Crown Jewels for Pennies. It’s a Warning Every Company Must Heed",
+          "publisher": "Exec Edge",
+          "url": "https://finance.yahoo.com/small-business/articles/spirit-airlines-sold-crown-jewels-174348945.html",
+          "publishedAt": "2026-08-25T17:43:48.000Z"
+        },
+        {
+          "title": "Prediction: Amazon Stock Could Be the Sleeper Winner of the AI Boom",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/c9f65f68-ca3c-31bd-8678-cf1c8f80a5f8/prediction%3A-amazon-stock.html",
+          "publishedAt": "2026-08-25T17:30:12.000Z"
+        },
+        {
+          "title": "3 Billionaire Investors Just Bought the Same Stock. Should You?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/effe5d97-4483-329f-b023-659d44c413e4/3-billionaire-investors-just.html",
+          "publishedAt": "2026-08-25T17:00:07.000Z"
+        },
         {
           "title": "The real question investors should be asking ahead of Nvidia earnings",
           "publisher": "Yahoo Finance Video",
           "url": "https://finance.yahoo.com/video/real-investors-asking-ahead-nvidia-160432776.html",
           "publishedAt": "2026-08-25T16:04:32.000Z"
-        },
-        {
-          "title": "The Retail Silence That Reshapes The Amazon Stock Bull Case",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/ef144411-9ee3-309c-bc9d-f224ec201dd4/the-retail-silence-that.html",
-          "publishedAt": "2026-08-25T15:55:02.000Z"
-        },
-        {
-          "title": "The Price of Progress for Google Stock",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/76565bae-6676-3abf-86e5-9becfbda9c42/the-price-of-progress-for.html",
-          "publishedAt": "2026-08-25T15:44:12.000Z"
-        },
-        {
-          "title": "Chamath Palihapitiya Flags 3 AI Killers — Could Anthropic’s $2 Trillion IPO Dreams Crash First?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/75bab659-5312-33e7-9bd0-e4c41ebc70d2/chamath-palihapitiya-flags-3.html",
-          "publishedAt": "2026-08-25T15:42:29.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 279.01,
+      "price": 278.94,
       "previousClose": 240.85,
-      "changePct": 15.84,
+      "changePct": 15.81,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T17:06:21.000Z",
+      "asOf": "2026-08-25T17:57:38.000Z",
       "headlines": [
         {
           "title": "Cheniere Energy (LNG) Stock Looks Reasonable Following LNG Capacity Growth News",
@@ -259,12 +259,12 @@
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 18.14,
+      "price": 18.18,
       "previousClose": 16.49,
-      "changePct": 10.01,
+      "changePct": 10.22,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T17:06:27.000Z",
+      "asOf": "2026-08-25T17:57:37.000Z",
       "headlines": [
         {
           "title": "Keeping Restaurants Cooking: Nearly 240 Restaurants Receive Resilience Grants Funded by The PG&E Corporation Foundation",
@@ -297,10 +297,10 @@
       "name": "TMC the metals company Inc.",
       "price": 4.93,
       "previousClose": 5.4,
-      "changePct": -8.61,
+      "changePct": -8.7,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T17:06:17.000Z",
+      "asOf": "2026-08-25T17:57:27.000Z",
       "headlines": [
         {
           "title": "Is The Metals Company a Potential Millionaire-Maker Stock?",
@@ -331,12 +331,12 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 231.99,
+      "price": 232.1,
       "previousClose": 253.84,
-      "changePct": -8.61,
+      "changePct": -8.56,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T17:06:23.000Z",
+      "asOf": "2026-08-25T17:56:43.000Z",
       "headlines": [
         {
           "title": "IBM takes another giant step in the AI race",
@@ -367,12 +367,12 @@
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.72,
+      "price": 3.76,
       "previousClose": 3.9,
-      "changePct": -4.62,
+      "changePct": -3.72,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-08-25T17:04:40.000Z",
+      "asOf": "2026-08-25T17:55:05.000Z",
       "headlines": [
         {
           "title": "SAB Biotherapeutics Q2 Earnings Call Highlights",
@@ -403,12 +403,12 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 415.47,
+      "price": 415.57,
       "previousClose": 404.52,
-      "changePct": 2.71,
+      "changePct": 2.73,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T17:06:23.000Z",
+      "asOf": "2026-08-25T17:57:40.000Z",
       "headlines": [
         {
           "title": "TSM Rides on AI, Advanced Nodes & Capacity Expansion: Worth a Buy?",
@@ -439,12 +439,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 24.26,
+      "price": 24.31,
       "previousClose": 23.66,
-      "changePct": 2.53,
+      "changePct": 2.73,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T17:06:03.000Z",
+      "asOf": "2026-08-25T17:57:36.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
@@ -475,84 +475,84 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 260.81,
+      "price": 260.46,
       "previousClose": 266.32,
-      "changePct": -2.07,
+      "changePct": -2.2,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T17:06:24.000Z",
+      "asOf": "2026-08-25T17:57:38.000Z",
       "headlines": [
         {
-          "title": "A New Crop of Players Try to “Democratize” Venture Capital",
-          "publisher": "Wealth Management",
-          "url": "https://finance.yahoo.com/m/785ee2f3-9611-3a3f-b9de-d803c28f5b46/a-new-crop-of-players-try-to.html",
-          "publishedAt": "2026-08-25T16:56:57.000Z"
+          "title": "Spirit Airlines Sold Its Crown Jewels for Pennies. It’s a Warning Every Company Must Heed",
+          "publisher": "Exec Edge",
+          "url": "https://finance.yahoo.com/small-business/articles/spirit-airlines-sold-crown-jewels-174348945.html",
+          "publishedAt": "2026-08-25T17:43:48.000Z"
         },
         {
-          "title": "Amazon’s Gadget Price Hikes Reveal the Consumer Cost of the AI Memory Crunch",
+          "title": "Amazon Slips as $220 Billion AI Bill Returns",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-slips-220-billion-ai-173419499.html",
+          "publishedAt": "2026-08-25T17:34:19.000Z"
+        },
+        {
+          "title": "Prediction: Amazon Stock Could Be the Sleeper Winner of the AI Boom",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/70396950-6d91-3b36-b8cd-d702ff0bd8bb/amazon%E2%80%99s-gadget-price-hikes.html",
-          "publishedAt": "2026-08-25T16:18:46.000Z"
+          "url": "https://finance.yahoo.com/m/c9f65f68-ca3c-31bd-8678-cf1c8f80a5f8/prediction%3A-amazon-stock.html",
+          "publishedAt": "2026-08-25T17:30:12.000Z"
         },
         {
-          "title": "The real question investors should be asking ahead of Nvidia earnings",
-          "publisher": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/real-investors-asking-ahead-nvidia-160432776.html",
-          "publishedAt": "2026-08-25T16:04:32.000Z"
-        },
-        {
-          "title": "Charter Communications' Spectrum to Offer Amazon Prime Benefits to Eligible Internet Customers",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/charter-communications-apos-spectrum-offer-155623813.html",
-          "publishedAt": "2026-08-25T15:56:23.000Z"
+          "title": "SNAP: Priced Like A Decline, Paying Like A Machine",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/0d65e9ea-ba97-3116-9519-91cad0dbfe99/snap%3A-priced-like-a-decline%2C.html",
+          "publishedAt": "2026-08-25T17:23:05.000Z"
         }
       ]
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 212.1,
+      "price": 212.35,
       "previousClose": 215.33,
-      "changePct": -1.5,
+      "changePct": -1.38,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-08-25T17:06:26.000Z",
+      "asOf": "2026-08-25T17:57:41.000Z",
       "headlines": [
         {
-          "title": "Western Digital vs. Seagate Technology: Which Data Storage Stock Is the Better Buy?",
+          "title": "Snowflake Stock Fans Should Prepare for September 2 as AI Agents Are Pouring More Data Into It",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/m/d88c0f31-6ad4-3328-8fdf-d02d60adbbde/snowflake-stock-fans-should.html",
+          "publishedAt": "2026-08-25T17:50:09.000Z"
+        },
+        {
+          "title": "Sector Update: Tech Stocks Rise Tuesday Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-rise-tuesday-173821371.html",
+          "publishedAt": "2026-08-25T17:38:21.000Z"
+        },
+        {
+          "title": "AMD Stock Gets a ‘Strong Buy’ Upgrade: Why It Could Outperform Nvidia",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/2b5d5922-6f25-3fae-8c61-cf5dc7d071a6/amd-stock-gets-a-%E2%80%98strong-buy%E2%80%99.html",
+          "publishedAt": "2026-08-25T17:38:00.000Z"
+        },
+        {
+          "title": "3 Top Artificial Intelligence (AI) Stocks to Buy Before 2027 Arrives",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/5ab11f38-56cd-3c3f-ba4a-227986354654/western-digital-vs.-seagate.html",
-          "publishedAt": "2026-08-25T16:59:00.000Z"
-        },
-        {
-          "title": "Why Nvidia rival AMD may see a 40% rip in its stock",
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/why-nvidia-rival-amd-may-see-a-40-rip-in-its-stock-164720676.html",
-          "publishedAt": "2026-08-25T16:47:20.000Z"
-        },
-        {
-          "title": "Citi Trends, Inc. Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/m/09b0ee58-d4a8-3033-bd60-c4b644a90bdb/citi-trends%2C-inc.-q2-2026.html",
-          "publishedAt": "2026-08-25T16:46:54.000Z"
-        },
-        {
-          "title": "Senstar Technologies Ltd. Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/m/7120bdaf-4cfe-3379-94a5-786fd1bb5e19/senstar-technologies-ltd.-q2.html",
-          "publishedAt": "2026-08-25T16:46:52.000Z"
+          "url": "https://finance.yahoo.com/m/3cee73ab-8c87-3ca5-bfb1-9682abc3eb76/3-top-artificial-intelligence.html",
+          "publishedAt": "2026-08-25T17:37:00.000Z"
         }
       ]
     },
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 47.19,
+      "price": 47.27,
       "previousClose": 47.22,
-      "changePct": -0.07,
+      "changePct": 0.11,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-08-25T17:06:15.000Z",
+      "asOf": "2026-08-25T17:57:40.000Z",
       "headlines": [
         {
           "title": "EOG Stock Is Up 14.8% in 3 Months: Can Its Strong Rally Keep Going?",
