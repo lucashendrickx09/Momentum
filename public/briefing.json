@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T20:02:24.351Z",
+  "generatedAt": "2026-09-02T22:09:05.620Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -51,6 +51,12 @@
       "asOf": "2026-09-02T20:00:01.000Z",
       "headlines": [
         {
+          "title": "Acumen Pharmaceuticals to Participate in Upcoming Investor Conferences",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-participate-upcoming-investor-200000120.html",
+          "publishedAt": "2026-09-02T20:00:00.000Z"
+        },
+        {
           "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
           "publisher": "GuruFocus.com",
           "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-inc-abos-q2-230426972.html",
@@ -67,25 +73,25 @@
           "publisher": "MarketBeat",
           "url": "https://finance.yahoo.com/m/92245aa4-4110-35b8-9359-e6d05bf70e2a/acumen-pharmaceuticals-q2.html",
           "publishedAt": "2026-08-12T13:03:22.000Z"
-        },
-        {
-          "title": "Acumen Pharmaceuticals Reports Second Quarter 2026 Financial Results and Business Highlights",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-reports-second-quarter-110000467.html",
-          "publishedAt": "2026-08-12T11:00:00.000Z"
         }
       ]
     },
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 231.74,
+      "price": 231.7,
       "previousClose": 329.23,
-      "changePct": -29.61,
+      "changePct": -29.62,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-02T19:59:59.000Z",
+      "asOf": "2026-09-02T20:00:03.000Z",
       "headlines": [
+        {
+          "title": "How To Bank 8.8% A Year On IBM Stock Before Buying A Single Share",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/18ec6c4c-b1d2-3ed1-b004-452046e9e529/how-to-bank-8.8%25-a-year-on.html",
+          "publishedAt": "2026-09-02T20:00:39.000Z"
+        },
         {
           "title": "3 Unpopular Stocks Walking a Fine Line",
           "publisher": "StockStory",
@@ -103,12 +109,6 @@
           "publisher": "Trefis",
           "url": "https://finance.yahoo.com/m/a646837a-5d6e-3709-ad6c-7f77c6c6afba/is-oracle-stock-a-hedge-or-a.html",
           "publishedAt": "2026-09-02T18:07:03.000Z"
-        },
-        {
-          "title": "Cisco vs. IBM: A Dividend Showdown Between 2 Tech Giants",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/m/13a90b3b-faca-313c-b27e-a5a5616b8c8a/cisco-vs.-ibm%3A-a-dividend.html",
-          "publishedAt": "2026-09-02T17:03:50.000Z"
         }
       ]
     },
@@ -151,12 +151,12 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 295.78,
+      "price": 295.86,
       "previousClose": 236.01,
-      "changePct": 25.33,
+      "changePct": 25.36,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-02T19:59:59.000Z",
+      "asOf": "2026-09-02T20:00:02.000Z",
       "headlines": [
         {
           "title": "Bloom Energy and 7 More Stocks That Could Join the S&P 500 This Month",
@@ -189,34 +189,34 @@
       "name": "PG&E Corporation",
       "price": 13.33,
       "previousClose": 16.57,
-      "changePct": -19.58,
+      "changePct": -19.55,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-02T19:59:59.000Z",
+      "asOf": "2026-09-02T20:00:03.000Z",
       "headlines": [
+        {
+          "title": "Credo, Dell, Palo Alto, PG&E, Uber, MongoDB, and More Stocks That Explain Today’s Market",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/ac2d4863-67cf-3a37-9639-c1b87a367e0f/credo%2C-dell%2C-palo-alto%2C-pg%26e%2C.html",
+          "publishedAt": "2026-09-02T20:21:00.000Z"
+        },
+        {
+          "title": "Consumer Watchdog Calls On CA Utility Commission For Order To Show Cause Why PG&E Isn't Spending $2 Billion It Was Authorized To Spend On Ratepayer Improvements",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/economy/policy/articles/consumer-watchdog-calls-ca-utility-201900411.html",
+          "publishedAt": "2026-09-02T20:19:00.000Z"
+        },
+        {
+          "title": "PG&E price sinks amid $2 billion investment slash: AlphaSpace breakdown",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/pg-e-price-sinks-amid-200718720.html",
+          "publishedAt": "2026-09-02T20:07:18.000Z"
+        },
         {
           "title": "Update: PG&E Shares Fall After $2 Billion 2027 Investment Deferral Plan, Strategic Review",
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/markets/stocks/articles/pg-e-shares-fall-2-194001514.html",
           "publishedAt": "2026-09-02T19:40:01.000Z"
-        },
-        {
-          "title": "PG&E Stock Slides as Wildfire Liability Fears Trigger a Strategic Overhaul",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/4e6504d3-cc70-3a9c-95b7-a54663276f21/pg%26e-stock-slides-as-wildfire.html",
-          "publishedAt": "2026-09-02T17:57:00.000Z"
-        },
-        {
-          "title": "Credo, Dell, Palo Alto, PG&E, Uber, MongoDB, and More Stocks That Explain Today’s Market",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/ac2d4863-67cf-3a37-9639-c1b87a367e0f/credo%2C-dell%2C-palo-alto%2C-pg%26e%2C.html",
-          "publishedAt": "2026-09-02T17:07:00.000Z"
-        },
-        {
-          "title": "PG&E (PCG) Wildfire Bill Rejection Leaves Liability Risks Unresolved",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/pg-e-pcg-wildfire-bill-161220970.html",
-          "publishedAt": "2026-09-02T16:12:20.000Z"
         }
       ]
     },
@@ -231,28 +231,28 @@
       "asOf": "2026-09-02T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
+          "title": "Microsoft to detail quarterly Azure sales in sweeping reportable segment revamp",
+          "publisher": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/articles/microsoft-detail-quarterly-azure-sales-214341741.html",
+          "publishedAt": "2026-09-02T21:43:41.000Z"
+        },
+        {
+          "title": "Microsoft To Transition To Two Reporting Segments In 2027, Affirms Q1 Revenue Outlook",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-afternoon-193514411.html",
-          "publishedAt": "2026-09-02T19:35:14.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-transition-two-reporting-segments-213543045.html",
+          "publishedAt": "2026-09-02T21:35:43.000Z"
         },
         {
-          "title": "The $277 Billion That GOOGL Stock Quietly Paid Its Owners",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/9aff2ca0-15ed-357d-a799-dac9efb62c8d/the-%24277-billion-that-googl.html",
-          "publishedAt": "2026-09-02T19:26:26.000Z"
+          "title": "Microsoft is touting a water claim critics say misses the point",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/b1277824-dac7-3c9a-981d-ab91fc4c0610/microsoft-is-touting-a-water.html",
+          "publishedAt": "2026-09-02T21:33:00.000Z"
         },
         {
-          "title": "Is Microsoft Stock Winning The Move To The Cloud Or Just The AI Boom?",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/6b9b77ae-f7a9-3530-9ba5-33db74411ead/is-microsoft-stock-winning.html",
-          "publishedAt": "2026-09-02T19:14:03.000Z"
-        },
-        {
-          "title": "NVIDIA & 4 Stocks Beyond Pure Plays to Gain From Quantum Boom in 2026",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-4-stocks-beyond-pure-190000450.html",
-          "publishedAt": "2026-09-02T19:00:00.000Z"
+          "title": "Steve Ballmer banned, Clippers fined $30M over Kawhi Leonard scandal",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/steve-ballmer-banned-clippers-fined-211000131.html",
+          "publishedAt": "2026-09-02T21:10:00.000Z"
         }
       ]
     },
@@ -267,40 +267,40 @@
       "asOf": "2026-09-02T20:00:00.000Z",
       "headlines": [
         {
-          "title": "AI has become a 'non-negotiable', Sam Altman says at G20 summit",
-          "publisher": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/ai-become-non-negotiable-sam-194000759.html",
-          "publishedAt": "2026-09-02T19:40:00.000Z"
+          "title": "Palantir Shares Sink Despite $192 Million Army Contract",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-shares-sink-despite-192-203219324.html",
+          "publishedAt": "2026-09-02T20:32:19.000Z"
         },
         {
-          "title": "2 Cash-Producing Stocks with Impressive Fundamentals and 1 We Question",
-          "publisher": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/2-cash-producing-stocks-impressive-191623023.html",
-          "publishedAt": "2026-09-02T19:16:23.000Z"
+          "title": "Palantir Stock Gets New Problem From Google",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-gets-problem-google-203038795.html",
+          "publishedAt": "2026-09-02T20:30:38.000Z"
         },
         {
-          "title": "Palantir Heads for Worst Day in 7 Months. It Isn’t the Only Software Stock Sinking.",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/4699e135-59e1-372d-abab-41e4e7f903e8/palantir-heads-for-worst-day.html",
-          "publishedAt": "2026-09-02T17:45:00.000Z"
+          "title": "Palantir Technologies (PLTR) Could Be 5% Overvalued On Peter Zaffino Hire",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-pltr-could-5-201058700.html",
+          "publishedAt": "2026-09-02T20:10:58.000Z"
         },
         {
-          "title": "Jim Cramer Explains Why Palantir’s Rule of 40 Dominance Proves Bears Wrong",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-why-palantir-172601433.html",
-          "publishedAt": "2026-09-02T17:26:01.000Z"
+          "title": "Why Is Palantir Stock Down Today?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/500d3928-73dd-328b-a9bd-da13e53593af/why-is-palantir-stock-down.html",
+          "publishedAt": "2026-09-02T20:08:19.000Z"
         }
       ]
     },
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 209.64,
+      "price": 209.69,
       "previousClose": 190.82,
-      "changePct": 9.86,
+      "changePct": 9.89,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-02T19:59:58.000Z",
+      "asOf": "2026-09-02T20:01:34.000Z",
       "headlines": [
         {
           "title": "Digital Product Passport Market Projected to Hit $28.80 Billion by 2035 | SNS Insider",
@@ -339,6 +339,18 @@
       "asOf": "2026-09-02T20:00:01.000Z",
       "headlines": [
         {
+          "title": "ETF League Tables: YieldMax Gains $60M",
+          "publisher": "etf.com",
+          "url": "https://finance.yahoo.com/m/2702a3b9-db88-3fe1-91db-5b58ace4c68f/etf-league-tables%3A-yieldmax.html",
+          "publishedAt": "2026-09-02T21:00:06.000Z"
+        },
+        {
+          "title": "MicroStrategy Reserve Capital Beats All S&P 500 Financials But Berkshire, MSTR Still Slips",
+          "publisher": "BeInCrypto",
+          "url": "https://finance.yahoo.com/m/36f59138-b00d-3c31-b487-6508b91149a7/microstrategy-reserve-capital.html",
+          "publishedAt": "2026-09-02T20:00:28.000Z"
+        },
+        {
           "title": "'The Right Trade': Strategy CEO Has No Regrets Selling Bitcoin at $60K Before Buying Back Higher",
           "publisher": "decrypt",
           "url": "https://finance.yahoo.com/m/e041ab35-d5a2-3a15-8531-d10865d3eb27/%27the-right-trade%27%3A-strategy.html",
@@ -349,18 +361,6 @@
           "publisher": "StockStory",
           "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-170823716.html",
           "publishedAt": "2026-09-02T17:08:23.000Z"
-        },
-        {
-          "title": "MicroStrategy Resumes Bitcoin Accumulation After Extended Buying Gap",
-          "publisher": "99bitcoins",
-          "url": "https://finance.yahoo.com/m/35c37194-0403-3577-89b3-b7251c3e8cb5/microstrategy-resumes-bitcoin.html",
-          "publishedAt": "2026-09-02T15:40:32.000Z"
-        },
-        {
-          "title": "Coinbase tokenized stocks hit $100M in volume; first Zcash ETF and Strategy yield goes DeFi",
-          "publisher": "CoinDesk",
-          "url": "https://finance.yahoo.com/m/98711a13-c946-3653-97ed-b1b1a105130d/coinbase-tokenized-stocks-hit.html",
-          "publishedAt": "2026-09-02T14:34:09.000Z"
         }
       ]
     },
@@ -403,12 +403,12 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 415.57,
+      "price": 415.5,
       "previousClose": 446.69,
-      "changePct": -6.97,
+      "changePct": -6.98,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-02T20:00:00.000Z",
+      "asOf": "2026-09-02T20:00:02.000Z",
       "headlines": [
         {
           "title": "Apple's Foldable iPhone May Contribute $14 Billion to December Quarter Revenue, Morgan Stanley Says",
@@ -439,12 +439,12 @@
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 49.05,
+      "price": 49.03,
       "previousClose": 46.22,
-      "changePct": 6.12,
+      "changePct": 6.08,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-02T20:00:00.000Z",
+      "asOf": "2026-09-02T20:00:03.000Z",
       "headlines": [
         {
           "title": "Can Par Pacific's Stronger Balance Sheet Fuel Its Next Growth Phase?",
@@ -480,7 +480,7 @@
       "changePct": -4.92,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-02T19:59:57.000Z",
+      "asOf": "2026-09-02T20:00:03.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
@@ -519,28 +519,28 @@
       "asOf": "2026-09-02T20:00:00.000Z",
       "headlines": [
         {
-          "title": "Is Rivian (RIVN) a Millionaire Maker Stock?",
+          "title": "SoftBank's $439 Billion AI Backlog Arrives With a $3.21 Billion Loss",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/softbanks-439-billion-ai-backlog-220441803.html",
+          "publishedAt": "2026-09-02T22:04:41.000Z"
+        },
+        {
+          "title": "Nvidia’s $1 Billion Nokia Bet Was Worth About $2.2 Billion by June. Is 6G the Hidden AI Trade?",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-1-billion-nokia-bet-215606198.html",
+          "publishedAt": "2026-09-02T21:56:06.000Z"
+        },
+        {
+          "title": "Why Calumet Stock Topped the Market Today",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/afeb93e0-3bb3-3304-bd0f-9ab7fb7ac4c3/is-rivian-%28rivn%29-a.html",
-          "publishedAt": "2026-09-02T19:50:00.000Z"
+          "url": "https://finance.yahoo.com/m/4ffac99c-dfed-3187-a64f-41b2f048dc2f/why-calumet-stock-topped-the.html",
+          "publishedAt": "2026-09-02T21:44:45.000Z"
         },
         {
-          "title": "Why Is AST SpaceMobile Stock Up 13% Today?",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/5ef5715a-fb24-3fdc-a697-01728c54a71d/why-is-ast-spacemobile-stock.html",
-          "publishedAt": "2026-09-02T19:44:11.000Z"
-        },
-        {
-          "title": "Multiverse Computing launches Quasar 438B, the highest-scoring European model on Artificial Analysis Intelligence Index",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/multiverse-computing-launches-quasar-438b-194300248.html",
-          "publishedAt": "2026-09-02T19:43:00.000Z"
-        },
-        {
-          "title": "AI has become a 'non-negotiable', Sam Altman says at G20 summit",
-          "publisher": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/ai-become-non-negotiable-sam-194000759.html",
-          "publishedAt": "2026-09-02T19:40:00.000Z"
+          "title": "Dow Jones Futures: Snowflake, Broadcom, HPE Are Big Earnings Movers; Tesla Cybercab Event Due",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/1d7123ac-a008-32ff-9bbd-f00beb6c5dbf/dow-jones-futures%3A-snowflake%2C.html",
+          "publishedAt": "2026-09-02T21:40:40.000Z"
         }
       ]
     },
@@ -555,6 +555,18 @@
       "asOf": "2026-09-02T20:00:01.000Z",
       "headlines": [
         {
+          "title": "Snowflake Earnings Show a Company Riding the AI Wave",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/fe95bb11-35de-33ab-b88d-f850fdba6e29/snowflake-earnings-show-a.html",
+          "publishedAt": "2026-09-02T20:36:00.000Z"
+        },
+        {
+          "title": "How To Bank 8.8% A Year On IBM Stock Before Buying A Single Share",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/18ec6c4c-b1d2-3ed1-b004-452046e9e529/how-to-bank-8.8%25-a-year-on.html",
+          "publishedAt": "2026-09-02T20:00:39.000Z"
+        },
+        {
           "title": "US judge rejects bid to break up Google's ad business",
           "publisher": "AFP",
           "url": "https://finance.yahoo.com/media-advertising/articles/us-judge-rejects-bid-break-161532322.html",
@@ -565,18 +577,6 @@
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-193756599.html",
           "publishedAt": "2026-09-02T19:37:56.000Z"
-        },
-        {
-          "title": "The $277 Billion That GOOGL Stock Quietly Paid Its Owners",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/9aff2ca0-15ed-357d-a799-dac9efb62c8d/the-%24277-billion-that-googl.html",
-          "publishedAt": "2026-09-02T19:26:26.000Z"
-        },
-        {
-          "title": "3 Surging  Stocks Worth Investigating",
-          "publisher": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-surging-stocks-worth-investigating-192423748.html",
-          "publishedAt": "2026-09-02T19:24:23.000Z"
         }
       ]
     }
