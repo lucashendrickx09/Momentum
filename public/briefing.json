@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T20:09:01.406Z",
+  "generatedAt": "2026-09-08T22:10:03.399Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -87,28 +87,28 @@
       "asOf": "2026-09-08T20:00:00.000Z",
       "headlines": [
         {
+          "title": "Palantir Technologies Inc. (PLTR) Falls More Steeply Than Broader Market: What Investors Need to Know",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-technologies-inc-pltr-falls-214503368.html",
+          "publishedAt": "2026-09-08T21:45:03.000Z"
+        },
+        {
+          "title": "Update: US Equity Indexes Drop as Houthi Strikes on Saudi Arabia's Energy Infrastructure Lift Crude Oil",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-houthi-205651069.html",
+          "publishedAt": "2026-09-08T20:56:51.000Z"
+        },
+        {
+          "title": "Why CoreWeave Stock Soared 12% Today",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/m/b276022b-cfc9-3ccb-8248-1129c0f15e30/why-coreweave-stock-soared.html",
+          "publishedAt": "2026-09-08T20:51:53.000Z"
+        },
+        {
           "title": "Sector Update: Tech Stocks Rise Late Afternoon",
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-195112771.html",
           "publishedAt": "2026-09-08T19:51:12.000Z"
-        },
-        {
-          "title": "Why Nebius Stock Jumped Today",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/d68ef061-47c6-39ea-b82f-9e73d27ed829/why-nebius-stock-jumped-today.html",
-          "publishedAt": "2026-09-08T19:45:01.000Z"
-        },
-        {
-          "title": "Update: Nebius Shares Rise After Partnership With Palantir",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nebius-shares-rise-partnership-palantir-193544874.html",
-          "publishedAt": "2026-09-08T19:35:44.000Z"
-        },
-        {
-          "title": "Palantir Wants to Kill the 'Pay-Per-Token' AI Economy",
-          "publisher": "Benzinga",
-          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-wants-kill-pay-per-182407788.html",
-          "publishedAt": "2026-09-08T18:24:07.000Z"
         }
       ]
     },
@@ -123,41 +123,47 @@
       "asOf": "2026-09-08T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Google Cloud Boss Makes Bold Claim About AI Chip Business",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/ba676cf3-b345-3df4-903d-76ac2652ef4c/google-cloud-boss-makes-bold.html",
-          "publishedAt": "2026-09-08T19:30:27.000Z"
+          "title": "Goldman's New AI Office Adds Just 1% to Its Engineering Army",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/goldmans-ai-office-adds-just-213259052.html",
+          "publishedAt": "2026-09-08T21:32:59.000Z"
         },
         {
-          "title": "Will Direct TPU Sales Re-Rate Google Stock?",
+          "title": "Prop Industry Leader The5ers Brings Single Stock Futures via CME Feed",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/markets/options/articles/prop-industry-leader-the5ers-brings-212700162.html",
+          "publishedAt": "2026-09-08T21:27:00.000Z"
+        },
+        {
+          "title": "Microsoft's OpenAI Partnership Draws Fresh Legal Fire",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsofts-openai-partnership-draws-fresh-204712188.html",
+          "publishedAt": "2026-09-08T20:47:12.000Z"
+        },
+        {
+          "title": "Can Selling Puts On Adobe Stock Yield Nearly 10%?",
           "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/2bff24ef-bf2f-3edb-8238-6d7d044db060/will-direct-tpu-sales-re-rate.html",
-          "publishedAt": "2026-09-08T19:15:28.000Z"
-        },
-        {
-          "title": "The Market Marked AMZN Stock Down. The Numbers Push Back",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/18caff86-2e61-3e78-a6c0-145f3b6ce8c2/the-market-marked-amzn-stock.html",
-          "publishedAt": "2026-09-08T18:46:39.000Z"
-        },
-        {
-          "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
-          "publisher": "TechCrunch",
-          "url": "https://finance.yahoo.com/technology/ai/articles/google-cloud-races-catch-ai-162031041.html",
-          "publishedAt": "2026-09-08T16:20:31.000Z"
+          "url": "https://finance.yahoo.com/m/25dc6554-974f-3051-9810-255ae501e337/can-selling-puts-on-adobe.html",
+          "publishedAt": "2026-09-08T19:55:37.000Z"
         }
       ]
     },
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 232.11,
+      "price": 232.09,
       "previousClose": 280.82,
       "changePct": -17.35,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-08T19:59:59.000Z",
+      "asOf": "2026-09-08T20:00:02.000Z",
       "headlines": [
+        {
+          "title": "Is Dell Making Money Where You Think It Is?",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/m/96fcc859-8f90-35b6-badb-fa634ef3c4e4/is-dell-making-money-where.html",
+          "publishedAt": "2026-09-08T20:50:43.000Z"
+        },
         {
           "title": "3 Profitable Stocks We Approach with Caution",
           "publisher": "StockStory",
@@ -168,31 +174,25 @@
           "title": "Betting Big on Bits: Washington’s New Quantum Plays",
           "publisher": "Barrons.com",
           "url": "https://finance.yahoo.com/m/e6a989ff-5210-3539-86ea-9678a7468c1f/betting-big-on-bits%3A.html",
-          "publishedAt": "2026-09-08T17:25:00.000Z"
+          "publishedAt": "2026-09-08T19:05:00.000Z"
         },
         {
           "title": "OneTrust Appoints Stephanie Glenn as Chief Revenue Officer",
           "publisher": "GlobeNewswire",
           "url": "https://finance.yahoo.com/technology/articles/onetrust-appoints-stephanie-glenn-chief-160000141.html",
           "publishedAt": "2026-09-08T16:00:00.000Z"
-        },
-        {
-          "title": "Ex-Google, IBM, Microsoft and HP Research Scientist, Professor Daniel Freedman Joins Quantum X Labs as Distinguished Quantum Scientist",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ex-google-ibm-microsoft-hp-123200103.html",
-          "publishedAt": "2026-09-08T12:32:00.000Z"
         }
       ]
     },
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 275.99,
+      "price": 276.02,
       "previousClose": 236.61,
-      "changePct": 16.64,
+      "changePct": 16.66,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-08T19:59:58.000Z",
+      "asOf": "2026-09-08T20:00:02.000Z",
       "headlines": [
         {
           "title": "Bechtel reaches substantial completion on Texas LNG project",
@@ -223,13 +223,19 @@
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 211.59,
+      "price": 211.49,
       "previousClose": 181.92,
-      "changePct": 16.31,
+      "changePct": 16.25,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-08T19:59:58.000Z",
+      "asOf": "2026-09-08T20:04:01.000Z",
       "headlines": [
+        {
+          "title": "SAP has a 'once-in-a-lifetime opportunity' with AI: CEO explains how",
+          "publisher": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/sap-once-lifetime-opportunity-ai-204326730.html",
+          "publishedAt": "2026-09-08T20:43:26.000Z"
+        },
         {
           "title": "Synthesized Launches UiPath Integration to Automate Test Data Provisioning for Continuous Testing",
           "publisher": "GlobeNewswire",
@@ -247,12 +253,6 @@
           "publisher": "GlobeNewswire",
           "url": "https://finance.yahoo.com/technology/articles/aico-pacera-achieves-sap-certified-090000191.html",
           "publishedAt": "2026-09-08T09:00:00.000Z"
-        },
-        {
-          "title": "NTT DATA Deploys AI-Powered Platform to Elevate Global Infrastructure Operations",
-          "publisher": "Business Wire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ntt-data-deploys-ai-powered-080000676.html",
-          "publishedAt": "2026-09-08T08:00:00.000Z"
         }
       ]
     },
@@ -297,11 +297,17 @@
       "name": "PG&E Corporation",
       "price": 14.82,
       "previousClose": 16.48,
-      "changePct": -10.08,
+      "changePct": -10.07,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-08T19:59:59.000Z",
+      "asOf": "2026-09-08T20:00:02.000Z",
       "headlines": [
+        {
+          "title": "Consumer Watchdog Alert Calls Out PG&E's Bailout And PG&E CEO's Misrepresentation",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/energy/articles/consumer-watchdog-alert-calls-pg-214400616.html",
+          "publishedAt": "2026-09-08T21:44:00.000Z"
+        },
         {
           "title": "BofA Securities Adjusts PG&E Price Target to $14 From $13",
           "publisher": "MT Newswires",
@@ -319,12 +325,6 @@
           "publisher": "Barchart",
           "url": "https://finance.yahoo.com/m/4c3f18e9-a2a4-30b9-a8b8-ab9bebd62a17/is-pg%26e-corporation-stock.html",
           "publishedAt": "2026-09-07T14:06:48.000Z"
-        },
-        {
-          "title": "Jim Cramer on PG&E (PCG): Wildfire Liability Puts Growth Plans Under Pressure",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-pg-e-pcg-102609345.html",
-          "publishedAt": "2026-09-05T10:26:09.000Z"
         }
       ]
     },
@@ -339,28 +339,28 @@
       "asOf": "2026-09-08T20:00:00.000Z",
       "headlines": [
         {
-          "title": "Why Oracle Stock Rose Nearly 15% Last Month",
+          "title": "Here's the One Storage Stock I'd Buy With $2,000",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/b4404dcd-d81e-385a-9189-981074f217e5/why-oracle-stock-rose-nearly.html",
-          "publishedAt": "2026-09-08T19:53:00.000Z"
+          "url": "https://finance.yahoo.com/m/86090bf1-9b67-35b7-a20e-2d4731179bed/here%27s-the-one-storage-stock.html",
+          "publishedAt": "2026-09-08T21:46:01.000Z"
         },
         {
-          "title": "Thinking of Buying Micron Stock Now? Here's 1 Green Flag and 1 Red Flag.",
+          "title": "Why CRISPR Therapeutics Stock Rocked the Market Last Month",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/99a8f95e-8fec-3879-a91b-db666239e815/thinking-of-buying-micron.html",
-          "publishedAt": "2026-09-08T19:50:00.000Z"
+          "url": "https://finance.yahoo.com/m/e0685636-4d63-3060-b6cf-3bb6f3b89089/why-crispr-therapeutics-stock.html",
+          "publishedAt": "2026-09-08T21:45:47.000Z"
         },
         {
-          "title": "6 Massive Reasons Standard Lithium Stock Popped 33% in August",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/ae6ca49b-c1de-3d52-9101-7af06fed1f88/6-massive-reasons-standard.html",
-          "publishedAt": "2026-09-08T19:49:32.000Z"
+          "title": "Dow Jones Futures: Dow Breaks Support But AMD, HPE Are New Buys; Apple iPhone Event Due",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/61edb329-2f31-3e10-8832-6860b7819ab2/dow-jones-futures%3A-dow-breaks.html",
+          "publishedAt": "2026-09-08T21:42:16.000Z"
         },
         {
-          "title": "Why Nebius Stock Jumped Today",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/d68ef061-47c6-39ea-b82f-9e73d27ed829/why-nebius-stock-jumped-today.html",
-          "publishedAt": "2026-09-08T19:45:01.000Z"
+          "title": "Prop Industry Leader The5ers Brings Single Stock Futures via CME Feed",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/markets/options/articles/prop-industry-leader-the5ers-brings-212700162.html",
+          "publishedAt": "2026-09-08T21:27:00.000Z"
         }
       ]
     },
@@ -372,7 +372,7 @@
       "changePct": 7.36,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-08T19:59:58.000Z",
+      "asOf": "2026-09-08T20:00:03.000Z",
       "headlines": [
         {
           "title": "Permian Resources (PR) Up 17.1% Since Last Earnings Report: Can It Continue?",
@@ -475,12 +475,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 22.7,
+      "price": 22.69,
       "previousClose": 24.07,
-      "changePct": -5.69,
+      "changePct": -5.73,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-08T19:59:59.000Z",
+      "asOf": "2026-09-08T20:00:02.000Z",
       "headlines": [
         {
           "title": "JPMorgan Adjusts Price Target on Weyerhaeuser to $28 From $31, Keeps Overweight Rating",
@@ -519,64 +519,64 @@
       "asOf": "2026-09-08T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Sector Update: Tech Stocks Rise Late Afternoon",
+          "title": "Estee Lauder Broadens Transformation and Digital Leadership Roles",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-195112771.html",
-          "publishedAt": "2026-09-08T19:51:12.000Z"
+          "url": "https://finance.yahoo.com/technology/articles/estee-lauder-broadens-transformation-digital-215731409.html",
+          "publishedAt": "2026-09-08T21:57:31.000Z"
         },
         {
-          "title": "Sector Update: Consumer Stocks Decline Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-decline-afternoon-194609902.html",
-          "publishedAt": "2026-09-08T19:46:09.000Z"
+          "title": "DAL Stock Drops: Jefferies Sees Possible Snag To In-Cabin Experience Owing To SPCX-VSAT Spectrum Fight",
+          "publisher": "Stocktwits",
+          "url": "https://finance.yahoo.com/m/5cd93c8d-de7e-3c53-9d82-3278c70f634a/dal-stock-drops%3A-jefferies.html",
+          "publishedAt": "2026-09-08T21:38:30.000Z"
         },
         {
-          "title": "Google Cloud Boss Makes Bold Claim About AI Chip Business",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/ba676cf3-b345-3df4-903d-76ac2652ef4c/google-cloud-boss-makes-bold.html",
-          "publishedAt": "2026-09-08T19:30:27.000Z"
+          "title": "The Trade Desk makes major reset after brutal 70% decline",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/m/cd6e29fd-7433-331a-8f78-8d906d874618/the-trade-desk-makes-major.html",
+          "publishedAt": "2026-09-08T21:33:00.000Z"
         },
         {
-          "title": "Will Direct TPU Sales Re-Rate Google Stock?",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/m/2bff24ef-bf2f-3edb-8238-6d7d044db060/will-direct-tpu-sales-re-rate.html",
-          "publishedAt": "2026-09-08T19:15:28.000Z"
+          "title": "Goldman's New AI Office Adds Just 1% to Its Engineering Army",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/goldmans-ai-office-adds-just-213259052.html",
+          "publishedAt": "2026-09-08T21:32:59.000Z"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 439.01,
+      "price": 439,
       "previousClose": 426.8,
       "changePct": 2.86,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-08T19:59:59.000Z",
+      "asOf": "2026-09-08T20:00:03.000Z",
       "headlines": [
         {
-          "title": "TSMC, IBD Stock Of The Day, Rises Above Early Buy Point As Chip Stocks Rally",
+          "title": "Dow Jones Futures: Dow Breaks Support But AMD, HPE Are New Buys; Apple iPhone Event Due",
           "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/9f38a2ff-ded9-3de3-929c-22ce7599e161/tsmc%2C-ibd-stock-of-the-day%2C.html",
-          "publishedAt": "2026-09-08T17:01:10.000Z"
+          "url": "https://finance.yahoo.com/m/61edb329-2f31-3e10-8832-6860b7819ab2/dow-jones-futures%3A-dow-breaks.html",
+          "publishedAt": "2026-09-08T21:42:16.000Z"
         },
         {
-          "title": "ASML Shares Jump on Breakthrough Chipmaking Plans With Intel and TSMC",
+          "title": "AMD Guides to $70 Billion of 2027 Data Center Revenue",
           "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/articles/asml-shares-jump-breakthrough-chipmaking-170037840.html",
-          "publishedAt": "2026-09-08T17:00:37.000Z"
+          "url": "https://finance.yahoo.com/technology/ai/articles/amd-guides-70-billion-2027-211135048.html",
+          "publishedAt": "2026-09-08T21:11:35.000Z"
         },
         {
-          "title": "Taiwan Semiconductor Just Set a New Company Record. A New All-Time High Stock Price Is Coming",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/m/0eecf636-edd8-384c-a247-1a7e7b24fd56/taiwan-semiconductor-just-set.html",
-          "publishedAt": "2026-09-08T16:50:00.000Z"
+          "title": "Bank of America Sees ASML Stock's Next Big AI Trigger",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/bank-america-sees-asml-stocks-205458524.html",
+          "publishedAt": "2026-09-08T20:54:58.000Z"
         },
         {
-          "title": "AI Could Eventually Crack Cancer and Drug Discovery, Says Arm CEO — But This Is What’s Holding It Back",
-          "publisher": "Benzinga",
-          "url": "https://finance.yahoo.com/technology/ai/articles/ai-could-eventually-crack-cancer-143646678.html",
-          "publishedAt": "2026-09-08T14:36:46.000Z"
+          "title": "Intel Leads Chip Stocks Rally as Qualcomm, AMD and Broadcom Stocks Jump",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/intel-leads-chip-stocks-rally-204945385.html",
+          "publishedAt": "2026-09-08T20:49:45.000Z"
         }
       ]
     }
