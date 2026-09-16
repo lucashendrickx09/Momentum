@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T17:42:08.434Z",
+  "generatedAt": "2026-09-16T21:35:40.120Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -7,12 +7,12 @@
     {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
-      "price": 24.49,
+      "price": 24.39,
       "previousClose": 46.27,
-      "changePct": -47.08,
+      "changePct": -47.29,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-09-16T17:41:58.000Z",
+      "asOf": "2026-09-16T20:00:00.000Z",
       "headlines": [
         {
           "title": "Applied Digital Falls 4% and Turns Negative for the Year as the AI Buildout Trade Bleeds Out; Core Scientific Drops 5%, Cipher Mining Sinks 4%",
@@ -41,86 +41,50 @@
       ]
     },
     {
-      "ticker": "SAP",
-      "name": "SAP SE",
-      "price": 215.4,
-      "previousClose": 165.41,
-      "changePct": 30.22,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-09-16T17:40:19.000Z",
-      "headlines": [
-        {
-          "title": "Syntax Introduces Maintenance Cost Budgeting for Mining, Giving Operators Forward-Looking Control Over Maintenance Spend",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/technology/articles/syntax-introduces-maintenance-cost-budgeting-130000067.html",
-          "publishedAt": "2026-09-16T13:00:00.000Z"
-        },
-        {
-          "title": "Syntax Introduces Promotion Lift for Accurate, Reliable Execution of Omnichannel Retail Promotions",
-          "publisher": "CNW Group",
-          "url": "https://finance.yahoo.com/technology/articles/syntax-introduces-promotion-lift-accurate-130000609.html",
-          "publishedAt": "2026-09-16T13:00:00.000Z"
-        },
-        {
-          "title": "Syntax Introduces Maintenance Cost Budgeting for Mining, Giving Operators Forward-Looking Control Over Maintenance Spend",
-          "publisher": "CNW Group",
-          "url": "https://finance.yahoo.com/technology/articles/syntax-introduces-maintenance-cost-budgeting-130000020.html",
-          "publishedAt": "2026-09-16T13:00:00.000Z"
-        },
-        {
-          "title": "Atos receives SAP Sovereign Cloud Partner designation, reinforcing its Digital Sovereignty strategy",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/atos-receives-sap-sovereign-cloud-084000165.html",
-          "publishedAt": "2026-09-16T08:40:00.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 172.66,
+      "price": 174.34,
       "previousClose": 133.25,
-      "changePct": 29.58,
+      "changePct": 30.84,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-09-16T17:42:04.000Z",
+      "asOf": "2026-09-16T20:00:00.000Z",
       "headlines": [
         {
-          "title": "Palantir, Microsoft’s biggest warning gets real for AI stocks",
-          "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-microsoft-biggest-warning-gets-173300865.html",
-          "publishedAt": "2026-09-16T17:33:00.000Z"
+          "title": "Veteran Analyst Doubles Down on Massive Palantir Stock Call",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/veteran-analyst-doubles-down-massive-210310892.html",
+          "publishedAt": "2026-09-16T21:03:10.000Z"
         },
         {
-          "title": "UBS resets Palantir stock price target for the rest of 2026",
-          "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-resets-palantir-stock-price-160300094.html",
-          "publishedAt": "2026-09-16T16:03:00.000Z"
+          "title": "Zeta Live 2026: Expanded Lineup Featuring Kevin Hart, Lindsey Vonn, Russell Westbrook and Tiffany Haddish with Performances by Steve Aoki and Oz Pearlman",
+          "publisher": "Business Wire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/zeta-live-2026-expanded-lineup-200500800.html",
+          "publishedAt": "2026-09-16T20:05:00.000Z"
         },
         {
-          "title": "Palantir Remains in the Red in 2026: One Senior Wall Street Analyst Says 50% Gains to Come",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-remains-red-2026-one-130014952.html",
-          "publishedAt": "2026-09-16T13:00:14.000Z"
+          "title": "Why Is Palantir Stock Priced For A Swing This Wide After A Flat Year?",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/markets/options/articles/why-palantir-stock-priced-swing-195125449.html",
+          "publishedAt": "2026-09-16T19:51:25.000Z"
         },
         {
-          "title": "Palantir’s Investment Case is Very Simple Now",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-investment-case-very-simple-120024412.html",
-          "publishedAt": "2026-09-16T12:00:24.000Z"
+          "title": "Palantir's $1 trillion valuation case is back in focus",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantirs-1-trillion-valuation-case-184611512.html",
+          "publishedAt": "2026-09-16T18:46:11.000Z"
         }
       ]
     },
     {
       "ticker": "TMC",
       "name": "TMC the metals company Inc.",
-      "price": 3.67,
+      "price": 3.63,
       "previousClose": 5.19,
-      "changePct": -29.38,
+      "changePct": -30.06,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-09-16T17:42:03.000Z",
+      "asOf": "2026-09-16T20:00:00.000Z",
       "headlines": [
         {
           "title": "The Metals Company vs. USA Rare Earth: Which Speculative Materials Bet Actually Pays Off First?",
@@ -149,86 +113,86 @@
       ]
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation",
-      "price": 493.58,
-      "previousClose": 393.83,
-      "changePct": 25.33,
+      "ticker": "SAP",
+      "name": "SAP SE",
+      "price": 213.2,
+      "previousClose": 165.41,
+      "changePct": 28.89,
       "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-09-16T17:42:04.000Z",
+      "exchange": "NYSE",
+      "asOf": "2026-09-16T20:01:44.000Z",
       "headlines": [
         {
-          "title": "Palantir, Microsoft’s biggest warning gets real for AI stocks",
-          "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-microsoft-biggest-warning-gets-173300865.html",
-          "publishedAt": "2026-09-16T17:33:00.000Z"
+          "title": "Syntax Introduces Maintenance Cost Budgeting for Mining, Giving Operators Forward-Looking Control Over Maintenance Spend",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/technology/articles/syntax-introduces-maintenance-cost-budgeting-130000067.html",
+          "publishedAt": "2026-09-16T13:00:00.000Z"
         },
         {
-          "title": "Chevron Doesn’t Need Oil to Hit New Highs. Here’s What Could Drive the Stock Instead",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/chevron-doesn-t-oil-hit-173012308.html",
-          "publishedAt": "2026-09-16T17:30:12.000Z"
+          "title": "Syntax Introduces Promotion Lift for Accurate, Reliable Execution of Omnichannel Retail Promotions",
+          "publisher": "CNW Group",
+          "url": "https://finance.yahoo.com/technology/articles/syntax-introduces-promotion-lift-accurate-130000609.html",
+          "publishedAt": "2026-09-16T13:00:00.000Z"
         },
         {
-          "title": "Microsoft Asks Government Agencies to Commit Now, Deliver Features Later",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-asks-government-agencies-commit-170511034.html",
-          "publishedAt": "2026-09-16T17:05:11.000Z"
+          "title": "Syntax Introduces Maintenance Cost Budgeting for Mining, Giving Operators Forward-Looking Control Over Maintenance Spend",
+          "publisher": "CNW Group",
+          "url": "https://finance.yahoo.com/technology/articles/syntax-introduces-maintenance-cost-budgeting-130000020.html",
+          "publishedAt": "2026-09-16T13:00:00.000Z"
         },
         {
-          "title": "Did Salesforce Telegraph Its Own Massive Rally?",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/did-salesforce-telegraph-own-massive-170438613.html",
-          "publishedAt": "2026-09-16T17:04:38.000Z"
+          "title": "Atos receives SAP Sovereign Cloud Partner designation, reinforcing its Digital Sovereignty strategy",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/atos-receives-sap-sovereign-cloud-084000165.html",
+          "publishedAt": "2026-09-16T08:40:00.000Z"
         }
       ]
     },
     {
-      "ticker": "ABOS",
-      "name": "Acumen Pharmaceuticals, Inc.",
-      "price": 2.77,
-      "previousClose": 2.29,
-      "changePct": 20.96,
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 490.3,
+      "previousClose": 393.83,
+      "changePct": 24.5,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-09-16T17:38:14.000Z",
+      "asOf": "2026-09-16T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Acumen Pharmaceuticals to Hold Virtual Investor Day on September 16, 2026",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-hold-virtual-investor-200000224.html",
-          "publishedAt": "2026-09-10T20:00:00.000Z"
-        },
-        {
-          "title": "Acumen Pharmaceuticals to Participate in Upcoming Investor Conferences",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-participate-upcoming-investor-200000120.html",
-          "publishedAt": "2026-09-02T20:00:00.000Z"
-        },
-        {
-          "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
+          "title": "Microsoft Slips as Its Quarterly Dividend Climbs 8%",
           "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-inc-abos-q2-230426972.html",
-          "publishedAt": "2026-08-12T23:04:26.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-slips-quarterly-dividend-climbs-205508714.html",
+          "publishedAt": "2026-09-16T20:55:08.000Z"
         },
         {
-          "title": "Acumen Pharmaceuticals, Inc. Q2 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-inc-q2-2026-165653827.html",
-          "publishedAt": "2026-08-12T16:56:53.000Z"
+          "title": "Zeta Live 2026: Expanded Lineup Featuring Kevin Hart, Lindsey Vonn, Russell Westbrook and Tiffany Haddish with Performances by Steve Aoki and Oz Pearlman",
+          "publisher": "Business Wire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/zeta-live-2026-expanded-lineup-200500800.html",
+          "publishedAt": "2026-09-16T20:05:00.000Z"
+        },
+        {
+          "title": "Microsoft Leads S&P 500 Stocks Going Nowhere",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-leads-p-500-stocks-195912814.html",
+          "publishedAt": "2026-09-16T19:59:12.000Z"
+        },
+        {
+          "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-mixed-afternoon-195324220.html",
+          "publishedAt": "2026-09-16T19:53:24.000Z"
         }
       ]
     },
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 13.33,
+      "price": 13.35,
       "previousClose": 16.74,
-      "changePct": -20.37,
+      "changePct": -20.25,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-16T17:42:02.000Z",
+      "asOf": "2026-09-16T20:00:02.000Z",
       "headlines": [
         {
           "title": "Is PG&E Stock Cheap, Or Just Waiting On California?",
@@ -259,13 +223,19 @@
     {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 271.03,
+      "price": 267.75,
       "previousClose": 230.86,
-      "changePct": 17.4,
+      "changePct": 15.98,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-16T17:42:03.000Z",
+      "asOf": "2026-09-16T20:00:02.000Z",
       "headlines": [
+        {
+          "title": "Running on Empty: 3 Energy Plays for Europe's Deep Freeze",
+          "publisher": "MarketBeat",
+          "url": "https://finance.yahoo.com/energy/articles/running-empty-3-energy-plays-184000131.html",
+          "publishedAt": "2026-09-15T18:40:00.000Z"
+        },
         {
           "title": "BASFY's Durasorb Technology Gains Traction in Cheniere LNG Operations",
           "publisher": "Zacks",
@@ -283,24 +253,54 @@
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/energy/articles/market-chatter-venture-global-cheniere-184252807.html",
           "publishedAt": "2026-09-11T18:42:52.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "ABOS",
+      "name": "Acumen Pharmaceuticals, Inc.",
+      "price": 2.61,
+      "previousClose": 2.29,
+      "changePct": 13.97,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-09-16T20:00:01.000Z",
+      "headlines": [
+        {
+          "title": "Acumen Pharmaceuticals to Hold Virtual Investor Day on September 16, 2026",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-hold-virtual-investor-200000224.html",
+          "publishedAt": "2026-09-10T20:00:00.000Z"
         },
         {
-          "title": "Update: Market Chatter: Venture Global, Cheniere, Other Companies in Talks With QatarEnergy for Long-Term LNG Supply Contracts",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/energy/articles/market-chatter-venture-global-cheniere-165008534.html",
-          "publishedAt": "2026-09-11T16:50:08.000Z"
+          "title": "Acumen Pharmaceuticals to Participate in Upcoming Investor Conferences",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-participate-upcoming-investor-200000120.html",
+          "publishedAt": "2026-09-02T20:00:00.000Z"
+        },
+        {
+          "title": "Acumen Pharmaceuticals Inc (ABOS) (Q2 2026) Earnings Call Highlights: Advancing Sabirnetug ...",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-inc-abos-q2-230426972.html",
+          "publishedAt": "2026-08-12T23:04:26.000Z"
+        },
+        {
+          "title": "Acumen Pharmaceuticals, Inc. Q2 2026 Earnings Call Summary",
+          "publisher": "Moby",
+          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-inc-q2-2026-165653827.html",
+          "publishedAt": "2026-08-12T16:56:53.000Z"
         }
       ]
     },
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 49.22,
+      "price": 48.44,
       "previousClose": 42.89,
-      "changePct": 14.75,
+      "changePct": 12.94,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-16T17:42:06.000Z",
+      "asOf": "2026-09-16T20:00:02.000Z",
       "headlines": [
         {
           "title": "Sunoco Stock Breaks Out; Oil Prices Rise With No Clear End To Hormuz Closure",
@@ -331,48 +331,48 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 240.24,
+      "price": 237.49,
       "previousClose": 270.81,
-      "changePct": -11.29,
+      "changePct": -12.3,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-16T17:42:04.000Z",
+      "asOf": "2026-09-16T20:00:03.000Z",
       "headlines": [
         {
-          "title": "Salesforce and Google Service Outages Strike on Day 2 of Dreamforce Conference",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/ff33a7b3-e321-3fe4-a3a5-1d1846b46ec4/salesforce-and-google-service.html",
-          "publishedAt": "2026-09-16T16:43:00.000Z"
+          "title": "IBM Gets Fresh Firepower for Quantum Race",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ibm-gets-fresh-firepower-quantum-210213851.html",
+          "publishedAt": "2026-09-16T21:02:13.000Z"
         },
         {
-          "title": "IBM Seals $1 Billion Government Deal to Build America’s First Quantum Foundry",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/f58e0bab-43f6-3a94-821b-8ebce43babf2/ibm-seals-%241-billion.html",
-          "publishedAt": "2026-09-16T15:01:00.000Z"
+          "title": "IBM Falls Over 3% After Quantum Foundry Secures $1 Billion",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ibm-falls-over-3-quantum-205344091.html",
+          "publishedAt": "2026-09-16T20:53:44.000Z"
         },
         {
-          "title": "Garbutt Joins Brandtech As Global CCO, Leads AI-Produced Advertising",
-          "publisher": "MediaPost",
-          "url": "https://finance.yahoo.com/media-advertising/articles/garbutt-joins-brandtech-global-cco-150000409.html",
-          "publishedAt": "2026-09-16T15:00:00.000Z"
+          "title": "ACN Stock Returned $39 Billion to Shareholders—Why Did It Underperform?",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/acn-stock-returned-39-billion-202055288.html",
+          "publishedAt": "2026-09-16T20:20:55.000Z"
         },
         {
-          "title": "American Express and IBM Drag the Dow",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/16d94fd5-cc01-3d2b-8776-d773e0daccea/american-express-and-ibm-drag.html",
-          "publishedAt": "2026-09-16T14:16:25.000Z"
+          "title": "Why Is Palantir Stock Priced For A Swing This Wide After A Flat Year?",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/markets/options/articles/why-palantir-stock-priced-swing-195125449.html",
+          "publishedAt": "2026-09-16T19:51:25.000Z"
         }
       ]
     },
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 22.21,
+      "price": 21.81,
       "previousClose": 24.79,
-      "changePct": -10.43,
+      "changePct": -12.02,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-16T17:42:03.000Z",
+      "asOf": "2026-09-16T20:00:02.000Z",
       "headlines": [
         {
           "title": "Hexagon, Weyerhaeuser Ink Geothermal Development Deal for Pacific Northwest",
@@ -403,12 +403,12 @@
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.42,
+      "price": 3.39,
       "previousClose": 3.66,
-      "changePct": -6.56,
+      "changePct": -7.38,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-09-16T17:41:49.000Z",
+      "asOf": "2026-09-16T20:00:00.000Z",
       "headlines": [
         {
           "title": "SAB BIO to Participate in Upcoming Investor Conferences",
@@ -439,49 +439,55 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 215.01,
+      "price": 213.9,
       "previousClose": 207.41,
-      "changePct": 3.66,
+      "changePct": 3.13,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-09-16T17:42:04.000Z",
+      "asOf": "2026-09-16T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Palantir, Microsoft’s biggest warning gets real for AI stocks",
-          "publisher": "TheStreet",
-          "url": "https://finance.yahoo.com/technology/ai/articles/palantir-microsoft-biggest-warning-gets-173300865.html",
-          "publishedAt": "2026-09-16T17:33:00.000Z"
-        },
-        {
-          "title": "Cerebras Stock Has Been Cut in Half. It Still Costs About 145 Times Next Year's Estimated Earnings.",
+          "title": "2 Beaten-Down Stocks With Massive Upside Potential",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-stock-cut-half-still-172801447.html",
-          "publishedAt": "2026-09-16T17:28:01.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-beaten-down-stocks-massive-212001216.html",
+          "publishedAt": "2026-09-16T21:20:01.000Z"
         },
         {
-          "title": "ARM Stock Declines 39% in 3 Months: Is This a Buying Opportunity?",
+          "title": "Stock Market Today: Nasdaq Ends Flat After Rate Hike; AI Play SpaceX Eyes Early Entry",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/127b3c0b-f974-36dd-8852-5793b5347c93/stock-market-today%3A-nasdaq.html",
+          "publishedAt": "2026-09-16T21:12:56.000Z"
+        },
+        {
+          "title": "Greg Abel Grew Berkshire Hathaway's Alphabet Stake by 83% Last Quarter, One of His Boldest Equity Bets Yet as CEO. Is Alphabet Now a Core Berkshire Holding?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/greg-abel-grew-berkshire-hathaways-210400105.html",
+          "publishedAt": "2026-09-16T21:04:00.000Z"
+        },
+        {
+          "title": "A Broad-Based Earnings Growth Picture as Revisions Stay Positive",
           "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-stock-declines-39-3-172800739.html",
-          "publishedAt": "2026-09-16T17:28:00.000Z"
-        },
-        {
-          "title": "Salesforce Falls 1.4% as AIforce Faces a $46 Billion Conversion Test",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-falls-1-4-aiforce-171549004.html",
-          "publishedAt": "2026-09-16T17:15:49.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/broad-based-earnings-growth-picture-205000426.html",
+          "publishedAt": "2026-09-16T20:50:00.000Z"
         }
       ]
     },
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 125.63,
+      "price": 126.18,
       "previousClose": 122.81,
-      "changePct": 2.3,
+      "changePct": 2.74,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-09-16T17:42:02.000Z",
+      "asOf": "2026-09-16T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "The Clarity Act Fails. Could It Be Time to Buy Crypto Stocks?",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/9d498510-9003-3576-8b4e-e4ef137041d1/the-clarity-act-fails.-could.html",
+          "publishedAt": "2026-09-16T18:30:00.000Z"
+        },
         {
           "title": "Strategy Is Buying Bitcoin Again. Here's What That Means for the Price of Bitcoin.",
           "publisher": "Motley Fool",
@@ -499,84 +505,78 @@
           "publisher": "PR Newswire",
           "url": "https://finance.yahoo.com/technology/ai/articles/remark-appoints-retail-ecommerce-veteran-142900509.html",
           "publishedAt": "2026-09-16T14:29:00.000Z"
-        },
-        {
-          "title": "The Clarity Act Fails. Could It Be Time to Buy Crypto Stocks?",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/9d498510-9003-3576-8b4e-e4ef137041d1/the-clarity-act-fails.-could.html",
-          "publishedAt": "2026-09-16T14:06:00.000Z"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 417.2,
+      "price": 417.72,
       "previousClose": 425.83,
-      "changePct": -2.03,
+      "changePct": -1.9,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-09-16T17:42:02.000Z",
+      "asOf": "2026-09-16T20:00:02.000Z",
       "headlines": [
+        {
+          "title": "TSMC Gains as 2-Nanometer Chips Enter the Smartphone Race",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/articles/tsmc-gains-2-nanometer-chips-203252002.html",
+          "publishedAt": "2026-09-16T20:32:52.000Z"
+        },
+        {
+          "title": "Qualcomm now faces rival with bigger market cap",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/technology/articles/qualcomm-now-faces-rival-bigger-183300116.html",
+          "publishedAt": "2026-09-16T18:33:00.000Z"
+        },
+        {
+          "title": "Prediction: $1,000 Invested in Taiwan Semiconductor (TSMC) Today Will Be Worth This Much by the End of the Decade",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-1-000-invested-taiwan-180500271.html",
+          "publishedAt": "2026-09-16T18:05:00.000Z"
+        },
         {
           "title": "Dow Jones Tech Titan Apple, Nvidia Chipmaker TSMC, AMD, Bloom Energy In Or Near Buy Zones",
           "publisher": "Investor's Business Daily",
           "url": "https://finance.yahoo.com/m/abcff3bf-aa03-3635-8d7c-acbe8b8a05b3/dow-jones-tech-titan-apple%2C.html",
           "publishedAt": "2026-09-16T16:10:31.000Z"
-        },
-        {
-          "title": "GFS Gains From Expanding Partner base: Will it Boost Growth Prospects?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/technology/articles/gfs-gains-expanding-partner-boost-152600461.html",
-          "publishedAt": "2026-09-16T15:26:00.000Z"
-        },
-        {
-          "title": "Taiwan Semiconductor Is a No-Brainer Buy On Repeat And Not For The Reason You Think",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-no-brainer-buy-144535856.html",
-          "publishedAt": "2026-09-16T14:45:35.000Z"
-        },
-        {
-          "title": "ASML Vs. Taiwan Semiconductor Manufacturing: One Is More Misunderstood",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/asml-vs-taiwan-semiconductor-manufacturing-134011445.html",
-          "publishedAt": "2026-09-16T13:40:11.000Z"
         }
       ]
     },
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 247.46,
+      "price": 245.96,
       "previousClose": 246,
-      "changePct": 0.59,
+      "changePct": -0.02,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-09-16T17:42:04.000Z",
+      "asOf": "2026-09-16T20:00:00.000Z",
       "headlines": [
         {
-          "title": "Shopify Plunges 13% in a Month: Buy, Sell or Hold the Stock?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-plunges-13-month-buy-171800624.html",
-          "publishedAt": "2026-09-16T17:18:00.000Z"
+          "title": "Generac Signs Supply Agreement With Amazon for Data Center Power Generators, Shares Jump After Hours",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/generac-signs-supply-agreement-amazon-210821569.html",
+          "publishedAt": "2026-09-16T21:08:21.000Z"
         },
         {
-          "title": "Qualcomm Edged Higher as Amazon Opens a $60 Billion AI Door",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/qualcomm-edged-higher-amazon-opens-171713925.html",
-          "publishedAt": "2026-09-16T17:17:13.000Z"
+          "title": "Generac stock surges 18% on $8B Amazon supply deal",
+          "publisher": "Investing.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/generac-stock-surges-18-8b-210209140.html",
+          "publishedAt": "2026-09-16T21:02:09.000Z"
         },
         {
-          "title": "Amazon, Walmart Among 6 Companies Returning Tariff Savings — How It Impacts Your Budget",
-          "publisher": "MoneyLion",
-          "url": "https://finance.yahoo.com/economy/policy/articles/amazon-walmart-among-6-companies-170024069.html",
-          "publishedAt": "2026-09-16T17:00:24.000Z"
+          "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-mixed-afternoon-195324220.html",
+          "publishedAt": "2026-09-16T19:53:24.000Z"
         },
         {
-          "title": "Amazon raises minimum pay for warehouse workers to $20/hour",
-          "publisher": "Quartz",
-          "url": "https://finance.yahoo.com/economy/policy/articles/amazon-raises-minimum-pay-warehouse-165504680.html",
-          "publishedAt": "2026-09-16T16:55:04.000Z"
+          "title": "Why Is Palantir Stock Priced For A Swing This Wide After A Flat Year?",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/markets/options/articles/why-palantir-stock-priced-swing-195125449.html",
+          "publishedAt": "2026-09-16T19:51:25.000Z"
         }
       ]
     }
