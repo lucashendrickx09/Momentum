@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T23:22:18.800Z",
+  "generatedAt": "2026-10-01T23:33:51.866Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -223,7 +223,32 @@
       "currency": "USD",
       "exchange": "NYSE",
       "asOf": "2026-10-01T20:00:03.000Z",
-      "headlines": []
+      "headlines": [
+        {
+          "title": "EPAM, DXC, Everforth, EXL, and Grid Dynamics Stocks Trade Up, What You Need To Know",
+          "publisher": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/epam-dxc-everforth-exl-grid-224507189.html",
+          "publishedAt": "2026-10-01T22:45:07.000Z"
+        },
+        {
+          "title": "Concentrix, Huron, and TaskUs Shares Skyrocket, What You Need To Know",
+          "publisher": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/concentrix-huron-taskus-shares-skyrocket-222907764.html",
+          "publishedAt": "2026-10-01T22:29:07.000Z"
+        },
+        {
+          "title": "Better Quantum Computing Stock: IonQ vs. D-Wave",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/better-quantum-computing-stock-ionq-213500639.html",
+          "publishedAt": "2026-10-01T21:35:00.000Z"
+        },
+        {
+          "title": "Why IBM (IBM) Stock Is Trading Up Today",
+          "publisher": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-ibm-ibm-stock-trading-211707996.html",
+          "publishedAt": "2026-10-01T21:17:07.000Z"
+        }
+      ]
     },
     {
       "ticker": "SABS",
@@ -380,6 +405,12 @@
       "asOf": "2026-10-01T20:00:01.000Z",
       "headlines": [
         {
+          "title": "SpaceX's Terafab Will Be Bigger Than Any Building on Earth. Here's When Investors Will Profit.",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/technology/ai/articles/spacexs-terafab-bigger-building-earth-232500302.html",
+          "publishedAt": "2026-10-01T23:25:00.000Z"
+        },
+        {
           "title": "Why Jacobs Solutions (J) Stock Is Up Today",
           "publisher": "StockStory",
           "url": "https://finance.yahoo.com/markets/stocks/articles/why-jacobs-solutions-j-stock-230107162.html",
@@ -396,12 +427,6 @@
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/markets/stocks/articles/worst-performing-magnificent-seven-stock-222500061.html",
           "publishedAt": "2026-10-01T22:25:00.000Z"
-        },
-        {
-          "title": "Nvidia (NVDA) Stock Gets Fair Value Boost As AI Demand And Analyst Views Shift",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-stock-gets-fair-220550617.html",
-          "publishedAt": "2026-10-01T22:05:50.000Z"
         }
       ]
     },
@@ -522,7 +547,32 @@
       "currency": "USD",
       "exchange": "NasdaqGS",
       "asOf": "2026-10-01T20:00:01.000Z",
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Amazon Signs 20 Year Nuclear Power Deal. That's Great News for This Nuclear Stock",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/energy/articles/amazon-signs-20-nuclear-power-215743195.html",
+          "publishedAt": "2026-10-01T21:57:43.000Z"
+        },
+        {
+          "title": "Senator Rick Scott Hails Jobless Claims Near 57-Year Low, Urges Congress to ‘Get Out Of Small Businesses’ Way’ — ‘Jobs Are the Key to Living the American Dream’",
+          "publisher": "Benzinga",
+          "url": "https://finance.yahoo.com/economy/policy/articles/senator-rick-scott-hails-jobless-213026523.html",
+          "publishedAt": "2026-10-01T21:30:26.000Z"
+        },
+        {
+          "title": "IonQ vs. SoundHound AI: Which Tech Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-vs-soundhound-ai-tech-212433346.html",
+          "publishedAt": "2026-10-01T21:24:33.000Z"
+        },
+        {
+          "title": "BAG Ventures Closes $11.3M Fund With Support From Google, Amazon, And More",
+          "publisher": "AfroTech",
+          "url": "https://finance.yahoo.com/technology/ai/articles/bag-ventures-closes-11-3m-211808316.html",
+          "publishedAt": "2026-10-01T21:18:08.000Z"
+        }
+      ]
     }
   ],
   "errors": []
