@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T23:42:24.129Z",
+  "generatedAt": "2026-10-07T23:56:03.904Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -87,6 +87,18 @@
       "asOf": "2026-10-07T20:00:01.000Z",
       "headlines": [
         {
+          "title": "Duke Energy Reaches Settlement Requiring Data Centers To Pay Upfront Grid Connection Costs In N.C.",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/energy/articles/duke-energy-reaches-settlement-requiring-234403318.html",
+          "publishedAt": "2026-10-07T23:44:03.000Z"
+        },
+        {
+          "title": "Should You Buy Salesforce Stock For Its Cash?",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/buy-salesforce-stock-cash-232429074.html",
+          "publishedAt": "2026-10-07T23:24:29.000Z"
+        },
+        {
           "title": "What Happens To IBM Stock If Its Slowdown Lasts?",
           "publisher": "Trefis",
           "url": "https://finance.yahoo.com/markets/stocks/articles/happens-ibm-stock-slowdown-lasts-224725137.html",
@@ -97,18 +109,6 @@
           "publisher": "TheStreet",
           "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-665-target-hinges-ai-223300589.html",
           "publishedAt": "2026-10-07T22:33:00.000Z"
-        },
-        {
-          "title": "Why Is Microsoft (MSFT) Taking On More Debt For AI Infrastructure?",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/why-microsoft-msft-taking-more-221547741.html",
-          "publishedAt": "2026-10-07T22:15:47.000Z"
-        },
-        {
-          "title": "Morningstar (MORN) Stock Is Up, What You Need To Know",
-          "publisher": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/morningstar-morn-stock-know-213647074.html",
-          "publishedAt": "2026-10-07T21:36:47.000Z"
         }
       ]
     },
@@ -303,6 +303,18 @@
       "asOf": "2026-10-07T20:00:00.000Z",
       "headlines": [
         {
+          "title": "Why PJT Partners Stock Withered on Wednesday",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-pjt-partners-stock-withered-234944770.html",
+          "publishedAt": "2026-10-07T23:49:44.000Z"
+        },
+        {
+          "title": "Broadcom, Oracle And SpaceX Tap Private Credit For AI Hardware: Report",
+          "publisher": "Stocktwits",
+          "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-oracle-spacex-tap-private-233758270.html",
+          "publishedAt": "2026-10-07T23:37:58.000Z"
+        },
+        {
           "title": "Can Dell (DELL) Turn Its New AI Data Platform Into a Durable Competitive Advantage?",
           "publisher": "Simply Wall St.",
           "url": "https://finance.yahoo.com/technology/ai/articles/dell-dell-turn-ai-data-231936828.html",
@@ -313,18 +325,6 @@
           "publisher": "Simply Wall St.",
           "url": "https://finance.yahoo.com/technology/ai/articles/crowdstrike-crwd-earns-idc-marketscape-231754426.html",
           "publishedAt": "2026-10-07T23:17:54.000Z"
-        },
-        {
-          "title": "Why NorthWestern Energy Group Stock Soared on Wednesday",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-northwestern-energy-group-stock-231653039.html",
-          "publishedAt": "2026-10-07T23:16:53.000Z"
-        },
-        {
-          "title": "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields — SPCX, AMD, NVDA, MRVL In Focus",
-          "publisher": "Stocktwits",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-100-slip-225051213.html",
-          "publishedAt": "2026-10-07T22:50:51.000Z"
         }
       ]
     },
@@ -555,6 +555,12 @@
       "asOf": "2026-10-07T20:00:01.000Z",
       "headlines": [
         {
+          "title": "Duke Energy Reaches Settlement Requiring Data Centers To Pay Upfront Grid Connection Costs In N.C.",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/energy/articles/duke-energy-reaches-settlement-requiring-234403318.html",
+          "publishedAt": "2026-10-07T23:44:03.000Z"
+        },
+        {
           "title": "What Happens To IBM Stock If Its Slowdown Lasts?",
           "publisher": "Trefis",
           "url": "https://finance.yahoo.com/markets/stocks/articles/happens-ibm-stock-slowdown-lasts-224725137.html",
@@ -571,12 +577,6 @@
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/markets/stocks/articles/not-amazon-not-sea-limited-201300416.html",
           "publishedAt": "2026-10-07T20:13:00.000Z"
-        },
-        {
-          "title": "Amazon stock is trading at its lowest trailing PE ratio as a public company, despite AI boom",
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/amazon-stock-is-trading-at-its-lowest-trailing-pe-ratio-as-a-public-company-despite-ai-boom-154718912.html",
-          "publishedAt": "2026-10-07T20:05:26.000Z"
         }
       ]
     }
