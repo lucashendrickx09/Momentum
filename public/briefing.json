@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T23:25:33.583Z",
+  "generatedAt": "2026-10-09T23:42:06.191Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -87,6 +87,12 @@
       "asOf": "2026-10-09T20:00:01.000Z",
       "headlines": [
         {
+          "title": "Fuji Electric’s Helical Fusion Partnership Could Be A Game Changer For Fuji Electric (TSE:6504)",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/energy/articles/fuji-electric-helical-fusion-partnership-231500646.html",
+          "publishedAt": "2026-10-09T23:15:00.000Z"
+        },
+        {
           "title": "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus",
           "publisher": "Stocktwits",
           "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-100-dow-225311213.html",
@@ -103,12 +109,6 @@
           "publisher": "Simply Wall St.",
           "url": "https://finance.yahoo.com/markets/stocks/articles/rising-earnings-estimates-fastenal-fast-221403486.html",
           "publishedAt": "2026-10-09T22:14:03.000Z"
-        },
-        {
-          "title": "JD Vance slams Microsoft, says it swapped 6,000 laid-off Americans for ‘foreign indentured servants.’ Microsoft responds",
-          "publisher": "Moneywise",
-          "url": "https://finance.yahoo.com/economy/policy/articles/jd-vance-slams-microsoft-says-214500533.html",
-          "publishedAt": "2026-10-09T21:45:00.000Z"
         }
       ]
     },
@@ -261,6 +261,12 @@
       "asOf": "2026-10-09T20:00:03.000Z",
       "headlines": [
         {
+          "title": "Is HPE Stock Really Expensive?",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-stock-really-expensive-230730120.html",
+          "publishedAt": "2026-10-09T23:07:30.000Z"
+        },
+        {
           "title": "Is Dell Stock Paying You Enough For The Swings?",
           "publisher": "Trefis",
           "url": "https://finance.yahoo.com/markets/stocks/articles/dell-stock-paying-enough-swings-214928451.html",
@@ -277,12 +283,6 @@
           "publisher": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/markets/stocks/articles/forget-chasing-biggest-yield-5-184550685.html",
           "publishedAt": "2026-10-09T18:45:50.000Z"
-        },
-        {
-          "title": "Zscaler Jumps 6% on Reaffirmed Revenue Outlook and IBM Security Pact; Palo Alto and CrowdStrike Gain 4%",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-jumps-6-reaffirmed-revenue-180232350.html",
-          "publishedAt": "2026-10-09T18:02:32.000Z"
         }
       ]
     },
@@ -441,28 +441,28 @@
       "asOf": "2026-10-09T20:00:00.000Z",
       "headlines": [
         {
+          "title": "Why CrowdStrike Holdings Stock Crushed it on Friday",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-crowdstrike-holdings-stock-crushed-231618997.html",
+          "publishedAt": "2026-10-09T23:16:18.000Z"
+        },
+        {
+          "title": "Fuji Electric’s Helical Fusion Partnership Could Be A Game Changer For Fuji Electric (TSE:6504)",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/energy/articles/fuji-electric-helical-fusion-partnership-231500646.html",
+          "publishedAt": "2026-10-09T23:15:00.000Z"
+        },
+        {
+          "title": "Should Qualcomm Stock Holders Look At First Solar Instead?",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-stock-holders-look-first-231309987.html",
+          "publishedAt": "2026-10-09T23:13:09.000Z"
+        },
+        {
           "title": "How Rising Earnings Estimates At Fastenal (FAST) Have Changed Its Investment Story",
           "publisher": "Simply Wall St.",
           "url": "https://finance.yahoo.com/markets/stocks/articles/rising-earnings-estimates-fastenal-fast-221403486.html",
           "publishedAt": "2026-10-09T22:14:03.000Z"
-        },
-        {
-          "title": "Elon Musk Just Made a Surprising Statement About AI Chips. Here's the Stock It Helps.",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/technology/ai/articles/elon-musk-just-made-surprising-220800893.html",
-          "publishedAt": "2026-10-09T22:08:00.000Z"
-        },
-        {
-          "title": "Is Dell Stock Paying You Enough For The Swings?",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/dell-stock-paying-enough-swings-214928451.html",
-          "publishedAt": "2026-10-09T21:49:28.000Z"
-        },
-        {
-          "title": "Netflix Is Reportedly Cutting 5% of Its Staff. Its 2022 Layoffs Came Days After the Stock Bottomed.",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-reportedly-cutting-5-staff-214302864.html",
-          "publishedAt": "2026-10-09T21:43:02.000Z"
         }
       ]
     },
@@ -511,26 +511,7 @@
       "currency": "USD",
       "exchange": "NasdaqGS",
       "asOf": "2026-10-09T20:00:01.000Z",
-      "headlines": [
-        {
-          "title": "Microsoft vs. Alphabet: Which AI Cloud Stock Is Cheaper After the Capital Spending?",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-vs-alphabet-ai-cloud-212027785.html",
-          "publishedAt": "2026-10-09T21:20:27.000Z"
-        },
-        {
-          "title": "Is the Market Underestimating Amazon’s (AMZN) Moat?",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/market-underestimating-amazon-amzn-moat-230702371.html",
-          "publishedAt": "2026-10-09T20:35:02.000Z"
-        },
-        {
-          "title": "Jim Cramer Said NVIDIA’s Shares Were Due For A Gut Check Following Morgan Stanley’s Coverage",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-nvidia-shares-225430193.html",
-          "publishedAt": "2026-10-09T20:22:30.000Z"
-        }
-      ]
+      "headlines": []
     },
     {
       "ticker": "TSM",
