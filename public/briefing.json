@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T21:53:27.338Z",
+  "generatedAt": "2026-10-14T22:50:41.536Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -303,6 +303,12 @@
       "asOf": "2026-10-14T20:00:02.000Z",
       "headlines": [
         {
+          "title": "PG&E Urges Customers to Prepare as Planned Public Safety Power Shutoff Approaches",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/energy/articles/pg-e-urges-customers-prepare-224500604.html",
+          "publishedAt": "2026-10-14T22:45:00.000Z"
+        },
+        {
           "title": "With Change Statewide Fire Weather Forecast, Planned PG&E Public Safety Power Shutoff Event Now Includes 88,000 Customers in Portions of Twenty-Nine Counties",
           "publisher": "PR Newswire",
           "url": "https://finance.yahoo.com/energy/articles/change-statewide-fire-weather-forecast-162200015.html",
@@ -319,12 +325,6 @@
           "publisher": "Simply Wall St.",
           "url": "https://finance.yahoo.com/energy/articles/3-hydrogen-fuel-cell-stocks-141255184.html",
           "publishedAt": "2026-10-14T14:12:55.000Z"
-        },
-        {
-          "title": "High Winds, Dry Conditions Mean PG&E May Need to Proactively Turn Off Power for Safety Wednesday Evening in Portions of Twenty-Nine Counties",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/energy/articles/high-winds-dry-conditions-mean-203000217.html",
-          "publishedAt": "2026-10-13T20:30:00.000Z"
         }
       ]
     },
@@ -483,28 +483,28 @@
       "asOf": "2026-10-14T20:00:00.000Z",
       "headlines": [
         {
-          "title": "Got $5,000? 2 Stocks Supplying the AI Data Center Power Crunch.",
+          "title": "Dow Jones Futures: Dell, AMD, CoreWeave Dive In AI-Led Sell-Off; Anthropic Revenue Jumps, Taiwan Semiconductor Due",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/aa652aec-f2fc-3be9-a055-a0a4183cba67/dow-jones-futures%3A-dell%2C-amd%2C.html",
+          "publishedAt": "2026-10-14T22:37:08.000Z"
+        },
+        {
+          "title": "Perpetual Futures and ETFs? Maybe?",
+          "publisher": "etf.com",
+          "url": "https://finance.yahoo.com/markets/options/articles/perpetual-futures-etfs-maybe-223542480.html",
+          "publishedAt": "2026-10-14T22:35:42.000Z"
+        },
+        {
+          "title": "Prediction: UPS Will Miss Estimates (but the Stock Could Still Be a Good Value)",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/got-5-000-2-stocks-212500477.html",
-          "publishedAt": "2026-10-14T21:25:00.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-ups-miss-estimates-stock-222500026.html",
+          "publishedAt": "2026-10-14T22:25:00.000Z"
         },
         {
-          "title": "Here's What a $10,000 Investment in Apple Stock Could Be Worth in 5 Years",
+          "title": "Exxon Wants to Repeat Its Guyana Success in Trinidad. Should You Buy the Stock Now or Wait for the First Well?",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-10-000-investment-apple-212200678.html",
-          "publishedAt": "2026-10-14T21:22:00.000Z"
-        },
-        {
-          "title": "Dell Just Found Out What Gravity Feels Like",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/dell-just-found-gravity-feels-212158568.html",
-          "publishedAt": "2026-10-14T21:21:58.000Z"
-        },
-        {
-          "title": "Apple Closes Above the $5 Trillion Mark",
-          "publisher": "The Wall Street Journal",
-          "url": "https://finance.yahoo.com/m/8564282f-171f-3556-a37a-bfa07f6156f7/apple-closes-above-the-%245.html",
-          "publishedAt": "2026-10-14T21:20:00.000Z"
+          "url": "https://finance.yahoo.com/energy/articles/exxon-wants-repeat-guyana-success-215000483.html",
+          "publishedAt": "2026-10-14T21:50:00.000Z"
         }
       ]
     },
@@ -518,6 +518,12 @@
       "exchange": "NasdaqGS",
       "asOf": "2026-10-14T20:00:01.000Z",
       "headlines": [
+        {
+          "title": "Amazon.com (AMZN) Could See Blue Origin Go Public",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-could-see-221605046.html",
+          "publishedAt": "2026-10-14T22:16:05.000Z"
+        },
         {
           "title": "Global X Investments Canada Inc. Closes the Market",
           "publisher": "TMX Newsfile",
@@ -535,12 +541,6 @@
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/technology/ai/articles/3-cloud-leaders-fortune-ai-203100802.html",
           "publishedAt": "2026-10-14T20:31:00.000Z"
-        },
-        {
-          "title": "Sara Eisen Went on Bill Maher and Said What Wall Street Will Not About the AI Race",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/sara-eisen-went-bill-maher-195010706.html",
-          "publishedAt": "2026-10-14T19:50:10.000Z"
         }
       ]
     },
@@ -555,10 +555,10 @@
       "asOf": "2026-10-14T20:00:02.000Z",
       "headlines": [
         {
-          "title": "Dow Jones Futures: Dell, AMD, CoreWeave Lead Market Sell-Off On AI Fears; Taiwan Semiconductor Due",
+          "title": "Dow Jones Futures: Dell, AMD, CoreWeave Dive In AI-Led Sell-Off; Anthropic Revenue Jumps, Taiwan Semiconductor Due",
           "publisher": "Investor's Business Daily",
           "url": "https://finance.yahoo.com/m/aa652aec-f2fc-3be9-a055-a0a4183cba67/dow-jones-futures%3A-dell%2C-amd%2C.html",
-          "publishedAt": "2026-10-14T21:09:25.000Z"
+          "publishedAt": "2026-10-14T22:37:08.000Z"
         },
         {
           "title": "Stock market today: Hot inflation report drops tech, drives S&P 500, Dow and Nasdaq down",
