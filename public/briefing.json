@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T23:26:24.155Z",
+  "generatedAt": "2026-10-28T23:43:29.930Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -85,7 +85,32 @@
       "currency": "USD",
       "exchange": "NasdaqGS",
       "asOf": "2026-10-28T20:00:01.000Z",
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Dow Jones Futures: Microsoft Rises Late, But Google, ServiceNow, Fortinet Dive On Earnings",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/6c0b166b-19af-3d40-b6ff-7c6d65d3c4da/dow-jones-futures%3A-microsoft.html",
+          "publishedAt": "2026-10-28T23:33:41.000Z"
+        },
+        {
+          "title": "MSFT Stock Gains 3% After-Hours As AI Demand Powers Q1 Cloud Revenue, Q2 Guidance Beat With Positive Cash Flows",
+          "publisher": "Stocktwits",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/msft-stock-gains-3-hours-231341910.html",
+          "publishedAt": "2026-10-28T23:13:41.000Z"
+        },
+        {
+          "title": "How Microsoft, Coca-Cola And Amazon Are Adapting Their Offices For AI Age",
+          "publisher": "Bisnow",
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-coca-cola-amazon-adapting-225816351.html",
+          "publishedAt": "2026-10-28T22:58:16.000Z"
+        },
+        {
+          "title": "Microsoft beats expectations fueled by Azure cloud business",
+          "publisher": "AFP",
+          "url": "https://finance.yahoo.com/technology/articles/microsoft-beats-expectations-fueled-azure-224832868.html",
+          "publishedAt": "2026-10-28T22:48:32.000Z"
+        }
+      ]
     },
     {
       "ticker": "SAP",
@@ -170,6 +195,12 @@
       "asOf": "2026-10-28T20:00:01.000Z",
       "headlines": [
         {
+          "title": "Applied Digital (APLD) Shares Climbed, What Is Behind The Latest Attention?",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-apld-shares-climbed-231154698.html",
+          "publishedAt": "2026-10-28T23:11:54.000Z"
+        },
+        {
           "title": "Applied Digital Insiders Just Bought More Shares. Should You Join Them?",
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-insiders-just-bought-173500370.html",
@@ -186,12 +217,6 @@
           "publisher": "Insider Monkey",
           "url": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-selling-insiders-buying-201902401.html",
           "publishedAt": "2026-10-27T20:19:02.000Z"
-        },
-        {
-          "title": "Applied Digital Jumps 10% as Data Center Stocks Rebound; Riot Climbs 7%, Core Scientific Gains 4%",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-jumps-10-data-180216739.html",
-          "publishedAt": "2026-10-27T18:02:16.000Z"
         }
       ]
     },
@@ -204,32 +229,7 @@
       "currency": "USD",
       "exchange": "NYSE",
       "asOf": "2026-10-28T20:00:02.000Z",
-      "headlines": [
-        {
-          "title": "Louisiana-Pacific (LPX) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/louisiana-pacific-lpx-expected-beat-130007892.html",
-          "publishedAt": "2026-10-27T13:00:07.000Z"
-        },
-        {
-          "title": "Forget Apartments and Offices: These 4 REITs Own Casinos, Forests and Farms",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/real-estate/articles/forget-apartments-offices-4-reits-111513776.html",
-          "publishedAt": "2026-10-27T11:15:13.000Z"
-        },
-        {
-          "title": "DA Davidson Adjusts Price Target on Weyerhaeuser to $27 From $31",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/da-davidson-adjusts-price-target-102948808.html",
-          "publishedAt": "2026-10-27T10:29:48.000Z"
-        },
-        {
-          "title": "Weyerhaeuser to Report Q3 Earnings: Here's What Investors Must Know",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/weyerhaeuser-report-q3-earnings-heres-145000565.html",
-          "publishedAt": "2026-10-26T14:50:00.000Z"
-        }
-      ]
+      "headlines": []
     },
     {
       "ticker": "TMC",
@@ -350,6 +350,12 @@
       "asOf": "2026-10-28T20:00:02.000Z",
       "headlines": [
         {
+          "title": "2 Millionaire-Maker Custom Silicon Stocks Powering the AI Infrastructure Supercycle",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/technology/ai/articles/2-millionaire-maker-custom-silicon-232000382.html",
+          "publishedAt": "2026-10-28T23:20:00.000Z"
+        },
+        {
           "title": "Beyond NVIDIA: Why TSMC Stock Looks Attractive After Q3 Earnings",
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/technology/ai/articles/beyond-nvidia-why-tsmc-stock-180000531.html",
@@ -366,12 +372,6 @@
           "publisher": "Manufacturing Dive",
           "url": "https://finance.yahoo.com/technology/articles/anduril-qualcomm-partner-bluechip-computer-162603676.html",
           "publishedAt": "2026-10-28T16:26:03.000Z"
-        },
-        {
-          "title": "ASE Technology Gains 5% as Packaging Rival Amkor Touts “Expanding Customer Commitments”",
-          "publisher": "TIKR",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ase-technology-gains-5-packaging-155749752.html",
-          "publishedAt": "2026-10-28T15:57:49.000Z"
         }
       ]
     },
@@ -458,28 +458,28 @@
       "asOf": "2026-10-28T20:00:01.000Z",
       "headlines": [
         {
-          "title": "Lumentum Jumps On Marvell Buyout Report",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/4dcc41b1-1cb8-395f-b86f-c08b38260525/lumentum-jumps-on-marvell.html",
-          "publishedAt": "2026-10-28T22:50:43.000Z"
-        },
-        {
-          "title": "Vertiv stock surges as orders double amid AI build-out: 'Evolving faster than ever'",
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/vertiv-stock-surges-as-orders-double-amid-ai-build-out-evolving-faster-than-ever-122018206.html",
-          "publishedAt": "2026-10-28T22:46:51.000Z"
-        },
-        {
-          "title": "NVDA Stock Edges Down On DOJ Interest In $12.9 Billion Hugging Face Acquisition",
-          "publisher": "Stocktwits",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-edges-down-doj-222639728.html",
-          "publishedAt": "2026-10-28T22:26:39.000Z"
-        },
-        {
-          "title": "Not Space. Not Starlink. Here's My Top Reason to Buy SpaceX Stock.",
+          "title": "3 Reasons Why Bitcoin Is Worth Buying Right Now",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/not-space-not-starlink-heres-222300712.html",
-          "publishedAt": "2026-10-28T22:23:00.000Z"
+          "url": "https://finance.yahoo.com/markets/crypto/articles/3-reasons-why-bitcoin-worth-232900539.html",
+          "publishedAt": "2026-10-28T23:29:00.000Z"
+        },
+        {
+          "title": "Google Cloud Revenue Just Grew 103%, so Why Is the Stock Falling?",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/google-cloud-revenue-just-grew-232306863.html",
+          "publishedAt": "2026-10-28T23:23:06.000Z"
+        },
+        {
+          "title": "2 Millionaire-Maker Custom Silicon Stocks Powering the AI Infrastructure Supercycle",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/technology/ai/articles/2-millionaire-maker-custom-silicon-232000382.html",
+          "publishedAt": "2026-10-28T23:20:00.000Z"
+        },
+        {
+          "title": "History Shows IPO Stocks Plunge Up to 48% Within 1 Year of Going Public. Here's Why SpaceX Could Defy the Odds in 2027.",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/history-shows-ipo-stocks-plunge-232000105.html",
+          "publishedAt": "2026-10-28T23:20:00.000Z"
         }
       ]
     },
