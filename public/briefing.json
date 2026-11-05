@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T20:31:05.032Z",
+  "generatedAt": "2026-11-05T00:38:36.928Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -9,10 +9,10 @@
       "name": "Acumen Pharmaceuticals, Inc.",
       "price": 0.22,
       "previousClose": 2.24,
-      "changePct": -90.09,
+      "changePct": -90.34,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-11-04T20:30:49.000Z",
+      "asOf": "2026-11-04T21:00:01.000Z",
       "headlines": [
         {
           "title": "Cantor Fitzgerald Downgrades Acumen Pharmaceuticals to Underweight From Overweight",
@@ -41,50 +41,14 @@
       ]
     },
     {
-      "ticker": "MSTR",
-      "name": "Strategy Inc",
-      "price": 143.79,
-      "previousClose": 97.65,
-      "changePct": 47.25,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-11-04T20:31:01.000Z",
-      "headlines": [
-        {
-          "title": "Strategy Gains 7% as Bitcoin Rallies After Midterms, CEO Touts “Bitcoin Capital Cycle”",
-          "publisher": "TIKR",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-gains-7-bitcoin-rallies-191819503.html",
-          "publishedAt": "2026-11-04T19:18:19.000Z"
-        },
-        {
-          "title": "Michael Saylor Keeps Buying Bitcoin While ETF Investors Sell. Strategy Added 811 Coins While BlackRock’s Bitcoin ETF Saw $405.3 Million Pulled Out In A Single Day",
-          "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/michael-saylor-keeps-buying-bitcoin-184322318.html",
-          "publishedAt": "2026-11-04T18:43:22.000Z"
-        },
-        {
-          "title": "Circle Earnings Show Stablecoins Have Arrived. A Crypto Payoff Could Take Longer.",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/ba206994-8f6c-3504-a0ed-5f422d7c2b0d/circle-earnings-show.html",
-          "publishedAt": "2026-11-04T16:14:00.000Z"
-        },
-        {
-          "title": "Bitcoin Rises, Crypto Miners Sharply Divided As Midterms Dampen AI Outlook",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/c5d0833e-fe1d-3e77-b792-4b103f8d64bf/bitcoin-rises%2C-crypto-miners.html",
-          "publishedAt": "2026-11-04T16:07:41.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "APLD",
       "name": "Applied Digital Corporation",
       "price": 16.61,
       "previousClose": 31.27,
-      "changePct": -46.87,
+      "changePct": -46.88,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-11-04T20:31:04.000Z",
+      "asOf": "2026-11-04T21:00:01.000Z",
       "headlines": [
         {
           "title": "Applied Digital Stock Faces Data Center Permit Risk After Election Results",
@@ -113,14 +77,50 @@
       ]
     },
     {
-      "ticker": "TMC",
-      "name": "TMC the metals company Inc.",
-      "price": 2.34,
-      "previousClose": 3.95,
-      "changePct": -40.89,
+      "ticker": "MSTR",
+      "name": "Strategy Inc",
+      "price": 142.54,
+      "previousClose": 97.65,
+      "changePct": 45.97,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-11-04T20:30:30.000Z",
+      "asOf": "2026-11-04T21:00:01.000Z",
+      "headlines": [
+        {
+          "title": "Bitcoin Rises, Crypto Miners Sharply Divided As Midterms Dampen AI Outlook",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/c5d0833e-fe1d-3e77-b792-4b103f8d64bf/bitcoin-rises%2C-crypto-miners.html",
+          "publishedAt": "2026-11-04T21:24:53.000Z"
+        },
+        {
+          "title": "Circle Earnings Show Stablecoins Have Arrived. A Crypto Payoff Could Take Longer.",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/ba206994-8f6c-3504-a0ed-5f422d7c2b0d/circle-earnings-show.html",
+          "publishedAt": "2026-11-04T21:09:00.000Z"
+        },
+        {
+          "title": "Bitcoin, XRP, crypto stocks surge after GOP loses midterm 2026",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-xrp-crypto-stocks-surge-203441456.html",
+          "publishedAt": "2026-11-04T20:34:41.000Z"
+        },
+        {
+          "title": "Strategy Gains 7% as Bitcoin Rallies After Midterms, CEO Touts “Bitcoin Capital Cycle”",
+          "publisher": "TIKR",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-gains-7-bitcoin-rallies-191819503.html",
+          "publishedAt": "2026-11-04T19:18:19.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "TMC",
+      "name": "TMC the metals company Inc.",
+      "price": 2.31,
+      "previousClose": 3.95,
+      "changePct": -41.52,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-11-04T21:00:01.000Z",
       "headlines": [
         {
           "title": "4 Critical Minerals Stocks That Could Benefit as the U.S. Reduces Reliance on China",
@@ -149,14 +149,50 @@
       ]
     },
     {
-      "ticker": "SAP",
-      "name": "SAP SE",
-      "price": 240.92,
-      "previousClose": 195.49,
-      "changePct": 23.24,
+      "ticker": "PCG",
+      "name": "PG&E Corporation",
+      "price": 13.4,
+      "previousClose": 17.45,
+      "changePct": -23.21,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-11-04T20:31:01.000Z",
+      "asOf": "2026-11-04T21:00:03.000Z",
+      "headlines": [
+        {
+          "title": "What Does The Market Want From PG&E Stock?",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/does-market-want-pg-e-204911699.html",
+          "publishedAt": "2026-11-04T20:49:11.000Z"
+        },
+        {
+          "title": "Greenlight Capital Discussed PG&E Corporation (PG) in Its Q3 2026 Investor Letter",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/greenlight-capital-discussed-pg-e-184605050.html",
+          "publishedAt": "2026-11-04T14:03:05.000Z"
+        },
+        {
+          "title": "EMBERPOINT Adds State Farm® as Investor to Strengthen Community Wildfire Response",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/small-business/articles/emberpoint-adds-state-farm-investor-130000947.html",
+          "publishedAt": "2026-11-04T13:00:00.000Z"
+        },
+        {
+          "title": "LA Times Reports PG&E and Edison Have Secret Thanksgiving Surprise To Limit Shareholders' Liability For Utility-Caused Fires In Special Session, Says Consumer Watchdog",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/economy/policy/articles/la-times-reports-pg-e-203100256.html",
+          "publishedAt": "2026-11-03T20:31:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "SAP",
+      "name": "SAP SE",
+      "price": 240.04,
+      "previousClose": 195.49,
+      "changePct": 22.79,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-11-04T21:00:02.000Z",
       "headlines": [
         {
           "title": "SAP Stocks Rise 4.1% as Sovereign AI Launch Faces Its First Commercial Test",
@@ -185,50 +221,14 @@
       ]
     },
     {
-      "ticker": "PCG",
-      "name": "PG&E Corporation",
-      "price": 13.45,
-      "previousClose": 17.45,
-      "changePct": -22.92,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-11-04T20:30:54.000Z",
-      "headlines": [
-        {
-          "title": "Greenlight Capital Discussed PG&E Corporation (PG) in Its Q3 2026 Investor Letter",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/greenlight-capital-discussed-pg-e-184605050.html",
-          "publishedAt": "2026-11-04T14:03:05.000Z"
-        },
-        {
-          "title": "EMBERPOINT Adds State Farm® as Investor to Strengthen Community Wildfire Response",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/small-business/articles/emberpoint-adds-state-farm-investor-130000947.html",
-          "publishedAt": "2026-11-04T13:00:00.000Z"
-        },
-        {
-          "title": "LA Times Reports PG&E and Edison Have Secret Thanksgiving Surprise To Limit Shareholders' Liability For Utility-Caused Fires In Special Session, Says Consumer Watchdog",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/economy/policy/articles/la-times-reports-pg-e-203100256.html",
-          "publishedAt": "2026-11-03T20:31:00.000Z"
-        },
-        {
-          "title": "/C O R R E C T I O N - PG&E Corporation/",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/energy/articles/c-o-r-r-e-183000271.html",
-          "publishedAt": "2026-11-03T18:30:00.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.13,
+      "price": 3.18,
       "previousClose": 3.85,
-      "changePct": -18.83,
+      "changePct": -17.4,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-11-04T20:30:10.000Z",
+      "asOf": "2026-11-04T21:00:01.000Z",
       "headlines": [
         {
           "title": "SAB BIO to Host Third Quarter 2026 Financial Results Conference Call and Webcast on November 5, 2026, 08:30 AM ET",
@@ -259,12 +259,12 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 21.63,
+      "price": 21.75,
       "previousClose": 25.83,
-      "changePct": -16.26,
+      "changePct": -15.8,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-11-04T20:31:01.000Z",
+      "asOf": "2026-11-04T21:00:03.000Z",
       "headlines": [
         {
           "title": "Weak Housing Keeps Pressure on Lumber and Weyerhaeuser (WY)",
@@ -293,51 +293,21 @@
       ]
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation",
-      "price": 558.26,
-      "previousClose": 492.81,
-      "changePct": 13.28,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-11-04T20:31:00.000Z",
-      "headlines": [
-        {
-          "title": "Stock market today: Dow rallies 1,500 points, S&P 500 and Nasdaq gain after Democrats win control of Congress",
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html",
-          "publishedAt": "2026-11-04T20:12:07.000Z"
-        },
-        {
-          "title": "Stock Market Today: Dow Soars 1,500 Points; Microsoft Surges Off This Entry (Live Coverage)",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/762d358c-ec5a-3821-a3f9-e47c4e4c3f0c/stock-market-today%3A-dow-soars.html",
-          "publishedAt": "2026-11-04T20:10:38.000Z"
-        },
-        {
-          "title": "U.S. Stocks Jump After Democrats Sweep Congress",
-          "publisher": "The Wall Street Journal",
-          "url": "https://finance.yahoo.com/m/a32878b3-4af4-3c3c-82d3-21fa5810f440/u.s.-stocks-jump-after.html",
-          "publishedAt": "2026-11-04T19:16:00.000Z"
-        },
-        {
-          "title": "Big Tech Stocks And Mag7 ETF Jumps After Democratic Sweep Raises Bets For Easing AI Capex",
-          "publisher": "Stocktwits",
-          "url": "https://finance.yahoo.com/technology/ai/articles/big-tech-stocks-mag7-etf-185730254.html",
-          "publishedAt": "2026-11-04T18:57:30.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "LNG",
       "name": "Cheniere Energy, Inc.",
-      "price": 290.27,
+      "price": 292.02,
       "previousClose": 257.29,
-      "changePct": 12.82,
+      "changePct": 13.5,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-11-04T20:30:54.000Z",
+      "asOf": "2026-11-04T21:00:02.000Z",
       "headlines": [
+        {
+          "title": "Don’t Get Caught in a Gas Bubble, But Cheniere Energy Stock Is Hot",
+          "publisher": "Barchart",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/don-t-caught-gas-bubble-164503521.html",
+          "publishedAt": "2026-11-04T16:45:03.000Z"
+        },
         {
           "title": "Best Momentum Stocks to Buy for November 4th",
           "publisher": "Zacks",
@@ -355,24 +325,54 @@
           "publisher": "CNW Group",
           "url": "https://finance.yahoo.com/news/oil-looks-doha-washington-signs-164100497.html",
           "publishedAt": "2026-11-03T16:41:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 555.8,
+      "previousClose": 492.81,
+      "changePct": 12.78,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-11-04T21:00:01.000Z",
+      "headlines": [
+        {
+          "title": "Dow Jones Futures Rise After Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally. CoreWeave, SpaceX Skid.",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/a147bf9a-4218-3171-97a4-fb80fda211eb/dow-jones-futures-rise-after.html",
+          "publishedAt": "2026-11-05T00:14:08.000Z"
         },
         {
-          "title": "What Just Happened To Venture Global Stock?",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/just-happened-venture-global-stock-134727025.html",
-          "publishedAt": "2026-11-03T13:47:27.000Z"
+          "title": "The Dow’s Big Winners Today",
+          "publisher": "The Wall Street Journal",
+          "url": "https://finance.yahoo.com/m/38b7f7a9-4dc7-32b3-8cb1-4d7a5f3fb683/the-dow%E2%80%99s-big-winners-today.html",
+          "publishedAt": "2026-11-04T23:45:02.000Z"
+        },
+        {
+          "title": "Why an equal-weight S&P 500 fund can reduce Big Tech risk",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-equal-weight-p-500-225408418.html",
+          "publishedAt": "2026-11-04T22:54:08.000Z"
+        },
+        {
+          "title": "Texas data centers face uncertain future after Hinojosa wins governor’s race",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/technology/articles/texas-data-centers-face-uncertain-172340564.html",
+          "publishedAt": "2026-11-04T22:46:41.000Z"
         }
       ]
     },
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 255.36,
+      "price": 254.32,
       "previousClose": 235.15,
-      "changePct": 8.59,
+      "changePct": 8.15,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-11-04T20:31:02.000Z",
+      "asOf": "2026-11-04T21:00:02.000Z",
       "headlines": [
         {
           "title": "International Business Machines (IBM) Puts Quantum Encryption To Work On Heron R2",
@@ -401,50 +401,86 @@
       ]
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc.",
-      "price": 172.92,
-      "previousClose": 162.66,
-      "changePct": 6.31,
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 200.13,
+      "previousClose": 211.94,
+      "changePct": -5.57,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-11-04T20:31:02.000Z",
+      "asOf": "2026-11-04T21:00:01.000Z",
       "headlines": [
         {
-          "title": "Cathie Wood Picks a Side Between Palantir and Google",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-picks-side-between-192037247.html",
-          "publishedAt": "2026-11-04T19:20:37.000Z"
+          "title": "Prediction: This Is How Much IonQ Stock Will Be Worth by the End of 2027",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-much-ionq-stock-worth-002000473.html",
+          "publishedAt": "2026-11-05T00:20:00.000Z"
         },
         {
-          "title": "Why Palantir Technologies Stock Dropped Today",
+          "title": "Why Alphabet Stock Popped on Wednesday",
           "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-palantir-technologies-stock-dropped-170623943.html",
-          "publishedAt": "2026-11-04T17:06:23.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-alphabet-stock-popped-wednesday-001301263.html",
+          "publishedAt": "2026-11-05T00:13:01.000Z"
+        },
+        {
+          "title": "Steve Weiss Says the Midterms Just Put a Lid on AI Spending. Here’s Who Could Get Hurt",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/steve-weiss-says-midterms-just-000914700.html",
+          "publishedAt": "2026-11-05T00:09:14.000Z"
+        },
+        {
+          "title": "If You'd Invested $5,000 in VOO 15 Years Ago, Here's What You'd Have Today",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/youd-invested-5-000-voo-235000033.html",
+          "publishedAt": "2026-11-04T23:50:00.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "price": 171.7,
+      "previousClose": 162.66,
+      "changePct": 5.56,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-11-04T21:00:01.000Z",
+      "headlines": [
+        {
+          "title": "Earnings live updates: Cava stock falls after cyclospora outbreak dented Q3 results",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-apple-palantir-roku-and-more-212856249.html",
+          "publishedAt": "2026-11-04T21:31:23.000Z"
         },
         {
           "title": "Bank Stock Looks To Finance Breakout As Market Perks Up",
           "publisher": "Investor's Business Daily",
           "url": "https://finance.yahoo.com/m/12cb7c14-f23a-394e-93b3-2f78152fc1a9/bank-stock-looks-to-finance.html",
-          "publishedAt": "2026-11-04T17:01:48.000Z"
+          "publishedAt": "2026-11-04T21:09:29.000Z"
         },
         {
-          "title": "Palantir (PLTR) Grew 93% With a 62% Operating Margin. Is the “AI Sovereignty” Demand Real?",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-pltr-grew-93-62-165943138.html",
-          "publishedAt": "2026-11-04T16:59:43.000Z"
+          "title": "Cathie Wood buys $10.9 million of tumbling tech stock",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-buys-10-9-204026953.html",
+          "publishedAt": "2026-11-04T20:40:26.000Z"
+        },
+        {
+          "title": "Cathie Wood Picks a Side Between Palantir and Google",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-picks-side-between-192037247.html",
+          "publishedAt": "2026-11-04T19:20:37.000Z"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 395.8,
+      "price": 395.75,
       "previousClose": 417.17,
-      "changePct": -5.12,
+      "changePct": -5.13,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-11-04T20:30:59.000Z",
+      "asOf": "2026-11-04T21:00:02.000Z",
       "headlines": [
         {
           "title": "TSMC Stocks Move Lower as November Sales Data Face a $53.3 Billion Quarterly Hurdle",
@@ -473,81 +509,57 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "price": 202.23,
-      "previousClose": 211.94,
-      "changePct": -4.58,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-11-04T20:31:02.000Z",
-      "headlines": [
-        {
-          "title": "Why SpaceX Stock Is Down Today",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-spacex-stock-down-today-201501829.html",
-          "publishedAt": "2026-11-04T20:15:01.000Z"
-        },
-        {
-          "title": "AI Server Backlog Could Reshape The Dell Stock Story",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-server-backlog-could-reshape-201419354.html",
-          "publishedAt": "2026-11-04T20:14:19.000Z"
-        },
-        {
-          "title": "Stock market today: Dow rallies 1,500 points, S&P 500 and Nasdaq gain after Democrats win control of Congress",
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html",
-          "publishedAt": "2026-11-04T20:12:07.000Z"
-        },
-        {
-          "title": "Why Navitas Semiconductor Stock Rocketed Higher Today",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-navitas-semiconductor-stock-rocketed-201012796.html",
-          "publishedAt": "2026-11-04T20:10:12.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 268.31,
+      "price": 266.03,
       "previousClose": 277.42,
-      "changePct": -3.28,
+      "changePct": -4.11,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-11-04T20:31:00.000Z",
+      "asOf": "2026-11-04T21:00:01.000Z",
       "headlines": [
         {
-          "title": "Why Ethereum Is Now Following Amazon’s Playbook: Sharplink CEO",
-          "publisher": "Coinage Coop",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/why-ethereum-now-following-amazon-201800211.html",
-          "publishedAt": "2026-11-04T20:18:00.000Z"
+          "title": "Dow Jones Futures Rise After Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally. CoreWeave, SpaceX Skid.",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/a147bf9a-4218-3171-97a4-fb80fda211eb/dow-jones-futures-rise-after.html",
+          "publishedAt": "2026-11-05T00:14:08.000Z"
         },
         {
-          "title": "Credo Sinks 10% as Democratic Sweep Hits AI Data Center Stocks: “Biggest Worry”",
-          "publisher": "TIKR",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-sinks-10-democratic-sweep-190600831.html",
-          "publishedAt": "2026-11-04T19:06:00.000Z"
+          "title": "Amazon workers in the Greater Toronto Area launch fight for better jobs with Unifor",
+          "publisher": "CNW Group",
+          "url": "https://finance.yahoo.com/small-business/articles/amazon-workers-greater-toronto-area-234300921.html",
+          "publishedAt": "2026-11-04T23:43:00.000Z"
         },
         {
-          "title": "Big Tech Stocks And Mag7 ETF Jumps After Democratic Sweep Raises Bets For Easing AI Capex",
-          "publisher": "Stocktwits",
-          "url": "https://finance.yahoo.com/technology/ai/articles/big-tech-stocks-mag7-etf-185730254.html",
-          "publishedAt": "2026-11-04T18:57:30.000Z"
+          "title": "What Is Walmart (WMT) Betting On With Its New AI Shopping Agent?",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/walmart-wmt-betting-ai-shopping-231646446.html",
+          "publishedAt": "2026-11-04T23:16:46.000Z"
+        },
+        {
+          "title": "Qualcomm’s Stock Falls After It Warns Chip Margins Are Getting Squeezed",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/1c74714d-b3e8-378c-98a9-4f7059eb768b/qualcomm%E2%80%99s-stock-falls-after.html",
+          "publishedAt": "2026-11-04T22:27:00.000Z"
         }
       ]
     },
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 44.13,
+      "price": 44.12,
       "previousClose": 44.05,
-      "changePct": 0.17,
+      "changePct": 0.16,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-11-04T20:31:02.000Z",
+      "asOf": "2026-11-04T21:00:02.000Z",
       "headlines": [
+        {
+          "title": "EOG Resources Earnings Ahead: What Past Reactions Say About The Stock",
+          "publisher": "Trefis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/eog-resources-earnings-ahead-past-203738155.html",
+          "publishedAt": "2026-11-04T20:37:38.000Z"
+        },
         {
           "title": "How Could Devon Energy (DVN) Reshape Its Future With A $4.2 Billion Deal?",
           "publisher": "Simply Wall St.",
@@ -565,12 +577,6 @@
           "publisher": "TIKR",
           "url": "https://finance.yahoo.com/markets/stocks/articles/6-big-funds-bought-devon-115852711.html",
           "publishedAt": "2026-11-04T11:58:52.000Z"
-        },
-        {
-          "title": "What Just Happened To Devon Energy Stock?",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/just-happened-devon-energy-stock-180915371.html",
-          "publishedAt": "2026-11-03T18:09:15.000Z"
         }
       ]
     }
