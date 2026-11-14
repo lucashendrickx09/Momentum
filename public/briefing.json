@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T20:37:39.659Z",
+  "generatedAt": "2026-11-14T00:33:36.702Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -9,10 +9,10 @@
       "name": "Acumen Pharmaceuticals, Inc.",
       "price": 0.21,
       "previousClose": 2.55,
-      "changePct": -91.84,
+      "changePct": -91.61,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-11-13T20:34:04.000Z",
+      "asOf": "2026-11-13T21:00:01.000Z",
       "headlines": [
         {
           "title": "Alzheimer's families just lost one of their biggest hopes",
@@ -41,14 +41,50 @@
       ]
     },
     {
-      "ticker": "TMC",
-      "name": "TMC the metals company Inc.",
-      "price": 2.27,
-      "previousClose": 4.41,
-      "changePct": -48.64,
+      "ticker": "APLD",
+      "name": "Applied Digital Corporation",
+      "price": 15.97,
+      "previousClose": 30.62,
+      "changePct": -47.84,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-11-13T20:37:34.000Z",
+      "asOf": "2026-11-13T21:00:01.000Z",
+      "headlines": [
+        {
+          "title": "Applied Digital Sinks 10%, Nebius Down 13%, CoreWeave Down 11% as AI Data Center Selloff Resumes",
+          "publisher": "TIKR",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-sinks-10-nebius-160608199.html",
+          "publishedAt": "2026-11-13T16:06:08.000Z"
+        },
+        {
+          "title": "Prediction: This Data Center Stock Will Keep Sliding in 2027",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-data-center-stock-keep-144002828.html",
+          "publishedAt": "2026-11-13T14:40:02.000Z"
+        },
+        {
+          "title": "Applied Digital Soars 20% in a Week. Jim Chanos Calls the Wait for Profits a “Nonsensical Narrative”",
+          "publisher": "TIKR",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-soars-20-week-120517763.html",
+          "publishedAt": "2026-11-13T12:05:17.000Z"
+        },
+        {
+          "title": "Applied Digital Sinks 8% as Nebius Outlook and NVIDIA CEO Exit Hit AI Data Center Stocks; Cipher Digital Falls 4%, TeraWulf Slides 3%",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/applied-digital-sinks-8-nebius-161011516.html",
+          "publishedAt": "2026-11-12T16:10:11.000Z"
+        }
+      ]
+    },
+    {
+      "ticker": "TMC",
+      "name": "TMC the metals company Inc.",
+      "price": 2.31,
+      "previousClose": 4.41,
+      "changePct": -47.62,
+      "currency": "USD",
+      "exchange": "NasdaqGS",
+      "asOf": "2026-11-13T21:00:00.000Z",
       "headlines": [
         {
           "title": "Down 75% From Its High, Is TMC The Metals Company Stock a Buy?",
@@ -77,86 +113,50 @@
       ]
     },
     {
-      "ticker": "APLD",
-      "name": "Applied Digital Corporation",
-      "price": 15.75,
-      "previousClose": 30.62,
-      "changePct": -48.58,
-      "currency": "USD",
-      "exchange": "NasdaqGS",
-      "asOf": "2026-11-13T20:37:36.000Z",
-      "headlines": [
-        {
-          "title": "Wall St slides as Nvidia uncertainty drags tech shares lower",
-          "publisher": "Reuters",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-dip-nvidia-tumult-103901600.html",
-          "publishedAt": "2026-11-13T19:56:50.000Z"
-        },
-        {
-          "title": "Applied Digital Sinks 10%, Nebius Down 13%, CoreWeave Down 11% as AI Data Center Selloff Resumes",
-          "publisher": "TIKR",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-sinks-10-nebius-160608199.html",
-          "publishedAt": "2026-11-13T16:06:08.000Z"
-        },
-        {
-          "title": "Prediction: This Data Center Stock Will Keep Sliding in 2027",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-data-center-stock-keep-144002828.html",
-          "publishedAt": "2026-11-13T14:40:02.000Z"
-        },
-        {
-          "title": "Applied Digital Soars 20% in a Week. Jim Chanos Calls the Wait for Profits a “Nonsensical Narrative”",
-          "publisher": "TIKR",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-soars-20-week-120517763.html",
-          "publishedAt": "2026-11-13T12:05:17.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 161.79,
+      "price": 162.85,
       "previousClose": 225.3,
-      "changePct": -28.19,
+      "changePct": -27.72,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-11-13T20:37:36.000Z",
+      "asOf": "2026-11-13T21:00:01.000Z",
       "headlines": [
         {
-          "title": "Inside Jim Cramer’s Charitable Trust: 5 Stocks He Actually Owns",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/inside-jim-cramer-charitable-trust-203302856.html",
-          "publishedAt": "2026-11-13T20:33:02.000Z"
+          "title": "Exclusive-Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exclusive-ex-nvidia-ceo-misled-002638424.html",
+          "publishedAt": "2026-11-14T00:26:38.000Z"
         },
         {
-          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-202854233.html",
-          "publishedAt": "2026-11-13T20:28:54.000Z"
+          "title": "Scott Bessent and Lutnick clash over Nvidia chips and China",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/technology/ai/articles/scott-bessent-lutnick-clash-over-235529522.html",
+          "publishedAt": "2026-11-13T23:55:29.000Z"
         },
         {
-          "title": "Stock market today: Nasdaq leads Dow, S&P 500 lower as chip stock sell-off accelerates",
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
-          "publishedAt": "2026-11-13T20:28:15.000Z"
+          "title": "Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-recover-nvidia-whiplash-dollar-015858641.html",
+          "publishedAt": "2026-11-13T23:42:56.000Z"
         },
         {
-          "title": "3 Favorite Warren Buffett Stocks Hit Record Highs As Nvidia Sinks",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/7fead099-1330-32b1-9551-beb1295f72e5/3-favorite-warren-buffett.html",
-          "publishedAt": "2026-11-13T20:27:35.000Z"
+          "title": "S&P 500, Dow, Nasdaq End Lower Amid Nvidia Turmoil, But Record Best Week Since August —  SPCX, NVDA, ARM, AZN In Focus",
+          "publisher": "Stocktwits",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-nasdaq-end-233729977.html",
+          "publishedAt": "2026-11-13T23:37:29.000Z"
         }
       ]
     },
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
-      "price": 13.23,
+      "price": 13.25,
       "previousClose": 17.46,
-      "changePct": -24.26,
+      "changePct": -24.11,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-11-13T20:37:35.000Z",
+      "asOf": "2026-11-13T21:00:02.000Z",
       "headlines": [
         {
           "title": "Could Sempra Be The Value Stock For Your Portfolio?",
@@ -187,12 +187,12 @@
     {
       "ticker": "SABS",
       "name": "SAB Biotherapeutics, Inc.",
-      "price": 3.01,
+      "price": 2.96,
       "previousClose": 3.75,
-      "changePct": -19.73,
+      "changePct": -21.07,
       "currency": "USD",
       "exchange": "NasdaqCM",
-      "asOf": "2026-11-13T20:37:26.000Z",
+      "asOf": "2026-11-13T21:00:00.000Z",
       "headlines": [
         {
           "title": "SAB BIO to Participate in Upcoming Investor Conferences",
@@ -221,50 +221,14 @@
       ]
     },
     {
-      "ticker": "LNG",
-      "name": "Cheniere Energy, Inc.",
-      "price": 309.45,
-      "previousClose": 266.48,
-      "changePct": 16.12,
-      "currency": "USD",
-      "exchange": "NYSE",
-      "asOf": "2026-11-13T20:37:16.000Z",
-      "headlines": [
-        {
-          "title": "Chevron Eyes Biodiesel Growth With Iowa Facility Restart",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/chevron-eyes-biodiesel-growth-iowa-151900022.html",
-          "publishedAt": "2026-11-13T15:19:00.000Z"
-        },
-        {
-          "title": "Zacks Investment Ideas feature highlights: American Healthcare REIT, RenaissanceRe and Cheniere Energy",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-065300177.html",
-          "publishedAt": "2026-11-13T06:53:00.000Z"
-        },
-        {
-          "title": "If the AI Boom Stalls, What Stocks Should You Buy?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-boom-stalls-stocks-buy-174700934.html",
-          "publishedAt": "2026-11-12T17:47:00.000Z"
-        },
-        {
-          "title": "Petrobras Lifts 2026 Cash Flow Forecast on Higher Oil Production",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/petrobras-lifts-2026-cash-flow-152500177.html",
-          "publishedAt": "2026-11-12T15:25:00.000Z"
-        }
-      ]
-    },
-    {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
-      "price": 20.83,
+      "price": 20.81,
       "previousClose": 24.82,
-      "changePct": -16.1,
+      "changePct": -16.16,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-11-13T20:37:29.000Z",
+      "asOf": "2026-11-13T21:00:03.000Z",
       "headlines": [
         {
           "title": "Weyerhaeuser Company Declares Dividend on Common Shares",
@@ -293,26 +257,93 @@
       ]
     },
     {
+      "ticker": "LNG",
+      "name": "Cheniere Energy, Inc.",
+      "price": 308.75,
+      "previousClose": 266.48,
+      "changePct": 15.86,
+      "currency": "USD",
+      "exchange": "NYSE",
+      "asOf": "2026-11-13T21:00:02.000Z",
+      "headlines": [
+        {
+          "title": "LNG Prices Soar. These Exporters Could Benefit as Europe Faces a Tough Winter.",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/5fef9226-3cb9-3b45-a586-360f6a74b7d9/lng-prices-soar.-these.html",
+          "publishedAt": "2026-11-13T20:18:00.000Z"
+        },
+        {
+          "title": "Chevron Eyes Biodiesel Growth With Iowa Facility Restart",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/energy/articles/chevron-eyes-biodiesel-growth-iowa-151900022.html",
+          "publishedAt": "2026-11-13T15:19:00.000Z"
+        },
+        {
+          "title": "Zacks Investment Ideas feature highlights: American Healthcare REIT, RenaissanceRe and Cheniere Energy",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-065300177.html",
+          "publishedAt": "2026-11-13T06:53:00.000Z"
+        },
+        {
+          "title": "If the AI Boom Stalls, What Stocks Should You Buy?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-boom-stalls-stocks-buy-174700934.html",
+          "publishedAt": "2026-11-12T17:47:00.000Z"
+        }
+      ]
+    },
+    {
       "ticker": "MSTR",
       "name": "Strategy Inc",
-      "price": 112.12,
+      "price": 111.62,
       "previousClose": 97.1,
-      "changePct": 15.47,
+      "changePct": 14.95,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-11-13T20:37:35.000Z",
-      "headlines": []
+      "asOf": "2026-11-13T21:00:00.000Z",
+      "headlines": [
+        {
+          "title": "Stocks to Watch Recap: Nvidia, AMD, Microsoft",
+          "publisher": "The Wall Street Journal",
+          "url": "https://finance.yahoo.com/m/ba2605ab-963c-3c6b-975c-7b68113e59b6/stocks-to-watch-recap%3A.html",
+          "publishedAt": "2026-11-13T22:51:22.000Z"
+        },
+        {
+          "title": "What B. Riley and TD Cowen See in Strategy (MSTR)",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-td-cowen-see-213351174.html",
+          "publishedAt": "2026-11-13T21:33:51.000Z"
+        },
+        {
+          "title": "5 Stocks With Insane Upside According to Reddit",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-insane-upside-according-212948713.html",
+          "publishedAt": "2026-11-13T21:29:48.000Z"
+        },
+        {
+          "title": "JPMorgan’s latest filing reveals a bigger Bitcoin footprint",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/jpmorgan-latest-filing-reveals-bigger-204500707.html",
+          "publishedAt": "2026-11-13T20:45:00.000Z"
+        }
+      ]
     },
     {
       "ticker": "SAP",
       "name": "SAP SE",
-      "price": 235.36,
+      "price": 234.9,
       "previousClose": 209.28,
-      "changePct": 12.46,
+      "changePct": 12.24,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-11-13T20:37:31.000Z",
+      "asOf": "2026-11-13T21:00:02.000Z",
       "headlines": [
+        {
+          "title": "SAP (XTRA:SAP) Stock Could Be 34% Undervalued Despite Fresh AI Retail News",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sap-xtra-sap-stock-could-211416465.html",
+          "publishedAt": "2026-11-13T21:14:16.000Z"
+        },
         {
           "title": "Indonesia ICT Market Size, Share, Trends and Growth Forecasts 2026-2031 | Market to Reach US$114.96 Billion as Cloud, Cybersecurity, and SME Demand Drive 14.78% CAGR",
           "publisher": "GlobeNewswire",
@@ -330,60 +361,54 @@
           "publisher": "PR Newswire",
           "url": "https://finance.yahoo.com/markets/stocks/articles/sap-executives-participate-upcoming-investor-100000116.html",
           "publishedAt": "2026-11-12T10:00:00.000Z"
-        },
-        {
-          "title": "SAP, VF Launch AI Retail Test Store",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/ai/articles/sap-vf-launch-ai-retail-140340042.html",
-          "publishedAt": "2026-11-11T14:03:40.000Z"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 399.09,
+      "price": 398.73,
       "previousClose": 430.49,
-      "changePct": -7.29,
+      "changePct": -7.38,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-11-13T20:37:24.000Z",
+      "asOf": "2026-11-13T21:00:02.000Z",
       "headlines": [
         {
-          "title": "Taiwan Semiconductor Manufacturing (TSM) Takes A $1 Billion Step Further Into AI",
-          "publisher": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/technology/ai/articles/taiwan-semiconductor-manufacturing-tsm-takes-191146480.html",
-          "publishedAt": "2026-11-13T19:11:46.000Z"
+          "title": "Nvidia Has Real Problems—but Don’t Fall For Fear Mongering",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/94310747-12d9-3105-8453-f21ac39be69a/nvidia-has-real-problems%E2%80%94but.html",
+          "publishedAt": "2026-11-13T22:40:00.000Z"
         },
         {
-          "title": "Samsung Electronics Stocks Move Lower as Nvidia CEO Exit Tests AI Memory Rally",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-stocks-move-lower-183110049.html",
-          "publishedAt": "2026-11-13T18:31:10.000Z"
-        },
-        {
-          "title": "3 Water Utility Stocks for Steady Income. One Has Raised Dividends for 54 Years",
+          "title": "Thierry Borgeat Says Chip Stocks Peak Every Two Years. His Chart Points to Another Top",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-water-utility-stocks-steady-181740028.html",
-          "publishedAt": "2026-11-13T18:17:40.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/thierry-borgeat-says-chip-stocks-220713203.html",
+          "publishedAt": "2026-11-13T22:07:13.000Z"
         },
         {
-          "title": "Bank of America Flags New Risk in Asian Stocks",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/world-indices/articles/bank-america-flags-risk-asian-171900627.html",
-          "publishedAt": "2026-11-13T17:19:00.000Z"
+          "title": "Nvidia stock slips as investors digest CEO exit, broader chip sell-off accelerates",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-slips-as-investors-digest-ceo-exit-rest-of-chip-sector-falls-144818245.html",
+          "publishedAt": "2026-11-13T21:04:14.000Z"
+        },
+        {
+          "title": "'Nothing has changed': Why some Nvidia stock bulls aren't wavering after Jensen Huang ouster",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/article/nothing-has-changed-why-some-nvidia-stock-bulls-arent-wavering-after-jensen-huang-ouster-204522204.html",
+          "publishedAt": "2026-11-13T20:45:22.000Z"
         }
       ]
     },
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 168.51,
+      "price": 167.99,
       "previousClose": 179.01,
-      "changePct": -5.87,
+      "changePct": -6.16,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-11-13T20:37:34.000Z",
+      "asOf": "2026-11-13T21:00:00.000Z",
       "headlines": [
         {
           "title": "Frank Sands's Top Q3 2026 Move: Palantir Technologies Inc at a 2.21% Portfolio Impact",
@@ -414,48 +439,42 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 523.89,
+      "price": 523.88,
       "previousClose": 496.88,
-      "changePct": 5.44,
+      "changePct": 5.43,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-11-13T20:37:35.000Z",
+      "asOf": "2026-11-13T21:00:01.000Z",
       "headlines": [
         {
-          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-202854233.html",
-          "publishedAt": "2026-11-13T20:28:54.000Z"
+          "title": "DAS Technology Gives Retailers a Competitive Advantage During Microsoft Outage",
+          "publisher": "Business Wire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/das-technology-gives-retailers-competitive-230700578.html",
+          "publishedAt": "2026-11-13T23:07:00.000Z"
         },
         {
-          "title": "U.S. Stocks Decline as Nvidia Shares Slide Again",
+          "title": "Nscale reports ballooning debt and need for more as IPO approaches",
+          "publisher": "Axios",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nscale-reports-ballooning-debt-more-225456316.html",
+          "publishedAt": "2026-11-13T22:54:56.000Z"
+        },
+        {
+          "title": "Stocks to Watch Recap: Nvidia, AMD, Microsoft",
           "publisher": "The Wall Street Journal",
-          "url": "https://finance.yahoo.com/m/440d40f4-191b-357c-b2e1-b240d361a7ff/u.s.-stocks-decline-as-nvidia.html",
-          "publishedAt": "2026-11-13T20:02:00.000Z"
-        },
-        {
-          "title": "U.S. Stocks Decline as Nvidia Shares Slide Again",
-          "publisher": "The Wall Street Journal",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-futures-lower-investors-look-111900529.html",
-          "publishedAt": "2026-11-13T20:02:00.000Z"
-        },
-        {
-          "title": "Cerebras Systems Outlook Strengthens on Hyperscaler Wins and Margin Upside, Wedbush Says",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/articles/cerebras-systems-outlook-strengthens-hyperscaler-194904604.html",
-          "publishedAt": "2026-11-13T19:49:04.000Z"
+          "url": "https://finance.yahoo.com/m/ba2605ab-963c-3c6b-975c-7b68113e59b6/stocks-to-watch-recap%3A.html",
+          "publishedAt": "2026-11-13T22:51:22.000Z"
         }
       ]
     },
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
-      "price": 46.49,
+      "price": 46.58,
       "previousClose": 44.39,
-      "changePct": 4.72,
+      "changePct": 4.93,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-11-13T20:37:35.000Z",
+      "asOf": "2026-11-13T21:00:02.000Z",
       "headlines": [
         {
           "title": "Citigroup Adjusts Price Target on Devon Energy to $60 From $67, Keeps Buy Rating",
@@ -486,13 +505,25 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
-      "price": 247.34,
+      "price": 247.13,
       "previousClose": 237.14,
-      "changePct": 4.3,
+      "changePct": 4.21,
       "currency": "USD",
       "exchange": "NYSE",
-      "asOf": "2026-11-13T20:37:27.000Z",
+      "asOf": "2026-11-13T21:00:03.000Z",
       "headlines": [
+        {
+          "title": "IBM’s cybersecurity move raises new questions for investors",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ibm-cybersecurity-move-raises-questions-230700267.html",
+          "publishedAt": "2026-11-13T23:07:00.000Z"
+        },
+        {
+          "title": "Anthropic’s Best Financial Metric Is Also Its Biggest Risk",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/51e6bed3-7414-3720-93c3-da1f75ffbe18/anthropic%E2%80%99s-best-financial.html",
+          "publishedAt": "2026-11-13T19:53:00.000Z"
+        },
         {
           "title": "Can Dell Stock Fall 40%?",
           "publisher": "Trefis",
@@ -500,52 +531,40 @@
           "publishedAt": "2026-11-13T17:47:56.000Z"
         },
         {
-          "title": "Anthropic’s Toughest Challenge: Maintaining Its Massive Margins",
-          "publisher": "Barrons.com",
-          "url": "https://finance.yahoo.com/m/51e6bed3-7414-3720-93c3-da1f75ffbe18/anthropic%E2%80%99s-toughest.html",
-          "publishedAt": "2026-11-13T15:21:00.000Z"
-        },
-        {
           "title": "Grid Resilience Analytics Market Global Report 2026 | Capitalize on 19.6% CAGR Through 2030",
           "publisher": "GlobeNewswire",
           "url": "https://finance.yahoo.com/energy/articles/grid-resilience-analytics-market-global-145300225.html",
           "publishedAt": "2026-11-13T14:53:00.000Z"
-        },
-        {
-          "title": "Global Managed Learning Services Market Report 2026 | Capitalize on AI Reskilling as Market Hits $14.65B by 2030; Accenture, Deloitte, IBM, Capgemini and NIIT Scale AI Learning",
-          "publisher": "GlobeNewswire",
-          "url": "https://finance.yahoo.com/technology/ai/articles/global-managed-learning-services-market-145100362.html",
-          "publishedAt": "2026-11-13T14:51:00.000Z"
         }
       ]
     },
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
-      "price": 265.81,
+      "price": 266.66,
       "previousClose": 265.13,
-      "changePct": 0.26,
+      "changePct": 0.58,
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "asOf": "2026-11-13T20:37:34.000Z",
+      "asOf": "2026-11-13T21:00:00.000Z",
       "headlines": [
         {
-          "title": "Cerebras Systems Outlook Strengthens on Hyperscaler Wins and Margin Upside, Wedbush Says",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/technology/articles/cerebras-systems-outlook-strengthens-hyperscaler-194904604.html",
-          "publishedAt": "2026-11-13T19:49:04.000Z"
+          "title": "Walmart, Target, and Nvidia Headline a Pivotal Week for Q3 Earnings",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-target-nvidia-headline-pivotal-230000146.html",
+          "publishedAt": "2026-11-13T23:00:00.000Z"
         },
         {
-          "title": "Amazon Prime and Uber Eats partnership: $0 delivery fees on $25+ orders for Prime members",
-          "publisher": "Yahoo Personal Finance",
-          "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/amazon-prime-and-uber-eats-partnership-0-delivery-fees-on-25-orders-for-prime-members-190333148.html",
-          "publishedAt": "2026-11-13T19:03:33.000Z"
+          "title": "FRMI Stock Clocks Best Day Ever After Report Names Amazon As Project Matador Customer",
+          "publisher": "Stocktwits",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/frmi-stock-clocks-best-day-222359238.html",
+          "publishedAt": "2026-11-13T22:23:59.000Z"
         },
         {
-          "title": "Sector Update: Consumer Stocks Mixed in Afternoon Trading",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-183352371.html",
-          "publishedAt": "2026-11-13T18:33:52.000Z"
+          "title": "With Nvidia Floundering, AI Bulls Need More Than Spending. Watch Revenue.",
+          "publisher": "Barrons.com",
+          "url": "https://finance.yahoo.com/m/5320ea39-b186-36f7-b3d6-568e574e4bf6/with-nvidia-floundering%2C-ai.html",
+          "publishedAt": "2026-11-13T22:13:00.000Z"
         }
       ]
     }
