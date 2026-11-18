@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T21:52:41.107Z",
+  "generatedAt": "2026-11-18T01:58:04.430Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -13,7 +13,32 @@
       "currency": "USD",
       "exchange": "NasdaqGS",
       "asOf": "2026-11-17T21:00:01.000Z",
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Alzheimer's families just lost one of their biggest hopes",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/healthcare/articles/alzheimers-families-just-lost-one-003700899.html",
+          "publishedAt": "2026-11-10T00:37:00.000Z"
+        },
+        {
+          "title": "Acumen Pharmaceuticals: 3 Key Takeaways for Long-Term Investors",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/healthcare/articles/acumen-pharmaceuticals-3-key-takeaways-020800997.html",
+          "publishedAt": "2026-11-05T02:08:00.000Z"
+        },
+        {
+          "title": "Cantor Fitzgerald Downgrades Acumen Pharmaceuticals to Underweight From Overweight",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cantor-fitzgerald-downgrades-acumen-pharmaceuticals-160948239.html",
+          "publishedAt": "2026-10-30T16:09:48.000Z"
+        },
+        {
+          "title": "Citigroup Downgrades Acumen Pharmaceuticals to Neutral From Buy, Price Target is $1",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-downgrades-acumen-pharmaceuticals-neutral-150940118.html",
+          "publishedAt": "2026-10-30T15:09:40.000Z"
+        }
+      ]
     },
     {
       "ticker": "APLD",
@@ -62,6 +87,12 @@
       "asOf": "2026-11-17T21:00:01.000Z",
       "headlines": [
         {
+          "title": "TMC The Metals (TMC) Stock Sees Fair Value Falls After Q3 Sparks Analyst Target Cuts",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tmc-metals-tmc-stock-sees-232045355.html",
+          "publishedAt": "2026-11-17T23:20:45.000Z"
+        },
+        {
           "title": "New to The Street Show #780 Premieres Tonight on Bloomberg Television with Robo.ai, American Fusion, Stewards Investment Capital and FreeCast",
           "publisher": "ACCESS Newswire",
           "url": "https://finance.yahoo.com/technology/ai/articles/street-show-780-premieres-tonight-171800900.html",
@@ -72,12 +103,6 @@
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/markets/stocks/articles/down-75-high-tmc-metals-150502439.html",
           "publishedAt": "2026-11-13T15:05:02.000Z"
-        },
-        {
-          "title": "TMC the metals company Inc. Q3 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tmc-metals-company-inc-q3-133000553.html",
-          "publishedAt": "2026-11-13T13:30:00.000Z"
         }
       ]
     },
@@ -92,22 +117,28 @@
       "asOf": "2026-11-17T21:00:00.000Z",
       "headlines": [
         {
-          "title": "Nvidia earnings live: Nvidia beats Q3 expectations, offers better-than-anticipated Q4 outlook",
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-to-report-q3-results-after-the-bell-with-colette-kress-to-host-first-call-as-interim-ceo-202616349.html",
-          "publishedAt": "2026-11-17T21:43:09.000Z"
+          "title": "Dow Jones Futures: Techs Rise As Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/3b22ed8c-00c3-32f8-89f5-91bc21ccb366/dow-jones-futures%3A-techs-rise.html",
+          "publishedAt": "2026-11-18T01:48:21.000Z"
         },
         {
-          "title": "Eltek Ltd. Q3 2026 Earnings Call Summary",
-          "publisher": "Moby",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/eltek-ltd-q3-2026-earnings-214204416.html",
-          "publishedAt": "2026-11-17T21:42:04.000Z"
+          "title": "Asia stocks set to snap losing streak on Nvidia beat as Anthropic looms",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/asia-stocks-set-snap-losing-014340794.html",
+          "publishedAt": "2026-11-18T01:43:40.000Z"
         },
         {
-          "title": "Jensen Huang’s Last Quarter Beats Estimates: Can Nvidia Stock Recover Without Him?",
-          "publisher": "BeInCrypto",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-last-quarter-beats-214126261.html",
-          "publishedAt": "2026-11-17T21:41:26.000Z"
+          "title": "Nvidia says 'no' to rehiring Huang and WSJ reports SEC is probing the chipmaker",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/news/nvidia-board-forms-committee-national-102208048.html",
+          "publishedAt": "2026-11-18T01:32:47.000Z"
+        },
+        {
+          "title": "SoFi Is Targeting 100 Million Products by 2030. Here’s What $10,000 Invested Today Could Be Worth if It Gets There.",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-targeting-100-million-products-012502211.html",
+          "publishedAt": "2026-11-18T01:25:02.000Z"
         }
       ]
     },
@@ -230,28 +261,28 @@
       "asOf": "2026-11-17T21:00:02.000Z",
       "headlines": [
         {
-          "title": "Surging AI Demand and Advanced Chipmaking Strengthens Taiwan Semiconductor Manufacturing Company Limited (TSM) Growth Outlook",
-          "publisher": "Insider Monkey",
-          "url": "https://finance.yahoo.com/technology/ai/articles/surging-ai-demand-advanced-chipmaking-202155834.html",
-          "publishedAt": "2026-11-17T20:21:55.000Z"
+          "title": "Nvidia Expands Supply Chain Commitments to Support AI Infrastructure Buildout",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-expands-supply-chain-commitments-225902276.html",
+          "publishedAt": "2026-11-17T22:59:02.000Z"
         },
         {
-          "title": "The 5 Best Stocks in George Soros’s Portfolio",
-          "publisher": "TIKR",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-stocks-george-soros-191012048.html",
-          "publishedAt": "2026-11-17T19:10:12.000Z"
+          "title": "Nvidia Is Only 17% of SMH. After Its Beat, the Chip ETF Jumped Almost as Much as Nvidia Did",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-only-17-smh-beat-225253418.html",
+          "publishedAt": "2026-11-17T22:52:53.000Z"
         },
         {
-          "title": "TSMC Stocks Fall 4.26% as New US Rule Tightens Checks on Chip Foundries",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-fall-4-26-190103464.html",
-          "publishedAt": "2026-11-17T19:01:03.000Z"
+          "title": "AMD, Broadcom, CoreWeave stocks rise on Nvidia earnings beat",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
+          "publishedAt": "2026-11-17T22:25:04.000Z"
         },
         {
-          "title": "Beyond NVIDIA & Anthropic: 3 Important Stock Catalysts to Watch Into December",
-          "publisher": "Wall Street Horizon",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/beyond-nvidia-anthropic-3-important-185228247.html",
-          "publishedAt": "2026-11-17T18:52:28.000Z"
+          "title": "NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout",
+          "publisher": "GlobeNewswire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-expands-commitments-supply-chain-221800994.html",
+          "publishedAt": "2026-11-17T22:18:00.000Z"
         }
       ]
     },
@@ -302,6 +333,12 @@
       "asOf": "2026-11-17T21:00:00.000Z",
       "headlines": [
         {
+          "title": "Phillip Securities Raises Its Palantir Target to $248. Is It Still Too Low?",
+          "publisher": "TIKR",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/phillip-securities-raises-palantir-target-225938628.html",
+          "publishedAt": "2026-11-17T22:59:38.000Z"
+        },
+        {
           "title": "Cathie Wood Says AI Isn't Even in the First Inning Yet of Its Long-Term Technological Revolution, Pointing to Palantir's 123% U.S. Revenue Growth as Evidence the Market Is Underestimating the Trade. Is Her Concentrated AI Bet Still the Right One?",
           "publisher": "Motley Fool",
           "url": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-says-ai-isnt-190102688.html",
@@ -318,12 +355,6 @@
           "publisher": "GuruFocus.com",
           "url": "https://finance.yahoo.com/markets/stocks/articles/good-news-palantir-stock-investors-175414317.html",
           "publishedAt": "2026-11-17T17:54:14.000Z"
-        },
-        {
-          "title": "Michael Burry Makes Bold Bet on Beaten-Down AI Software Stock",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-makes-bold-bet-174737697.html",
-          "publishedAt": "2026-11-17T17:47:37.000Z"
         }
       ]
     },
@@ -410,22 +441,22 @@
       "asOf": "2026-11-17T21:00:01.000Z",
       "headlines": [
         {
-          "title": "Huang pitches Nvidia comeback after sources say board not considering it",
+          "title": "Nvidia says 'no' to rehiring Huang and WSJ reports SEC is probing the chipmaker",
           "publisher": "Reuters",
           "url": "https://finance.yahoo.com/news/nvidia-board-forms-committee-national-102208048.html",
-          "publishedAt": "2026-11-17T21:02:36.000Z"
+          "publishedAt": "2026-11-18T01:32:47.000Z"
         },
         {
-          "title": "Microsoft's AI pitch at Ignite: Cheaper models as business 'token spend is going through the roof'",
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/microsoft-ignite-focuses-on-ai-models-for-specific-tasks-lowering-costs-for-enterprise-203433266.html",
-          "publishedAt": "2026-11-17T20:34:33.000Z"
+          "title": "Microsoft Executive Says Nvidia Turmoil May Push Customers to Other Chips",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-executive-says-nvidia-turmoil-003602573.html",
+          "publishedAt": "2026-11-18T00:36:02.000Z"
         },
         {
-          "title": "Meet Nvidia’s Interim CEO",
-          "publisher": "The Wall Street Journal",
-          "url": "https://finance.yahoo.com/m/71d7defa-c1f4-3ab9-b2a4-a611aecda09b/meet-nvidia%E2%80%99s-interim-ceo.html",
-          "publishedAt": "2026-11-17T20:32:01.000Z"
+          "title": "Amazon.com (AMZN) Set For White House AI National Champion Status",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-set-white-001935047.html",
+          "publishedAt": "2026-11-18T00:19:35.000Z"
         }
       ]
     },
@@ -440,28 +471,28 @@
       "asOf": "2026-11-17T21:00:01.000Z",
       "headlines": [
         {
-          "title": "SpaceX, Rivals Win $985 Million In Launch Awards. Cathie Wood, David Tepper Shift Space Holdings.",
-          "publisher": "Investor's Business Daily",
-          "url": "https://finance.yahoo.com/m/0f8296b1-cd8f-3b1e-b4d0-f94bc09e49cc/spacex%2C-rivals-win-%24985.html",
-          "publishedAt": "2026-11-17T21:29:30.000Z"
+          "title": "Amazon.com (AMZN) Set For White House AI National Champion Status",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-set-white-001935047.html",
+          "publishedAt": "2026-11-18T00:19:35.000Z"
         },
         {
-          "title": "Alphabet vs. Amazon: Which Is the Better AI Cloud Stock to Own for the Next 5 Years?",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-vs-amazon-better-ai-212000871.html",
-          "publishedAt": "2026-11-17T21:20:00.000Z"
-        },
-        {
-          "title": "TEAMSTERS RALLY FOR 200 E-BIKE DRIVERS TERMINATED BY AMAZON IN NEW YORK",
-          "publisher": "PR Newswire",
-          "url": "https://finance.yahoo.com/economy/policy/articles/teamsters-rally-200-e-bike-211100092.html",
-          "publishedAt": "2026-11-17T21:11:00.000Z"
-        },
-        {
-          "title": "Billionaire David Tepper Grew His SpaceX Stake 17-Fold While Dumping AMD and Broadcom",
+          "title": "Jim Cramer Warns the Anthropic IPO Windfall Is Going to the Super Rich. Here’s the Backlash He Sees Coming",
           "publisher": "24/7 Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-david-tepper-grew-spacex-211051215.html",
-          "publishedAt": "2026-11-17T21:10:51.000Z"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-warns-anthropic-ipo-000732494.html",
+          "publishedAt": "2026-11-18T00:07:32.000Z"
+        },
+        {
+          "title": "Jeff Bezos’ Former Hedge Fund Is Buying Bitcoin Again",
+          "publisher": "BeInCrypto",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/jeff-bezos-former-hedge-fund-222916004.html",
+          "publishedAt": "2026-11-17T22:29:16.000Z"
+        },
+        {
+          "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+          "publisher": "TechCrunch",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-google-together-own-nearly-222905510.html",
+          "publishedAt": "2026-11-17T22:29:05.000Z"
         }
       ]
     },
@@ -511,6 +542,12 @@
       "exchange": "NYSE",
       "asOf": "2026-11-17T21:00:02.000Z",
       "headlines": [
+        {
+          "title": "Could IBM (IBM) Reshape Scientific Computing With Its New Quantum Classical Platform?",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/could-ibm-ibm-reshape-scientific-011708713.html",
+          "publishedAt": "2026-11-18T01:17:08.000Z"
+        },
         {
           "title": "Stock Market Today: Dow Dives, Nvidia Falls Amid This Jensen Huang Offer; Cyber Plays Mixed",
           "publisher": "Investor's Business Daily",
