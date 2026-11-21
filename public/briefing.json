@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T21:27:27.775Z",
+  "generatedAt": "2026-11-21T00:59:53.503Z",
   "source": "Yahoo Finance",
   "disclaimer": "Information only, reported as published. Not financial advice — no buy/sell recommendations or predictions.",
   "count": 16,
@@ -79,7 +79,32 @@
       "currency": "USD",
       "exchange": "NasdaqGS",
       "asOf": "2026-11-20T21:00:00.000Z",
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Tesla Sinks 8%, SpaceX Down 7%, Rivian Down 8% as AI Sell-Off Swamps HSBC Upgrade",
+          "publisher": "TIKR",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-sinks-8-spacex-down-204555108.html",
+          "publishedAt": "2026-11-20T20:45:55.000Z"
+        },
+        {
+          "title": "What a Market ‘Correction’ Actually Means",
+          "publisher": "The Wall Street Journal",
+          "url": "https://finance.yahoo.com/m/8c5316c1-effd-38c0-bfae-164121ec0c04/what-a-market-%E2%80%98correction%E2%80%99.html",
+          "publishedAt": "2026-11-20T17:15:00.000Z"
+        },
+        {
+          "title": "AI Racks Are Now “Too Heavy for Most Old Datacenters.” That’s a Bottleneck for Nvidia’s Vera Rubin",
+          "publisher": "TIKR",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ai-racks-now-too-heavy-165357889.html",
+          "publishedAt": "2026-11-20T16:53:57.000Z"
+        },
+        {
+          "title": "Applied Digital and Core Scientific Sink 12% as AI Infrastructure Sell-Off Deepens; TeraWulf Tumbles 10%",
+          "publisher": "24/7 Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-core-scientific-sink-155657314.html",
+          "publishedAt": "2026-11-20T15:56:57.000Z"
+        }
+      ]
     },
     {
       "ticker": "NVDA",
@@ -92,28 +117,28 @@
       "asOf": "2026-11-20T21:00:01.000Z",
       "headlines": [
         {
-          "title": "US Equity Markets Fall Amid Sharp Sell-off in Technology, AI-Related Stocks",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-fall-amid-211419997.html",
-          "publishedAt": "2026-11-20T21:14:19.000Z"
+          "title": "Has AI's honeymoon ended on Wall Street?",
+          "publisher": "AFP",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ais-honeymoon-ended-wall-street-004604807.html",
+          "publishedAt": "2026-11-21T00:46:04.000Z"
         },
         {
-          "title": "Congress files detail AMD requests to export AI chips to China, says Hunterbrook",
-          "publisher": "TipRanks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/congress-files-detail-amd-requests-211058888.html",
-          "publishedAt": "2026-11-20T21:10:58.000Z"
+          "title": "The S&P 500 Has More Than Tripled in 10 Years, Even After Its Latest Pullback. Here’s What $1,000 in VOO Could Have Become.",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-more-tripled-10-004333866.html",
+          "publishedAt": "2026-11-21T00:43:33.000Z"
         },
         {
-          "title": "Trump critiques Jensen Huang's replacement as he wades deeper into Nvidia turmoil",
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/trump-critiques-jensen-huangs-replacement-as-he-wades-deeper-into-nvidia-turmoil-210729338.html",
-          "publishedAt": "2026-11-20T21:07:29.000Z"
+          "title": "Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures%3A-market-has.html",
+          "publishedAt": "2026-11-21T00:34:27.000Z"
         },
         {
-          "title": "Nvidia’s (NVDA) AI Demand Visibility into 2029 Keeps Me Bullish",
-          "publisher": "TipRanks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-ai-demand-visibility-210400433.html",
-          "publishedAt": "2026-11-20T21:04:00.000Z"
+          "title": "Here's How Much Nvidia Stock Is Worth Without Jensen Huang, According to Dan Ives",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-nvidia-stock-worth-003004121.html",
+          "publishedAt": "2026-11-21T00:30:04.000Z"
         }
       ]
     },
@@ -128,6 +153,18 @@
       "asOf": "2026-11-20T21:00:00.000Z",
       "headlines": [
         {
+          "title": "3 signals the biggest Bitcoin treasury company checks before its next move",
+          "publisher": "TheStreet",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/3-signals-biggest-bitcoin-treasury-003000783.html",
+          "publishedAt": "2026-11-21T00:30:00.000Z"
+        },
+        {
+          "title": "Weekly Wrap: Crypto Falls As Stocks Struggle",
+          "publisher": "CryptoProwl",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/weekly-wrap-crypto-falls-stocks-223800731.html",
+          "publishedAt": "2026-11-20T22:38:00.000Z"
+        },
+        {
           "title": "Strategy Is Down 44% in a Month as Crypto Stocks Crumble: Can MSTR Stock Get Back to $100 This Year?",
           "publisher": "24/7 Wall St.",
           "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-down-44-month-crypto-200235875.html",
@@ -138,18 +175,6 @@
           "publisher": "TheStreet",
           "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-crashes-below-key-level-192216302.html",
           "publishedAt": "2026-11-20T19:22:16.000Z"
-        },
-        {
-          "title": "Bitcoin Drops Below $59K, Wiping Out $1.5B In Crypto Bets: MSTR, BMNR, ASST Stocks Extend Losses",
-          "publisher": "Stocktwits",
-          "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-drops-below-59k-wiping-183406394.html",
-          "publishedAt": "2026-11-20T18:34:06.000Z"
-        },
-        {
-          "title": "Is Monness Wrong to Give Up on Strategy? Wall Street Still Sees $233",
-          "publisher": "TIKR",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/monness-wrong-strategy-wall-street-173257109.html",
-          "publishedAt": "2026-11-20T17:32:57.000Z"
         }
       ]
     },
@@ -192,30 +217,30 @@
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "price": 319.15,
+      "price": 318.71,
       "previousClose": 416,
-      "changePct": -23.28,
+      "changePct": -23.39,
       "currency": "USD",
       "exchange": "NYSE",
       "asOf": "2026-11-20T21:00:03.000Z",
       "headlines": [
         {
+          "title": "Anthropic Stocks Jump 17.07% in Record Debut as $26 Billion Chipmaker Placement Lands",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stocks-jump-17-07-214150203.html",
+          "publishedAt": "2026-11-20T21:41:50.000Z"
+        },
+        {
+          "title": "A $9.7 Billion Fund Bought These 3 Stocks Last Quarter",
+          "publisher": "TIKR",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/9-7-billion-fund-bought-213524359.html",
+          "publishedAt": "2026-11-20T21:35:24.000Z"
+        },
+        {
           "title": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down",
           "publisher": "Yahoo Finance",
           "url": "https://finance.yahoo.com/markets/article/nvidia-amd-and-broadcom-lead-chip-stocks-lower-133658985.html",
           "publishedAt": "2026-11-20T20:21:19.000Z"
-        },
-        {
-          "title": "Goldman Sachs Cut Its Broadcom Target to $460, and the Reason Has Nothing to Do With Broadcom’s Earnings",
-          "publisher": "TIKR",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-cut-broadcom-target-174154820.html",
-          "publishedAt": "2026-11-20T17:41:54.000Z"
-        },
-        {
-          "title": "TSMC Stocks Fall 4.76% as Taiwan Logs Worst Week Since 1991",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-fall-4-76-173926383.html",
-          "publishedAt": "2026-11-20T17:39:26.000Z"
         }
       ]
     },
@@ -446,28 +471,28 @@
       "asOf": "2026-11-20T21:00:00.000Z",
       "headlines": [
         {
-          "title": "Amazon Provides Options To Buy Ads Across Entire Ecosystem",
-          "publisher": "MediaPost",
-          "url": "https://finance.yahoo.com/media-advertising/articles/amazon-provides-options-buy-ads-210756766.html",
-          "publishedAt": "2026-11-20T21:07:56.000Z"
+          "title": "Has AI's honeymoon ended on Wall Street?",
+          "publisher": "AFP",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ais-honeymoon-ended-wall-street-004604807.html",
+          "publishedAt": "2026-11-21T00:46:04.000Z"
         },
         {
-          "title": "Is Apple Stock Increasing Your Market Risk?",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-increasing-market-risk-205345674.html",
-          "publishedAt": "2026-11-20T20:53:45.000Z"
+          "title": "Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures%3A-market-has.html",
+          "publishedAt": "2026-11-21T00:34:27.000Z"
         },
         {
-          "title": "Amazon Urges NYC Customers to Oppose Mamdani-Backed Delivery Bill",
-          "publisher": "The Wall Street Journal",
-          "url": "https://finance.yahoo.com/m/6c896922-eac9-31cd-92d6-aa39c5c39011/amazon-urges-nyc-customers-to.html",
-          "publishedAt": "2026-11-20T20:32:00.000Z"
+          "title": "Generac Stock In Focus After Earnings Beat And Amazon Supply Deal",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/generac-stock-focus-earnings-beat-001937973.html",
+          "publishedAt": "2026-11-21T00:19:37.000Z"
         },
         {
-          "title": "AI Stocks are on Sale: A Generational Buying Opportunity",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-stocks-sale-generational-buying-200200664.html",
-          "publishedAt": "2026-11-20T20:02:00.000Z"
+          "title": "Stock Market Today, Nov. 20: Amazon Shares Slide on AI and Mega-Cap Tech Sell-Off",
+          "publisher": "Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-20-225002397.html",
+          "publishedAt": "2026-11-20T22:50:02.000Z"
         }
       ]
     },
@@ -481,6 +506,12 @@
       "exchange": "NYSE",
       "asOf": "2026-11-20T21:00:02.000Z",
       "headlines": [
+        {
+          "title": "International Business Machines (IBM) Opens Lightwell Access On Microsoft Marketplace, Is It Still Undervalued?",
+          "publisher": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/international-business-machines-ibm-opens-231452605.html",
+          "publishedAt": "2026-11-20T23:14:52.000Z"
+        },
         {
           "title": "Georgia’s Top Technology Executives Honored at the 2026 GeorgiaCIO ORBIE Awards",
           "publisher": "GlobeNewswire",
@@ -498,12 +529,6 @@
           "publisher": "Trefis",
           "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-holders-watch-mondays-margin-175741992.html",
           "publishedAt": "2026-11-20T17:57:41.000Z"
-        },
-        {
-          "title": "Why Is IBM (IBM) Down 11.2% Since Last Earnings Report?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-ibm-ibm-down-11-153006748.html",
-          "publishedAt": "2026-11-20T15:30:06.000Z"
         }
       ]
     },
@@ -518,28 +543,28 @@
       "asOf": "2026-11-20T21:00:00.000Z",
       "headlines": [
         {
-          "title": "Is Apple Stock Increasing Your Market Risk?",
-          "publisher": "Trefis",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-increasing-market-risk-205345674.html",
-          "publishedAt": "2026-11-20T20:53:45.000Z"
+          "title": "Has AI's honeymoon ended on Wall Street?",
+          "publisher": "AFP",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ais-honeymoon-ended-wall-street-004604807.html",
+          "publishedAt": "2026-11-21T00:46:04.000Z"
         },
         {
-          "title": "“Pretty Bizarre”: Microsoft Is Worth More Than Alphabet. Which Makes No Sense",
-          "publisher": "TIKR",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/pretty-bizarre-microsoft-worth-more-203843390.html",
-          "publishedAt": "2026-11-20T20:38:43.000Z"
+          "title": "Allooloo Tops 100M Capital Markets AI Agent Traffic a Month",
+          "publisher": "PR Newswire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/allooloo-tops-100m-capital-markets-000600422.html",
+          "publishedAt": "2026-11-21T00:06:00.000Z"
         },
         {
-          "title": "Danaher, Microsoft to collaborate on development of smart scientific instruments",
-          "publisher": "TipRanks",
-          "url": "https://finance.yahoo.com/technology/ai/articles/danaher-microsoft-collaborate-development-smart-203552879.html",
-          "publishedAt": "2026-11-20T20:35:52.000Z"
+          "title": "How to Survive the Coming Age of Everything Breaking",
+          "publisher": "The Wall Street Journal",
+          "url": "https://finance.yahoo.com/m/85855fbc-e0ea-37fe-8155-08bfc34a0619/how-to-survive-the-coming-age.html",
+          "publishedAt": "2026-11-21T00:00:00.000Z"
         },
         {
-          "title": "Intuit: 3 Key Takeaways for Long-Term Investors",
-          "publisher": "Motley Fool",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/intuit-3-key-takeaways-long-201832933.html",
-          "publishedAt": "2026-11-20T20:18:32.000Z"
+          "title": "CrowdStrike, Zscaler Merger Would Create Cybersecurity Giant",
+          "publisher": "Investor's Business Daily",
+          "url": "https://finance.yahoo.com/m/6ad57889-68e7-393a-836e-1d70098a15da/crowdstrike%2C-zscaler-merger.html",
+          "publishedAt": "2026-11-20T23:56:14.000Z"
         }
       ]
     }
